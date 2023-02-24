@@ -1,0 +1,422 @@
+{"0": {
+    "doc": "Just the Class",
+    "title": "Just the Class",
+    "content": "Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for: . | announcements, | a course calendar, | a staff page, | and a weekly schedule. | . Just the Class is a template that extends the popular Just the Docs theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as: . | automatic navigation structure, | instant, full-text search and page indexing, | and a set of UI components and authoring utilities. | . ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"1": {
+    "doc": "Just the Class",
+    "title": "Getting Started",
+    "content": "Getting started with Just the Class is simple. | Create a new repository based on Just the Class. | Update _config.yml and README.md with your course information. Be sure to update the url and baseurl. | Configure a publishing source for GitHub Pages. Your course website is now live! | Edit and create .md Markdown files to add more content pages. | . Just the Class has been used by instructors at Stanford University (CS 161), UC Berkeley (Data 100), UC Santa Barbara (CSW8), Northeastern University (CS4530/5500), and Carnegie Mellon University (17-450/17-950). Share your course website and find more examples in the show and tell discussion! . Local development environment . Just the Class requires no special Jekyll plugins and can run on GitHub Pages’ standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on Testing your GitHub Pages site locally with Jekyll. ",
+    "url": "/#getting-started",
+    
+    "relUrl": "/#getting-started"
+  },"2": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "/about/",
+    
+    "relUrl": "/about/"
+  },"3": {
+    "doc": "About",
+    "title": "Table of contents",
+    "content": ". | About | Lecture | Resources | Assignments | . ",
+    "url": "/about/#table-of-contents",
+    
+    "relUrl": "/about/#table-of-contents"
+  },"4": {
+    "doc": "About",
+    "title": "About",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Erat nam at lectus urna duis convallis convallis tellus id. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Ultrices vitae auctor eu augue ut lectus arcu. Morbi tristique senectus et netus et malesuada. Turpis tincidunt id aliquet risus feugiat in ante. Consequat interdum varius sit amet mattis vulputate enim nulla. Felis eget nunc lobortis mattis aliquam. Eu non diam phasellus vestibulum lorem sed risus. A condimentum vitae sapien pellentesque habitant morbi tristique. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Proin sagittis nisl rhoncus mattis rhoncus urna neque. Dictum varius duis at consectetur lorem donec massa sapien. Blandit cursus risus at ultrices mi tempus imperdiet. Laoreet sit amet cursus sit amet dictum sit amet justo. Felis eget nunc lobortis mattis aliquam faucibus. Nam aliquam sem et tortor consequat. ",
+    "url": "/about/",
+    
+    "relUrl": "/about/"
+  },"5": {
+    "doc": "About",
+    "title": "Lecture",
+    "content": "Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Vulputate dignissim suspendisse in est ante in. Massa vitae tortor condimentum lacinia quis vel. Gravida neque convallis a cras semper auctor. Pellentesque eu tincidunt tortor aliquam nulla. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet purus gravida quis blandit turpis cursus in. Porttitor leo a diam sollicitudin tempor. Vel facilisis volutpat est velit egestas dui id ornare. Cum sociis natoque penatibus et magnis. Tristique magna sit amet purus gravida. Nibh sit amet commodo nulla facilisi nullam vehicula. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Id semper risus in hendrerit gravida. Sit amet justo donec enim diam vulputate ut pharetra sit. Vitae justo eget magna fermentum. Tellus in metus vulputate eu. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Etiam erat velit scelerisque in dictum non consectetur a erat. Pellentesque eu tincidunt tortor aliquam nulla. ",
+    "url": "/about/#lecture",
+    
+    "relUrl": "/about/#lecture"
+  },"6": {
+    "doc": "About",
+    "title": "Resources",
+    "content": "Lacus viverra vitae congue eu. Suspendisse in est ante in nibh mauris cursus mattis. Nisl vel pretium lectus quam id leo in. Euismod lacinia at quis risus sed vulputate odio. Non enim praesent elementum facilisis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Id interdum velit laoreet id donec ultrices tincidunt arcu. Urna molestie at elementum eu facilisis sed odio. Auctor urna nunc id cursus metus aliquam eleifend. Volutpat commodo sed egestas egestas fringilla phasellus. Libero nunc consequat interdum varius sit amet mattis. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Tortor vitae purus faucibus ornare suspendisse. Auctor elit sed vulputate mi. ",
+    "url": "/about/#resources",
+    
+    "relUrl": "/about/#resources"
+  },"7": {
+    "doc": "About",
+    "title": "Assignments",
+    "content": "Vehicula ipsum a arcu cursus vitae congue. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Risus sed vulputate odio ut enim blandit. Aliquam id diam maecenas ultricies mi eget. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Eget mi proin sed libero enim sed faucibus. Sem integer vitae justo eget magna fermentum iaculis. In mollis nunc sed id semper risus in. Sit amet risus nullam eget felis eget. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. At varius vel pharetra vel turpis nunc eget. Scelerisque purus semper eget duis at tellus. ",
+    "url": "/about/#assignments",
+    
+    "relUrl": "/about/#assignments"
+  },"8": {
+    "doc": "Announcements",
+    "title": "Announcements",
+    "content": "Announcements are stored in the _announcements directory and rendered according to the layout file, _layouts/announcement.html. ",
+    "url": "/announcements/",
+    
+    "relUrl": "/announcements/"
+  },"9": {
+    "doc": "Announcements",
+    "title": "Week 1 Announcement",
+    "content": "Apr 8 &middot; 0 min read . | Create a new repository based on Just the Class. | Configure a publishing source for GitHub Pages. Your course website is now live! | Update _config.yml with your course information. | Edit and create .md Markdown files to add your content. | . ",
+    "url": "/announcements/",
+    
+    "relUrl": "/announcements/"
+  },"10": {
+    "doc": "Announcements",
+    "title": "Week 0 Announcement",
+    "content": "Apr 1 &middot; 0 min read Hello world! . ",
+    "url": "/announcements/",
+    
+    "relUrl": "/announcements/"
+  },"11": {
+    "doc": "Calendar",
+    "title": "Calendar",
+    "content": " ",
+    "url": "/calendar/",
+    
+    "relUrl": "/calendar/"
+  },"12": {
+    "doc": "Calendar",
+    "title": "Introduction to Java",
+    "content": "Sep 28 Java &amp; Git 1.1 Sep 29 SectionIntro to Java Solution Sep 30 Variables &amp; Objects 1.2, 2.1 Oct 1 Lab Intro to Java Oct 2 Tracing, IntLists, &amp; Recursion 2.1 HW 1 due ",
+    "url": "/calendar/#introduction-to-java",
+    
+    "relUrl": "/calendar/#introduction-to-java"
+  },"13": {
+    "doc": "Calendar",
+    "title": "Basic Data Structures",
+    "content": "Oct 5 Linked Lists &amp; Encapsulation 3.1, 2.2, 2.3 Oct 6 SectionLinked Lists Solution Oct 7 Resizing Arrays 2.4, 2.5 Oct 8 Lab Resizing Arrays Oct 9 Runtime Analysis 8.1, 8.2, 8.3, 8.4 HW 2 due ",
+    "url": "/calendar/#basic-data-structures",
+    
+    "relUrl": "/calendar/#basic-data-structures"
+  },"14": {
+    "doc": "Calendar",
+    "title": "Introduction to Java",
+    "content": "Sep 28 Java &amp; Git 1.1 Sep 29 SectionIntro to Java Solution Sep 30 Variables &amp; Objects 1.2, 2.1 Oct 1 Lab Intro to Java Oct 2 Tracing, IntLists, &amp; Recursion 2.1 HW 1 due ",
+    "url": "/calendar/#introduction-to-java",
+    
+    "relUrl": "/calendar/#introduction-to-java"
+  },"15": {
+    "doc": "Calendar",
+    "title": "Basic Data Structures",
+    "content": "Oct 5 Linked Lists &amp; Encapsulation 3.1, 2.2, 2.3 Oct 6 SectionLinked Lists Solution Oct 7 Resizing Arrays 2.4, 2.5 Oct 8 Lab Resizing Arrays Oct 9 Runtime Analysis 8.1, 8.2, 8.3, 8.4 HW 2 due ",
+    "url": "/calendar/#basic-data-structures",
+    
+    "relUrl": "/calendar/#basic-data-structures"
+  },"16": {
+    "doc": "Advanced Computer Architecture",
+    "title": "Advanced Computer Architecture",
+    "content": " ",
+    "url": "/classes/advanced-computer-architecture/",
+    
+    "relUrl": "/classes/advanced-computer-architecture/"
+  },"17": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "CSCE 4213 Computer Architecture",
+    "content": " ",
+    "url": "/classes/computer-architecture/",
+    
+    "relUrl": "/classes/computer-architecture/"
+  },"18": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Table of contents",
+    "content": ". | Introduction | Catalog Description | Textbook | Topics Covered | Class/Assigned Readings | Course Outcomes | Lectures | Homework | . ",
+    "url": "/classes/computer-architecture/#table-of-contents",
+    
+    "relUrl": "/classes/computer-architecture/#table-of-contents"
+  },"19": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Introduction",
+    "content": "Welcome to CSCE 4213 Computer Architecture. It is truly an exciting time to study computer architecture as we are about to engage in a major change in how computers are built ! In this class you will first become familiar with how to measure performance and understand current trends in how the industry is building computers. Then, you will study many of the important historical techniques that the computer industry has developed over the last 20 years for building fast and scalable scalar microprocessors for desktop and general purpose computers. Jumping off from the study of scalar microprocessors, you will study many of the techniques originally developed during the 1980’s for building parallel machines that are now being pursued for the next generation of machines. This next generation, referred to as manycores, represents a significant switch from building machines with powerful and fast single microprocessors, towards building machines with multiple CPU’s. As this switch occurs it is important to study how memory hierarchies, interconnect networks, compilers and operating systems, and even programming languages must also be changed to enable the industry to switch from scalar to parallel machines. ",
+    "url": "/classes/computer-architecture/#introduction",
+    
+    "relUrl": "/classes/computer-architecture/#introduction"
+  },"20": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Catalog Description",
+    "content": "The architecture of modern scalar and parallel computing systems. Techniques for dynamic instruction scheduling, branch prediction, instruction level parallelism, shared and distributed memory multiprocessor systems, array processors, and memory hierarchies. Prerequisite CSCE 2214 . ",
+    "url": "/classes/computer-architecture/#catalog-description",
+    
+    "relUrl": "/classes/computer-architecture/#catalog-description"
+  },"21": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Textbook",
+    "content": "Computer Architecture. A Quantitative Approach. Fourth Edition, by David A. Patterson and John L. Hennessy, Morgan Kaufmann Publishers, Inc., 2007. ",
+    "url": "/classes/computer-architecture/#textbook",
+    
+    "relUrl": "/classes/computer-architecture/#textbook"
+  },"22": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Topics Covered",
+    "content": ". | Technology trends and Performance Evaluation | Instruction Level parallelism | Branch Prediction, Dynamic Scheduling, Hardware Speculation | Limitations of Instruction-Level Parallelism | Multithreading and Thread Level Parallelism | Symmetric Shared-Memory Architectures Performance and Synchronization | Distributed Shared Memory and Directory Based Coherence | Memory Consistency Models | Memory Hierarchies | . ",
+    "url": "/classes/computer-architecture/#topics-covered",
+    
+    "relUrl": "/classes/computer-architecture/#topics-covered"
+  },"23": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Class/Assigned Readings",
+    "content": ". | Lecture meets Tues/Thurs 9:30 - 10:50 in JBHT 147 | Readings posted for a week represent the material that will be covered for that week. Part of your preparation for the week is to have | . Perform a first reading of the material in order to familiarize yourself with the topics that will be covered. ",
+    "url": "/classes/computer-architecture/#classassigned-readings",
+    
+    "relUrl": "/classes/computer-architecture/#classassigned-readings"
+  },"24": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Course Outcomes",
+    "content": ". | Knowledge of the history and social impact of high performance computing | Knowledge of Computer Architecture | Ability to apply knowledge of digital logic and computer organization to the design of a computer system | Students are required to apply mathematics in the evaluation of the performance of a computer | Students are required to understand the architecture of a computer system | . ",
+    "url": "/classes/computer-architecture/#course-outcomes",
+    
+    "relUrl": "/classes/computer-architecture/#course-outcomes"
+  },"25": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Lectures",
+    "content": "Weekly Schedule . ",
+    "url": "/classes/computer-architecture/#lectures",
+    
+    "relUrl": "/classes/computer-architecture/#lectures"
+  },"26": {
+    "doc": "CSCE 4213 Computer Architecture",
+    "title": "Homework",
+    "content": "Weekly Schedule . ",
+    "url": "/classes/computer-architecture/#homework",
+    
+    "relUrl": "/classes/computer-architecture/#homework"
+  },"27": {
+    "doc": "CSCE 4114 Embedded Systems",
+    "title": "CSCE 4114 Embedded Systems",
+    "content": " ",
+    "url": "/classes/embedded-systems/",
+    
+    "relUrl": "/classes/embedded-systems/"
+  },"28": {
+    "doc": "Classes",
+    "title": "Classes",
+    "content": " ",
+    "url": "/classes/",
+    
+    "relUrl": "/classes/"
+  },"29": {
+    "doc": "Classes",
+    "title": "Table Of Contents",
+    "content": ". | Graduate Classes Offered by the CSDL Lab . | CSCE 5843 Reconfigurable Computing | Multiprocessor Systems-On-Chip | CSCE 5013 Real-Time Operating Systems (RTOS) | CSCE 5013 Adaptive Systems | . | Undergraduate Classes Offered by the CSDL Lab . | CSCE 2214 Computer Organization | CSCE3613 Operating Systems | EECS 388 Kansas University Computer Systems &amp; Assembly Language (MicroBlaze-based) | CSCE 4114 Embedded Systems | CSCE 4213 Computer Architecture | CSCE 2114 Digital Design | . | . ",
+    "url": "/classes/#table-of-contents",
+    
+    "relUrl": "/classes/#table-of-contents"
+  },"30": {
+    "doc": "Classes",
+    "title": "Graduate Classes Offered by the CSDL Lab",
+    "content": "CSCE 5843 Reconfigurable Computing . A graduate-level course on the state of the art in Reconfigurable Computing . Multiprocessor Systems-On-Chip . A graduate-level course that covers modern MPSoC design issues and methodologies. CSCE 5013 Real-Time Operating Systems (RTOS) . A senior level/graduate-level course that covers real-time systems and the issues related to operating system design for those systems. CSCE 5013 Adaptive Systems . A senior level/graduate-level course that gives student the basics of autonomic systems and have them design a workable adaptive system, conceptually and technically, based on the partial reconfiguration capabilities of FPGAs. ",
+    "url": "/classes/#graduate-classes-offered-by-the-csdl-lab",
+    
+    "relUrl": "/classes/#graduate-classes-offered-by-the-csdl-lab"
+  },"31": {
+    "doc": "Classes",
+    "title": "Undergraduate Classes Offered by the CSDL Lab",
+    "content": "CSCE 2214 Computer Organization . An introductory course in computer organization and architecture including topics in digital logic, digital systems, and memory structure. CSCE3613 Operating Systems . An introduction to operating systems including topics in concepts and system structures, process management, memory management, files and storage management, distributed systems, and case studies. EECS 388 Kansas University Computer Systems &amp; Assembly Language (MicroBlaze-based) . An undergraduate-level course to computer systems and assembly language that utilizes Xilinx FPGAs and MicroBlaze soft processors. CSCE 4114 Embedded Systems . A senior level/graduate-level course that covers modern Computer Architecture. CSCE 4213 Computer Architecture . A senior level/graduate-level course that covers modern Computer Architecture. CSCE 2114 Digital Design . An undergraduate course that covers basic concepts of binary and digital systems,along with VHDL programming . ",
+    "url": "/classes/#undergraduate-classes-offered-by-the-csdl-lab",
+    
+    "relUrl": "/classes/#undergraduate-classes-offered-by-the-csdl-lab"
+  },"32": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": " ",
+    "url": "/projects/",
+    
+    "relUrl": "/projects/"
+  },"33": {
+    "doc": "Home",
+    "title": "Computer Systems Design Laboratory",
+    "content": " ",
+    "url": "/#computer-systems-design-laboratory",
+    
+    "relUrl": "/#computer-systems-design-laboratory"
+  },"34": {
+    "doc": "Home",
+    "title": "Laboratory Overview",
+    "content": ". Welcome to the Computer Systems Design Laboratory at the University of Arkansas. Research in CSDL encompasses system specification and verification, modeling abstractions, HW/SW co-design, CAD/CAE, operating systems, special purpose architectures, compilers, security, special computer architectures, and real-time embedded systems. Current research being done in the Computer Systems Design Laboratory (CSDL) can be viewed on our Projects page. Knowledge is also folded back into both the undergraduate and graduate curriculum in some of our Classes, Lab Notes, and through Reading Groups. The faculty of the CSDL hold primary teaching responsibility for departmental undergraduate classes in digital design, computer organization, computer architecture, embedded systems, and systems modeling. Graduate classes taught by CSDL faculty span reconfigurable computing, multiprocessor systems on chip (MPSoC), and asynchronous logic design. The CSDL hosts visiting researchers and scholars from other research groups world wide, and supports a colloquium series of invited experts. Undergraduate, Masters, and PhD students form the core of CSDL in an interdisciplinary and team based environment. We encourage you to explore the research and teaching components of our laboratory. ",
+    "url": "/#laboratory-overview",
+    
+    "relUrl": "/#laboratory-overview"
+  },"35": {
+    "doc": "Home",
+    "title": "Areas of Research",
+    "content": ". | Real-Time and Embedded Systems Software | Reconfigurable Computing | Multiprocessor Systems on Chip (MPSoC) | Heterogeneous Computing | System Design | Computer Architecture | HW/SW Co-Design | Hardware Acceleration Technologies (FPGAs, GPUs, etc.) | . ",
+    "url": "/#areas-of-research",
+    
+    "relUrl": "/#areas-of-research"
+  },"36": {
+    "doc": "Home",
+    "title": "Home",
+    "content": ". ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"37": {
+    "doc": "People",
+    "title": "Staff",
+    "content": " ",
+    "url": "/people/#staff",
+    
+    "relUrl": "/people/#staff"
+  },"38": {
+    "doc": "People",
+    "title": "Instructors",
+    "content": "David Andrews . dandrews@uark.edu . Email . Miaqiong Huang . mqhuang@uark.edu . Email . ",
+    "url": "/people/#instructors",
+    
+    "relUrl": "/people/#instructors"
+  },"39": {
+    "doc": "People",
+    "title": "Students",
+    "content": "MD Arafat Kabir . makabir@uark.edu . I like array processors! . ",
+    "url": "/people/#students",
+    
+    "relUrl": "/people/#students"
+  },"40": {
+    "doc": "People",
+    "title": "People",
+    "content": " ",
+    "url": "/people/",
+    
+    "relUrl": "/people/"
+  },"41": {
+    "doc": "Publications",
+    "title": "Publications",
+    "content": " ",
+    "url": "/publications/",
+    
+    "relUrl": "/publications/"
+  },"42": {
+    "doc": "Publications",
+    "title": "Publications",
+    "content": ". | 2016 | 2015 | . ",
+    "url": "/publications/",
+    
+    "relUrl": "/publications/"
+  },"43": {
+    "doc": "Publications",
+    "title": "2016",
+    "content": ". | Eugene Cartwright, Enabling Runtime Profiling to Hide and Exploit Heterogeneity within Chip Heterogeneous Multiprocessor Systems (CHMPS), Ph.D. Dissertation at the University of Arkansas (May, 2016). Dissertation | Invited Talk “JIT Run Time Assembly of Hardware Accelerators”, Paderborn University, Paderborn Germany, June 30, 2016 | Invited Paper David Andrews, Marco Platzner, “Programming Models for Reconfigurable Manycore Systems” Proceedings of the 11th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC 2016) Tallinn, Estonia June 27-29, 2016 pp. 1-8 | Hongyuan Ding, Sen Ma, Miaoqing Huang and David Andrews”OOGen: An Automated Generation Tool for Custom MPSoC Architectures Based on Object-oriented Programming Methods”, Proceedings of the 23rd Reconfigurable Architectures Workshop (RAW) May 23-24th, 2016, Chicago Illinois, pp. 233-240 | Sen Ma, Zeyad Aklah,David Andrews, “Run Time Interpretation For Creating Custom Accelerators”, Proceedings of the 19th Design, Automation, and Test Europe Conference (DATE) Dresden Germany, March 14-18, 2016. | Sen Ma, Zeyad Aklah, David Andrews, Just In Time Assembly of Accelerators, Proceedings of the 24th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA 2016), Monterey California, February 21-23, 2016 pp. 173-178 | Zeyad Aklah, Sen Ma and David Andrews A Dynamic Overlay Supporting Just-In-Time Assembly to Construct Customized Hardware Accelerators 2nd International Workshop on Overlay Architectures for FPGAs (OLAF). Sunday workshop at the 24th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA 2016) 2 page abstract. | . ",
+    "url": "/publications/#2016",
+    
+    "relUrl": "/publications/#2016"
+  },"44": {
+    "doc": "Publications",
+    "title": "2015",
+    "content": ". | Sen Ma, Hongyuan Ding, Miaoqing Huang and David Andrews, “Archborn: An Open Source Tool for Automated Generation of Chip Heterogeneous Multiprocessor Architectures”, Proceedings of the International Conference on ReConFigurable Computing and FPGAs, Cancun Mexico, Dec 7-9, 2015 | Nithin George, Hyoukloong Lee, David Novo, Muhsen Owaida, Davi Andrews, Kunle Olukotun, and Paolo Ienne,”Automatic Support for Multi-Module Parallelism from Computational Patterns”, Proceedings of the 25th International Conference on Field Programmable Logic and Applications (FPL) pp.93-100, London, England, 2015 | Sen Ma, Zeyad Aklah and David Andrews, “A Run Time Interpretation Approach for Creating Custom Accelerators”, Proceedings of the 25th International Conference on Field Programmable Logic and Applications (FPL), pp.472-475, London, England, 2015 | Paolo Ienne, David Andrews, Walid Najjar, Reconfigurable Computing for the Masses, Really ? Workshop at the 25th International Conference on Field Programmable Logic and Applications (FPL) London, England, 2015 | David Andrews, Can We Finally Allow Software Programmers to Create Hardware Accelerators ? Invited Talk at ETH Zurich, April 30, 2015 | Keynote Talk David Andrews, Will the future success of Reconfigurable Computing require a paradigm shift in our research communities thinking?, 11th International Symposium on Applied Reconfigurable Computing (ARC), Bochum Germany, April 16, 2015 | Zeyad Aklah and David Andrews, “A Flexible Multilayer Perceptron Co-Processor for FPGAs” Proceedings of the 11th International Symposium on Applied Reconfigurable Computing (ARC), pp. 427-434, Bochum Germany, April 13-17, 2015 | . ",
+    "url": "/publications/#2015",
+    
+    "relUrl": "/publications/#2015"
+  },"45": {
+    "doc": "Schedule",
+    "title": "Weekly Schedule",
+    "content": " ",
+    "url": "/classes/computer-architecture/schedule/#weekly-schedule",
+    
+    "relUrl": "/classes/computer-architecture/schedule/#weekly-schedule"
+  },"46": {
+    "doc": "Schedule",
+    "title": "Introduction to Java",
+    "content": "Sep 28 Java &amp; Git 1.1 Sep 29 SectionIntro to Java Solution Sep 30 Variables &amp; Objects 1.2, 2.1 Oct 1 Lab Intro to Java Oct 2 Tracing, IntLists, &amp; Recursion 2.1 HW 1 due ",
+    "url": "/classes/computer-architecture/schedule/#introduction-to-java",
+    
+    "relUrl": "/classes/computer-architecture/schedule/#introduction-to-java"
+  },"47": {
+    "doc": "Schedule",
+    "title": "Basic Data Structures",
+    "content": "Oct 5 Linked Lists &amp; Encapsulation 3.1, 2.2, 2.3 Oct 6 SectionLinked Lists Solution Oct 7 Resizing Arrays 2.4, 2.5 Oct 8 Lab Resizing Arrays Oct 9 Runtime Analysis 8.1, 8.2, 8.3, 8.4 HW 2 due ",
+    "url": "/classes/computer-architecture/schedule/#basic-data-structures",
+    
+    "relUrl": "/classes/computer-architecture/schedule/#basic-data-structures"
+  },"48": {
+    "doc": "Schedule",
+    "title": "Schedule",
+    "content": " ",
+    "url": "/classes/computer-architecture/schedule/",
+    
+    "relUrl": "/classes/computer-architecture/schedule/"
+  },"49": {
+    "doc": "Schedule",
+    "title": "Weekly Schedule",
+    "content": ". | 9:00 AM | 9:30 AM | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | 5:30 PM | . | ",
+    "url": "/schedule/#weekly-schedule",
+    
+    "relUrl": "/schedule/#weekly-schedule"
+  },"50": {
+    "doc": "Schedule",
+    "title": "Monday",
+    "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | ",
+    "url": "/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"51": {
+    "doc": "Schedule",
+    "title": "Tuesday",
+    "content": "| ",
+    "url": "/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"52": {
+    "doc": "Schedule",
+    "title": "Wednesday",
+    "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | ",
+    "url": "/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"53": {
+    "doc": "Schedule",
+    "title": "Thursday",
+    "content": "| ",
+    "url": "/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"54": {
+    "doc": "Schedule",
+    "title": "Friday",
+    "content": ". | Lecture 9:30 AM–10:30 AM 150 Wheeler | Section 11:30 AM–12:30 PM 310 Soda | Office Hours 12:30 PM–2:00 PM 271 Soda | . | . ",
+    "url": "/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"55": {
+    "doc": "Schedule",
+    "title": "Schedule",
+    "content": " ",
+    "url": "/schedule/",
+    
+    "relUrl": "/schedule/"
+  },"56": {
+    "doc": "Staff",
+    "title": "Staff",
+    "content": "Staff information is stored in the _staffers directory and rendered according to the layout file, _layouts/staffer.html. ",
+    "url": "/staff/",
+    
+    "relUrl": "/staff/"
+  },"57": {
+    "doc": "Staff",
+    "title": "Instructors",
+    "content": "David Andrews . dandrews@uark.edu . Email . Miaqiong Huang . mqhuang@uark.edu . Email . ",
+    "url": "/staff/#instructors",
+    
+    "relUrl": "/staff/#instructors"
+  },"58": {
+    "doc": "Staff",
+    "title": "Teaching Assistants",
+    "content": "MD Arafat Kabir . makabir@uark.edu . I like array processors! . ",
+    "url": "/staff/#teaching-assistants",
+    
+    "relUrl": "/staff/#teaching-assistants"
+  },"59": {
+    "doc": "Syllabus",
+    "title": "Syllabus",
+    "content": " ",
+    "url": "/classes/computer-architecture/syllabus/",
+    
+    "relUrl": "/classes/computer-architecture/syllabus/"
+  }
+}
