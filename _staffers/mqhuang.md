@@ -1,6 +1,6 @@
 ---
 name: Miaqiong Huang
-role: Instructor
+role: Professor
 email: mqhuang@uark.edu
 website: http://www.csce.uark.edu/~mqhuang/
 photo: mqhuang.jpg
