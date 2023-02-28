@@ -6,10 +6,10 @@ description: A listing of all the CSDL members.
 
 # Staff
 
-## Instructors
+## Professors
 
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
-{% for staffer in instructors %}
+{% assign instructors = site.staffers | where: 'role', 'Professor' %}
+{% for staffer in Professors %}
 {{ staffer }}
 {% endfor %}
 
