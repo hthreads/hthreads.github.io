@@ -6,7 +6,7 @@ description: A listing of all the CSDL members.
 
 # Staff
 
-## Professors
+## Instructors
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% for staffer in instructors %}
