@@ -4,7 +4,7 @@ title: People
 description: A listing of all the CSDL members.
 ---
 
-# Staff
+# Laboratory Personnel
 
 ## Professors
 
