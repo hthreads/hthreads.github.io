@@ -43,7 +43,7 @@ An introduction to operating systems including topics in concepts and system str
 ### EECS 388 Kansas University Computer Systems & Assembly Language (MicroBlaze-based)
 An undergraduate-level course to computer systems and assembly language that utilizes Xilinx FPGAs and MicroBlaze soft processors.
 
-### CSCE 4114 Embedded Systems
+### [CSCE 4114 Embedded Systems](/classes/embedded-systems)
 A senior level/graduate-level course that covers modern Computer Architecture.
 
 ### [CSCE 4213 Computer Architecture](/classes/computer-architecture)
