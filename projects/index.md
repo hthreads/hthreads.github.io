@@ -13,4 +13,4 @@ title: Projects
 {:toc}
 
 ---
-##PiCaSO (projects/picaso.html)
+## [PiCaSO](projects/picaso)
