@@ -34,7 +34,7 @@ title: Publications
 
 ## 2019
 - A. Panahi, K. Stokke and D. Andrews, "A Library of FSM-based Floating-Point Arithmetic Functions on FPGAs," 2019 International Conference on ReConFigurable Computing and FPGAs (ReConFig), Cancun, Mexico, 2019, pp. 1-8, [IEEE](https://doi.org/10.1109/ReConFig48160.2019.8994776)
-- 
+- Hansmeier, T., Platzner, M., Pantho, M.J.H. et al. An Accelerator for Resolution Proof Checking based on FPGA and Hybrid Memory Cube Technology. J Sign Process Syst 91, 1259–1272 (2019). [Journal of Signal Processing Systems](https://doi.org/10.1007/s11265-018-1435-y)
 
 ## 2016
 
