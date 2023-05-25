@@ -36,6 +36,14 @@ title: Publications
 - A. Panahi, K. Stokke and D. Andrews, "A Library of FSM-based Floating-Point Arithmetic Functions on FPGAs," 2019 International Conference on ReConFigurable Computing and FPGAs (ReConFig), Cancun, Mexico, 2019, pp. 1-8, [IEEE](https://doi.org/10.1109/ReConFig48160.2019.8994776)
 - Hansmeier, T., Platzner, M., Pantho, M.J.H. et al. An Accelerator for Resolution Proof Checking based on FPGA and Hybrid Memory Cube Technology. J Sign Process Syst 91, 1259–1272 (2019). [Journal of Signal Processing Systems](https://doi.org/10.1007/s11265-018-1435-y)
 
+## 2018
+- M. J. H. Pantho, J. Mandebi Mbongue, C. Bobda and D. Andrews, "Transparent Acceleration of Image Processing Kernels on FPGA-Attached Hybrid Memory Cube Computers," 2018 International Conference on Field-Programmable Technology (FPT), Naha, Japan, 2018, pp. 342-345, [IEEE](https://doi.org/10.1109/FPT.2018.00069)
+- J. Mbongue, F. Hategekimana, D. Tchuinkou Kwadjo, D. Andrews and C. Bobda, "FPGAVirt: A Novel Virtualization Framework for FPGAs in the Cloud," 2018 IEEE 11th International Conference on Cloud Computing (CLOUD), San Francisco, CA, USA, 2018, pp. 862-865, [IEEE](https://doi.org/10.1109/CLOUD.2018.00122)
+- M. J. H. Pantho, J. M. Mbongue, C. Bobda, D. Andrews and M. Asadinia, "Enabling Transparent Acceleration of OpenCV Library Kernels on a Hybrid Memory Cube Computer," 2018 IEEE 26th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Boulder, CO, USA, 2018, pp. 217-217, [IEEE](https://doi.org/10.1109/FCCM.2018.00051)
+- Hansmeier, T., Platzner, M., Andrews, D. (2018). An FPGA/HMC-Based Accelerator for Resolution Proof Checking. In: Voros, N., Huebner, M., Keramidas, G., Goehringer, D., Antonopoulos, C., Diniz, P. (eds) Applied Reconfigurable Computing. Architectures, Tools, and Applications. ARC 2018. Lecture Notes in Computer Science(), vol 10824. [Springer](https://doi.org/10.1007/978-3-319-78890-6_13)
+-  Sen Ma, Xuan Shi & David Andrews (2018) Parallelizing maximum likelihood classification (MLC) for supervised image classification by pipelined thread approach through high-level synthesis (HLS) on FPGA cluster, Big Earth Data, 2:2, 144-158, https://doi.org/10.1080/20964471.2018.1470249)
+
+
 ## 2016
 
 - Eugene Cartwright, Enabling Runtime Profiling to Hide and Exploit Heterogeneity within Chip Heterogeneous Multiprocessor Systems (CHMPS), Ph.D. Dissertation at the University of Arkansas (May, 2016). Dissertation
