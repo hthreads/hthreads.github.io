@@ -16,7 +16,7 @@ title: Publications
 ## 2023
 
 ## 2022
-Kabir, E., Poudel, A., Aklah, Z., Huang, M., Andrews, D. (2022). A Runtime Programmable Accelerator for Convolutional and Multilayer Perceptron Neural Networks on FPGA. In: Gan, L., Wang, Y., Xue, W., Chau, T. (eds) Applied Reconfigurable Computing. Architectures, Tools, and Applications. ARC 2022. Lecture Notes in Computer Science, vol 13569. Springer, Cham. https://doi.org/10.1007/978-3-031-19983-7_3 [Springer] (https://link.springer.com/chapter/10.1007/978-3-031-19983-7_3)
+Kabir, E., Poudel, A., Aklah, Z., Huang, M., Andrews, D. (2022). A Runtime Programmable Accelerator for Convolutional and Multilayer Perceptron Neural Networks on FPGA. In: Gan, L., Wang, Y., Xue, W., Chau, T. (eds) Applied Reconfigurable Computing. Architectures, Tools, and Applications. ARC 2022. Lecture Notes in Computer Science, vol 13569. Springer, Cham. https://doi.org/10.1007/978-3-031-19983-7_3
 
 ## 2020
 S. Basalama, A. Panahi, A. -T. Ishimwe and D. Andrews, "SPAR-2: A SIMD Processor Array for Machine Learning in IoT Devices," 2020 3rd International Conference on Data Intelligence and Security (ICDIS), South Padre Island, TX, USA, 2020, pp. 141-147, doi: 10.1109/ICDIS50059.2020.00025. [IEEE](https://ieeexplore.ieee.org/document/9323000)
