@@ -29,8 +29,8 @@ title: Publications
 
 ## 2020
 
-- S. Basalama, A. Panahi, A. -T. Ishimwe and D. Andrews, "SPAR-2: A SIMD Processor Array for Machine Learning in IoT Devices," 2020 3rd International Conference on Data Intelligence and Security (ICDIS), South Padre Island, TX, USA, 2020, pp. 141-147, doi: 10.1109/ICDIS50059.2020.00025. [IEEE](https://ieeexplore.ieee.org/document/9323000)
-- H. Liu, A. Panahi, D. Andrews and A. Nelson, "FPGA-Based Gesture Recognition with Capacitive Sensor Array using Recurrent Neural Networks," 2020 IEEE 28th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Fayetteville, AR, USA, 2020, pp. 225-225, [IEEE](doi: 10.1109/FCCM48280.2020.00056)
+- S. Basalama, A. Panahi, A. -T. Ishimwe and D. Andrews, "SPAR-2: A SIMD Processor Array for Machine Learning in IoT Devices," 2020 3rd International Conference on Data Intelligence and Security (ICDIS), South Padre Island, TX, USA, 2020, pp. 141-147, [IEEE](https://ieeexplore.ieee.org/document/9323000)
+- H. Liu, A. Panahi, D. Andrews and A. Nelson, "FPGA-Based Gesture Recognition with Capacitive Sensor Array using Recurrent Neural Networks," 2020 IEEE 28th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Fayetteville, AR, USA, 2020, pp. 225-225, [IEEE](https://doi.org/10.1109/FCCM48280.2020.00056)
 
 ## 2019
 - A. Panahi, K. Stokke and D. Andrews, "A Library of FSM-based Floating-Point Arithmetic Functions on FPGAs," 2019 International Conference on ReConFigurable Computing and FPGAs (ReConFig), Cancun, Mexico, 2019, pp. 1-8, [IEEE](https://doi.org/10.1109/ReConFig48160.2019.8994776)
