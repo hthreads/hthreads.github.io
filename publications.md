@@ -16,7 +16,7 @@ title: Publications
 ## 2023
 
 ## 2020
-S. Basalama, A. Panahi, A. -T. Ishimwe and D. Andrews, "SPAR-2: A SIMD Processor Array for Machine Learning in IoT Devices," 2020 3rd International Conference on Data Intelligence and Security (ICDIS), South Padre Island, TX, USA, 2020, pp. 141-147, doi: 10.1109/ICDIS50059.2020.00025. [ieee](https://ieeexplore.ieee.org/document/9323000)
+S. Basalama, A. Panahi, A. -T. Ishimwe and D. Andrews, "SPAR-2: A SIMD Processor Array for Machine Learning in IoT Devices," 2020 3rd International Conference on Data Intelligence and Security (ICDIS), South Padre Island, TX, USA, 2020, pp. 141-147, doi: 10.1109/ICDIS50059.2020.00025. [IEEE](https://ieeexplore.ieee.org/document/9323000)
 
 ## 2016
 
