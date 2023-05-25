@@ -20,6 +20,8 @@ A. Panahi, E. Kabir, A. Downey, D. Andrews, M. Huang and J. D. Bakos, "High-Rate
 
 Kabir, E., Poudel, A., Aklah, Z., Huang, M., Andrews, D. (2022). A Runtime Programmable Accelerator for Convolutional and Multilayer Perceptron Neural Networks on FPGA. In: Gan, L., Wang, Y., Xue, W., Chau, T. (eds) Applied Reconfigurable Computing. Architectures, Tools, and Applications. ARC 2022. Lecture Notes in Computer Science, vol 13569. Springer, Cham. https://doi.org/10.1007/978-3-031-19983-7_3
 
+H. Liu, A. Panahi, D. Andrews and A. Nelson, "An FPGA-Based Upper-Limb Rehabilitation Device for Gesture Recognition and Motion Evaluation Using Multi-Task Recurrent Neural Networks," in IEEE Sensors Journal, vol. 22, no. 4, pp. 3605-3615, 15 Feb.15, 2022, doi: 10.1109/JSEN.2022.3141659.
+
 ## 2020
 S. Basalama, A. Panahi, A. -T. Ishimwe and D. Andrews, "SPAR-2: A SIMD Processor Array for Machine Learning in IoT Devices," 2020 3rd International Conference on Data Intelligence and Security (ICDIS), South Padre Island, TX, USA, 2020, pp. 141-147, doi: 10.1109/ICDIS50059.2020.00025. [IEEE](https://ieeexplore.ieee.org/document/9323000)
 
