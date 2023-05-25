@@ -41,7 +41,7 @@ title: Publications
 - J. Mbongue, F. Hategekimana, D. Tchuinkou Kwadjo, D. Andrews and C. Bobda, "FPGAVirt: A Novel Virtualization Framework for FPGAs in the Cloud," 2018 IEEE 11th International Conference on Cloud Computing (CLOUD), San Francisco, CA, USA, 2018, pp. 862-865, [IEEE](https://doi.org/10.1109/CLOUD.2018.00122)
 - M. J. H. Pantho, J. M. Mbongue, C. Bobda, D. Andrews and M. Asadinia, "Enabling Transparent Acceleration of OpenCV Library Kernels on a Hybrid Memory Cube Computer," 2018 IEEE 26th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Boulder, CO, USA, 2018, pp. 217-217, [IEEE](https://doi.org/10.1109/FCCM.2018.00051)
 - Hansmeier, T., Platzner, M., Andrews, D. (2018). An FPGA/HMC-Based Accelerator for Resolution Proof Checking. In: Voros, N., Huebner, M., Keramidas, G., Goehringer, D., Antonopoulos, C., Diniz, P. (eds) Applied Reconfigurable Computing. Architectures, Tools, and Applications. ARC 2018. Lecture Notes in Computer Science(), vol 10824. [Springer](https://doi.org/10.1007/978-3-319-78890-6_13)
--  Sen Ma, Xuan Shi & David Andrews (2018) Parallelizing maximum likelihood classification (MLC) for supervised image classification by pipelined thread approach through high-level synthesis (HLS) on FPGA cluster, Big Earth Data, 2:2, 144-158, https://doi.org/10.1080/20964471.2018.1470249)
+-  Sen Ma, Xuan Shi & David Andrews (2018) Parallelizing maximum likelihood classification (MLC) for supervised image classification by pipelined thread approach through high-level synthesis (HLS) on FPGA cluster, Big Earth Data, 2:2, 144-158, https://doi.org/10.1080/20964471.2018.1470249
 
 
 ## 2016
