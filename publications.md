@@ -52,7 +52,7 @@ title: Publications
 - Invited Talk "JIT Run Time Assembly of Hardware Accelerators", Paderborn University, Paderborn Germany, June 30, 2016
 - Invited Paper David Andrews, Marco Platzner, "Programming Models for Reconfigurable Manycore Systems" Proceedings of the 11th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC 2016) Tallinn, Estonia June 27-29, 2016 pp. 1-8 [IEEE](https://doi.org/10.1109/ReCoSoC.2016.7533897)
 - S. Ma, Z. Aklah and D. Andrews, "Run time interpretation for creating custom accelerators," 2016 Design, Automation & Test in Europe Conference & Exhibition (DATE), Dresden, Germany, 2016, pp. 900-905 [IEEE](https://ieeexplore.ieee.org/abstract/document/7459436)
-- Sen Ma, Zeyad Aklah, David Andrews, Just In Time Assembly of Accelerators, Proceedings of the 24th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA 2016), Monterey California, February 21-23, 2016 pp. 173-178,https://arxiv.org/abs/1603.01187
+- Sen Ma, Zeyad Aklah, David Andrews, "Just In Time Assembly of Accelerators", Proceedings of the 24th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA 2016), Monterey California, February 21-23, 2016 pp. 173-178, https://arxiv.org/abs/1603.01187
 - Zeyad Aklah, Sen Ma and David Andrews A Dynamic Overlay Supporting Just-In-Time Assembly to Construct Customized Hardware Accelerators 2nd International Workshop on Overlay Architectures for FPGAs (OLAF). Sunday workshop at the 24th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA 2016) 2 page abstract.
 
 ## 2015
