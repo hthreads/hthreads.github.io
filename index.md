@@ -5,7 +5,7 @@ permalink: /:path/
 nav_order: 1
 ---
 
-![University of Arkansas](/assets/images/UA_Logo.png){: width="200"} ![CSCE](/assets/images/Csce.png)
+![University of Arkansas](/assets/images/UA_Logo.png){: width="130"} ![CSCE](/assets/images/Csce.png)
 
 # Computer Systems Design Laboratory
 
