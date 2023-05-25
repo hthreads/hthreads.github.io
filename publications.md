@@ -16,6 +16,8 @@ title: Publications
 ## 2023
 
 ## 2022
+T. Kamucheka, A. Nelson, D. Andrews and M. Huang, "A Masked Pure-Hardware Implementation of Kyber Cryptographic Algorithm," 2022 International Conference on Field-Programmable Technology (ICFPT), Hong Kong, 2022, pp. 1-1, [IEEE](https://doi.org/10.1109/ICFPT56656.2022.9974404).
+
 A. Panahi, E. Kabir, A. Downey, D. Andrews, M. Huang and J. D. Bakos, "High-Rate Machine Learning for Forecasting Time-Series Signals," 2022 IEEE 30th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), New York City, NY, USA, 2022, pp. 1-9, [IEEE](https://ieeexplore.ieee.org/abstract/document/9786127)
 
 Kabir, E., Poudel, A., Aklah, Z., Huang, M., Andrews, D. (2022). A Runtime Programmable Accelerator for Convolutional and Multilayer Perceptron Neural Networks on FPGA. In: Gan, L., Wang, Y., Xue, W., Chau, T. (eds) Applied Reconfigurable Computing. Architectures, Tools, and Applications. ARC 2022. Lecture Notes in Computer Science, vol 13569. Springer, Cham. [Springer](https://doi.org/10.1007/978-3-031-19983-7_3)
