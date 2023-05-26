@@ -66,7 +66,7 @@ title: Publications
 - David Andrews, "Operating Systems Research for Reconfigurable Computing", IEEE Micro, vol.34, no. 1, pp. 54-58, Jan.-Feb. 2014, doi:10.1109/MM.2014.1
 
 ## 2013
--Gerard Allwein, William Harrison and David Andrews,Simulation Logic Journal of Logic and Logical Philosophy, DOI: 10.12775/LLP.2013.0127, September 2013
+- Gerard Allwein, William Harrison and David Andrews,Simulation Logic Journal of Logic and Logical Philosophy, DOI: 10.12775/LLP.2013.0127, September 2013
 - Miaoqing Huang and David Andrews, Modular Design of Fully Pipelined Reduction Circuits on FPGAs, IEEE Transactions on Parallel and Distributed Systems, Vol. 24, No 9., Sept. 2013, pp.1818-1826
 
 ## 2012
