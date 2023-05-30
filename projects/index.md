@@ -16,6 +16,13 @@ has_children: true
 ---
 # Current Projects
 ## [PiCaSO](picaso)
+Processor-in-Memory (PIM) architectures are highly suitable for data-intensive applications like machine learning.
+While there exists several proposals for custom PIM blocks for FPGAs, they are not currently available in the commodity FPGAs.
+PiCaSO is a fast and scalable Processor-in-Memory (PIM) overlay architecture.
+PiCaSO serves as a viable solution for emulating PIM on existing FPGAs, delivering comparable performance to dedicated custom implementations.
+<br>
+
+Check out PiCaSO on <a href="https://github.com/Arafat-Kabir/PiCaSO" target="_blank">Github</i></a>.
 
 # Old Projects
 ## Heterogeneous Extensible MultiProcessor Systems (HEMPS)
