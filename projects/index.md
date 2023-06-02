@@ -22,6 +22,17 @@ PiCaSO is a fast and scalable Processor-in-Memory (PIM) overlay architecture.
 PiCaSO serves as a viable solution for emulating PIM on existing FPGAs, delivering comparable performance to dedicated custom implementations.
 <br>
 
+<!-- NSF Acknowledgement -->
+<span style="display: inline-flex; align-items: center;">
+  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" style="text-decoration: none;">
+    <img src="/assets/images/NSF_logo.svg" alt="Image" style="width: 60px; height: 60px; margin-right: 10px;">
+  </a>
+  <span style="display: inline-block; vertical-align: middle;">
+    Development of PiCaSO is supported by National Science Foundation under 
+<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" target="_blank">Grant No. 1955820</a>.<br>
+  </span>
+</span>
+
 Check out PiCaSO on <a href="https://github.com/Arafat-Kabir/PiCaSO" target="_blank">Github</a>.
 
 # Old Projects
