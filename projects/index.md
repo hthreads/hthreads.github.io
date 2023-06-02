@@ -25,7 +25,7 @@ PiCaSO serves as a viable solution for emulating PIM on existing FPGAs, deliveri
 <!-- NSF Acknowledgement -->
 <span style="display: inline-flex; align-items: center;">
   <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" target="_blank" style="text-decoration: none;">
-    <img src="/assets/images/NSF_logo.svg" alt="NSF Logo" style="width: 60px; height: 60px; margin-right: 10px;">
+    <img src="/assets/images/NSF_logo.png" alt="NSF Logo" style="width: 60px; height: 60px; margin-right: 10px;">
   </a>
   <span style="display: inline-block; vertical-align: middle;">
     Development of PiCaSO is supported by National Science Foundation under 
