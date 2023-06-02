@@ -24,16 +24,28 @@ PiCaSO serves as a viable solution for emulating PIM on existing FPGAs, deliveri
 
 <!-- NSF Acknowledgement -->
 <span style="display: inline-flex; align-items: center;">
-  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" style="text-decoration: none;">
-    <img src="/assets/images/NSF_logo.svg" alt="Image" style="width: 60px; height: 60px; margin-right: 10px;">
+  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" target="_blank" style="text-decoration: none;">
+    <img src="/assets/images/NSF_logo.svg" alt="NSF Logo" style="width: 60px; height: 60px; margin-right: 10px;">
   </a>
   <span style="display: inline-block; vertical-align: middle;">
     Development of PiCaSO is supported by National Science Foundation under 
-<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" target="_blank">Grant No. 1955820</a>.<br>
+    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" target="_blank">Grant No. 1955820</a>.
   </span>
 </span>
 
-Check out PiCaSO on <a href="https://github.com/Arafat-Kabir/PiCaSO" target="_blank">Github</a>.
+<br>
+
+<!-- Github URL -->
+<span style="display: inline-flex; align-items: center;">
+  <a href="https://github.com/Arafat-Kabir/PiCaSO" target="_blank" style="text-decoration: none;">
+    <img src="/assets/images/github_logo.svg" alt="Github Logo" style="width: 60px; height: 60px; margin-right: 10px;">
+  </a>
+  <span style="display: inline-block; vertical-align: middle;">
+    Check out PiCaSO on 
+    <a href="https://github.com/Arafat-Kabir/PiCaSO" target="_blank">Github</a>.
+  </span>
+</span>
+
 
 # Old Projects
 ## Heterogeneous Extensible MultiProcessor Systems (HEMPS)
