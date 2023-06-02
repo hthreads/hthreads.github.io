@@ -23,7 +23,7 @@ PiCaSO serves as a viable solution for emulating PIM on existing FPGAs, deliveri
 <br>
 
 <!-- NSF Acknowledgement -->
-<span style="display: inline-flex; align-items: center;">
+<span style="display: inline-flex; align-items: left;">
   <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955820&HistoricalAwards" target="_blank" style="text-decoration: none;">
     <img src="/assets/images/NSF_logo.svg" alt="NSF Logo" style="width: 60px; height: 60px; margin-right: 10px;">
   </a>
@@ -34,7 +34,7 @@ PiCaSO serves as a viable solution for emulating PIM on existing FPGAs, deliveri
 </span>
 
 <!-- Github URL -->
-<span style="display: inline-flex; align-items: center;">
+<span style="display: inline-flex; align-items: left;">
   <a href="https://github.com/Arafat-Kabir/PiCaSO" target="_blank" style="text-decoration: none;">
     <img src="/assets/images/github_logo.png" alt="Github Logo" style="width: 60px; height: 60px; margin-right: 10px;">
   </a>
