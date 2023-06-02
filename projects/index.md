@@ -38,7 +38,7 @@ PiCaSO serves as a viable solution for emulating PIM on existing FPGAs, deliveri
 <!-- Github URL -->
 <span style="display: inline-flex; align-items: center;">
   <a href="https://github.com/Arafat-Kabir/PiCaSO" target="_blank" style="text-decoration: none;">
-    <img src="/assets/images/github_logo.svg" alt="Github Logo" style="width: 60px; height: 60px; margin-right: 10px;">
+    <img src="/assets/images/github_logo.png" alt="Github Logo" style="width: 60px; height: 60px; margin-right: 10px;">
   </a>
   <span style="display: inline-block; vertical-align: middle;">
     Check out PiCaSO on 
