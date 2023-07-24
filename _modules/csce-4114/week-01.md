@@ -10,9 +10,9 @@ Monday
 :**Lab**{: .label .label-purple } [Installing Xilinx CAD Tools](#)
 
 Wednesday
-: [Intro to Java](#)
+: [Intro to Bit Twiddling in C](#)
 
 Friday
-: [Variables & Objects](#)
+: [Intor to Bit Twiddling in C](#)
   : [1.2](#), [2.1](#)
 : **HW 1 Assigned**{: .label .label-red }
