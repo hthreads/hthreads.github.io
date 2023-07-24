@@ -2,6 +2,9 @@
 layout: page
 title: CSCE 4114 Embedded Systems
 parent: Classes
+has_children: true
+nav_order: 1
+has_toc: false
 ---
 
 # Course Description
