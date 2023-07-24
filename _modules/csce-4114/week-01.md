@@ -3,22 +3,16 @@ title: Introduction to Java
 course: 4114
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Monday
+: [Welcome & Course Overview](#)
+  : [read chapter 1.1](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+:**Lab**{: .label .label-purple } [Installing Xilinx CAD Tools](#)
 
-Sep 30
+Wednesday
+: [Intro to Java](#)
+
+Friday
 : [Variables & Objects](#)
   : [1.2](#), [2.1](#)
-
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+: **HW 1 Assigned**{: .label .label-red }
