@@ -1,6 +1,6 @@
 ---
 name: MD Arafat Kabir
-role: Teaching Assistant
+role: Graduate Assistant
 email: makabir@uark.edu
 website: http://turing.uark.edu/~makabir/
 photo: makabir.jpg
