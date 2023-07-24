@@ -9,7 +9,7 @@ nav_order: 2
 # Weekly Schedule
 
 
-{% assign modules = site.modules | where: 'course', '4213' %}
+{% assign modules = site.modules | where: 'course', '4114' %}
 {% for module in modules %}
 {{ module }}
 {% endfor %}
