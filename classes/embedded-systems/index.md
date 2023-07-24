@@ -11,11 +11,11 @@ This class will make use of the Xilinx/Digilent Arty7 Development Board. This de
 
 ## Schedule
 
-All lectures can be found through the following link: [CSCE 4114 Lecture Page](#).
+All lectures can be found through the following link: [CSCE 4114 Lecture Page](./schedule.md).
 
 ## Lab Repository
 
-All lab projects can be found through the following link: [CSCE 4114 Lab Page](#).
+All lab projects can be found through the following link: [CSCE 4114 Lab Page](./labs.md).
 
 ## Copyright
 All lab materials created by Jason Agron (Summer, 2007). Feel free to use the labs for educational purposes, but please give credit to Jason and the CSDL lab at the University of Kansas and University of Arkansas.
