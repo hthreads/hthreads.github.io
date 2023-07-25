@@ -6,7 +6,7 @@ grand_parent: CSCE 4114 Embedded Systems
 nav_order: 1
 ---
 
-# Interrupt Driven MicroBlaze System
+# Lab 5: Interrupt Driven MicroBlaze System
 
 The goal of these labs is to become familiar with the idea of interrupt-based processing techniques using the MicroBlaze processor. A base system will be built that utilizes an interrupt controller to allow for multiple interrupt sources along with a set of interrupt sources. The interrupt sources will include a timer as well as a software interrupt. After understanding what an interrupt does and how to properly implement them, we will then return to the bike trail crossing project and modify the design to use interrupts. You covered interrupts in class exactly as they work with the MicroBlaze. 
 
