@@ -15,3 +15,4 @@ nav_order: 3
 | 9/12 - 9/23 | [Lab3: Fayetteville Bike Crossing](lab3.md)         |
 | 9/26 - 10/7 | [Lab4: Timers](lab4.md)                             |
 | 9/26 - 10/7 | [Lab5: Interrupt Driven Microblaze System](lab5.md) |
+| 9/26 - 10/7 | [Lab6: Autonomous Vehicle](lab6.md)                 |
