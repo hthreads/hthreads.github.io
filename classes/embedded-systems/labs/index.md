@@ -5,9 +5,10 @@ parent: Embedded Systems
 grand_parent: Classes
 has_children: true
 has_toc: false
+nav_exclude: false
 ---
 
-## Lab Schedule
+## Overview
 
 | Date        | Lab                                                |
 | ----------- | -------------------------------------------------- |
@@ -18,6 +19,7 @@ has_toc: false
 | 9/26 - 10/7 | [Lab5: Interrupt Driven Microblaze System](./lab5) |
 | 9/26 - 10/7 | [Lab6: Autonomous Vehicle](./lab6)                 |
 
+## Lab Schedule
 
 {% assign modules = site.modules | where: 'course', '4114-labs' %}
 {% for module in modules %}
