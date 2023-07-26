@@ -12,5 +12,5 @@ Sept 6
 Sept 8
 : Section 3
 
-September 15
+Sept 15
 : **Lab 2 due**{: .label .label-red }

@@ -13,4 +13,4 @@ Sept 15
 : Section 3
 
 Sept 9
-: **Lab 4 due**{: .label .label-red }
+: **Lab 5 due**{: .label .label-red }
