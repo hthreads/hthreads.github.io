@@ -1,5 +1,5 @@
 ---
-title: "Lab 4: Interrupt Driven Microblaze"
+title: "Lab 5: Interrupt Driven Microblaze"
 course: 4114-labs
 ---
 

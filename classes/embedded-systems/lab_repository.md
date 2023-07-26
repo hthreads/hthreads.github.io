@@ -4,6 +4,7 @@ title: Labs
 parent: Embedded Systems
 grand_parent: Classes
 has_children: true
+nav_order: 3
 has_toc: false
 ---
 
@@ -19,7 +20,6 @@ has_toc: false
 | 9/26 - 10/7 | [Lab 4: Timers](./lab4)                             |
 | 9/26 - 10/7 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
 | 9/26 - 10/7 | [Lab 6: Autonomous Vehicle](./lab6)                 |
-
 
 ## Lab Schedule
 

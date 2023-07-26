@@ -51,13 +51,13 @@ After servicing each active interrupt, the processor must then clear the interru
 If interrupts are cleared incorrectly then “bad” situations can occur. For example:
 
 1. Interrupt0 occurs.
-  * Bit0 in the ISR is set to 1.
+    * Bit0 in the ISR is set to 1.
 2. CPU receives an interrupt and then CPU jumps into its interrupt handler routine.
 3. CPU checks Bit0 in the ISR.
-  * CPU then services the interrupt, but forgets to clear Bit 0!!!!
+    * CPU then services the interrupt, but forgets to clear Bit 0!!!!
 4. The CPU now returns from its interrupt handler routine to continue “normal” processing.
 5. OH NO, BUT WAIT!!!! Bit0 has never been cleared, so the CPU's interrupt line is still asserted!!!!
-  * The CPU jumps right back into the interrupt handler routine, even though no new interrupts have occurred!!!!
+    * The CPU jumps right back into the interrupt handler routine, even though no new interrupts have occurred!!!!
 
 In order to correct the situation described above, the interrupt handler should clear the interrupt at its source, and then at the PIC in step (3). Clearing an interrupt at the PIC can be done by writing a '1' to the bit of interest to the PIC's interrupt acknowledge register (IAR).
 
