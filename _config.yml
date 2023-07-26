@@ -29,6 +29,8 @@ heading_anchors: true
 permalink: pretty
 aux_links:
 footer_content:
+# For copy button on code
+enable_copy_code_button: true
 
 # Collections for website data
 collections:

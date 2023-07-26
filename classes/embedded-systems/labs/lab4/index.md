@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Lab 4
-parent: Lab Repository
+parent: Labs
 grand_parent: CSCE 4114 Embedded Systems
-nav_order: 1
+nav_exclude: true
 ---
 
 # Lab 4: Timers

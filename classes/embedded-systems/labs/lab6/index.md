@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Lab 6
-parent: Lab Repository
+parent: Labs
 grand_parent: CSCE 4114 Embedded Systems
+nav_exclude: true
 ---
 
-## Lab 6: Autonomus Vehicle
+# Lab 6: Autonomus Vehicle
 
 ## Week 1
 
@@ -20,9 +21,9 @@ This first week is devoted to assembling and testing your autonomous robot car. 
 3. Now let us make some changes to our SoC (System on Chip). Start by opening your project in Vivado. Navigate in the Flow Navigator on the left side to “Open Block Design.”
 4. To add our downloaded IP to Vivado, navigate to “Project Settings” to open the project Settings dialog. In the left panel select “IP,” then select the “Repository Manager” tab. Now add the two IP repository folders you downloaded. Select “Apply” and close the dialog.
 5. Back in the block design of your SoC. We want to add IP to the SoC for communicating with the external Pmod peripherals. We will add “AXI GPIO,” “Pmod_DHB1”, and “Pmod_Dual_MAXSONAR” IP for communication with the two line detecting light sensors, Pmod MAXSONAR sensor, and Pmod DHB1 motor driver
-    1. AXI GPIO >>> jA - Pmod LS1. Using the “Add IP” button and dialog. Add a new “AXI GPIO” and “Pmod Bridge” IP to your design. DO NOT USE connection automation. Connect the “S_AXI” bus port of the “AXI GPIO” to a slave port on the interconnect. Link to the two GPIO ports on the “AXI GPIO” with the “GPIO_Top_Row” and “GPIO_Bottom_Row” on the Pmod Bridge. Last, in the “Board” window on the left, right-click the “jA” port under Pmod and select “connect component.” In the dialog that appears, find the Pmod bridge you just added and select the “Pmod_out” port as your connection. One more thing, enable interrupts for the “AXI GPIO.”
-    2. Pmod_Dual_MAXSONAR >>> jB - Pmod MAXSONAR. Add the “Pmod_Dual_MAXSONAR” IP and connect it to a Pmod Bridge. You can connect the “Pmod_out” port of the Pmod Bridge to the Pmod port jB.
-    3. Pmod_DHB1 >>> jD – Pmod MAXSONAR. Add the “Pmod_DHB1_v1_0” IP and connect it to the jD Pmod port through a Pmod Bridge
+    1. AXI GPIO >> jA - Pmod LS1. Using the “Add IP” button and dialog. Add a new “AXI GPIO” and “Pmod Bridge” IP to your design. DO NOT USE connection automation. Connect the “S_AXI” bus port of the “AXI GPIO” to a slave port on the interconnect. Link to the two GPIO ports on the “AXI GPIO” with the “GPIO_Top_Row” and “GPIO_Bottom_Row” on the Pmod Bridge. Last, in the “Board” window on the left, right-click the “jA” port under Pmod and select “connect component.” In the dialog that appears, find the Pmod bridge you just added and select the “Pmod_out” port as your connection. One more thing, enable interrupts for the “AXI GPIO.”
+    2. Pmod_Dual_MAXSONAR >> jB - Pmod MAXSONAR. Add the “Pmod_Dual_MAXSONAR” IP and connect it to a Pmod Bridge. You can connect the “Pmod_out” port of the Pmod Bridge to the Pmod port jB.
+    3. Pmod_DHB1 >> jD – Pmod MAXSONAR. Add the “Pmod_DHB1_v1_0” IP and connect it to the jD Pmod port through a Pmod Bridge
 6. Go to "Address Editor" window of the block design and and assign memory addresses to the newly added IP.
 7. Validate your deign and generate a bitstream
 8. Watch the assembly [instruction video](https://www.youtube.com/watch?v=aJRYTqZu5OE) or follow the [instructions given here](https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis) to assembly the chassis of your robot.
@@ -155,7 +156,7 @@ while(1)
     * To create a bootloader, in the toolbar select File > New > Application Project. Name the project something like 'bootloader' as shown in the image above. Click **Next**.
     * Select **SREC SPI Bootloader**, and select **Finish**.
     * We need to make a few changes to our bootloader before loading it onto the Arty board. First, we need to set the 'address offset' so the bootloader can find our application. In the 'Bootloader' project, open the blconfig.h file and change the **FLASH_IMAGE_BASEADDR** to `0x00C00000`. Note, this same address you used when you flashed your application onto the flash memory earlier.
-    * > **Optional**, if you wish to improve your ArtyBot's startup time. Edit the file bootloader.c and comment out the line **#define VERBOSE**. This will turn off console logging. **NB:** Console logs may be useful when you're initially setting things up.
+    * > **Optional**, if you wish to improve your ArtyBot's startup time. Edit the file bootloader.c and comment out the line `#define VERBOSE`. This will turn off console logging. **NB:** Console logs may be useful when you're initially setting things up.
     * Click the **Program FPGA** button in the toolbar. In the right half of the Software Configuration section, there is a cell that says `bootloop`. Click the right side of this cell to reveal a drop-down menu. Select **Bootloop.elf** from the list, then click Program. This will generate a bit file with the MicroBlaze's memory initialized with the program that you have written. The Arty is also programmed and if everything went well you should see your application running in your favorite console application (e.g. Putty or TeraTerm)
     * Almost there, click the **Program Flash** button in the toolbar. Next to Image File, click Browse and navigate to the SDK workspace, then into `base_soc_wrapper_hw_platform_0`. Select download.bit and click **Open**. Next of Offset, enter `0x0`. Next to Flash Type, select `S25FL128sxxxxxx0-spi-x1_x2_x4`. Click **Program**.
     * Congratulations, you have flashed the bootloader and your application to the non-volatile SPI Qflash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.

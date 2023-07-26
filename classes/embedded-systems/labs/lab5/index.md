@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Lab 5
-parent: Lab Repository
+parent: Labs
 grand_parent: CSCE 4114 Embedded Systems
+nav_exclude: true
 ---
 
 # Lab 5: Interrupt Driven MicroBlaze System
