@@ -5,8 +5,9 @@ parent: Embedded Systems
 grand_parent: Classes
 has_children: true
 has_toc: false
-nav_exclude: false
 ---
+
+# Lab Repository
 
 ## At A Glance
 
@@ -18,6 +19,7 @@ nav_exclude: false
 | 9/26 - 10/7 | [Lab 4: Timers](./lab4)                             |
 | 9/26 - 10/7 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
 | 9/26 - 10/7 | [Lab 6: Autonomous Vehicle](./lab6)                 |
+
 
 ## Lab Schedule
 
