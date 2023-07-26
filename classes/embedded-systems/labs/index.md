@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Labs
+title: Lab Repository
 parent: Embedded Systems
 grand_parent: Classes
 has_children: true

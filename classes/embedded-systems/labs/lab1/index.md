@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lab 1
-parent: Labs
+parent: Lab Repository
 grand_parent: Embedded Systems
 nav_exclude: true
 ---
