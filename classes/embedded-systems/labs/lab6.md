@@ -111,32 +111,34 @@ int main(void)
     * **pcName** A descriptive name for the task. This is mainly used to facilitate debugging. Max length defined by configMAX_TASK_NAME_LEN - default is 16. e.g.: "Supervisor"
     * **usStackDepth** The size of the task stack specified as the number of variables the stack can hold - not the number of bytes. For example, if the stack is 16 bits wide and usStackDepth is defined as 100, 200 bytes will be allocated for stack storage.
     * **pvParameters** Pointer that will be used as the parameter for the task being created.
-    * **uxPriority** The priority at which the task should run. Systems that include MPU support can optionally create tasks in a privileged (system) mode by setting bit portPRIVILEGE_BIT of the priority parameter. For example, to create a privileged task at priority 2 the uxPriority parameter should be set to ( 2 | portPRIVILEGE_BIT ).
+    * **uxPriority** The priority at which the task should run. Systems that include MPU support can optionally create tasks in a privileged (system) mode by setting bit portPRIVILEGE_BIT of the priority parameter. For example, to create a privileged task at priority 2 the uxPriority parameter should be set to `( 2 | portPRIVILEGE_BIT )`.
     * **pvCreatedTask** Used to pass back a handle by which the created task can be referenced
   * So our xTaskCreate will look like: `xTaskCreate(SupervisorTask, "Supervisor", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, &SupervisorTaskHandle);` Notice how we are just passing NULL for the parameter and that we are passing the address of the TaskHandle type. If you pass the value directly, your tasks won't be able to suspend/resume if you attempt to use the functions.
   * Now we must acknowledge an issue before moving forward. We plan on having several tasks being able to write to the state variable when that thread has deemed the condition should move to the next state. E.g.: the IDLE task will set the state to DRIVE, the STOP task will set the state to IDLE and so on. The issue arises when we have multiple threads with the ability to write a variable and a thread trying to read the variable in our preemptive system. We are going to need to implement a mutex around our state variable to ensure that it is written to by one thread at a time.
     * Go back up to the top of the file where the state variable is globally defined and add the following line below it: `SemaphoreHandle_t state_mutex;` Then back in the main function, we can setup the mutex with the line: `state_mutex = xSemaphoreCreateMutex();`
     * With this mutex, we can now try and acquire the lock with `xSemaphoreTake(state_mutex, TRY_TICKS)` and we can unlock with `xSemaphoreGive(state_mutex)`. Notice TRY_TICKS in the semaphore take function. It represents the number of RTOS ticks (time unit, by default set to 100 ticks/sec) that the system will try to acquire the lock within, if it can't within the number provided, it will just fail.
-    * Now in our SupervisorTask function infinite loop, we can see if the mutex is locked or unlocked using the return value of a function in an if statement: 
-    ```C
-    while(1)
-    {
-      // Acquire mutex lock
-      if( xSemaphoreTake(state_mutex, 10) )
-      {
-        // We have access to the mutex. 
-        // Do critical operations here
+    * Now in our SupervisorTask function infinite loop, we can see if the mutex is locked or unlocked using the return value of a function in an if statement:
 
-        switch(state) {/* ... */}
-        
-        // Release lock
-        xSemaphoreGive(state_mutex);
-      }
+```C
+while(1)
+{
+  // Acquire mutex lock
+  if( xSemaphoreTake(state_mutex, 10) )
+  {
+    // We have access to the mutex. 
+    // Do critical operations here
 
-    // Sleep for a small amount of time
-    // ...
-    }
-    ```
+    switch(state) {/* ... */}
+    
+    // Release lock
+    xSemaphoreGive(state_mutex);
+  }
+
+// Sleep for a small amount of time
+// ...
+}
+```
+
     * Now we can prime which thread needs to run in our Supervisor Task similar to how we did in in the previous lab with the ready flag being set to true/false. `vTaskSuspend(/* TaskHandle_t type */)` will suspend a task from the scheduler and `vTaskResume(/* TaskHandle_t type */)` will add a task back to the pool of tasks to execute. You can add these function calls to the switch statement cases above to set which thread will execute after running the supervisor.
     * At the end of this block of code when we can make the thread go to sleep for a set amount of time. `vTaskDelay(/* num of ticks */)` will let the task sleep for a certain number of ticks. Notice this is not seconds, as 1 tick = 1/100 second. There is a simple macro to convert ticks to seconds and can be used as a parameter in the vTaskDelay function to sleep for a certain number of milliseconds: `vTaskDelay( pdMS_TO_TICKS(/* ms to sleep */) )`.
     * > Side note: if you are trying to make an LED flash or stay lit for a certain period of time, the vTaskDelay call in that particular task function should make that task trivial.
