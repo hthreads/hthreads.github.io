@@ -8,72 +8,72 @@ nav_order: 2
 
 # Weekly Schedule
 
-| Week 1        | Lecture Topic                          | Assignment          |
+| Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :------------------------------: | --------------------:|
 | Mon   | Course Introduction |  Read chapter 1     |
 | Weds  | Course Introduction |  Install Xilinx Tools |
-| Fri   | C Review and Bit Twiddling | Homework #1 Assigned   |
-| **Week 2**       |  **Lecture Topic**                        | **Assignment**          |
+| Fri   | Embedded Systems Platforms | Homework #1 Assigned   |
+| **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
+| Mon   | Embedded Systems Platforms |      |
+| Weds  | Embedded Programming |   |
+| Fri   | Embedded Programming |    |
+| **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
+| Mon   | Labor Day |      |
+| Weds  | Serial Communications |   |
+| Fri   | UARTs |    |
+| **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
+| Mon   | UARTs |       |
+| Weds  | UARTs |   |
+| Fri   | Sampling |    |
+| **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
+| Mon   | A/D Conversion |      |
+| Weds  | A/D Conversion |   |
+| Fri   | A/D Conversion |    |
+| **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |      |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 3**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |      |
-| Weds  |  |   |
-| Fri   |  |    |
-| **Week 4**       |  **Lecture Topic**                        | **Assignment**          |
+| **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |       |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 5**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |      |
-| Weds  |  |   |
-| Fri   |  |    |
-| **Week 6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |      |
-| Weds  |  |   |
-| Fri   |  |    |
-| **Week 7**       |  **Lecture Topic**                    |     **Assignment**      |
+| **Week 8 10/9-10/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 8**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |       |
-| Weds  |  |   |
-| Fri   |  |    |
-| **Week 9**       |  **Lecture Topic**                    |     **Assignment**      |
+| **Week 9 10/16-10/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |     |
 | Weds  | |   |
 | Fri   |  |    |
-| **Week 10**       |  **Lecture Topic**                        | **Assignment**          |
+| **Week 10 10/23-10/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 11**       |  **Lecture Topic**                        | **Assignment**          |
+| **Week 11 10/30-11/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 12**       |  **Lecture Topic**                        | **Assignment**          |
+| **Week 12 11/6-11/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 13**       |  **Lecture Topic**                        | **Assignment**          |
+| **Week 13 11/13-11/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 14**       |  **Lecture Topic**                        | **Assignment**          |
+| **Week 14 11/20-11/24**       |  **Lecture Topic**                        | **Assignment**          |
+| Mon   |  |       |
+| Weds  |  Thanksgiving Break! |   |
+| Fri   |  Thanksgiving Break!|    |
+| **Week 15 11/27-12/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
 | Fri   |  |    |
-| **Week 15**       |  **Lecture Topic**                        | **Assignment**          |
+| **Week 16 12/4-12/8**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
-| Weds  |  |   |
-| Fri   |  |    |
-| **Week 16**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |       |
-| Weds  |  |   |
-| Fri   |  |    |
-| **Final**       |  **Date**                    |          |
+| Weds  |  Semester Review| All Materials Due Before Friday  |
+| Fri   |  Reading Day|   |
+| **Final 12/8**       |  **3:00pm - 5pm **                    | Final is not comprehensive         |
 
 
 
