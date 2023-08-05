@@ -39,8 +39,8 @@ nav_order: 2
 | Fri   |  |    |
 | **Week 8 10/9-10/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
-| Weds  |  |   |
-| Fri   |  |    |
+| Weds  | **Midterm Review** |   |
+| Fri   | **Midterm Exam** |    |
 | **Week 9 10/16-10/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |     |
 | Weds  | |   |
