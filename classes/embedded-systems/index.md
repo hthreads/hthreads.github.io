@@ -15,6 +15,8 @@ This class will make use of the Xilinx/Digilent Arty7 Development Board. This de
 
 ## [Syllabus](./syllabus.md)
 
+## Textbook
+[CSCE 4114:Embedded Systems](https://www.zybooks.com), Frank Vahid, Tony Givargis, Bailey Miller, zybooks
 
 ## Schedule
 
@@ -24,6 +26,5 @@ All lectures can be found through the following link: [CSCE 4114 Lecture Page](.
 
 All lab projects can be found through the following link: [CSCE 4114 Lab Page](./labs).
 
-## Copyright
-All lab materials created by Jason Agron (Summer, 2007). Feel free to use the labs for educational purposes, but please give credit to Jason and the CSDL lab at the University of Kansas and University of Arkansas.
+
 
