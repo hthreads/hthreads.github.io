@@ -19,7 +19,7 @@ nav_exclude: true
 
 
 ## Description
-In laboratory 1 you will complete a provided boilerplate design of a system-on-chip (SoC) using the Xilinx-Vivado development suite and targeted at the Arty-A7-35 development boardOpen this document with ReadSpeaker docReader . Your design will contain a MicroBlaze soft-processor, a serial port, and three GPIO devices that interface with components on the Arty board. The processor will be connected to the serial port and GPIO peripherals in a shared-bus architecture. You will then program this SoC using the C programming language, to print out your name and student ID five times to the screen of a desktop computer which is connected to the Arty-7 development board using the serial port. There will be 3 screenshot requirements for your report, so ensure you read the following instructions carefully.
+In laboratory 1 you will complete a provided boilerplate design of a system-on-chip (SoC) using the Xilinx-Vivado development suite and targeted at the [Arty-A7-35](https://www.xilinx.com/products/boards-and-kits/1-elhaap.html) development board. Your design will contain a MicroBlaze soft-processor, a serial port, and three GPIO devices that interface with components on the Arty board. The processor will be connected to the serial port and GPIO peripherals in a shared-bus architecture. You will then program this SoC using the C programming language, to print out your name and student ID five times to the screen of a desktop computer which is connected to the Arty-7 development board using the serial port. There will be 3 screenshot requirements for your report, so ensure you read the following instructions carefully.
 Project Assignment
 
     Use the provided base project to create a basic system-on-chip.
