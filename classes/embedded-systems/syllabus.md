@@ -8,23 +8,24 @@ nav_order: 1
 
 ## Overview
 This course introduces students to the design and analysis of computer systems that interact with the built environment. Applications of these systems impact nearly 
-every aspect of modern life. As part of the course, students will learn about architecture, software, and hardware aspects of embedded systems development. The design of systems is a complex multi-objective optimization task, and students will develop an understanding of how to work within the parameters given to meet constraints (e.g. real-time deadlines, memory, disk, connectivity, power, etc.). 
+every aspect of modern life. Examples include cell phones, smart watches, home monitoring systems, medical devices, automonomous (and non autonomous) vehicles, UAVs, airplanes, submarines and space vehicles.  As part of the course, students will learn about architecture, software, and hardware aspects of embedded systems development. The design of systems is a complex multi-objective optimization task, and students will develop an understanding of how to work within the parameters given to meet constraints (e.g. real-time deadlines, memory, disk, connectivity, power, etc.). 
 
 ## Textbook
-Frank Vahid, Tony Givargis, Bailey Miller, Programming Embedded Systems, Zybook
-(Optional) Marilyn Wolf, Embedded System Interfacing: Design for the Internet-of- Things (loT) and Cyber-Physical Systems (CPS), Elsevier; 2019 Edition.
+- Frank Vahid, Tony Givargis, Bailey Miller, Programming Embedded Systems, Zybook
+- (Optional) Marilyn Wolf, Embedded System Interfacing: Design for the Internet-of- Things (loT) and Cyber-Physical Systems (CPS), Elsevier; 2019 Edition.
 
 ## Lecture Topics
 | Topic | Coverage |
 | :----------- | --------------------:|
 | Introduction to embedded systems |1 week |
-| SoC & Component Technologies (FPGA SoC| .5 weeks|
-| System Programming (C programming and bit operators)| 1.5 weeks |
-| Interfacing (GPIO)  | 2 weeks |
+| SoC and Component Technologies | 1 week |
+| System Programming and Interfacing (C programming, bit operators)| 2 weeks |
+| Hardware Interfacing (GPIO) | 1 week |
 | I/O Communications, Peripherals, Polling, Interrupts, Timers (UART,PIC,Timer)  | 3 week|
 | Sampling Theory and A/D Convertors | 2 weeks|
-| Real Time Programming Models  |2 weeks|
-| RTOS's (FreeRTOS)| 3 weeks |
+| Real Time Programming Models and Requirements  |2 weeks|
+| Real Time Scheduling | 1 week |
+| RTOS's (FreeRTOS)| 2 weeks |
 | Selected topics (Trends, OS and Compiler for ES, etc ... | 1 week |
 
 ## Laboratory Component
