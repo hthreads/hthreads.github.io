@@ -14,6 +14,7 @@ has_toc: false
 
 | Date        | Lab                                                 |
 | ----------- | --------------------------------------------------- |
+| 8/21 - 8/25 | Prelab:  download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html) on home computer|
 | 8/29 - 9/2  | [Lab 1: How to build a basic SoC](./lab1)           |
 | 9/5  - 9/9  | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
 | 9/12 - 9/23 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
