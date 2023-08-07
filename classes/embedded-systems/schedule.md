@@ -10,7 +10,7 @@ nav_order: 2
 
 | Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :------------------------------: | --------------------:|
-| Mon   | [Course Introduction](../../_modules/csce-4114/4114_intro_F21.pdf) |  Read chapter 1     |
+| Mon   | [Course Introduction](../../_modules/csce-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
 | Weds  | Course Introduction |  Install Xilinx Tools |
 | Fri   | Embedded Systems Platforms | Homework #1 Assigned   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
