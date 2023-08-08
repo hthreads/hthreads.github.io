@@ -8,8 +8,7 @@ nav_order: 1
 
 ## Overview
 
-This course introduces students to the design and analysis of computer systems that interact with the built environment. Applications of these systems impact nearly 
-every aspect of modern life. Examples include cell phones, smartwatches, home monitoring systems, medical devices, autonomous (and non-autonomous) vehicles, UAVs, airplanes, submarines and space vehicles.  As part of the course, students will learn about architecture, software, and hardware aspects of embedded systems development. The design of systems is a complex multi-objective optimization task, and students will develop an understanding of how to work within the parameters given to meet constraints (e.g. real-time deadlines, memory, disk, connectivity, power, etc.).
+This course introduces students to the design and analysis of computer systems that interact with the built environment. Applications of these systems impact nearly every aspect of modern life. Examples include cell phones, smartwatches, home monitoring systems, medical devices, autonomous (and non-autonomous) vehicles, UAVs, airplanes, submarines and space vehicles.  As part of the course, students will learn about architecture, software, and hardware aspects of embedded systems development. The design of systems is a complex multi-objective optimization task, and students will develop an understanding of how to work within the parameters given to meet constraints (e.g. real-time deadlines, memory, disk, connectivity, power, etc.).
 
 ## Textbook
 
