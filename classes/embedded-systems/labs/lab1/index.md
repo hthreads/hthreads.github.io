@@ -2,7 +2,7 @@
 layout: page
 title: Lab 1
 parent: Lab Repository
-grand_parent: Embedded Systems
+grand_parent: CSCE 4114 Embedded Systems
 nav_exclude: true
 ---
 
