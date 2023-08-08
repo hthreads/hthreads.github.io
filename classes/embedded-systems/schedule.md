@@ -14,7 +14,7 @@ nav_order: 2
 | Weds  | [Course Introduction](../../_modules/csce-4114/4114_intro_F23.pdf) |   |
 | Fri   | [Pointer Review](../../_modules/csce-4114/Pointers.pdf) | Homework #1 Assigned   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Bit twiddling in C](../../_modules/csce-4114/bit-twiddling.pdf) |      |
+| Mon   | [Bit twiddling in C](../../_modules/csce-4114/bit-twiddling.pdf) |  [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf)    |
 | Weds  | Embedded Programming |   |
 | Fri   | Embedded Programming |    |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
