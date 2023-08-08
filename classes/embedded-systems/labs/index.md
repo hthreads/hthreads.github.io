@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab Repository
+title: Labs
 parent: CSCE 4114 Embedded Systems
 grand_parent: Classes
 has_children: true

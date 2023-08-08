@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lab 3
-parent: Lab Repository
+parent: Labs
 grand_parent: CSCE 4114 Embedded Systems
 nav_exclude: true
 ---
@@ -41,7 +41,7 @@ In SDK, create a new blank Application project using the base-soc.sdk workspace 
 1. To start off, we can see this lab is going to utilize waiting in varying time intervals based around the second unit. It would probably be helpful if we created a function to wait for us. Let's make a `delay_ms(int ms)` function, so we can reuse it in other portions of this lab and possible future labs:
     * Copy/paste the following to your source code file:
 
-```C
+```c
 void delay_ms(int ms) 
 { 
   for(int i = 0; i < 134 * ms; i++) 
@@ -53,15 +53,15 @@ void delay_ms(int ms)
 
 *You may need to tweak the loop so that it approximates a second when delay_ms(1000) is called.*
 
-Now that you have a working delay function, you can delay for one second by calling `delay_ms(1000)`; in your main function. Create a `while(1)` section in your main function and create the desired functionality described above using what you have learned from last lab. It would be helpful to break the individual sub-routines down into functions for organization and modularity.
+Now that you have a working delay function, you can delay for one second by calling `delay_ms(1000);` in your main function. Create a `while(1)` section in your main function and create the desired functionality described above using what you have learned from last lab. It would be helpful to break the individual sub-routines down into functions for organization and modularity.
 
 **Step 2:**
 
-You will factor your code into a Finite State Machine model for creating state transitions. You should be familiar with FSM models from Digital Design and System Synthesis. At a high level, an FSM is an abstract machine or mathematical model that describes the transitions from a current state and set of inputs to a next state with a set of outputs. FSMs are very convenient for modeling and implementing the behaviors of embedded and real time systems as a series of transitions that result from the presence of external inputs (sensors, buttons) that result in the setting of external outputs (actuators, relays etc). You should have some experience from Digital Design and System Synthesis in writing Moore and Mealy FSMs in Verilog or VHDL. We can model an FSM in C using the switch(), case 1, case 2.... constructs.
+You will factor your code into a Finite State Machine model for creating state transitions. You should be familiar with FSM models from Digital Design and System Synthesis. At a high level, an FSM is an abstract machine or mathematical model that describes the transitions from a current state and set of inputs to a next state with a set of outputs. FSMs are very convenient for modeling and implementing the behaviors of embedded and real time systems as a series of transitions that result from the presence of external inputs (sensors, buttons) that result in the setting of external outputs (actuators, relays etc). You should have some experience from Digital Design and System Synthesis in writing Moore and Mealy FSMs in Verilog or VHDL. We can model an FSM in C using the switch(), case 1, case 2... constructs.
 
 Below is a skeleton template (not complete) of an FSM for the Fayetteville bike crossing.
 
-```C
+```c
 typedef enum 
 {RED, GREEN, FLASH_RED_START, FLASH_RED_END} State; 
 
