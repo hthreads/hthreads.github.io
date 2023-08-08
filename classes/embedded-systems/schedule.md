@@ -12,9 +12,9 @@ nav_order: 2
 | :----------- | :------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/csce-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
 | Weds  | [Course Introduction](../../_modules/csce-4114/4114_intro_F23.pdf) |   |
-| Fri   | Embedded Systems Platforms | Homework #1 Assigned   |
+| Fri   | [Pointer Review](../../_modules/csce-4114/Pointers.pdf) | Homework #1 Assigned   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Embedded Systems Platforms |      |
+| Mon   | [Bit twiddling in C](../../_modules/csce-4114/bit-twiddling.pdf) |      |
 | Weds  | Embedded Programming |   |
 | Fri   | Embedded Programming |    |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
