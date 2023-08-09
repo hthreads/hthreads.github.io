@@ -1,0 +1,53 @@
+{%- comment -%}
+Include as: {%- include components/breadcrumbs.html -%}
+Depends on: page, site.
+Results in: HTML for the breadcrumbs component.
+Overwrites:
+pages_list, parent_page, grandparent_page.
+{%- endcomment -%}
+
+{%- if page.url != "/" and page.parent -%}
+  <!-- Create iterable array of pages with titles and children -->
+  {%- assign pages_list = site[page.collection]
+    | default: site.html_pages
+    | where_exp: "item", "item.title != nil"
+    | where_exp: "item", "item.has_children != nil" -%}
+
+  <!-- Create iterable array of url fragments -->
+  {%- assign url_fragments = page.url 
+    | remove_first: '/'
+    | split: "/" -%}
+
+  <!-- Array initializer -->
+  {%- assign ancestors = "," | split: "," -%}
+
+  <!-- Backtrack from current page and fill ancestor array -->
+  {%- for _ in url_fragments -%}
+    {%- if forloop.first -%}
+      {%- assign current = page -%}
+    {%- else -%}
+      {%- assign current = pages_list
+        | where: "title", current.parent
+        | first -%}
+      {%- assign ancestors = ancestors | push: current -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  <!-- Reverse array to get ancestors in correct order -->
+  {%- assign ancestors = ancestors | reverse -%}
+
+  <!-- Output breadcrumbs -->
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumb-nav-list">
+      {% for ancestor in ancestors %}
+        <li class="breadcrumb-nav-list-item">
+          <a href="{{ancestor.url | relative_url}}">{{ ancestor.title }}</a>
+        </li>
+      {% endfor %}
+      <li class="breadcrumb-nav-list-item">
+        <span>{{ page.title }}</span>
+      </li>
+    </ol>
+  </nav>
+
+{%- endif -%}

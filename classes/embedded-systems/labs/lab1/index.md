@@ -6,7 +6,9 @@ grand_parent: CSCE 4114 Embedded Systems
 nav_exclude: true
 ---
 
-# Lab 1: 
+# Lab 1: Building A Basic SoC
+
+{{grandparent_page}}
 
 ## Prelab Questions
 
