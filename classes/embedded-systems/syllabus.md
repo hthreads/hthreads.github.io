@@ -32,7 +32,7 @@ This course introduces students to the design and analysis of computer systems t
 
 ## Laboratory Component
 
-This class has a laboratory component allowing students to gain hands-on experience with building an embedded system. The laboratories are structured towards a final class project. The final project may very from semester to semester.  The most recent projects result in the students building an autonomous car that follows a track and avoids obstacles.
+This class has a laboratory component allowing students to gain hands-on experience designing,building, and testing an embedded system. Laboratories throughout the semester build towards a final class project. The final project is at the discretion of the Instruction and may vary from semester to semester.  Most recently students build an autonomous car controlled by an SoC implemented as soft IP in an FPGA running FreeRTOS using multiple sensors to control servo motors for the car to follow a track and avoid obstacles.
 
 ## Learning Outcomes
 
