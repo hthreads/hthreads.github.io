@@ -19,16 +19,16 @@ This course introduces students to the design and analysis of computer systems t
 
 | Topic                                                                           | Coverage |
 |:------------------------------------------------------------------------------- | --------:|
-| Introduction to embedded systems                                                |   1 week |
-| SoC and Component Technologies                                                  |   1 week |
-| System Programming and Interfacing (C programming, bit operators)               |  2 weeks |
-| Hardware Interfacing (GPIO)                                                     |   1 week |
-| I/O Communications, Peripherals, Polling, Interrupts, Timers (UART, PIC, Timer) |   3 week |
-| Sampling Theory and A/D Convertors                                              |  2 weeks |
+| Characteristics of Embedded Systems                                             |  1 week |
+| Basic Software Techniques                                                       |  2 weeks |
+| Parallel Input and Output                                                       |  1 week |
+| Asynchronous and Synchronous Serial Communications                              |  1 week |
+| Polling, Interrupts, Timers                                                     |  3 week |
+| Data Acquisition, Sampling Theory and A/D Convertors                            |  2 weeks |
 | Real Time Programming Models and Requirements                                   |  2 weeks |
-| Real Time Scheduling                                                            |   1 week |
+| Real Time Scheduling                                                            |  1 week |
 | RTOS's (FreeRTOS)                                                               |  2 weeks |
-| Selected topics (Trends, OS and Compiler for ES, etc ...)                       |   1 week |
+| Selected topics (Trends, OS and Compiler for ES, etc ...)                       |  1 week |
 
 ## Laboratory Component
 
