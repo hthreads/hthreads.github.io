@@ -18,6 +18,9 @@ has_toc: false
 
 ## Graduate Classes Offered by the CSDL Lab
 
+### CSCE 5013 Post Moore’s Law Computer Architectures 
+The end of Dennard scaling and slowdown of Moore’s law has ushered in a new era called Post Moore’s Law Computing. This course will look at the trends, applications, and emerging architectures that are defining this new era. 
+
 ### CSCE 5843 Reconfigurable Computing
 A graduate-level course on the state of the art in Reconfigurable Computing
 
@@ -39,9 +42,6 @@ An introductory course in computer organization and architecture including topic
 
 ### CSCE3613 Operating Systems
 An introduction to operating systems including topics in concepts and system structures, process management, memory management, files and storage management, distributed systems, and case studies.
-
-### EECS 388 Kansas University Computer Systems & Assembly Language (MicroBlaze-based)
-An undergraduate-level course to computer systems and assembly language that utilizes Xilinx FPGAs and MicroBlaze soft processors.
 
 ### [CSCE 4114 Embedded Systems](/classes/embedded-systems)
 A senior level/graduate-level course that covers modern Computer Architecture.
