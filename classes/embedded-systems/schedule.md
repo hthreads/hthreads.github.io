@@ -11,24 +11,24 @@ nav_order: 2
 | Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/csce-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
-| Weds  | [Course Introduction](../../_modules/csce-4114/4114_intro_F23.pdf) |   |
-| Fri   | [Pointer Review](../../_modules/csce-4114/Pointers.pdf) | Homework #1 Assigned   |
+| Weds  | [Characteristics of Embedded Systems](../../_modules/csce-4114/4114_intro_F23.pdf) |   |
+| Fri   | [Basic Software Techniques:Pointer Review](../../_modules/csce-4114/Pointers.pdf) | Homework #1 Assigned   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Bit twiddling in C](../../_modules/csce-4114/bit-twiddling.pdf) |  [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf)    |
-| Weds  | Embedded Programming |   |
-| Fri   | Embedded Programming |    |
+| Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/csce-4114/bit-twiddling.pdf) |  [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf)    |
+| Weds  | [Parallel Input/Output](../../_modules/csce-4114/data-sheets/axi-gpio.pdf) |   |
+| Fri   | More on Basic Software Techniques |    |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
-| Weds  | Serial Communications |   |
-| Fri   | UARTs |    |
+| Weds  | Asynchronous Communications |   |
+| Fri   | Asynchronous Communications |    |
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | UARTs |       |
-| Weds  | UARTs |   |
-| Fri   | Sampling |    |
+| Mon   | Asynchronous Communications |       |
+| Weds  | Time Measurement:Hardware Timers |   |
+| Fri   | Time Measurement:Hardware Timers |    |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | A/D Conversion |      |
-| Weds  | A/D Conversion |   |
-| Fri   | A/D Conversion |    |
+| Mon   |  Time Measurement:Polling|      |
+| Weds  | Waveform Generation:PWM |   |
+| Fri   | Waveform Generation:PWM|    |
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |      |
 | Weds  |  |   |
