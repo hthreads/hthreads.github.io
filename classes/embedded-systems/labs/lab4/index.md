@@ -52,7 +52,7 @@ Now, within SDK, create a new blank Application project for Lab 4. You are event
 simplicity. The goal with this mini project is get the timer to function in 1 second intervals to ensure you have everything working before trying to add timers to your existing code base and getting confused.
   * Before adding any timer code, ensure you can blink an LED or implement a binary counter timer, like the example below:
 
-```C
+```c
 void main(void)
 {
   // setup LED direction and variables...
@@ -69,10 +69,10 @@ void main(void)
 }
 ```
 
-  * You will notice if trying to run the above code that all LEDs will just look like they are lit and not counting at all. This is because the while loop is going super fast. So we can temporarily slow this down with an empty for loop somewhere in the while loop that looks like this: for(int i = 0; i < 5000; i++);. You should be able to see the individual LEDs blink now
+  * You will notice if trying to run the above code that all LEDs will just look like they are lit and not counting at all. This is because the while loop is going super fast. So we can temporarily slow this down with an empty for loop somewhere in the while loop that looks like this: `for (int i = 0; i < 5000; i++);`. You should be able to see the individual LEDs blink now
   * Now let's setup the timer before that while loop. You should have read the data sheet on the particular registers, so it should be a simple task to set the necessary bits in the following registers:
     * For this sample code, we want the LEDs to count up every second. So we want the timer to count down from a certain value and when it hits 0, it will raise a flag. So, given the timer runs off the 83.33MHz clock, counting down from 83.33 million will take exactly one second to do. Set TLR0 to 83.33 million.
-    * For TCSR0, we want to set a combination of bits in a certain order. First, set the mode to generate, set the timer to count down, we want to auto-reload the timer, and we want to load the TLR0 into the timer register. All of this can be set at once using a binary or hex number value, like this (values are not correct): *TCSR0 = 0b1001001010.
+    * For TCSR0, we want to set a combination of bits in a certain order. First, set the mode to generate, set the timer to count down, we want to auto-reload the timer, and we want to load the TLR0 into the timer register. All of this can be set at once using a binary or hex number value, like this (values are not correct): `*TCSR0 = 0b1001001010`.
     * Now to enable the timer, the data sheet says that if we load a value into the register (set bit 5 TCSR0), we need to clear that bit while enabling the timer, else the timer will not start. So again, set the TCSR0 register, but clear bit 5 while also setting the enable timer bit. The timer will now count down from 83.33 million and will raise a flag on TCSR0 (bit 8) when it hits 0.
     * Finally, to use this in action, we need to detect when that flag is set in our loop and take appropriate action to clear the flag so we can detect when the next count down hits 0. Remove the for(...) loop that was created above to slow down the while loop. This for loop and our previously created delay_ms() function stalls the processor so it has to take a considerable amount of time processing pointless instructions when it could be executing other code in the while loop. Instead, we want to make the while loop as fast as possible and not stall it with a wait and instead just poll the timer and see when it completes and take action to reset it. Instead, in the place of the for loop, create an if statement that can detect the complete flag bit of the timer. Something like this would work: if((*TCSR0 & 0b00100000000) == 0b00100000000). Now if and only if we have a timer that counted down zero, we want to increment our count, so move the count++ into this if statement.
     * If you were to run this code at this point, it would not work. This is because you need to clear this flag bit once you discover it is set, else you would just read the flag with every following loop. To clear the bit, the data sheet says to set the bit to 1 (yes, it already is a 1 when you read it, but they made it reset when you write a 1 to it). Add this set bit operation to the if statement.
