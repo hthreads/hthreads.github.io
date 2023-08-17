@@ -14,8 +14,8 @@ nav_order: 2
 | Weds  | [Characteristics of Embedded Systems](../../_modules/csce-4114/4114_intro_F23.pdf) |   |
 | Fri   | [Basic Software Techniques:Pointer Review](../../_modules/csce-4114/Pointers.pdf) | Homework #1 Assigned   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/csce-4114/bit-twiddling.pdf) |  [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf)    |
-| Weds  | [Parallel Input/Output](../../_modules/csce-4114/bit-twiddling.pdf) |  [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf) |
+| Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/csce-4114/bit-twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf)    |
+| Weds  | [Parallel Input/Output](../../_modules/csce-4114/bit-twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf) |
 | Fri   | More on Basic Software Techniques |    |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
