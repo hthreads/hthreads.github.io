@@ -10,7 +10,9 @@ has_toc: false
 
 # CSCE 4114/5114 Embedded Systems
 
-![arty](../../_modules/csce-4114/arty.png){: width="500" height="500"} ![arty](../../_modules/csce-4114/car-2.png){: width="500" height="500"}
+| ![arty](../../_modules/csce-4114/arty.png){: width="500" height="500"} | ![arty](../../_modules/csce-4114/car-2.png){: width="500" height="500"}|
+| - | - |
+
 ## Course Description
 
 The design and analysis of modern HW/SW co-designed embedded systems. Modern design flows and approaches for creating and controlling System on Chip integrated components. Real time and reactive modeling and implementation of control loops and data processing. System level integration techniques for multiprocessor components and accelerators.
