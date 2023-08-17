@@ -11,7 +11,7 @@ has_toc: false
 # CSCE 4114/5114 Embedded Systems
 |ArtyA7 Protoboard | Autonomous Vehicle |
 | :---: | :---: |
-| ![](../../_modules/csce-4114/arty.png) | ![](../../_modules/csce-4114/car-2.png)|
+| ![](../../_modules/csce-4114/arty.png) | ![](../../_modules/csce-4114/car-2.png =50x50)|
 
 
 ## Course Description
