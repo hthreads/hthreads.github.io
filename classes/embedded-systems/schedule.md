@@ -42,7 +42,7 @@ nav_order: 2
 | Weds  | **Midterm Review** |   |
 | Fri   | **Midterm Exam** |    |
 | **Week 9 10/16-10/20**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |     |
+| Mon   | Fall Break |     |
 | Weds  | |   |
 | Fri   |  |    |
 | **Week 10 10/23-10/27**       |  **Lecture Topic**                        | **Assignment**          |
