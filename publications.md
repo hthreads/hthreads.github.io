@@ -14,9 +14,9 @@ title: Publications
 
 ---
 ## 2023
-- MD Arafat Kabir, Ehsan Kabir, Joshua Hollis, Eli Levy-Mackay, Atiyehsadat Panahi, Jason Bakos, Miaoqing Huang, and David Andrews, "FPGA Processor In Memory Architectures (PIMs): Overlay or Overhaul?" The 33rd International Conference on Field-Programmable Logic and Applications (FPL 2023), pp. 1-7, September 2023.
+- MD Arafat Kabir, Ehsan Kabir, Joshua Hollis, Eli Levy-Mackay, Atiyehsadat Panahi, Jason Bakos, Miaoqing Huang, and David Andrews, "FPGA Processor In Memory Architectures (PIMs): Overlay or Overhaul?" The 33rd International Conference on Field-Programmable Logic and Applications (FPL 2023), pp. 1-7, September 2023. [arXiv](https://doi.org/10.48550/arXiv.2308.03914)
 - Ehsan Kabir, Daniel Coble, Joud N. Satme, Austin R.J. Downey, Jason D. Bakos, David Andrews, and Miaoqing Huang, "Accelerating LSTM-based High-Rate Dynamic System Models," The 33rd International Conference on Field-Programmable Logic and Applications (FPL 2023), pp. 1-6, September 2023.
-- MD Arafat Kabir, Joshua Hollis, Atiyehsadat Panahi, Jason Bakos, Miaoqing Huang, and David Andrews, "Making BRAMs Compute: Creating Scalable Computational Memory Fabric Overlays ," The 31st IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM 2023), pp. 1-1, May 2023.[IEEE](https://doi.org/10.1109/FCCM57271.2023.00052)
+- MD Arafat Kabir, Joshua Hollis, Atiyehsadat Panahi, Jason Bakos, Miaoqing Huang, and David Andrews, "Making BRAMs Compute: Creating Scalable Computational Memory Fabric Overlays," The 31st IEEE International Symposium On Field-Programmable Custom Computing Machines (FCCM 2023), pp. 1-1, May 2023. [IEEE](https://doi.org/10.1109/FCCM57271.2023.00052)
 
 ## 2022
 - T. Kamucheka, A. Nelson, D. Andrews and M. Huang, "A Masked Pure-Hardware Implementation of Kyber Cryptographic Algorithm," 2022 International Conference on Field-Programmable Technology (ICFPT), Hong Kong, 2022, pp. 1-1, [IEEE](https://doi.org/10.1109/ICFPT56656.2022.9974404)
