@@ -1,17 +1,17 @@
 ---
 layout: page
-title: CSCE 4114 Embedded Systems
+title: EECS 4114 Embedded Systems
 parent: Classes
 has_children: true
 nav_order: 1
 has_toc: false
 ---
 
-# CSCE 4114/5114 Embedded Systems
+# EECS 4114/5114 Embedded Systems
 
 | Arty-A7 Protoboard                       | Autonomous Vehicle                     |
 | ---------------------------------------- | -------------------------------------- |
-| ![Arty-A7 Protoboard](../../_modules/csce-4114/arty.png) | ![Autonomous Vehicle](../../_modules/csce-4114/car-2.png) |
+| ![Arty-A7 Protoboard](../../_modules/eecs-4114/arty.png) | ![Autonomous Vehicle](../../_modules/eecs-4114/car-2.png) |
 
 ## Course Description
 
@@ -23,12 +23,12 @@ This class will make use of the Xilinx/Digilent [Arty-A7-35](https://www.xilinx.
 
 ## Textbook
 
-[CSCE 4114: Embedded Systems](https://learn.zybooks.com/zybook/UARKCSCE4114AndrewsFall2023), Frank Vahid, Tony Givargis, Bailey Miller, Zybooks
+[EECS 4114: Embedded Systems](https://learn.zybooks.com/zybook/UARKCSCE4114AndrewsFall2023), Frank Vahid, Tony Givargis, Bailey Miller, Zybooks
 
 ## Schedule
 
-All lectures can be found through the following link: [CSCE 4114 Lecture Page](./schedule.md).
+All lectures can be found through the following link: [EECS 4114 Lecture Page](./schedule.md).
 
 ## Lab Repository
 
-All lab projects can be found through the following link: [CSCE 4114 Lab Page](./labs).
+All lab projects can be found through the following link: [EECS 4114 Lab Page](./labs).

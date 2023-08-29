@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schedule
-parent: CSCE 4213 Computer Architecture
+parent: EECS 4213 Computer Architecture
 grand_parent: Classes
 nav_order: 2
 ---

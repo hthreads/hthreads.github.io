@@ -2,20 +2,11 @@
 layout: page
 title: Lab 1
 parent: Labs
-grand_parent: CSCE 4114 Embedded Systems
+grand_parent: EECS 4114 Embedded Systems
 nav_exclude: true
 ---
 
 # Lab 1: Building A Basic SoC
-
-## Prelab Questions
-
-1. What is an FPGA?
-2. What is a system-on-chip? Why is it different from your desktop computer system?
-3. What does soft-core IP mean?
-4. What does it mean to cross-compile a program?
-5. Why does it take so long to configure/build the Hardware portion of your system on the FPGA?
-6. How does the desktop computer program the FPGA, how does it monitor the FPGA?
 
 ## Description
 
@@ -32,7 +23,7 @@ This may not seem like much, but at the end of this laboratory you will have cre
 **Vivado - Generating a bitstream:**
 
 1. Start by downloading the base SoC project from GitHub.
-    * **NB:** Windows users - Extract the downloaded project files to a directory close to your system root directory. E.g. `C:\labs\lab1`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for details on Windows path character limit.
+    * _**NB:** Windows users - Extract the downloaded project files to a directory close to your system root directory. E.g. `C:\labs\lab1`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for details on Windows path character limit._
 2. Open the downloaded project in Vivado 2019.1.
     * **Option 1:** In the project folder (e.g. `C:\labs\lab1`), double-click the file **eecs_4114_base.xpr**
     * **Option 2:** Start by opening Vivado 2019.1 On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the **eecs_4114_base.xpr** file.
@@ -40,7 +31,7 @@ This may not seem like much, but at the end of this laboratory you will have cre
 4. Add the AXI UARTlite soft-ip core to the design.
     1. Right-click anywhere in the board design window and select "**+ Add IP...**".
     2. Enter "Uartlite" in the search window and double-click on the "AXI Uartlite" option. The AXI Uartlite soft-ip core should appear in the block design along with a green bar at the top of the window.
-    3. In the green bar, select "Run Connection Automation". Then in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**". **_Important:** leave the S_AXI box unchecked._
+    3. In the green bar, select "Run Connection Automation". Then in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**". _**Important:** leave the S_AXI box unchecked._
     4. Almost there... Right-click the **S_AXI** port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the **M00_AXI** under **microblaze_0_axi_periph**.
     5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Do the same thing for **M00_ACLK** under **microblaze_0_axi_periph**.
 5. In the "Sources" window, right-click on the "soc.bd" file and select "Create HDL Wrapper...". The "soc.bd" file should now be nested inside "soc_wrapper.v" file.
@@ -76,3 +67,12 @@ This may not seem like much, but at the end of this laboratory you will have cre
     1. Start by selecting "Xilinx > Program FPGA" in the top menu. Nothing to change on this window, select "Program" to load the bitstream onto the FPGA.
     2. Next, select "Run > Run As > Launch On Hardware (System Debugger)"
     3. Alternatively, select "Launch On Hardware (GDB)" to launch the application in debug mode where you will have the option to step through the program. Use this option when debugging your applications.
+
+## Prelab Questions
+
+1. What is an FPGA?
+2. What is a system-on-chip? Why is it different from your desktop computer system?
+3. What does soft-core IP mean?
+4. What does it mean to cross-compile a program?
+5. Why does it take so long to configure/build the Hardware portion of your system on the FPGA?
+6. How does the desktop computer program the FPGA, how does it monitor the FPGA?

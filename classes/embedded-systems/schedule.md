@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schedule
-parent: CSCE 4114 Embedded Systems
+parent: EECS 4114 Embedded Systems
 grand_parent: Classes
 nav_order: 2
 ---
@@ -10,12 +10,12 @@ nav_order: 2
 
 | Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
-| Mon   | [Course Introduction](../../_modules/csce-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
-| Weds  | [Characteristics of Embedded Systems](../../_modules/csce-4114/4114_emboverview2_F23.pdf) |  Read Ch 2.8 |
-| Fri   | [Basic Software Techniques:Pointer Review](../../_modules/csce-4114/Pointers.pdf) | Homework #1 Assigned   |
+| Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
+| Weds  | [Characteristics of Embedded Systems](../../_modules/eecs-4114/4114_emboverview2_F23.pdf) |  Read Ch 2.8 |
+| Fri   | [Basic Software Techniques:Pointer Review](../../_modules/eecs-4114/Pointers.pdf) | Homework #1 Assigned   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/csce-4114/4114_bit_twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf)    |
-| Weds  | [Parallel Input/Output](../../_modules/csce-4114/4114_serialparallel.pdf) |  Read the [GPIO data sheet](../../_modules/csce-4114/data-sheets/axi-gpio.pdf) |
+| Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/eecs-4114/4114_bit_twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf)    |
+| Weds  | [Parallel Input/Output](../../_modules/eecs-4114/4114_serialparallel.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf) |
 | Fri   | More on Basic Software Techniques |    |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |

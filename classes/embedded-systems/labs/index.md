@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Labs
-parent: CSCE 4114 Embedded Systems
+parent: EECS 4114 Embedded Systems
 grand_parent: Classes
 has_children: true
 nav_order: 3
@@ -25,7 +25,9 @@ nav_exclude: false
 
 ## Lab Schedule
 
+{% comment %}
 {% assign modules = site.modules | where: 'course', '4114-labs' %}
 {% for module in modules %}
 {{ module }}
 {% endfor %}
+{% endcomment %}

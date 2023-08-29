@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-parent: CSCE 4114 Embedded Systems
+parent: EECS 4114 Embedded Systems
 grand_parent: Classes
 nav_order: 1
 ---
