@@ -15,7 +15,7 @@ nav_order: 2
 | Fri   | [Basic Software Techniques:Pointer Review](../../_modules/eecs-4114/Pointers.pdf) | Homework #1 Assigned   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/eecs-4114/4114_bit_twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf)    |
-| Weds  | [Parallel Input/Output](../../_modules/eecs-4114/4114_serialparallel.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf) |
+| Weds  | [Parallel Input/Output](../../_modules/eecs-4114/4114_gpio.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf) |
 | Fri   | More on Basic Software Techniques |    |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
