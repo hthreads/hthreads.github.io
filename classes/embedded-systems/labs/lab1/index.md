@@ -33,7 +33,7 @@ This may not seem like much, but at the end of this laboratory you will have cre
     2. Enter "Uartlite" in the search window and double-click on the "AXI Uartlite" option. The AXI Uartlite soft-ip core should appear in the block design along with a green bar at the top of the window.
     3. In the green bar, select "Run Connection Automation". Then in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**". _**Important:** leave the S_AXI box unchecked._
     4. Almost there... Right-click the **S_AXI** port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the **M00_AXI** under **microblaze_0_axi_periph**.
-    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Do the same thing for **M00_ACLK** under **microblaze_0_axi_periph**.
+    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (83 MHz)`**. Do the same thing for **M00_ACLK** under **microblaze_0_axi_periph**.
 5. In the "Sources" window, right-click on the "soc.bd" file and select "Create HDL Wrapper...". The "soc.bd" file should now be nested inside "soc_wrapper.v" file.
 6. Back in the "Flow Navigator" window, select "Generate Bitstream" to synthesize your design. This may take a while.
 7. After generating a bitstream, select "File > Export > Export Hardware" in the top menu. Then in the export window, select the "Include bitstream" option before exporting your design.
