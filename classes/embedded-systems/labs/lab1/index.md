@@ -22,11 +22,11 @@ This may not seem like much, but at the end of this laboratory you will have cre
 
 **Vivado - Generating a bitstream:**
 
-1. Start by downloading the base SoC project from GitHub.
-    * _**NB:** Windows users - Extract the downloaded project files to a directory close to your system root directory. E.g. `C:\labs\lab1`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for details on Windows path character limit._
+1. Start by downloading the base [SoC project from GitHub](https://github.com/tkamucheka/eecs-4114-labs).
+    * _**NB:** Windows users - Extract the downloaded files to a directory close to your system root directory. E.g. `C:\eecs-4114-labs`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for details on Windows path character limit._
 2. Open the downloaded project in Vivado 2019.1.
-    * **Option 1:** In the project folder (e.g. `C:\labs\lab1`), double-click the file **eecs_4114_base.xpr**
-    * **Option 2:** Start by opening Vivado 2019.1 On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the **eecs_4114_base.xpr** file.
+    * **Option 1:** In the project folder (e.g. `C:\eecs-4114-labs\base-soc`), double-click the file **base-soc.xpr**
+    * **Option 2:** Start by opening Vivado 2019.1 On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the **base-soc.xpr** file.
 3. In the left panel, "Flow Navigator", select the "Open Block Design" option. ![Base SoC Design](assets/base_soc.png)
 4. Add the AXI UARTlite soft-ip core to the design.
     1. Right-click anywhere in the board design window and select "**+ Add IP...**".

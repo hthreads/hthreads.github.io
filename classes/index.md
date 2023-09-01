@@ -22,7 +22,7 @@ has_toc: false
 
 ### EECS 5013 Post Moore’s Law Computer Architectures
 
-The end of Dennard scaling and slowdown of Moore’s law has ushered in a new era called Post Moore’s Law Computing. This course will look at the trends, applications, and emerging architectures that are defining this new era. 
+The end of Dennard scaling and slowdown of Moore’s law has ushered in a new era called Post Moore’s Law Computing. This course will look at the trends, applications, and emerging architectures that are defining this new era.
 
 ### EECS 5843 Reconfigurable Computing
 
