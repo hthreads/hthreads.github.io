@@ -22,7 +22,7 @@ This may not seem like much, but at the end of this laboratory you will have cre
 
 **Preamble - Adding Arty board to Vivado:**
 
-Visit [Digilent's website](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis) and follow the instructions listed under "Install Digilent's Board Files". The instructions will provide you with a [download link](https://github.com/Digilent/vivado-boards/archive/master.zip) for the board files. When you extract the archive, you only need to install "arty-a7-35", other boards are not necessary for our purposes.  
+Visit [Digilent's website](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis) and follow the instructions listed under "Install Digilent's Board Files". The instructions will provide you with a [download link](https://github.com/Digilent/vivado-boards/archive/master.zip) for the board files. When you extract the archive, you only need to install the "arty-a7-35" directory, other boards are not necessary for our purposes.  
 
 **Vivado - Generating a bitstream:**
 
