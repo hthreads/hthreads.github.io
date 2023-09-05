@@ -39,7 +39,7 @@ Visit [Digilent's website](https://digilent.com/reference/programmable-logic/gui
     3. In the green bar, select "Run Connection Automation". Then, in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**" and click "OK".
     _**Important:** leave the S_AXI box unchecked._
     4. Almost there... Right-click the **S_AXI** port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the **M00_AXI** under **microblaze_0_axi_periph** and click "OK" to make the connection.
-    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Click "OK" to automate connection of AXI, clock, and reset ports.
+    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Click "OK" to automate connection of clock and reset ports.
     6. You may need to assign an address to the AXI Uartlite soft-ip. Open the "Address Editor" window and verify that an address has been assigned to "axi_uartlite..". If not, right-click on "axi_uartlite.." and select "Auto Assign Address". ![Auto Assign UART Address](assets/addressing.png)
 5. In the "Sources" window, right-click on the "base_soc.bd" file and select "Create HDL Wrapper...". The "base_soc.bd" file should now be nested inside "base_soc_wrapper.v" file.
 6. Back in the "Flow Navigator" window, select "Generate Bitstream" to synthesize your design. This may take a while...
