@@ -26,16 +26,19 @@ This may not seem like much, but at the end of this laboratory you will have cre
     * _**NB:** Windows users - Extract the downloaded files to a directory close to your system root directory. E.g. `C:\eecs-4114-labs`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for details on Windows path character limit._
 2. Open the downloaded project in Vivado 2019.1.
     * **Option 1:** In the project folder (e.g. `C:\eecs-4114-labs\base-soc`), double-click the file **base-soc.xpr**
-    * **Option 2:** Start by opening Vivado 2019.1 On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the **base-soc.xpr** file.
+    * **Option 2:** Start by opening Vivado 2019.1. On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the **base-soc.xpr** file.
 3. In the left panel, "Flow Navigator", select the "Open Block Design" option. ![Base SoC Design](assets/base_soc.png)
+    If you are prompte
 4. Add the AXI UARTlite soft-ip core to the design.
     1. Right-click anywhere in the board design window and select "**+ Add IP...**".
     2. Enter "Uartlite" in the search window and double-click on the "AXI Uartlite" option. The AXI Uartlite soft-ip core should appear in the block design along with a green bar at the top of the window.
-    3. In the green bar, select "Run Connection Automation". Then in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**". _**Important:** leave the S_AXI box unchecked._
-    4. Almost there... Right-click the **S_AXI** port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the **M00_AXI** under **microblaze_0_axi_periph**.
-    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (83 MHz)`**. Do the same thing for **M00_ACLK** under **microblaze_0_axi_periph**.
-5. In the "Sources" window, right-click on the "base-soc.bd" file and select "Create HDL Wrapper...". The "base_soc.bd" file should now be nested inside "base_soc_wrapper.v" file.
-6. Back in the "Flow Navigator" window, select "Generate Bitstream" to synthesize your design. This may take a while.
+    3. In the green bar, select "Run Connection Automation". Then, in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**" and click "OK".
+    _**Important:** leave the S_AXI box unchecked._
+    4. Almost there... Right-click the **S_AXI** port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the **M00_AXI** under **microblaze_0_axi_periph** and click "OK" to make the connection.
+    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Click "OK" to automate connection of AXI, clock, and reset ports.
+    6. You may need to assign an address to the AXI Uartlite soft-ip. Open the "Address Editor" window and verify that an address has been assigned to "axi_uartlite..". If not, right-click on "axi_uartlite.." and select "Auto Assign Address". ![Auto Assign UART Address](assets/addressing.png)
+5. In the "Sources" window, right-click on the "base_soc.bd" file and select "Create HDL Wrapper...". The "base_soc.bd" file should now be nested inside "base_soc_wrapper.v" file.
+6. Back in the "Flow Navigator" window, select "Generate Bitstream" to synthesize your design. This may take a while...
 7. After generating a bitstream, select "File > Export > Export Hardware" in the top menu. Then in the export window, select the "Include bitstream" option before exporting your design.
 
 **SDK - Creating Software Project:**
@@ -45,7 +48,7 @@ This may not seem like much, but at the end of this laboratory you will have cre
     1. Start by entering a name for your project. E.g. "lab1"
     2. **OS Platform:** should be set to "standalone"
     3. **Hardware Platform:** default setting, "soc_wrapper_hw_platform_0"
-    4. **Processor:** default setting, microblaze_0
+    4. **Processor:** default setting, "microblaze_0"
     5. **Language:** C
     6. **Board Support Package:** Create New - e.g. "lab1_bsp"
     7. Select "Next" to open the application templates page.
