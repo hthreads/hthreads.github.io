@@ -10,13 +10,13 @@ nav_exclude: true
 
 ## Description
 
-In laboratory 1 you will complete a provided boilerplate design of a [System-on-Chip (SoC)](https://en.wikipedia.org/wiki/System_on_a_chip) using the Xilinx-Vivado development suite and targeted at the [Arty-A7-35](https://www.xilinx.com/products/boards-and-kits/1-elhaap.html) development board. Your design will contain a MicroBlaze soft-processor, a USB UART serial controller, and a DDR memory controller that interface with components on the Arty board. The processor will be connected to the serial port and DDR memory peripherals in a shared-bus architecture. You will then program this SoC using the C programming language to print out your name and student ID five times to the screen of a desktop computer which is connected to the Arty-7 development board using the USB serial port. There will be 2 screenshot requirements for your report, so ensure you read the following instructions carefully.
+In laboratory 1 you will complete a provided boilerplate design of a [System-on-Chip (SoC)](https://en.wikipedia.org/wiki/System_on_a_chip) using the Xilinx-Vivado development suite and targeted at the [Arty-A7-35](https://www.xilinx.com/products/boards-and-kits/1-elhaap.html) development board. Your design will contain a MicroBlaze soft processor, a USB UART serial controller, and a DDR memory controller that interfaces with components on the Arty board. The processor will be connected to the serial port and DDR memory peripherals in a shared-bus architecture. You will then program this SoC using the C programming language to print out your name and student ID five times to the screen of a desktop computer which is connected to the Arty-7 development board using the USB serial port. There will be 2 screenshot requirements for your report, so ensure you read the following instructions carefully.
 
 ## Project Assignment
 
-Use the provided base project to create a basic system-on-chip and add a UART serial controller to your SoC. Synthesize your system-on-chip, compile your software project, combine them into a bitstream, and download your bitstream onto the Arty-A7-35 development board. Create a software project and make it print out your name five times.
+Use the provided base project to create a basic system-on-chip and add a UART serial controller to your SoC. Synthesize your system-on-chip, compile your software project, combine them into a bitstream, and download it onto the Arty-A7-35 development board. Create a software project and make it print out your name five times.
 
-This may not seem like much, but at the end of this laboratory you will have created a system-on-chip and executed a program on top of it in a bare metal environment. This represents a very basic but fully functional embedded system.
+This may not seem like much, but at the end of this laboratory, you will have created a system-on-chip and executed a program on top of it in a bare metal environment. This represents a rudimentary but fully functional embedded system.
 
 ## Directions
 
@@ -27,19 +27,19 @@ Before opening Vivado, visit [Digilent's website](https://digilent.com/reference
 **Vivado - Generating a bitstream:**
 
 1. Start by downloading the base [SoC project from GitHub](https://github.com/tkamucheka/eecs-4114-labs).
-    * _**NB:** Windows users - Extract the downloaded files to a directory close to your system root directory. E.g. `C:\eecs-4114-labs`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for details on Windows path character limit._
+    * _**NB:** Windows users - Extract the downloaded files to a directory close to your system root directory. E.g. `C:\Users\[username]\Desktop\eecs-4114-labs`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for Windows path character limit details._
 2. Open the downloaded project in Vivado 2019.1.
-    * **Option 1:** In the project folder (e.g. `C:\eecs-4114-labs\base-soc`), double-click the file **base-soc.xpr**
+    * **Option 1:** In the project folder (e.g. `C:\Users\[username]\Desktop\eecs-4114-labs\base-soc`), double-click the file **base-soc.xpr**
     * **Option 2:** Start by opening Vivado 2019.1. On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the **base-soc.xpr** file.
 3. In the left panel, "Flow Navigator", select the "Open Block Design" option. ![Base SoC Design](assets/base_soc.png)
-    If you are prompte
+    If you are prompted.
 4. Add the AXI UARTlite soft-ip core to the design.
     1. Right-click anywhere in the board design window and select "**+ Add IP...**".
     2. Enter "Uartlite" in the search window and double-click on the "AXI Uartlite" option. The AXI Uartlite soft-ip core should appear in the block design along with a green bar at the top of the window.
     3. In the green bar, select "Run Connection Automation". Then, in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**" and click "OK".
     _**Important:** leave the S_AXI box unchecked._
     4. Almost there... Right-click the **S_AXI** port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the **M00_AXI** under **microblaze_0_axi_periph** and click "OK" to make the connection.
-    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Click "OK" to automate connection of clock and reset ports.
+    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Click "OK" to automate the connection of the clock and reset ports.
     6. You may need to assign an address to the AXI Uartlite soft-ip. Open the "Address Editor" window and verify that an address has been assigned to "axi_uartlite..". If not, right-click on "axi_uartlite.." and select "Auto Assign Address". ![Auto Assign UART Address](assets/addressing.png)
 5. In the "Sources" window, right-click on the "base_soc.bd" file and select "Create HDL Wrapper...". The "base_soc.bd" file should now be nested inside "base_soc_wrapper.v" file.
 6. Back in the "Flow Navigator" window, select "Generate Bitstream" to synthesize your design. This may take a while...
@@ -79,7 +79,7 @@ Before opening Vivado, visit [Digilent's website](https://digilent.com/reference
 
 1. Prepare a lab report: (Use the lab report template provided)
     * Give an account of what you did in this lab, what you learned, and anything you found interesting.
-    * Include the screenshots of your Uartlite controller and neighboring components, and the output of your "SDK Terminal" window.
+    * Include the screenshots of your Uartlite controller and neighboring components and the output of your "SDK Terminal" window.
     * Include essential relevant screenshots, diagrams, and code snippets necessary to your writing in the report.  
 2. Submit, separately, all your code files (e.g. the "helloworld.c" file).
     * _**NB: DO NOT** paste your code in your lab report._ 
