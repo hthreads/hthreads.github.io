@@ -28,7 +28,7 @@ In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller
 
 ### Directions
 
-__Vivado: Block Design:__
+__Vivado - Block Design:__
 
 1. In Vivado, open the "Block Design" from the "Flow Navigator" window.
 2. Double-click on the __"microblaze_0_periph"__ AXI SmartConnect and change "Number of Master Interfaces" to (3). Click "OK" to close the dialog window. You should see two additional ports appear, "M01_AXI" and "M02_AXI".
@@ -52,7 +52,7 @@ __Vivado: Block Design:__
 6. Save your block design and generate a new bitstream.
 7. Export your hardware, making sure you include the bitstream and Launch the SDK.
 
-__SDK:__
+__SDK - Creating Software Project:__
 
 ```c
 // GPIO Tutorial Using Pointers

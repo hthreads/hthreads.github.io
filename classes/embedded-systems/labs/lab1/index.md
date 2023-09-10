@@ -6,19 +6,19 @@ grand_parent: EECS 4114 Embedded Systems
 nav_exclude: true
 ---
 
-# Lab 1: Building A Basic SoC
+## Lab 1: Building A Basic SoC
 
-## Description
+### Description
 
 In laboratory 1 you will complete a provided boilerplate design of a [System-on-Chip (SoC)](https://en.wikipedia.org/wiki/System_on_a_chip) using the Xilinx-Vivado development suite and targeted at the [Arty-A7-35](https://www.xilinx.com/products/boards-and-kits/1-elhaap.html) development board. Your design will contain a MicroBlaze soft processor, a USB UART serial controller, and a DDR memory controller that interfaces with components on the Arty board. The processor will be connected to the serial port and DDR memory peripherals in a shared-bus architecture. You will then program this SoC using the C programming language to print out your name and student ID five times to the screen of a desktop computer which is connected to the Arty-7 development board using the USB serial port. There will be 2 screenshot requirements for your report, so ensure you read the following instructions carefully.
 
-## Project Assignment
+### Project Assignment
 
 Use the provided base project to create a basic system-on-chip and add a UART serial controller to your SoC. Synthesize your system-on-chip, compile your software project, combine them into a bitstream, and download it onto the Arty-A7-35 development board. Create a software project and make it print out your name five times.
 
 This may not seem like much, but at the end of this laboratory, you will have created a system-on-chip and executed a program on top of it in a bare metal environment. This represents a rudimentary but fully functional embedded system.
 
-## Directions
+### Directions
 
 **Preamble - Adding Arty board to Vivado:**
 
@@ -75,16 +75,16 @@ Before opening Vivado, visit [Digilent's website](https://digilent.com/reference
     2. Next, select "Run > Run As > Launch On Hardware (System Debugger)"
     3. Alternatively, select "Launch On Hardware (GDB)" to launch the application in debug mode where you will have the option to step through the program. Use this option when debugging your applications.
 
-## Submission
+### Submission
 
 1. Prepare a lab report: (Use the lab report template provided)
     * Give an account of what you did in this lab, what you learned, and anything you found interesting.
     * Include the screenshots of your Uartlite controller and neighboring components and the output of your "SDK Terminal" window.
     * Include essential relevant screenshots, diagrams, and code snippets necessary to your writing in the report.  
 2. Submit, separately, all your code files (e.g. the "helloworld.c" file).
-    * _**NB: DO NOT** paste your code in your lab report._ 
+    * _**NB: DO NOT** paste your code in your lab report._
 
-## Prelab Questions
+### Prelab Questions
 
 1. What is an FPGA?
 2. What is a system-on-chip? Why is it different from your desktop computer system?
