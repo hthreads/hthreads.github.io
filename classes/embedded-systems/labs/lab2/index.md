@@ -6,13 +6,13 @@ grand_parent: EECS 4114 Embedded Systems
 nav_exclude: true
 ---
 
-## Lab 2: GPIO Peripherals
+# Lab 2: GPIO Peripherals
 
-### Introductions
+## Introductions
 
 In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller which gave us the ability to see the output of our applications. We want to do more with our SoC and the peripherals built into the Arty development board. Therefore, in lab 2, we will add two GPIO controllers to gain access to buttons, switches, and LEDs on out development board. After adding the GPIO controllers, we will synthesize our design and generate a new bitstream. Some boilerplate code is supplied that demonstrates how to connect push button inputs to the green LEDs. When a button is pressed, the corresponding LEDs on the opposite side of the board will light up. You will tinker with supplied code, and observe how the pointers created are used to perform memory mapped IO. From there, you will build on the supplied code to add support for the 4 switches on the [Arty board](../../../../_modules/csce-4114/data-sheets/arty_rm.pdf) and make them control the corresponding RGB LEDs. In order to complete this laboratory successfully, you will need to understand the workings of the GPIO peripheral by reading the  [GPIO (General Purpose Input/Output)](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf).
 
-### Project Assignment
+## Project Assignment
 
 - Create a new application project within SDK to upload to the [Arty](../../../../_modules/csce-4114/data-sheets) development board:
   - Copy and paste the demo C code into your application
@@ -26,7 +26,7 @@ In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller
   - Just like the buttons in the demo code, when the status of the switches changes, print to the console the current state of the switch register.
 - Please allocate enough time outside of class to read and understand the project and the workings of the [GPIO](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf).
 
-### Directions
+## Directions
 
 __Vivado - Block Design:__
 
@@ -153,12 +153,12 @@ __Hints:__
 - For RGB LEDs and dip switches, find the memory address of __"axi_gpio_1"__ in __"base_soc_wrapper_hw_platform_0/system.hdf"__ file. Alternatively, you can find the address in the "Address Editor" window in Vivado.
 - Unlike the green LEDs register, which is only 4 bits wide, the RGB LEDs register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn an LED white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
 
-### Submission
+## Submission
 
 1. Prepare a lab report, and give an account of what you did to complete the lab.
 2. In your lab report, include a screenshot of the 2 AXI GPIO controllers you added to your design.
 3. Submit your code file.
 
-### Prelab
+## Prelab Assignment
 
 1. Read the [AXI GPIO Datasheet](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf). Familiarize yourself with the all the accessible registers inside the IP, and their offsets from the base address.
