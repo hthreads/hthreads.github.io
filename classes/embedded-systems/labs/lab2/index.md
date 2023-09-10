@@ -40,8 +40,9 @@ __Vivado: Block Design:__
     4. Double-click on the AXI GPIO IP to open the "Re-Customize IP" window.
     5. Set the __GPIO__ interface to __"led_4bits"__ and __GPIO2__ to __"push_buttons 4bits"__. Click "OK" to exit the window.
     6. Finally, select "Run Connection Automation" again, and select both GPIO and GPIO2 interfaces. Click "OK" to automate the connections.
-    7. Use the "Regenerate Layout" button to reorganize things in your block design. ![Regenerate Layout](./assets/regenerate_layout.png).
     ![AXI GPIO 0](./assets/axi_gpio_0.png)
+    7. Use the "Regenerate Layout" button to reorganize things in your block design. 
+    ![Regenerate Layout](./assets/regenerate_layout.png).
 4. Add another AXI GPIO controller to your design:
     1. This time, connect the __"S_AXI"__ port to __"M02_AXI"__ port on __"microblaze_0_periph"__.
     2. Use the same 81 MHz clock you used earlier.
