@@ -150,8 +150,8 @@ int main(void)
 
 __Hints:__
 
-- For RGB LEDs and dip switches, find the memory address of "axi_gpio_1" in __"base_soc_wrapper_hw_platform_0/system.hdf"__ file. Alternatively, you can find the address in the "Address Editor" window in Vivado.
-- Unlike the green LEDs register, which is only 4 bits wide, the RGB LEDs register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn an LED white, write 1's to all three color channels.
+- For RGB LEDs and dip switches, find the memory address of __"axi_gpio_1"__ in __"base_soc_wrapper_hw_platform_0/system.hdf"__ file. Alternatively, you can find the address in the "Address Editor" window in Vivado.
+- Unlike the green LEDs register, which is only 4 bits wide, the RGB LEDs register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn an LED white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
 
 ### Submission
 
