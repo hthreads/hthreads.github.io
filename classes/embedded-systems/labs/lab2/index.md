@@ -50,6 +50,84 @@ __Vivado: Block Design:__
 
 __SDK:__
 
+```c
+// GPIO Tutorial Using Pointers
+
+/*
+ * Because printf utilizes a UNIX-like streaming interface that has a buffer,
+ * xil_printf is preferred as it has a smaller overhead (1KB), no buffer (it
+ * prints immediately), but doesn't support printing floats or long long types.
+ */
+#include "xil_printf.h"
+
+/*
+ * Define statements: These statements are known as "preprocessor directives"
+ * as they are essentially macros that are replaced with their values before
+ * compilation. These are NOT global variables, just helpful values to refer to
+ * constant values. It's a common/best practice to make these macros in CAPS.
+ *
+ * Again, DO NOT use them in place of variable declarations.
+ *
+ * It's common in embedded systems to have a "board.h" or "gpio.h" header file
+ * referenced that just has all of the useful registers #defined for you.
+ */
+
+#define AXI_GPIO_0_BASE_ADDR 0x40000000
+
+#define GREEN_LEDS_BASE_ADDR (AXI_GPIO_0_BASE_ADDR)
+#define PUSH_BTNS_BASE_ADDR  (AXI_GPIO_0_BASE_ADDR + 8)
+
+#define GREEN_LEDS_REG (unsigned *)(GREEN_LEDS_BASE_ADDR)
+#define PUSH_BTNS_REG (unsigned *)(PUSH_BTNS_BASE_ADDR)
+
+int main(void)
+{
+  // Data and tristate register ptrs for the 4 green LEDs on the Arty board
+  unsigned *greenLEDsData = GREEN_LEDS_REG;
+  unsigned *greenLEDsTri  = GREEN_LEDS_REG + 1;
+
+  // Data and tristate register ptrs for the 4 push buttons on the Arty board
+  unsigned *buttonsData = PUSH_BTNS_REG;
+  unsigned *buttonsTri  = PUSH_BTNS_REG + 1;
+
+  // Let's display our addresses now to see what the macros did:
+  // You'll note the tri-state ptrs have an offset of 4 from the "+ 1" above.
+  // This is because the size of an integer takes up 4 bytes, so every + 1 is
+  // really addr + sizeof(int). You can use any base to increment the numbers
+  print("\r\nBegin...\r\n\r\n\tRegister Offsets:\r\n");
+  xil_printf("\tgreenLEDsData register \t= 0x%08x\r\n", (int)greenLEDsData);
+  xil_printf("\tgreenLEDsTri register \t= 0x%08x\r\n", (int)greenLEDsTri);
+  xil_printf("\tbuttonsData register \t= 0x%08x\r\n", (int)buttonsData);
+  xil_printf("\tbuttonsTri register \t= 0x%08x\r\n", (int)buttonsTri);
+
+  // Set the tri-state direction of the AXI_GPIO_0 pins.
+  // Buttons = inputs, LEDs = outputs
+  // (input = high, output = low)
+  *greenLEDsTri = 0x0;
+  *buttonsTri = 0xF;
+
+  // Used to determine if the program should print to console
+  int oldButtonsData = 0;
+
+  // Infinite loop
+  while(1)
+  {
+    // Set the LEDs register to be the same as the buttons current reading
+    *greenLEDsData = *buttonsData;
+
+    // To avoid spamming the COM terminal with each loop, let's only print if the
+    // status of the buttons register has changed:
+    if (*buttonsData != oldButtonsData)
+    {
+        oldButtonsData = *buttonsData;
+        xil_printf("buttonsData register: 0x%08x\r\n", *buttonsData);
+    }
+  }
+
+  return 0;
+}
+```
+
 1. Create a new application project.
     1. Give your application a name (e.g. lab2)
     2. For "__Board Support Package:__", "Create New"
@@ -68,4 +146,4 @@ __SDK:__
 
 ### Prelab
 
-1. Read the [AXI GPIO datasheet](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf). Familiarize yourself with the all the accessible registers inside the IP, and their offsets from the base address.
+1. Read the [AXI GPIO Datasheet](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf). Familiarize yourself with the all the accessible registers inside the IP, and their offsets from the base address.
