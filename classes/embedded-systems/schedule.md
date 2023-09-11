@@ -19,11 +19,11 @@ nav_order: 2
 | Fri   | More on Basic Software Techniques |    |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
-| Weds  | Asynchronous Communications |   |
-| Fri   | Asynchronous Communications |    |
+| Weds  | Lab 1 makeup |   |
+| Fri   | Tips on Vivado |    |
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Asynchronous Communications |       |
-| Weds  | Time Measurement:Hardware Timers |   |
+| Weds  |  Asynchronous Communications|   |
 | Fri   | Time Measurement:Hardware Timers |    |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  Time Measurement:Polling|      |
