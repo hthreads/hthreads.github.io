@@ -22,7 +22,7 @@ nav_order: 2
 | Weds  | Lab 1 makeup |   |
 | Fri   | Tips on Vivado |    |
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Asynchronous Communications |       |
+| Mon   | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) |       |
 | Weds  |  Asynchronous Communications|   |
 | Fri   | Time Measurement:Hardware Timers |    |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
