@@ -10,11 +10,11 @@ nav_exclude: true
 
 ## Introduction
 
-In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller which gave us the ability to see the output of our applications. We want to do more with our SoC and the peripherals built into the Arty development board. Therefore, in lab 2, we will add two GPIO controllers to gain access to buttons, switches, and LEDs on our development board. After adding the GPIO controllers, we will synthesize our design and generate a new bitstream. Some boilerplate code is supplied that demonstrates how to connect push button inputs to the green LEDs. When a button is pressed, the corresponding LEDs on the opposite side of the board will light up. You will tinker with the supplied code, and observe how the pointers created are used to perform memory-mapped IO. From there, you will build on the supplied code to add support for the 4 switches on the [Arty board](../../../../_modules/csce-4114/data-sheets/arty_rm.pdf) and make them control the corresponding RGB LEDs. In order to complete this laboratory successfully, you will need to understand the workings of the GPIO peripheral by reading the [GPIO (General Purpose Input/Output)](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf).
+In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller which gave us the ability to see the output of our applications. We want to do more with our SoC and the peripherals built into the Arty development board. Therefore, in lab 2, we will add two GPIO controllers to gain access to buttons, switches, and LEDs on our development board. After adding the GPIO controllers, we will synthesize our design and generate a new bitstream. Some boilerplate code is supplied that demonstrates how to connect push button inputs to the green LEDs. When a button is pressed, the corresponding LEDs on the opposite side of the board will light up. You will tinker with the supplied code, and observe how the pointers created are used to perform memory-mapped IO. From there, you will build on the supplied code to add support for the 4 switches on the [Arty board](./assets/datasheets/arty_rm.pdf) and make them control the corresponding RGB LEDs. In order to complete this laboratory successfully, you will need to understand the workings of the GPIO peripheral by reading the [GPIO (General Purpose Input/Output)](./assets/datasheets/axi-gpio.pdf).
 
 ## Project Assignment
 
-- Create a new application project within SDK to upload to the [Arty](../../../../_modules/csce-4114/data-sheets) development board:
+- Create a new application project within SDK to upload to the [Arty](./assets/datasheets/arty_rm.pdf) development board:
   - Copy and paste the demo C code into your application
   - Load the demo code onto the Arty to observe the pointers in action
 - Add to the existing code to create the following functionality:
@@ -24,7 +24,7 @@ In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller
   - When SW3 (far left) switch is in the up position, LD3 (far left) will glow white.
   - When the respective switch is down position, the respective LED will turn off.
   - Just like the buttons in the demo code, when the status of the switches changes, print to the console the current state of the switch register.
-- Please allocate enough time outside of class to read and understand the project and the workings of the [GPIO](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf).
+- Please allocate enough time outside of class to read and understand the project and the workings of the [GPIO](./assets/datasheets/axi-gpio.pdf).
 
 ## Directions
 
@@ -32,7 +32,7 @@ __Vivado - Block Design:__
 
 1. In Vivado, open the "Block Design" from the "Flow Navigator" window.
 2. Double-click on the __"microblaze_0_periph"__ AXI SmartConnect and change "Number of Master Interfaces" to (3). Click "OK" to close the dialog window. You should see two additional ports appear, "M01_AXI" and "M02_AXI".
-![microblaze_0_periph](./assets/smartconnect.png)
+![microblaze_0_periph](./assets/images/smartconnect.png)
 3. Use the "__+ Add IP__" feature to add the AXI GPIO IP to your design:
     1. Right-click on the "S_AXI" port on the GPIO controller and select "Make Connection...".
     2. Choose "M01_AXI" in the "Make Connection" window and click "OK" to make the connection.
@@ -40,14 +40,14 @@ __Vivado - Block Design:__
     4. Double-click on the AXI GPIO IP to open the "Re-Customize IP" window.
     5. Set the __GPIO__ interface to __"led_4bits"__ and __GPIO2__ to __"push_buttons 4bits"__. Click "OK" to exit the window.
     6. Finally, select "Run Connection Automation" again, and select both GPIO and GPIO2 interfaces. Click "OK" to automate the connections.
-    ![AXI GPIO 0](./assets/axi_gpio_0.png)
+    ![AXI GPIO 0](./assets/images/axi_gpio_0.png)
     7. Use the "Regenerate Layout" button to reorganize things in your block design. 
-    ![Regenerate Layout](./assets/regenerate_layout.png).
+    ![Regenerate Layout](./assets/images/regenerate_layout.png).
 4. Add another AXI GPIO controller to your design:
     1. This time, connect the __"S_AXI"__ port to __"M02_AXI"__ port on __"microblaze_0_periph"__.
     2. Use the same 81 MHz clock you used earlier.
     3. Then connect __GPIO__ and __GPIO2__ interfaces to __"rgb led"__ and __"dip switch 4bits"__ respectively.
-    ![AXI GPIO 1](./assets/axi_gpio_1.png)
+    ![AXI GPIO 1](./assets/images/axi_gpio_1.png)
 5. Use the "Address Editor" window to assign addresses to the GPIO IPs you just added.
 6. Save your block design and generate a new bitstream.
 7. Export your hardware, making sure you include the bitstream and Launch the SDK.
@@ -161,4 +161,4 @@ __Hints:__
 
 ## Prelab Assignment
 
-1. Read the [AXI GPIO Datasheet](../../../../_modules/csce-4114/data-sheets/axi-gpio.pdf). Familiarize yourself with all the accessible registers inside the IP, and their offsets from the base address.
+1. Read the [AXI GPIO Datasheet](./assets/datasheets/axi-gpio.pdf). Familiarize yourself with all the accessible registers inside the IP, and their offsets from the base address.
