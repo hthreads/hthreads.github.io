@@ -32,6 +32,15 @@ footer_content:
 # For copy button on code
 enable_copy_code_button: true
 
+# Callouts
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: yellow
+
 # Collections for website data
 collections:
   staffers:
