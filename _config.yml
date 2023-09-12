@@ -33,13 +33,22 @@ footer_content:
 enable_copy_code_button: true
 
 # Callouts
+callouts_level: quiet # or loud
 callouts:
-  warning:
-    title: Warning
-    color: red
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
   note:
     title: Note
     color: yellow
+  warning:
+    title: Warning
+    color: red
 
 # Collections for website data
 collections:
