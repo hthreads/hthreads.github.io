@@ -8,6 +8,18 @@ nav_exclude: true
 
 # Lab 2: GPIO Peripherals
 
+{: .note }
+> Redownload the [starter project](https://github.com/tkamucheka/eecs-4114-labs) before attempting this lab. The new starter project incorporates the following changes:
+>
+> 1. The AXI SmartConnects are replaced with AXI InterConnects. The AXI SmartConnects' internal circuitry does not adapt to accommodate addition of new peripherals in this and potentially future labs. This is either by design or a bug in the IP...  
+> 2. An additional AXI Instruction port on the MicroBlaze. We'll need this later in the semester when we move our applications from local memory to DDR memory.
+>
+> __Things to do before you start this lab:__ 
+>
+> 1. Add the __UARTLite IP__ to your design. Following instructions in [Lab 1: Vivado - Generating a bitstream (4)](../lab1/index.md#directions){: target="_blank"}.
+> 2. Assign an address to the __UARTLite IP__ in the "Address Editor" window.
+> 3. Create an HDL wrapper for your block design.
+
 ## Introduction
 
 In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller which gave us the ability to see the output of our applications. We want to do more with our SoC and the peripherals built into the Arty development board. Therefore, in lab 2, we will add two GPIO controllers to gain access to buttons, switches, and LEDs on our development board. After adding the GPIO controllers, we will synthesize our design and generate a new bitstream. Some boilerplate code is supplied that demonstrates how to connect push button inputs to the green LEDs. When a button is pressed, the corresponding LEDs on the opposite side of the board will light up. You will tinker with the supplied code, and observe how the pointers created are used to perform memory-mapped IO. From there, you will build on the supplied code to add support for the 4 switches on the [Arty board](./assets/datasheets/arty_rm.pdf) and make them control the corresponding RGB LEDs. In order to complete this laboratory successfully, you will need to understand the workings of the GPIO peripheral by reading the [GPIO (General Purpose Input/Output)](./assets/datasheets/axi-gpio.pdf).
@@ -149,9 +161,11 @@ int main(void)
     - Just like the buttons in the demo code, when the status of the switches changes, print to the console the current state of the switch register.
 
 __Hints:__
+{: .label .label-green}
 
 - For RGB LEDs and dip switches, find the memory address of __"axi_gpio_1"__ in __"base_soc_wrapper_hw_platform_0/system.hdf"__ file. Alternatively, you can find the address in the "Address Editor" window in Vivado.
-- Unlike the green LED register, which is only 4 bits wide, the RGB LED register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn an LED white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
+- Unlike the green LED register, which is only 4 bits wide, the RGB LED register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn LD0 white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
+- You can use bit-wise boolean operations to toggle bits in a register. Refer to class slides on bit twiddling in C.
 
 ## Submission
 
