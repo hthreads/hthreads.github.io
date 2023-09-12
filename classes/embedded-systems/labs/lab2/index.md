@@ -16,8 +16,8 @@ nav_exclude: true
 >
 > __Things to do before you start this lab:__ 
 >
-> 1. Add the __UARTLite IP__ to your design. Following instructions in [Lab 1: Vivado - Generating a bitstream (4)](../lab1/index.md#directions){: target="_blank"}.
-> 2. Assign an address to the __UARTLite IP__ in the "Address Editor" window.
+> 1. Add the __AXI Uartlite IP__ to your design. Following instructions in [Lab 1: Vivado - Generating a bitstream (4)](../lab1/index.md#directions){: target="_blank"}.
+> 2. Assign an address to the __UartLite IP__ in the "Address Editor" window.
 > 3. Create an HDL wrapper for your block design.
 
 ## Introduction
@@ -43,26 +43,29 @@ In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller
 __Vivado - Block Design:__
 
 1. In Vivado, open the "Block Design" from the "Flow Navigator" window.
-2. Double-click on the __"microblaze_0_periph"__ AXI SmartConnect and change "Number of Master Interfaces" to (3). Click "OK" to close the dialog window. You should see two additional ports appear, "M01_AXI" and "M02_AXI".
-![microblaze_0_periph](./assets/images/smartconnect.png)
+2. Double-click on the __"microblaze_0_periph"__ AXI SmartConnect and change "Number of Master Interfaces" to (3). Click "OK" to close the dialog window. You should see two additional ports appear, __"M01_AXI"__ and __"M02_AXI"__.
+![microblaze_0_periph](./assets/images/axi_interconnect.png)
 3. Use the "__+ Add IP__" feature to add the AXI GPIO IP to your design:
-    1. Right-click on the "S_AXI" port on the GPIO controller and select "Make Connection...".
-    2. Choose "M01_AXI" in the "Make Connection" window and click "OK" to make the connection.
-    3. Select "Run Connection Automation". Then select __"s_axi_clk"__ and set "Clock Source:" to __"/mig_7series_0/ui_clk (81 MHz)__.
+    1. Right-click on the __"S_AXI"__ port on the GPIO controller and select "Make Connection...".
+    2. Choose __"M01_AXI"__ in the "Make Connection" window and click "OK" to make the connection.
+    3. Select "Run Connection Automation". Then select __"s_axi_clk"__ and __"M01_ACLK"__ and set __"Clock Source:"__ to `/mig_7series_0/ui_clk (81 MHz)`.
     4. Double-click on the AXI GPIO IP to open the "Re-Customize IP" window.
-    5. Set the __GPIO__ interface to __"led_4bits"__ and __GPIO2__ to __"push_buttons 4bits"__. Click "OK" to exit the window.
-    6. Finally, select "Run Connection Automation" again, and select both GPIO and GPIO2 interfaces. Click "OK" to automate the connections.
+    5. Set the __GPIO__ interface to `led_4bits` and __GPIO2__ to `push_buttons 4bits`. Click "OK" to exit the window.
+    6. Finally, select "Run Connection Automation" again, and select both __GPIO__ and __GPIO2__ interfaces. Click "OK" to automate the connections.
     ![AXI GPIO 0](./assets/images/axi_gpio_0.png)
-    7. Use the "Regenerate Layout" button to reorganize things in your block design. 
+    7. Use the "Regenerate Layout" button to reorganize things in your block design.
     ![Regenerate Layout](./assets/images/regenerate_layout.png).
 4. Add another AXI GPIO controller to your design:
     1. This time, connect the __"S_AXI"__ port to __"M02_AXI"__ port on __"microblaze_0_periph"__.
-    2. Use the same 81 MHz clock you used earlier.
-    3. Then connect __GPIO__ and __GPIO2__ interfaces to __"rgb led"__ and __"dip switch 4bits"__ respectively.
+    2. For __"s_axi_clk"__ and __"M02_ACLK"__, use the same `/mig_7series_0/ui_clk (81 MHz)` clock you used earlier.
+    3. Then connect __GPIO__ and __GPIO2__ interfaces to `rgb led` and `dip switch 4bits`, respectively.
     ![AXI GPIO 1](./assets/images/axi_gpio_1.png)
 5. Use the "Address Editor" window to assign addresses to the GPIO IPs you just added.
+  ![Address Editor](./assets/images/address_editor.png)
 6. Save your block design and generate a new bitstream.
-7. Export your hardware, making sure you include the bitstream and Launch the SDK.
+7. Export your hardware, making sure you include the bitstream, and Launch the SDK.
+
+__Final Block Design (PDF Version):__ [Block Design](./assets/datasheets/block_design.pdf){: target="_blank"}
 
 __SDK - Creating Software Project:__
 
@@ -148,7 +151,7 @@ int main(void)
     1. Give your application a name (e.g. lab2).
     2. For __"Board Support Package:"__, select "Create New".
     3. On the next page, select "Empty Application", and select "Finish".
-    4. Right-click on "lab2/src", and select "New > Source File".
+    4. Right-click on `lab2/src`, and select `New > Source File`.
     5. Enter "main.c" in __"Source File:"__ and select "Finish".
     6. Copy the example code into your "main.c" file.
     7. Program the FPGA and run the application to see the green LEDs respond to button presses.
@@ -157,14 +160,14 @@ int main(void)
     - When SW1 switch is in the up position, LD1 will glow white.
     - When SW2 switch is in the up position, LD2 will glow white.
     - When SW3 (far left) switch is in the up position, LD3 (far left) will glow white.
-    - When the respective switch is down position, the respective LED will turn off.
+    - When the respective switch is in the down position, the respective LED will turn off.
     - Just like the buttons in the demo code, when the status of the switches changes, print to the console the current state of the switch register.
 
 __Hints:__
 {: .label .label-green}
 
-- For RGB LEDs and dip switches, find the memory address of __"axi_gpio_1"__ in __"base_soc_wrapper_hw_platform_0/system.hdf"__ file. Alternatively, you can find the address in the "Address Editor" window in Vivado.
-- Unlike the green LED register, which is only 4 bits wide, the RGB LED register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn LD0 white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
+- For RGB LEDs and dip switches, find the memory address of __"axi_gpio_1"__ in the `base_soc_wrapper_hw_platform_0/system.hdf` file. Alternatively, you can find the address in the "Address Editor" window in Vivado.
+- Unlike the green LED data register, which is only 4 bits wide, the RGB LED data register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn LD0 white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
 - You can use bit-wise boolean operations to toggle bits in a register. Refer to class slides on bit twiddling in C.
 
 ## Submission

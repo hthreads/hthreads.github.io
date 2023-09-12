@@ -21,69 +21,70 @@ This may not seem like much, but at the end of this laboratory, you will have cr
 ## Directions
 
 {: .highlight}
-> **Preamble - Adding Arty board to Vivado:**
+> __Preamble - Adding Arty board to Vivado:__
 >
-> Before opening Vivado, visit [Digilent's website](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis) and follow the instructions listed under "Install Digilent's Board Files". The instructions will provide you with a [download link](https://github.com/Digilent/vivado-boards/archive/master.zip) for the board files. When you extract the archive, you only need to install the "arty-a7-35" directory, other boards are not necessary for our purposes.  
+> Before opening Vivado, visit [Digilent's website](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis) and follow the instructions listed under __"Install Digilent's Board Files"__. The instructions will provide you with a [download link](https://github.com/Digilent/vivado-boards/archive/master.zip) for the board files. When you extract the archive, you only need to install the "arty-a7-35" directory, other boards are not necessary for our purposes.  
 
-**Vivado - Generating a bitstream:**
+__Vivado - Generating a bitstream:__
 
 1. Start by downloading the base [SoC project from GitHub](https://github.com/tkamucheka/eecs-4114-labs).
-    * _**NB:** Windows users - Extract the downloaded files to a directory close to your system root directory. E.g. `C:\Users\[username]\Desktop\eecs-4114-labs`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for Windows path character limit details._
+    * ___NB:__ Windows users - Extract the downloaded files to a directory close to your system root directory. E.g. `C:\Users\[username]\Desktop\eecs-4114-labs`. Visit [this page](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) for Windows path character limit details._
 2. Open the downloaded project in Vivado 2019.1.
-    * **Option 1:** In the project folder (e.g. `C:\Users\[username]\Desktop\eecs-4114-labs\base-soc`), double-click the file **base-soc.xpr**
-    * **Option 2:** Start by opening Vivado 2019.1. On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the **base-soc.xpr** file.
-3. In the left panel, "Flow Navigator", select the "Open Block Design" option. ![Base SoC Design](assets/base_soc.png)
-    If you are prompted.
-4. Add the AXI UARTlite soft-ip core to the design.
-    1. Right-click anywhere in the board design window and select "**+ Add IP...**".
+    * __Option 1:__ In the project folder (e.g. `C:\Users\[username]\Desktop\eecs-4114-labs\base-soc`), double-click the file __base-soc.xpr__
+    * __Option 2:__ Start by opening Vivado 2019.1. On the welcome screen, select "Open Project". Use the dialog to navigate to your project directory, and open the __base-soc.xpr__ file.
+3. In the left panel, "Flow Navigator", select the "Open Block Design" option. ![Base SoC Design](assets/images/base_soc.png)
+    __PDF Version:__ [Block Design](./assets/datasheets/base_soc.pdf){: target="_blank"}
+4. Add the __AXI UARTlite__ soft-ip core to the design.
+    1. Right-click anywhere in the board design window and select "__+ Add IP...__".
     2. Enter "Uartlite" in the search window and double-click on the "AXI Uartlite" option. The AXI Uartlite soft-ip core should appear in the block design along with a green bar at the top of the window.
-    3. In the green bar, select "Run Connection Automation". Then, in the "Run Connection Automation" window, check the "UART" checkbox under "**axi_uartlite..**" and click "OK".
-    _**Important:** leave the S_AXI box unchecked._
-    4. Almost there... Right-click the **S_AXI** port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the **M00_AXI** under **microblaze_0_axi_periph** and click "OK" to make the connection.
-    5. Finally, select "Run Connection Automation" again. Select **s_axi_clk** under **axi_uartlite..** and change the "Clock Source:" option to **`/mig_7series_0/ui_clk (81 MHz)`**. Click "OK" to automate the connection of the clock and reset ports.
-    6. You may need to assign an address to the AXI Uartlite soft-ip. Open the "Address Editor" window and verify that an address has been assigned to "axi_uartlite..". If not, right-click on "axi_uartlite.." and select "Auto Assign Address". ![Auto Assign UART Address](assets/addressing.png)
+    3. In the green bar, select "Run Connection Automation". Then, in the "Run Connection Automation" window, check the "UART" checkbox under "__axi_uartlite..__" and click "OK".
+    ___Important:__ leave the __S_AXI__ box unchecked._
+    4. Almost there... Right-click the __S_AXI__ port on the AXI Uartlite core and select "Make Connection...". In the "Make Connection" window, select the __M00_AXI__ under __microblaze_0_axi_periph__ and click "OK" to make the connection.
+    5. Finally, select "Run Connection Automation" again. Select __s_axi_clk__ under __axi_uartlite..__ and change the "Clock Source:" option to `/mig_7series_0/ui_clk (81 MHz)`. Click "OK" to automate the connection of the clock and reset ports.
+    6. You may need to assign an address to the AXI Uartlite soft-ip. Open the "Address Editor" window and verify that an address has been assigned to "axi_uartlite..". If not, right-click on __"axi_uartlite.."__ and select "Auto Assign Address". ![Auto Assign UART Address](assets/images/addressing.png)
 5. In the "Sources" window, right-click on the "base_soc.bd" file and select "Create HDL Wrapper...". The "base_soc.bd" file should now be nested inside "base_soc_wrapper.v" file.
 6. Back in the "Flow Navigator" window, select "Generate Bitstream" to synthesize your design. This may take a while...
-7. After generating a bitstream, select "File > Export > Export Hardware" in the top menu. Then in the export window, select the "Include bitstream" option before exporting your design.
+7. After generating a bitstream, select `File > Export > Export Hardware` in the top menu. Then in the export window, select the "Include bitstream" option before exporting your design.
 
-**SDK - Creating Software Project:**
+__SDK - Creating Software Project:__
 
-1. To open the SDK environment, select "File > Launch SDK" in the top menu.
-2. In the SDK, select "File > New > Application Project".
+1. To open the SDK environment, select `File > Launch SDK` in the top menu.
+2. In the SDK, select `File > New > Application Project`.
     1. Start by entering a name for your project. E.g. "lab1"
-    2. **OS Platform:** should be set to "standalone"
-    3. **Hardware Platform:** default setting, "soc_wrapper_hw_platform_0"
-    4. **Processor:** default setting, "microblaze_0"
-    5. **Language:** C
-    6. **Board Support Package:** Create New - e.g. "lab1_bsp"
+    2. __OS Platform:__ should be set to "standalone"
+    3. __Hardware Platform:__ default setting, "soc_wrapper_hw_platform_0"
+    4. __Processor:__ default setting, "microblaze_0"
+    5. __Language:__ C
+    6. __Board Support Package:__ Create New - e.g. "lab1_bsp"
     7. Select "Next" to open the application templates page.
 3. Select the "Hello World" template, and click "Finish" to create your application project.
 4. In the "Project Explorer" window, open the file `lab1/src/helloworld.c`
 5. Edit this program to print your name and student ID 5 times.
-6. **Pause!** Now is a good time to make sure your FPGA dev board is plugged in.
-7. Establish a serial connection with the FPGA's serial port.
+6. __Pause!__{: .label .label-red} Now is a good time to make sure your FPGA dev board is plugged in.
+7. Combine your hardware design and application project into a single bitstream and load it onto your FPGA board.
+    1. Start by selecting `Xilinx > Program FPGA` in the top menu. Nothing to change on this window, select "Program" to load the bitstream onto the FPGA.
+8. Establish a serial connection with the FPGA's serial port.
     1. Open the "SDK Terminal" window. It will be in the bottom-center panel.
     2. Click on the plus icon to open the "Connect to serial port" dialog.
-    3. **Port:** Select a COM port from the dropdown list. If there is more than one option, the COM port with the highest numerical suffix is usually the correct option.
-    4. **Baud Rate:** 9600
-    5. **Data bits:** 8
-    6. **Stop bits:** 1
-    7. **Parity:** None
-    8. **Flow Control:** None
+    3. __Port:__ Select a COM port from the dropdown list. If there is more than one option, the COM port with the highest numerical suffix is usually the correct option.
+    4. __Baud Rate:__ 9600
+    5. __Data bits:__ 8
+    6. __Stop bits:__ 1
+    7. __Parity:__ None
+    8. __Flow Control:__ None
     9. Click "OK" to start the connection.
-8. Combine your hardware design and application project into a single bitstream and load it onto your FPGA board.
-    1. Start by selecting "Xilinx > Program FPGA" in the top menu. Nothing to change on this window, select "Program" to load the bitstream onto the FPGA.
-    2. Next, select "Run > Run As > Launch On Hardware (System Debugger)"
-    3. Alternatively, select "Launch On Hardware (GDB)" to launch the application in debug mode where you will have the option to step through the program. Use this option when debugging your applications.
+9. Run your application!
+    1. Right-click on your project (e.g. lab1) in the "Project Explorer" window and select `Run > Run As > Launch On Hardware (System Debugger)`.
+    2. Alternatively, select `Run > Run As > Launch On Hardware (System Debugger)` to launch the application in debug mode where you will have the option to step through the program and view memory/register contents interactively. Use this option when debugging your applications.
 
 ## Submission
 
 1. Prepare a lab report: (Use the lab report template provided)
     * Give an account of what you did in this lab, what you learned, and anything you found interesting.
-    * Include the screenshots of your Uartlite controller and neighboring components and the output of your "SDK Terminal" window.
+    * Include the screenshots of your __Uartlite__ controller and neighboring components and the output of your "SDK Terminal" window.
     * Include essential relevant screenshots, diagrams, and code snippets necessary to your writing in the report.  
 2. Submit, separately, all your code files (e.g. the "helloworld.c" file).
-    * _**NB: DO NOT** paste your code in your lab report._
+    * ___NB: DO NOT__ paste your code in your lab report._
 
 ## Prelab Questions
 
