@@ -23,8 +23,8 @@ nav_order: 2
 | Fri   | Tips on Vivado |    |
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) |       |
-| Weds  |  [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)|   |
-| Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |    |
+| Weds  |  [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)|  [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
+| Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |   [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  Time Measurement:Polling|      |
 | Weds  | Waveform Generation:PWM |   |
