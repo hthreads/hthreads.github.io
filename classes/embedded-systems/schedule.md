@@ -12,7 +12,7 @@ nav_order: 2
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
 | Weds  | [Characteristics of Embedded Systems](../../_modules/eecs-4114/4114_emboverview2_F23.pdf) |  Read Ch 2.8 |
-| Fri   | [Basic Software Techniques:Pointer Review](../../_modules/eecs-4114/Pointers.pdf) | Homework #1 Assigned   |
+| Fri   | [Basic Software Techniques:Pointer Review](../../_modules/eecs-4114/Pointers.pdf) | Homework #1 Assigned in Blackboard   |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/eecs-4114/4114_bit_twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf)    |
 | Weds  | [Parallel Input/Output](../../_modules/eecs-4114/4114_gpio.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf) |
@@ -22,9 +22,9 @@ nav_order: 2
 | Weds  | Lab 1 makeup |   |
 | Fri   | Tips on Vivado |    |
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) |       |
-| Weds  |  [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)|  [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
-| Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |   [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
+| Mon   | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) | Homework #2 Asssigned in Blackboard    |
+| Weds  |  [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)| Read [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
+| Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |  Read [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  Time Measurement:Polling|      |
 | Weds  | Waveform Generation:PWM |   |
