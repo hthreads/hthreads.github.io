@@ -26,8 +26,8 @@ nav_order: 2
 | Weds  |  [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)| Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |  Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  Time Measurement:Polling|      |
-| Weds  | Waveform Generation:PWM |   |
+| Mon   |  Time Measurement:Polling|  Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)    |
+| Weds  | Waveform Generation:PWM |   Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)|
 | Fri   | Waveform Generation:PWM|    |
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |      |
