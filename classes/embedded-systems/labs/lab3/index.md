@@ -10,7 +10,7 @@ nav_exclude: true
 
 In this lab you will use your Arty-7 board and knowledge of push buttons and LEDs from the previous lab to create a controller for Fayetteville’s bike/waking paths. The bike/walking path crosses streets where cyclists/walkers have a control box they can use to control the traffic lights for cars
 
-Cyclist/Walker control Boxes: One on each side of the path that crosses the road. Cyclists/Walkers push the button in the box to request a crossing and control the traffic lights.
+Cyclist/Walker control boxes: One on each side of the path that crosses the road. Cyclists/Walkers push the button in the box to request a crossing and control the traffic lights.
 
 **Traffic Lights:**
 
@@ -18,7 +18,9 @@ Cyclist/Walker control Boxes: One on each side of the path that crosses the road
 2. Solid Red: Cars must stop. This signifies a cyclist/walker is in the crosswalk.
 3. Blinking Red: Cars must slow and look for cyclists/walkers. A blinking red occurs prior to and immediately following a solid red light.
 
-Operation and control of the push button control box: When a cyclist/walker pushes the button in the control box:
+**Operation and control of the push button control box:**
+
+When a cyclist/walker pushes the button in the control box,
 
 1. If the traffic lights are green they immediately start flashing red for 6 seconds
 2. If the traffic lights are already flashing red the new button push will flash for an additional 6 seconds from the time of the new button push.
@@ -30,7 +32,7 @@ So the states in order go: green → blinking red → solid red → blinking red
 
 This is a two part lab that will run in two weeks. In the first week you will have to simulate the 4 and 6-second delays using dummy loops. In the second week you will replace the dummy loops with a timer.
 
-* **Week 1.** In the first week you will write the code to control two push buttons signifying the two cyclist/walkers control boxes and two LEDs signifying the traffic lights. After a control box is pushed, the traffic lights automatically transition between blinking red, solid red, blinking red, and then back to green. You will need to simulate this transition using delay loops. Ie., after a button is pushed the blinking red should appear for approximately 6 seconds, then switch to solid red for 4 seconds, back to blinking red for 6 seconds, and then back to green. Since you don’t have timers you will have to write nested loops that essentially do nothing useful but delay for the appropriate amount of time (approximately, can be a little fast or slow) before switching to the next color.
+* In the first week you will write the code to control two push buttons signifying the two cyclist/walkers control boxes and two LEDs signifying the traffic lights. After a control box is pushed, the traffic lights automatically transition between blinking red, solid red, blinking red, and then back to green. You will need to simulate this transition using delay loops. Ie., after a button is pushed the blinking red should appear for approximately 6 seconds, then switch to solid red for 4 seconds, back to blinking red for 6 seconds, and then back to green. Since you don’t have timers you will have to write nested loops that essentially do nothing useful but delay for the appropriate amount of time (approximately, can be a little fast or slow) before switching to the next color.
 
 You will also have to blink the red LED on and off at approximately 1 second intervals to simulate the flashing red.
 
@@ -57,7 +59,7 @@ Now that you have a working delay function, you can delay for one second by call
 
 **Step 2:**
 
-You will factor your code into a Finite State Machine model for creating state transitions. You should be familiar with FSM models from Digital Design and System Synthesis. At a high level, an FSM is an abstract machine or mathematical model that describes the transitions from a current state and set of inputs to a next state with a set of outputs. FSMs are very convenient for modeling and implementing the behaviors of embedded and real time systems as a series of transitions that result from the presence of external inputs (sensors, buttons) that result in the setting of external outputs (actuators, relays etc). You should have some experience from Digital Design and System Synthesis in writing Moore and Mealy FSMs in Verilog or VHDL. We can model an FSM in C using the switch(), case 1, case 2... constructs.
+You will factor your code into a Finite State Machine model for creating state transitions. You should be familiar with FSM models from Digital Design and System Synthesis. At a high level, an FSM is an abstract machine or mathematical model that describes the transitions from a current state and set of inputs to a next state with a set of outputs. FSMs are very convenient for modeling and implementing the behaviors of embedded and real time systems as a series of transitions that result from the presence of external inputs (sensors, buttons) that result in the setting of external outputs (actuators, relays etc.). You should have some experience from Digital Design and System Synthesis in writing Moore and Mealy FSMs in Verilog or VHDL. We can model an FSM in C using the switch(), case 1, case 2... constructs.
 
 Below is a skeleton template (not complete) of an FSM for the Fayetteville bike crossing.
 
@@ -111,4 +113,4 @@ int main()
 
 ## Submission
 
-Nothing will be due for the first week, though you should double-check your design and ensure it produces the desired output. Make sure your design is modular as well as we will refactor this code and use timers in place of the dummy delay loops in the second week. For the submission after week 2, you will turn in your report which should contain a state transition graph of your FSM, and your C file in a zip archive.
+Nothing will be due for the first week, though you should double-check your design and ensure it produces the desired output. Make sure your design is modular as well as we will refactor this code and use timers in place of the dummy delay loops in the second week. For the submission after week 2, you will turn in your report which should contain a state transition graph of your FSM, and your C file.
