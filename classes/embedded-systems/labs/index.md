@@ -19,8 +19,8 @@ nav_exclude: false
 | 09/04 - 09/08 | [Lab 1: How to build a basic SoC](./lab1)           |
 | 09/11 - 09/15 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
 | 09/18 - 09/22 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
-| 10/02 - 10/06 | [Lab 4: Timers](./lab4)                             |
-| 10/09 - 10/13 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
+| 09/25 - 09/29 | [Lab 4: Timers](./lab4)                             |
+| 10/02 - 10/13 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
 | 10/23 - 11/03 | [Lab 6: Autonomous Vehicle](./lab6)                 |
 
 ## Lab Reports
