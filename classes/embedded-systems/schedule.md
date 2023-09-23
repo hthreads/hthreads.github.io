@@ -30,7 +30,7 @@ nav_order: 2
 | Weds  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) |   Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)|
 | Fri   | [Timer Usage](../../_modules/eecs-4114/4114timers.pdf) |    |
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Timer PWM](../../_modules/eecs-4114/4114timers.pdf)|      |
+| Mon   |  [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)|      |
 | Weds  |  |   |
 | Fri   |  |    |
 | **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
