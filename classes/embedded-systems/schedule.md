@@ -31,10 +31,10 @@ nav_order: 2
 | Fri   | [Timer Usage](../../_modules/eecs-4114/4114timers.pdf) |    |[Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)|      |[Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)
-| Weds  | Interrupt Concepts |Computers as Components: Ch 3.1   |
-| Fri   | Interrupt processing on the CPU  |    |
+| Weds  | Interrupt Concepts | Computers as Components: Ch 3.1   |
+| Fri   | Interrupt processing on the CPU  |  Computers as Components: Ch 3.1  |
 | **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | Interrupts Priority Interrupt Controller (PIC) |       |
+| Mon   | Interrupts Priority Interrupt Controller (PIC) |  PIC Data Sheet   |
 | Weds  |  |   |
 | Fri   |  |    |
 | **Week 8 10/9-10/13**       |  **Lecture Topic**                        | **Assignment**          |
