@@ -34,7 +34,7 @@ nav_order: 2
 | Weds  | Interrupt Concepts | Computers as Components: Ch 3.1   |
 | Fri   | Interrupt processing on the CPU  |  Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)  |
 | **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | Interrupts Priority Interrupt Controller (PIC) |  PIC Data Sheet   |
+| Mon   | Interrupts Priority Interrupt Controller (PIC) |  [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)   |
 | Weds  |  |   |
 | Fri   |  |    |
 | **Week 8 10/9-10/13**       |  **Lecture Topic**                        | **Assignment**          |
