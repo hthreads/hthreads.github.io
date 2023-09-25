@@ -21,7 +21,8 @@ nav_exclude: false
 | 09/18 - 09/22 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
 | 09/25 - 09/29 | [Lab 4: Timers](./lab4)                             |
 | 10/02 - 10/13 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
-| 10/23 - 11/03 | [Lab 6: Autonomous Vehicle](./lab6)                 |
+| 10/23 - 10/27 | [Lab 6: Autonomous Vehicle](./lab6)
+| 10/30 - 11/10 | [Lab 7: Autonomous Vehicle](./lab6)                 |
 
 ## Lab Reports
 
