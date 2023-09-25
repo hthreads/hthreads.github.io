@@ -32,7 +32,7 @@ nav_order: 2
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)|      |[Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)
 | Weds  | Interrupt Concepts | Computers as Components: Ch 3.1   |
-| Fri   | Interrupt processing on the CPU  |  Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf  |
+| Fri   | Interrupt processing on the CPU  |  Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)  |
 | **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Interrupts Priority Interrupt Controller (PIC) |  PIC Data Sheet   |
 | Weds  |  |   |
