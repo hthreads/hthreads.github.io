@@ -49,6 +49,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  info:
+    title: Info
+    color: blue
 
 # Collections for website data
 collections:

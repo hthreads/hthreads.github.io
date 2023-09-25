@@ -8,7 +8,7 @@ nav_exclude: true
 
 # Lab 2: GPIO Peripherals
 
-{: .note }
+{: .note}
 > Redownload the [starter project](https://github.com/tkamucheka/eecs-4114-labs) before attempting this lab. The new starter project incorporates the following changes:
 >
 > 1. The AXI SmartConnects are replaced with AXI InterConnects. The AXI SmartConnects' internal circuitry does not adapt to accommodate addition of new peripherals in this and potentially future labs. This is either by design or a bug in the IP...  
@@ -43,9 +43,9 @@ In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller
 __Vivado - Block Design:__
 
 1. In Vivado, open the "Block Design" from the "Flow Navigator" window.
-2. Double-click on the __"microblaze_0_periph"__ AXI SmartConnect and change "Number of Master Interfaces" to (3). Click "OK" to close the dialog window. You should see two additional ports appear, __"M01_AXI"__ and __"M02_AXI"__.
+2. Double-click on the __"microblaze_0_periph"__ AXI Interconnect and change "Number of Master Interfaces" to (3). Click "OK" to close the dialog window. You should see two additional ports appear, __"M01_AXI"__ and __"M02_AXI"__.
 ![microblaze_0_periph](./assets/images/axi_interconnect.png)
-3. Use the "__+ Add IP__" feature to add the AXI GPIO IP to your design:
+3. Use the "__+ Add IP__" feature to add the __AXI GPIO__ IP to your design:
     1. Right-click on the __"S_AXI"__ port on the GPIO controller and select "Make Connection...".
     2. Choose __"M01_AXI"__ in the "Make Connection" window and click "OK" to make the connection.
     3. Select "Run Connection Automation". Then select __"s_axi_clk"__ and __"M01_ACLK"__ and set __"Clock Source:"__ to `/mig_7series_0/ui_clk (81 MHz)`.
