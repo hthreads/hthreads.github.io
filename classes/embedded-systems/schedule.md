@@ -31,10 +31,10 @@ nav_order: 2
 | Fri   | [Timer Usage](../../_modules/eecs-4114/4114timers.pdf) |    |[Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)|      |[Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)
-| Weds  | [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts.pdf) | Computers as Components: Ch 3.1   |
-| Fri   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts.pdf)  |  Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)  |
+| Weds  | [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1   |
+| Fri   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf)  |  Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)  |
 | **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | [Interrupts Priority Interrupt Controller (PIC)]((../../_modules/eecs-4114/4114-Interrupts.pdf)) |  [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)   |
+| Mon   | [Interrupts Priority Interrupt Controller (PIC)]((../../_modules/eecs-4114/4114-Interrupts-axi.pdf)) |  [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)   |
 | Weds  |  |   |
 | Fri   |  |    |
 | **Week 8 10/9-10/13**       |  **Lecture Topic**                        | **Assignment**          |
