@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Simulated Interrupt Example
-parent: Lab 5
-grand_parent: Labs
 nav_exclude: true
 ---
 
-[< Back](./index.md#project-instructions){: .btn .btn-outline}
+[< Back](./index.md#project-instructions){: .btn .btn-green}
 
 # Lab 5: Simulated Interrupt Example
 
