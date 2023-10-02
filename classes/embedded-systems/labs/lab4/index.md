@@ -127,7 +127,7 @@ simplicity.
 2. Lab 3 and Lab 4 code files
 3. Upload your files separately on Blackboard. __No zip files!__
 
-## Pre-Lab Questions
+## Prelab Assignment
 
 Your answers should be typed and printed with your name, date, and lab number. In addition to answering the following questions, please read the lab assignment on this page and reread the Xilinx AXI Timer Datasheet. You may want to write pseudo code if you think you may have trouble finishing the project during your lab time or if you're feeling like a good student.
 

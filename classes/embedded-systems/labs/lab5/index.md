@@ -77,8 +77,6 @@ In lab 4, we made modifications to the block design in Vivado to enable future i
 
 ![Block Design](./assets/images/block_design.png)
 
- <!-- however, there was a slight oversight in the instructions of that design. Because this is a complex lab with a lot of new C code to comprehend, I won't make the modification of the block design a part of this lab and will supply a working bitstream file and example set of projects within a SDK workspace folder. This folder can be found here (https://github.com/zackheil/teaching-CSCE4114-EmbeddedSystems). To use the project, download the linked repository and extract the folder "lab5.sdk" to a usable space on your computer. From here, open SDK 2016.4, and when the prompt appears, choose the lab5.sdk folder to be the workspace location. This should open the SDK project with the included bitstream that supports interrupt functionality as well as a few example projects. -->
-
 **Software:**
 
 Now, you must write software to enable the interrupt features of the interrupt-based system. This involves writing initialization code that will enable interrupt-related functions on all the interrupt sources, the interrupt controller, and the MicroBlaze processor. Additionally, an interrupt handler routine will be written to handle interrupts when they occur. Conceptually, an interrupt handler routine can be thought of as a function that can be called automatically any time and interrupt occurs (if interrupts are enabled). This implies that an interrupt handler routine must not have any effect on the state of the CPU, otherwise, program behavior could be seriously altered by the assertion of an interrupt.
@@ -136,7 +134,13 @@ It's worth noting that all of these steps are required to get interrupts working
 7. Run this code. Note that it is a simple binary counter that increments every half second. Sound familiar?
 8. Take some time to really understand this code, then create a new project and add the FSM design, but modify the design to use the interrupts instead of relying on polling. Remember that there are stricter grading guidelines for this lab, so be mindful of the timing for each state.
 
-## Pre-Lab Questions
+## Submission
+
+1. Prepare a lab report, and give an account of what you did to complete the lab.
+2. Lab 5 code files
+3. Upload your files separately on Blackboard. __No zip files!__
+
+## Prelab Assignment
 
 - Instead of pre-lab questions this week, I encourage you to please read through this entire lab assignment once and go through the _(commented)_ [Simulated Interrupt Example](./xintc_example.md) and [Timer Interrupt Example](xtmrctr_intr_example.md) programs linked in the notes.
 

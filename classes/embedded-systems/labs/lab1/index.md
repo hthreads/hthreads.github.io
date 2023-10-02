@@ -86,7 +86,7 @@ __SDK - Creating Software Project:__
 2. Submit, separately, all your code files (e.g. the "helloworld.c" file).
     * ___NB: DO NOT__ paste your code in your lab report._
 
-## Prelab Questions
+## Prelab Assignment
 
 1. What is an FPGA?
 2. What is a system-on-chip? Why is it different from your desktop computer system?
