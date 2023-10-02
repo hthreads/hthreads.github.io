@@ -3,12 +3,14 @@ layout: page
 title: Lab 5
 parent: Labs
 grand_parent: EECS 4114 Embedded Systems
+has_children: true
 nav_exclude: true
+has_toc: false
 ---
 
 # Lab 5: Interrupt Driven MicroBlaze System
 
-The goal of these labs is to become familiar with the idea of interrupt-based processing techniques using the MicroBlaze processor. A base system will be built that utilizes an interrupt controller to allow for multiple interrupt sources along with a set of interrupt sources. The interrupt sources will include a timer as well as a software interrupt. After understanding what an interrupt does and how to properly implement them, we will then return to the bike trail crossing project and modify the design to use interrupts. You covered interrupts in class exactly as they work with the MicroBlaze. 
+The goal of these labs is to become familiar with the idea of interrupt-based processing techniques using the MicroBlaze processor. A base system will be built that utilizes an interrupt controller to allow for multiple interrupt sources along with a set of interrupt sources. The interrupt sources will include a timer as well as a software interrupt. After understanding what an interrupt does and how to properly implement them, we will then return to the bike trail crossing project and modify the design to use interrupts. You covered interrupts in class exactly as they work with the MicroBlaze.
 
 {: .note}
 > You can refer to Dr. Andrews' slides from lecture if you have conceptual misunderstandings.
@@ -103,7 +105,7 @@ The basic order of operations for your software should be the following:
         - For the timer to Load a value it shouldn't be running.
         - For the timer to run, the load bit should be a zero.
         - Pulse width modulation should be set to a zero.
-5. Enable interrupts on the MicroBlaze.
+5. Enable interrupts on the MicroBlaze...
 6. Enter an infinite loop to print out a global variable, called X.
 
 **Interrupt handler:**
@@ -119,21 +121,24 @@ It's worth noting that all of these steps are required to get interrupts working
 ## Project Instructions
 
 1. Open Vivado and launch the SDK.
-2. From here, load the bitstream on to the Arty board. Before moving on to timer interrupts, let's look how we can trigger an interrupt using software with a provided example:
-    - Open up the project "xintc_low_level_example_1" from the project explorer pane and locate the C file in the src directory. Look through the code and inspect what it will be doing before attempting to run it.
-    - Open up a serial terminal monitor to the correct COM port like in earlier labs.
-    - In the Project explorer, highlight the current project's root folder (has "xintc_low_level_example_1" in it) and then click on the debug icon dropdown in the toolbar beside the usual run button that is pressed to execute code on the Arty. Choose "debug as" and "run on system hardware". The code will stop as soon as it enters the main function.
-    - Step through the code to see what each step is doing and how it operates. At some point in execution, you will see a function call to XIntc_SimulateIntr which will set the ISR register and will seemingly reroute the execution to the DeviceDriverHandler function at the bottom.
-    - This function will write to the console that an interrupt has occurred and then will resume execution where it left off.
-3. Now that we have seen an example of how the ISR can be set with the simulate interrupt function that Xilinx has, let's now use the timer to trigger the interrupt. Open up the "timer_interrupt_example_zheil" project. This demonstrates a useful example where the MicroBlaze is just trying to execute a while loop where it outputs a counter value to the LEDs, yet is constantly interrupted to update the counter that the LED is outputting.
-4. Observe the extra steps to set up the timer interrupt and the options that were previously set using direct register setting operations with pointers.
-5. Also observe how the functions for setting up both the interrupt controller and the timer were extracted into the main function in a linear format so that the instructions could be seen without the need to jump into the function calls. In your implementation of the timer interrupts, take these operations and group them into meaningful function calls so your code isn't as linear as this demonstration.
-6. Highlight the project root in the project explorer and run this example. Note that it is a simple binary counter that increments every half second.
-7. Take some time to really understand this code, then create a new project and add the FSM design, but modify the design to use the interrupts instead of relying on polling. Remember that there are stricter grading guidelines for this lab, so be mindful of the timing for each state.
+2. From here, load the bitstream on to the Arty board.
+3. Before moving on to timer interrupts, let's look how we can trigger an interrupt using software with a provided example:
+    1. Create a new application project.
+    2. Create a new source file in the `src` directory of your project.
+    3. Insert [this example code: xintc_example.c](./xintc_example.md){: target="_blank"} into your source file.
+    4. Open up a serial terminal monitor (SDK Terminal) to the correct COM port like in earlier labs.
+    5. In the Project explorer, right-click the current project folder (say "lab5") and select `Debug As > Launch on Hardware (System Debugger)`. The code will stop as soon as it enters the main function.
+    6. Step through the code (by pressing F5) to see what each step is doing and how it operates. At some point in execution, you will see a function call to `XIntc_SimulateIntr` which will set the ISR register and will seemingly reroute the execution to the `DeviceDriverHandler` function at the bottom. You will not actually see the call to `DeviceDriverHandler`, but the text "Interrupt occurred: ..." will be printed in the "SDK Terminal" window.
+    7. This function will write to the console that an interrupt has occurred and then will resume execution where it left off.
+4. Now that we have seen an example of how the ISR can be set with the "simulate interrupt" function, let's now use the timer to trigger the interrupt. Open up [this example code: xtmrctr_intr_example.c](./xtmrctr_intr_example.md){: target="_blank"}. This code demonstrates a useful example where the MicroBlaze is just executing a `while` loop where it outputs a counter value to the LEDs, yet is constantly interrupted to update the counter that the LED is outputting.
+5. Observe the extra steps to set up the timer interrupt and the options that were previously set using direct register setting operations with pointers, now using API function calls.
+6. Also observe how the functions for setting up both the interrupt controller and the timer were extracted into the main function in a linear format so that the instructions could be seen without the need to jump into the function calls. In your implementation of the timer interrupts, take these operations and group them into meaningful function calls, so your code isn't as linear as this demonstration.
+7. Run this code. Note that it is a simple binary counter that increments every half second. Sound familiar?
+8. Take some time to really understand this code, then create a new project and add the FSM design, but modify the design to use the interrupts instead of relying on polling. Remember that there are stricter grading guidelines for this lab, so be mindful of the timing for each state.
 
 ## Pre-Lab Questions
 
-* Instead of pre-lab questions this week, I encourage you to please read through this entire lab assignment once and go through the example (commented) programs supplied in the lab5.sdk project.
+- Instead of pre-lab questions this week, I encourage you to please read through this entire lab assignment once and go through the _(commented)_ [Simulated Interrupt Example](./xintc_example.md) and [Timer Interrupt Example](xtmrctr_intr_example.md) programs linked in the notes.
 
 ## References
 
