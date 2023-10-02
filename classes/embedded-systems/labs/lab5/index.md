@@ -50,8 +50,10 @@ When the processor receives an interrupt, it must first look at the Interrupt Se
 
 After servicing each active interrupt, the processor must then clear the interrupt as well as its source. The ordering of this operation is extremely important due to the fact that clearing an interrupt before clearing its source will result in apparent multiple interrupt events for a single source event. Therefore, it is pertinent to always clear an interrupt at its source, and then proceed to clear the interrupt at the PIC and at the processor.
 
-{: .warning}
-> If interrupts are cleared incorrectly then “bad” situations can occur. For example:
+{: .note}
+> If interrupts are cleared incorrectly then “bad” situations can occur.
+>
+> __For example:__
 >
 > 1. Interrupt 0 occurs.
 >     - Bit 0 in the ISR is set to 1.
