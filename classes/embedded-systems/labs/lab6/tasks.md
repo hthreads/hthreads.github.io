@@ -1,3 +1,14 @@
+---
+layout: page
+title: Simulated Interrupt Example
+nav_exclude: true
+---
+
+[< Back](./index.md#lab-directions){: .btn .btn-green}
+
+__Raw:__ [tasks.c](./assets/examples/tasks.c){: target="_blank"}
+
+```c
 /*
  * tasks.c
  *
@@ -401,3 +412,4 @@ void TmrCtrDisableIntr(XIntc *IntcInstancePtr, u16 IntrId)
 
   return;
 }
+```

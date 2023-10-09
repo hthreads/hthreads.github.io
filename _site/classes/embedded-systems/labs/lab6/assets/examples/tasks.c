@@ -1,3 +1,10 @@
+/*
+ * tasks.c
+ *
+ *  Bare Metal (no OS) example of a simple task scheduler
+ * 
+ */
+
 #include <xil_printf.h>
 #include <xparameters.h>
 #include <xtmrctr.h>
@@ -5,12 +12,18 @@
 #include <xil_exception.h>
 #include <xil_printf.h>
 #include <xintc.h>
+#include <xgpio.h>
+#include <stdlib.h>
 
 #define TMRCTR_DEVICE_ID XPAR_TMRCTR_0_DEVICE_ID
 #define TMRCTR_INTERRUPT_ID XPAR_INTC_0_TMRCTR_0_VEC_ID
 #define INTC_DEVICE_ID XPAR_INTC_0_DEVICE_ID
 
-#define LOAD_VALUE 41666667
+#define LOAD_VALUE 406239 // 5-ms period
+#define RGB_RED 04444
+#define RGB_GREEN 02222
+#define CHANNEL_1 1
+#define CHANNEL_2 2
 
 // Function Prototypes
 // Tasks
@@ -18,9 +31,9 @@ void taskChoose(void *data);
 void taskGreen(void *data);
 void taskRedBlinkStart(void *data);
 void taskRed(void *data);
-void taskRedBlinkStop(void *data);
+void taskRedBlinkEnd(void *data);
 // Timer Interrupt Service Routine
-void Timer_ISR(void *CallBackRef, u8 TmrCtrNumber);
+void timer_ISR(void *CallBackRef, u8 TmrCtrNumber);
 // Helper functions
 int platform_init();
 void TmrCtrDisableIntr(XIntc *IntcInstancePtr, u16 IntrId);
@@ -30,9 +43,9 @@ void executionFailed();
 typedef enum
 {
   GREEN,
-  TASK_RED_BLINK_START,
-  TASK_RED,
-  TASK_RED_BLINK_STOP
+  RED_BLINK_START,
+  RED,
+  RED_BLINK_END
 } state_t;
 
 // Enumerated type for the tasks
@@ -42,29 +55,30 @@ typedef enum
   TASK_GREEN,
   TASK_RED_BLINK_START,
   TASK_RED,
-  TASK_RED_BLINK_STOP,
+  TASK_RED_BLINK_END,
   MAX_TASKS
 } task_t;
 
 // Task Control Block (TCB) structure
 typedef struct
 {
-  (*taskPtr)(void *);
+  void (*taskPtr)(void *);
   void *taskDataPtr;
-  unsigned taskReady;
+  u8 taskReady;
 } TCB_t;
 
 // Hardware instances
 XIntc InterruptController; // Instance of the Interrupt Controller
 XTmrCtr Timer;             // Instance of the Timer
-Xgpio Gpio_0;              // Instance of the AXI_GPIO_0 GPIO driver
-Xgpio Gpio_1;              // Instance of the AXI_GPIO_1 GPIO driver
+XGpio btnGpio;             // Instance of the AXI_GPIO_0
+XGpio ledGpio;             // Instance of the AXI_GPIO_1
 
 // Task queue
-TCB_t queue[MAX_TASKS];
+TCB_t *queue[MAX_TASKS];
 
 // Global variables
 state_t state, nextState; // State variables
+u8 btnPressed = FALSE;    // Flag to indicate if the button is pressed
 u32 systemTime = 0;       // System time: 1 unit = 5 ms
 u32 startTime = 0;        // Start time of the current state
 u32 elapsedTime = 0;      // Elapsed time since last state transition
@@ -73,60 +87,227 @@ u32 ledState = 0;         // Current state of the LEDs
 int main(int argc, char const *argv[])
 {
   // Initialize the platform:
-  // Setup AXI_GPIO_0
-  volatile u32 *buttonData = (u32 *)(XPAR_GPIO_0_BASEADDR + 0x8);
-  volatile u32 *buttonTri = (u32 *)(XPAR_GPIO_0_BASEADDR + 0xC);
-  buttonTri = 0xF; // Set as input
-  // Setup AXI_GPIO_1
-  volatile u32 *rgbLedsData = (u32 *)(XPAR_GPIO_1_BASEADDR);
-  volatile u32 *rgbLedsTri = (u32 *)(XPAR_GPIO_1_BASEADDR + 0x4);
-  rgbLedsTri = 0x0; // Set as output
-  // Setup the interrupt controller and the timer
-  platform_init();
+  // Setup the GPIO, Interrupt Controller and Timer
+  int status = XST_FAILURE;
+  status = platform_init();
+  if (status != XST_SUCCESS)
+  {
+    xil_printf("Failed to initialize the platform! Execution stopped.\n");
+    executionFailed();
+  }
+
+  // Initialize the task queue and TCBs
+  // Task 0: taskChoose
+  queue[TASK_CHOOSE] = malloc(sizeof(TCB_t));
+  queue[TASK_CHOOSE]->taskPtr = taskChoose;
+  queue[TASK_CHOOSE]->taskDataPtr = NULL;
+  queue[TASK_CHOOSE]->taskReady = FALSE;
+  // Task 1: taskGreen
+  queue[TASK_GREEN] = malloc(sizeof(TCB_t));
+  queue[TASK_GREEN]->taskPtr = taskGreen;
+  queue[TASK_GREEN]->taskDataPtr = NULL;
+  queue[TASK_GREEN]->taskReady = FALSE;
+  // Task 2: taskRedBlinkStart
+  queue[TASK_RED_BLINK_START] = malloc(sizeof(TCB_t));
+  queue[TASK_RED_BLINK_START]->taskPtr = taskRedBlinkStart;
+  queue[TASK_RED_BLINK_START]->taskDataPtr = NULL;
+  queue[TASK_RED_BLINK_START]->taskReady = FALSE;
+  // Task 3: taskRed
+  queue[TASK_RED] = malloc(sizeof(TCB_t));
+  queue[TASK_RED]->taskPtr = taskRed;
+  queue[TASK_RED]->taskDataPtr = NULL;
+  queue[TASK_RED]->taskReady = FALSE;
+  // Task 4: taskRedBlinkEnd
+  queue[TASK_RED_BLINK_END] = malloc(sizeof(TCB_t));
+  queue[TASK_RED_BLINK_END]->taskPtr = taskRedBlinkEnd;
+  queue[TASK_RED_BLINK_END]->taskDataPtr = NULL;
+  queue[TASK_RED_BLINK_END]->taskReady = FALSE;
+
+  // Initialize the state machine
+  state = nextState = GREEN;
+
+  // Main loop
+  while (1)
+  {
+    // Check if the button is pressed
+    if (XGpio_DiscreteRead(&btnGpio, 2) & 0xF)
+      btnPressed = TRUE;
+
+    // Iterate through task queue and
+    // execute tasks that are ready
+    for (int i = 0; i < MAX_TASKS; i++)
+    {
+      if (queue[i]->taskReady)
+      {
+        // Execute the task
+        (*(queue[i]->taskPtr))(queue[i]->taskDataPtr);
+
+        // Reset the task ready flag
+        queue[i]->taskReady = 0;
+      }
+    }
+
+    // Ack button press
+    btnPressed = FALSE;
+
+    // Update the LEDs
+    XGpio_DiscreteWrite(&ledGpio, 1, ledState);
+  }
 
   return 0;
 }
 
 void taskChoose(void *data)
 {
-  xil_printf("Choose task\n");
+  // DEBUG: Print the current state
+  // xil_printf("Choose task...\n");
+
+  switch (state)
+  {
+  case GREEN:
+    queue[TASK_GREEN]->taskReady = TRUE;
+    break;
+  case RED_BLINK_START:
+    queue[TASK_RED_BLINK_START]->taskReady = TRUE;
+    break;
+  case RED:
+    queue[TASK_RED]->taskReady = TRUE;
+    break;
+  case RED_BLINK_END:
+    queue[TASK_RED_BLINK_END]->taskReady = TRUE;
+    break;
+  }
+
+  // Update state
+  state = nextState;
 }
 
 void taskGreen(void *data)
 {
-  xil_printf("Green task\n");
+  // DEBUG: Print the current state
+  // xil_printf("Green task...\r\n");
+
+  // Set the LEDs to green
+  ledState = RGB_GREEN;
+
+  // Set the next state
+  if (btnPressed)
+  {
+    nextState = RED_BLINK_START;
+    startTime = systemTime; // Reset the start time
+    ledState = RGB_RED;     // Set the LEDs to red
+  }
 }
 
 void taskRedBlinkStart(void *data)
 {
-  xil_printf("Red blink start task\n");
+  // DEBUG: Print the current state
+  // xil_printf("Red blink start task\r\n");
+
+  // Record elapsed time
+  elapsedTime = systemTime - startTime;
+  // xil_printf("Elapsed time: %d\r\n", elapsedTime);
+
+  // Blink the LEDs every 500 ms
+  // (100 units = 500 ms)
+  if (elapsedTime % 100 == 0)
+    ledState ^= RGB_RED; // Toggle the LEDs
+
+  // Reset start time if button is pressed
+  if (btnPressed)
+    startTime = systemTime;
+
+  // Set the next state
+  // (1200 units = 6 s)
+  if (elapsedTime >= 1200)
+  {
+    nextState = RED;
+    startTime = systemTime; // Record the start time
+    ledState = RGB_RED;     // Set the LEDs to red
+  }
 }
 
 void taskRed(void *data)
 {
-  xil_printf("Red task\n");
+  // xil_printf("Red task...\r\n");
+
+  // Record elapsed time
+  elapsedTime = systemTime - startTime;
+
+  // Set the LEDs to red
+  ledState = RGB_RED;
+
+  // Set the next state
+  // (800 units = 4 s)
+  if (elapsedTime >= 800)
+  {
+    nextState = RED_BLINK_END;
+    startTime = systemTime; // Record the start time
+    ledState = RGB_RED;     // Set the LEDs to red
+  }
 }
 
-void taskRedBlinkStop(void *data)
+void taskRedBlinkEnd(void *data)
 {
-  xil_printf("Red blink stop task\n");
+  // DEBUG: Print the current state
+  // xil_printf("Red blink stop task...\r\n");
+
+  // Record elapsed time
+  elapsedTime = systemTime - startTime;
+
+  // Blink the LEDs every 500 ms
+  // (100 units = 500 ms)
+  if (elapsedTime % 100 == 0)
+    ledState ^= RGB_RED; // Toggle the LEDs
+
+  // Set the next state
+  // (1200 units = 6 s)
+  if (elapsedTime >= 1200)
+  {
+    nextState = GREEN;
+    startTime = systemTime; // Record the start time
+    ledState = RGB_GREEN;   // Set the LEDs to green
+  }
 }
 
-void timer_ISR(void *CallBackRef, u32 TmrCtrNumber)
+void timer_ISR(void *CallBackRef, u8 TmrCtrNumber)
 {
+  // Increment system time
+  systemTime++; // 1 unit = 5 ms
+
   // Get instance of the timer linked to the interrupt
   XTmrCtr *InstancePtr = (XTmrCtr *)CallBackRef;
 
-  // Acknowledge the interrupt
-  XTmrCtr_ClearStats(InstancePtr, TmrCtrNumber);
-
-  // Set taskChoose to be ready
-  queue[TASK_CHOOSE].taskReady = 1;
+  // Check if the timer counter has expired
+  if (XTmrCtr_IsExpired(InstancePtr, TmrCtrNumber))
+    // Set taskChoose to be ready
+    queue[TASK_CHOOSE]->taskReady = TRUE;
 }
 
 int platform_init()
 {
   int status = XST_FAILURE;
+
+  // Initialize the GPIO instances
+  status = XGpio_Initialize(&btnGpio, XPAR_GPIO_0_DEVICE_ID);
+  if (status != XST_SUCCESS)
+  {
+    xil_printf("Failed to initialize GPIO_0! Execution stopped.\n");
+    executionFailed();
+  }
+
+  status = XGpio_Initialize(&ledGpio, XPAR_GPIO_1_DEVICE_ID);
+  if (status != XST_SUCCESS)
+  {
+    xil_printf("Failed to initialize GPIO_1! Execution stopped.\n");
+    executionFailed();
+  }
+
+  // Set GPIO_0 CHANNEL 2 as input
+  XGpio_SetDataDirection(&btnGpio, CHANNEL_2, 0xF);
+
+  // Set GPIO_1 CHANNEL 1 as output
+  XGpio_SetDataDirection(&ledGpio, CHANNEL_1, 0x0);
 
   // Initialize the timer counter instance
   status = XTmrCtr_Initialize(&Timer, TMRCTR_DEVICE_ID);
@@ -137,7 +318,7 @@ int platform_init()
   }
 
   // Verifies the specified timer is setup correctly in hardware/software
-  status = XTmrCtr_SelfTest(&Timer, TIMER_0);
+  status = XTmrCtr_SelfTest(&Timer, XTC_TIMER_0);
   if (status != XST_SUCCESS)
   {
     xil_printf("Testing timer operation failed! Execution stopped.\n");
@@ -185,19 +366,21 @@ int platform_init()
 
   // Set the handler (function pointer) that we want to execute when the
   // interrupt occurs
-  XTmrCtr_SetHandler(&Timer, Timer_ISR, &Timer);
+  XTmrCtr_SetHandler(&Timer, timer_ISR, &Timer);
 
   // Set our timer options (setting TCSR register indirectly through Xil API)
   u32 timerConfig = XTC_INT_MODE_OPTION |
                     XTC_DOWN_COUNT_OPTION |
                     XTC_AUTO_RELOAD_OPTION;
-  XTmrCtr_SetOptions(&Timer, TIMER_0, timerConfig);
+  XTmrCtr_SetOptions(&Timer, XTC_TIMER_0, timerConfig);
 
   // Set what value the timer should reset/init to (setting TLR indirectly)
-  XTmrCtr_SetResetValue(&TimerCounter, TIMER_0, LOAD_VALUE);
+  XTmrCtr_SetResetValue(&Timer, XTC_TIMER_0, LOAD_VALUE);
 
   // Start the timer
-  XTmrCtr_Start(&TimerCounter, TIMER_0);
+  XTmrCtr_Start(&Timer, XTC_TIMER_0);
+
+  return XST_SUCCESS;
 }
 
 void executionFailed()

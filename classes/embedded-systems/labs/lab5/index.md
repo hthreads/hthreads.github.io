@@ -112,8 +112,8 @@ The basic order of operations for your software should be the following:
 
 1. Service each interrupt that has fired.
 2. Do this by incrementing the global variable X.
-3. Clear and service all interrupts that have fired.
-4. Clear them at the source, then the PIC.
+3. Clear them at the source, then the PIC.
+4. Clear and service all interrupts that have fired.
 5. Return
 
 It's worth noting that all of these steps are required to get interrupts working from the ground up, but some functions provided by Xilinx that we will be using actually perform these operations behind the scenes. As you look through the examples in the SDK project, feel free to explore the source code of the provided functions by right-clicking on functions, variables, or definitions and selecting "Open Declaration" to see where these calls are actually made.

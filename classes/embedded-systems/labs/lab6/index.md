@@ -50,9 +50,9 @@ The scheduler is kicked off by the timer at a set interval. The Linux scheduler 
     > The entries in the `enum` of tasks were created in the order they are implemented into the TCB queue as it serves as an explicit way to address which task you are dealing with. (e.g.: `queue[1]->taskPtr = ...` vs `queue[TASK_GREEN]->taskPtr = ...`)
 
 7. Before moving on to creating a task scheduler in the infinite loop, create a counter variable in `main()` starting at zero.
-8. Timer interrupt handler. Now contains queue[TASK_CHOOSE]->taskReady = true;. This will ensure that the FSM logic will be called with every single tick of the RTOS.
-9. Inside an empty `while(1)` loop now, we continuously cycle through the tasks (0-4) in order and execute the ones marked as ready, passing in the task's data pointer. E.g.: if(queue[i]->taskReady) {...}
-10. It is important to note the taskReady parameter is not automatically set to false when being executed in our system. Keeping this value true will mean the function will execute every single complete cycle of the scheduler.
+8. Timer interrupt handler. Now contains `queue[TASK_CHOOSE]->taskReady = TRUE;`. This will ensure that the FSM logic will be called with every single tick of the RTOS.
+9. Inside an empty `while(1)` loop now, we continuously cycle through the tasks (0-4) in order and execute the ones marked as ready, passing in the task's data pointer. E.g.: `if(queue[i]->taskReady) {...}`
+10. It is important to note the `taskReady` parameter is not automatically set to false when being executed in our system. Keeping this value true will mean the function will execute every single complete cycle of the scheduler.
 
 {: .info}
 Some material covered in this lab was borrowed from Dr. Nelson's slides on real-time operating systems,
@@ -61,16 +61,14 @@ out [slides 38-40 here](http://csce.uark.edu/~ahnelson/CSCE4114/lectures/lecture
 
 ## Submission
 
-
+Why stop now... Nothing due next week! &#x1F642;
 
 ## Prelab
 
-None! Let's take it easy this week.. &#x1F642;
+None! Let's take it easy this week... &#x1F642;
 
 ## References
 
-AXI Timer Documentation
-(<https://www.xilinx.com/support/documentation/ip_documentation/axi_timer/v2_0/pg079-axi-timer.pdf>)
-AXI Interrupt Controller Documentation
-(<https://www.xilinx.com/support/documentation/ip_documentation/axi_intc/v4_1/pg099-axi-intc.pdf>)
-Dr. Nelson Chapter 14 Slides (<http://csce.uark.edu/~ahnelson/CSCE4114/lectures/lecture14.pdf>).
+1. [AXI Timer Documentation](https://www.xilinx.com/support/documentation/ip_documentation/axi_timer/v2_0/pg079-axi-timer.pdf)
+2. [AXI Interrupt Controller Documentation](https://www.xilinx.com/support/documentation/ip_documentation/axi_intc/v4_1/pg099-axi-intc.pdf)
+3. [Dr. Nelson's EECS 4114, Chapter 14 Slides](http://csce.uark.edu/~ahnelson/CSCE4114/lectures/lecture14.pdf)
