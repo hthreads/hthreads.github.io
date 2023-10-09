@@ -18,7 +18,7 @@ RTOS. This RTOS will be adapted for our Fayetteville bike trail crossing traffic
 
 ## Lab Directions
 
-For this lab we will be using the same SoC design from previous labs. The code you will be running can be found here File:Tasks.c.
+For this lab we will be using the same SoC design from previous labs. The code you will be running can be found here: [Tasks.c](./assets/examples/tasks.c).
 
 ## Project Instructions
 

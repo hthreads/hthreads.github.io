@@ -624,7 +624,7 @@
   },"89": {
     "doc": "Lab 6",
     "title": "Lab Directions",
-    "content": "For this lab we will be using the same SoC design from previous labs. The code you will be running can be found here File:Tasks.c. ",
+    "content": "For this lab we will be using the same SoC design from previous labs. The code you will be running can be found here: Tasks.c. ",
     "url": "/classes/embedded-systems/labs/lab6/#lab-directions",
     
     "relUrl": "/classes/embedded-systems/labs/lab6/#lab-directions"
