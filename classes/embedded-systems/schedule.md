@@ -44,9 +44,9 @@ nav_order: 2
 | **Week 9 10/16-10/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
 | Weds  | Exam Handback|   |
-| Fri   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf) |    |
+| Fri   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6   |
 | **Week 10 10/23-10/27**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |       |
+| Mon   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf)|  Ch 12.4,12.6     |
 | Weds  |  |   |
 | Fri   |  |    |
 | **Week 11 10/30-11/3**       |  **Lecture Topic**                        | **Assignment**          |
