@@ -36,7 +36,7 @@ nav_order: 2
 | **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | [Interrupts Priority Interrupt Controller (PIC)](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) |  [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)   |
 | Weds  |  |   |
-| Fri   | [Intro to Sampling Theory](../../modules/eecs-4114/AtoD.pdf) |    |
+| Fri   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |    |
 | **Week 8 10/9-10/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  | **Midterm Review** |   |
@@ -44,7 +44,7 @@ nav_order: 2
 | **Week 9 10/16-10/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
 | Weds  | Exam Handback|   |
-| Fri   |  [A/D convertors](../../modules/eecs-4114/AtoD.pdf) |    |
+| Fri   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf) |    |
 | **Week 10 10/23-10/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
