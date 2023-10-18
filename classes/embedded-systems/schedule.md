@@ -36,15 +36,15 @@ nav_order: 2
 | **Week 7 10/2-10/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | [Interrupts Priority Interrupt Controller (PIC)](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) |  [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)   |
 | Weds  |  |   |
-| Fri   |  |    |
+| Fri   | Intro to Sampling Theory |    |
 | **Week 8 10/9-10/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  | **Midterm Review** |   |
 | Fri   | **Midterm Exam** |    |
 | **Week 9 10/16-10/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
-| Weds  | |   |
-| Fri   |  |    |
+| Weds  | Exam Handback|   |
+| Fri   |  A/D |    |
 | **Week 10 10/23-10/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
