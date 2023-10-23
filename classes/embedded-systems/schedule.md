@@ -47,7 +47,7 @@ nav_order: 2
 | Fri   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6   |
 | **Week 10 10/23-10/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf)|  Ch 12.4,12.6     |
-| Weds  |  |   |
+| Weds  |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|   |
 | Fri   |  |    |
 | **Week 11 10/30-11/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
