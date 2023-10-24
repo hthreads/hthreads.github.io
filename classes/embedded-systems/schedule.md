@@ -47,12 +47,12 @@ nav_order: 2
 | Fri   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6   |
 | **Week 10 10/23-10/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [A/D convertors](../../_modules/eecs-4114/AtoD.pdf)|  Ch 12.4,12.6     |
-| Weds   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|    |
-| Fri  |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|   |
+| Weds   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|   Computers as Components Ch 6.1-2 |
+| Fri  |    [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf) | Computers as Components Ch 6.2, 6.3.1-2 |
 | **Week 11 10/30-11/3**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |       |
-| Weds  |  |   |
-| Fri   |  |    |
+| Mon   |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)||       |
+| Weds  |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)||   |
+| Fri   |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)||    |
 | **Week 12 11/6-11/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  |   |
