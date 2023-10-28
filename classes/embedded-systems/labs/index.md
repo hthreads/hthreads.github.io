@@ -23,7 +23,7 @@ nav_exclude: false
 | 10/02 - 10/06 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
 | 10/23 - 10/27 | [Lab 6: Bare Metal Task Control Blocks (TCBs)](./lab6) |
 | 10/30 - 11/03 | [Lab 7: FreeRTOS](./lab7)                 |
-| 11/06 - 11/17 | [Lab 8: Autonomous Vehicle](./lab7)                 |
+| 11/06 - 11/17 | [Lab 8: Autonomous Vehicle](./lab8)                 |
 
 ## Lab Reports
 
