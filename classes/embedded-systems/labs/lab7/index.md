@@ -117,9 +117,12 @@ For this lab, we will be using [FreeRTOS](https://www.freertos.org) to convert o
 
     ```c
     void greenTask(void *arg) {
+        /* task variables (limited by given stack size) */
         unsigned int button_flag = 0;
 
         while(1) {
+            xil_printf("Green task...\r\n);
+
             /* 
             task logic:
             if (button is pressed)
