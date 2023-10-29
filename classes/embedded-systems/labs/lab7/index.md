@@ -125,10 +125,11 @@ For this lab, we will be using [FreeRTOS](https://www.freertos.org) to convert o
             if (button is pressed)
                 button flag = 1
 
-            if (take mutex)
-                state = RED_BLINK_START
-                button flag = 0;
-                release mutex
+            if (button flag)
+                if (take mutex)
+                    state = RED_BLINK_START
+                    button flag = 0
+                    release mutex
             */
 
             /* suspend ourselves */
@@ -139,7 +140,7 @@ For this lab, we will be using [FreeRTOS](https://www.freertos.org) to convert o
 
 ## Submission
 
-1. Complete a lab report detailing how you completed this week lab. In your lab report compare and contrast the differences between your design and [Lab6: Bare Metal TCB](https://hthreads.github.io/classes/embedded-systems/labs/lab6)
+1. Complete a lab report detailing how you completed this week lab. In your lab report compare and contrast the differences between your desgn and [Lab6: Bare Metal TCB](https://hthreads.github.io/classes/embedded-systems/labs/lab6)
 2. Submit lab report and code file separately on Blackboard.
 
 ## Prelab
