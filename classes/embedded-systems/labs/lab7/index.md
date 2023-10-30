@@ -72,7 +72,7 @@ For this lab, we will be using [FreeRTOS](https://www.freertos.org) to convert o
 
 4. To create a thread in FreeRTOS, we first need to create a task handle struct that the kernel will use to associate a task with. Above `main()`, create a handle called SupervisorTaskHandle and initialize it to null: `TaskHandle_t SupervisorTaskHandle = NULL;`
 5. Next, we need to create a task handler function that will be executed for the supervisor task. Similar to last lab, create a function that will act as a thread runner that takes in a void pointer parameter: `void SupervisorTask(void *arg){...}`. Fill out the body of this function with just an infinite loop.
-6. Now we are going to formally create the supervisor task with `xCreateTask`. This macro has the following parameters: `xCreateTask(pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)`. These parameters are explained by hovering over the macro name, right-clicking, and opening the declaration (or F3). The parameter details are also provided below:
+6. Now we are going to formally create the supervisor task with `xTaskCreate`. This macro has the following parameters: `xTaskCreate(pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask)`. These parameters are explained by hovering over the macro name, right-clicking, and opening the declaration (or F3). The parameter details are also provided below:
     - **pvTaskCode** Pointer to the task entry function. Tasks must be implemented to never return (i.e. continuous loop).
     - **pcName** A descriptive name for the task. This is mainly used to facilitate debugging. The max length is defined by `configMAX_TASK_NAME_LEN` - default is 10. (e.g. "Supervisor")
     - **usStackDepth** The size of the task stack specified as the number of variables the stack can hold - not the number of bytes. For example, if the stack is 16 bits wide and `usStackDepth` is defined as 100, 200 bytes will be allocated for stack storage.
@@ -121,7 +121,7 @@ For this lab, we will be using [FreeRTOS](https://www.freertos.org) to convert o
         unsigned int button_flag = 0;
 
         while(1) {
-            xil_printf("Green task...\r\n);
+            xil_printf("Green task...\r\n");
 
             /* 
             task logic:
