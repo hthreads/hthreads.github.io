@@ -54,8 +54,8 @@ nav_order: 2
 | Weds  |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)||   |
 | Fri   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|  [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)  |
 | **Week 12 11/6-11/10**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|    [FreeRtos Tutorial](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
-| Weds  |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|   |
+| Mon   |  [Tasks](../../_modules/eecs-4114/freeRtos.pdf)|    [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
+| Weds  |  [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)|  [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | Fri   |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|    |
 | **Week 13 11/13-11/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
