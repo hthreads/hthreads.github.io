@@ -46,22 +46,26 @@
      <span class="p">}</span>
  <span class="p">}</span>
 </code></pre></div></div><li>Now we can prime which thread needs to run in our Supervisor task similar to how we did in the previous lab with the ready flag being set to true/false.<br /> <code class="language-plaintext highlighter-rouge">vTaskSuspend(/* TaskHandle_t type */)</code> will suspend a task from the scheduler and <code class="language-plaintext highlighter-rouge">vTaskResume(/* TaskHandle_t type */)</code> will add a task back to the pool of tasks to execute. You can add these function calls to the <code class="language-plaintext highlighter-rouge">switch</code> statement cases to set which thread will execute after running the supervisor.<li>At the end of the block of code in each task, we can make the thread go to sleep for a set amount of time. <code class="language-plaintext highlighter-rouge">vTaskDelay(/* num of ticks */)</code> will let the task sleep for a certain number of ticks. Notice this is not seconds, 1 tick = 1/100 seconds. There is a simple macro to convert ticks to seconds that can be used as a parameter in the <code class="language-plaintext highlighter-rouge">vTaskDelay</code> function to sleep for a certain number of milliseconds: <code class="language-plaintext highlighter-rouge">vTaskDelay( pdMS_TO_TICKS(/* ms to sleep */) )</code>.</ol><blockquote class="highlight"><p><strong>Side note,</strong> if you are trying to turn the LEDs on/off for a certain amout of time, calling <code class="language-plaintext highlighter-rouge">vTaskDelay()</code> in that particular task function should make that a trivial task.</p></blockquote><li>To start the kernel, add the line <code class="language-plaintext highlighter-rouge">vTaskStartScheduler();</code> right before the <code class="language-plaintext highlighter-rouge">return</code> statement in the <code class="language-plaintext highlighter-rouge">main</code> function.<li><p>Now that we have gone through the basis of recreating the <code class="language-plaintext highlighter-rouge">taskChoose</code> thread from the previous lab, go ahead a create some tasks that correspond to the other states of the traffice light. You should have all the function calls you need. An example task is given below:</p><div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kt">void</span> <span class="nf">greenTask</span><span class="p">(</span><span class="kt">void</span> <span class="o">*</span><span class="n">arg</span><span class="p">)</span> <span class="p">{</span>
+     <span class="cm">/* task variables (limited by given stack size) */</span>
      <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">button_flag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
      <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-         <span class="cm">/* 
-         task logic:
-         if (button is pressed)
-             button flag = 1
+         <span class="n">xil_printf</span><span class="p">(</span><span class="s">"Green task...</span><span class="se">\r\n</span><span class="s">);</span><span class="err">
 
-         if (take mutex)
-             state = RED_BLINK_START
-             button flag = 0;
-             release mutex
-         */</span>
+</span><span class="s">         /* </span><span class="err">
+</span><span class="s">         task logic:</span><span class="err">
+</span><span class="s">         if (button is pressed)</span><span class="err">
+</span><span class="s">             button flag = 1</span><span class="err">
 
-         <span class="cm">/* suspend ourselves */</span>
-         <span class="n">vTaskSuspend</span><span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
-     <span class="p">}</span>
- <span class="p">}</span>
-</code></pre></div></div></ol><h2 id="submission"> <a href="#submission" class="anchor-heading" aria-labelledby="submission"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Submission</h2><ol><li>Complete a lab report detailing how you completed this week lab. In your lab report compare and contrast the differences between your design and <a href="https://hthreads.github.io/classes/embedded-systems/labs/lab6">Lab6: Bare Metal TCB</a><li>Submit lab report and code file separately on Blackboard.</ol><h2 id="prelab"> <a href="#prelab" class="anchor-heading" aria-labelledby="prelab"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Prelab</h2><ul><li>Read the <a href="https://www.freertos.org/FreeRTOS-quick-start-guide.html">FreeRTOS Manual</a>. Expand the section <strong>API Reference</strong> on the left-side menu for full documentation on FreeRTOS function calls.</ul><h2 id="references"> <a href="#references" class="anchor-heading" aria-labelledby="references"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> References</h2><ol><li><a href="https://www.freertos.org/FreeRTOS-quick-start-guide.html">FreeRTOS Manual</a></ol></div></div><div class="search-overlay"></div></div>
+</span><span class="s">         if (button flag)</span><span class="err">
+</span><span class="s">             if (take mutex)</span><span class="err">
+</span><span class="s">                 state = RED_BLINK_START</span><span class="err">
+</span><span class="s">                 button flag = 0</span><span class="err">
+</span><span class="s">                 release mutex</span><span class="err">
+</span><span class="s">         */</span><span class="err">
+
+</span><span class="s">         /* suspend ourselves */</span><span class="err">
+</span><span class="s">         vTaskSuspend(NULL);</span><span class="err">
+</span><span class="s">     }</span><span class="err">
+</span><span class="s"> }</span><span class="err">
+</span></code></pre></div></div></ol><h2 id="submission"> <a href="#submission" class="anchor-heading" aria-labelledby="submission"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Submission</h2><ol><li>Complete a lab report detailing how you completed this week lab. In your lab report compare and contrast the differences between your desgn and <a href="https://hthreads.github.io/classes/embedded-systems/labs/lab6">Lab6: Bare Metal TCB</a><li>Submit lab report and code file separately on Blackboard.</ol><h2 id="prelab"> <a href="#prelab" class="anchor-heading" aria-labelledby="prelab"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Prelab</h2><ul><li>Read the <a href="https://www.freertos.org/FreeRTOS-quick-start-guide.html">FreeRTOS Manual</a>. Expand the section <strong>API Reference</strong> on the left-side menu for full documentation on FreeRTOS function calls.</ul><h2 id="references"> <a href="#references" class="anchor-heading" aria-labelledby="references"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> References</h2><ol><li><a href="https://www.freertos.org/FreeRTOS-quick-start-guide.html">FreeRTOS Manual</a></ol></div></div><div class="search-overlay"></div></div>

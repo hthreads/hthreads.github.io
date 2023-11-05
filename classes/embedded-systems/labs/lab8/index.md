@@ -1,32 +1,67 @@
 ---
 layout: page
-title: Lab 7
+title: Lab 8
 parent: Labs
 grand_parent: EECS 4114 Embedded Systems
 nav_exclude: true
 ---
 
-# Lab 6: Autonomus Vehicle
+# Lab 8: Autonomus Vehicle
 
 ## Week 1
 
 ### Introduction
 
-This first week is devoted to assembling and testing your autonomous robot car. First you and your partner will modify your SoC to include the peripherals necessary for communication with the car sensors. Then you will follow the video instructions to assemble the shadow chassis, which is the base platform for your Arty Bot. Your TA help you through the assembly process. Zip ties and colorful "engineering" rubber bands will be able in the lab if you need them
+This first week is devoted to assembling and testing your autonomous robot car.
+First you and your partner will modify your SoC to include the peripherals
+necessary for communication with the car sensors. Then you will follow the video
+instructions to assemble the shadow chassis, which is the base platform for your
+Arty Bot. Your TA will be available to help you through the assembly process.
+Zip ties and "engineering grade" rubber bands will be available in the lab if you
+need them.
 
 ### Lab Instructions
 
-1. Go to [Digilent’s IP (Intellectual Property) repository](https://github.com/Digilent/vivado-library) on GitHub and download their repository of hardware sensor IP and interface definitions. Extract the downloaded zip file and remember the location on your computer where you extracted the files. Ideally, put the extracted folder next to your project folder.
-2. Next, download this [GitHub repository](https://github.com/tkamucheka/CSCE4114-ip-repo) and extract it to a separate folder. This repository contains IP necessary for interfacing with the Pmod DHB1 and MAXSONAR hardware sensors.
-3. Now let us make some changes to our SoC (System on Chip). Start by opening your project in Vivado. Navigate in the Flow Navigator on the left side to “Open Block Design.”
-4. To add our downloaded IP to Vivado, navigate to “Project Settings” to open the project Settings dialog. In the left panel select “IP,” then select the “Repository Manager” tab. Now add the two IP repository folders you downloaded. Select “Apply” and close the dialog.
-5. Back in the block design of your SoC. We want to add IP to the SoC for communicating with the external Pmod peripherals. We will add “AXI GPIO,” “Pmod_DHB1”, and “Pmod_Dual_MAXSONAR” IP for communication with the two line detecting light sensors, Pmod MAXSONAR sensor, and Pmod DHB1 motor driver
-    1. AXI GPIO >> jA - Pmod LS1. Using the “Add IP” button and dialog. Add a new “AXI GPIO” and “Pmod Bridge” IP to your design. DO NOT USE connection automation. Connect the “S_AXI” bus port of the “AXI GPIO” to a slave port on the interconnect. Link to the two GPIO ports on the “AXI GPIO” with the “GPIO_Top_Row” and “GPIO_Bottom_Row” on the Pmod Bridge. Last, in the “Board” window on the left, right-click the “jA” port under Pmod and select “connect component.” In the dialog that appears, find the Pmod bridge you just added and select the “Pmod_out” port as your connection. One more thing, enable interrupts for the “AXI GPIO.”
-    2. Pmod_Dual_MAXSONAR >> jB - Pmod MAXSONAR. Add the “Pmod_Dual_MAXSONAR” IP and connect it to a Pmod Bridge. You can connect the “Pmod_out” port of the Pmod Bridge to the Pmod port jB.
-    3. Pmod_DHB1 >> jD – Pmod MAXSONAR. Add the “Pmod_DHB1_v1_0” IP and connect it to the jD Pmod port through a Pmod Bridge
-6. Go to "Address Editor" window of the block design and and assign memory addresses to the newly added IP.
-7. Validate your deign and generate a bitstream
-8. Watch the assembly [instruction video](https://www.youtube.com/watch?v=aJRYTqZu5OE) or follow the [instructions given here](https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis) to assembly the chassis of your robot.
+{: .note }
+> Go to GitHub, and download and extract the [base-soc repository](https://github.com/tkamucheka/eecs-4114-labs)
+> again. Open the extracted directory and copy the "ip_repo" directory. Paste
+> the copied directory in your project directory next to the "base-soc" directory.
+> If you already have an "ip_repo" directory, overwrite it.
+
+1. Now let us make some changes to our SoC (System on Chip). Start by opening
+your project in Vivado. In the __Flow Navigator__ on the left side, navigate to
+__“Open Block Design.”__
+2. To add our downloaded IP to Vivado, navigate to __“Project Settings”__ to open
+the __Project Settings__ dialog. In the left panel select __“IP,”__ then select the
+__“Repository Manager”__ tab. Now add the IP repository folder you copied earlier.
+Select __“Apply”__ and close the dialog.
+3. Back in the block design of your SoC. We want to add IP to the SoC for
+communicating with the external Pmod peripherals. We will add AXI GPIO,
+Pmod_DHB1, and Pmod_Dual_MAXSONAR IP for communication with the two line
+detecting light sensors, Pmod MAXSONAR sensor, and Pmod DHB1 motor driver.  
+
+    {: .warning }
+    > __Do not use connection automation...__  
+
+    1. __AXI GPIO >> jA >> Pmod LS1:__
+        - Using the __+ Add IP__ button and dialog. Add a new __AXI GPIO__ and
+        __Pmod Bridge__ IP to your design.
+        - Connect the __S_AXI__ bus port of the AXI GPIO to a port on the interconnect.
+        - Connect the two GPIO ports on the AXI GPIO with the __GPIO_Top_Row__ and
+        __GPIO_Bottom_Row__ on the Pmod Bridge.
+        - Finally, in the “Board” window on the left, right-click the __jA__ port
+        under Pmod and select “connect component.” In the dialog that appears,
+        find the Pmod bridge you just added and select the __Pmod_out__ port as your
+        connection. One more thing, enable interrupts for the AXI GPIO.
+    2. __Pmod_Dual_MAXSONAR >> jB >> Pmod MAXSONAR:__
+        - Add the __Pmod_Dual_MAXSONAR__ IP and connect it to a Pmod Bridge.
+        - You can connect the __Pmod_out__ port of the Pmod Bridge to the __jB__ Pmod port.
+    3. __Pmod_DHB1 >> jD >> Pmod MAXSONAR:__
+        - Add the __Pmod_DHB1_v1_0__ IP and connect it to the __jD__ Pmod port through
+        a Pmod Bridge.
+4. Go to "Address Editor" window of the block design and assign memory addresses to the newly added IP.
+5. Validate your design and generate a bitstream.
+6. Watch the assembly [instruction video](https://www.youtube.com/watch?v=aJRYTqZu5OE) or follow the [instructions given here](https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis) to assembly the chassis of your robot.
 
 ### Project Assignment
 
