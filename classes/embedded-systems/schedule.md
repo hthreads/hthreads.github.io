@@ -73,7 +73,7 @@ nav_order: 2
 | Mon   |  |       |
 | Weds  |  Semester Review| All Materials Due Before Friday  |
 | Fri   |  Reading Day|   |
-| **Final 12/8**       |  **3:00pm - 5pm **                    | Final is not comprehensive         |
+| **Final 12/13**       |  **3:00pm - 5pm **                    | Final is not comprehensive         |
 
 
 
