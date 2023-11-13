@@ -59,7 +59,7 @@ nav_order: 2
 | Fri   |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|    |
 | **Week 13 11/13-11/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
-| Weds  |  |   |
+| Weds  |  [Queues](../../_modules/eecs-4114/Queues2.pdf)|   |
 | Fri   |  |    |
 | **Week 14 11/20-11/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
