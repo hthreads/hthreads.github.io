@@ -52,6 +52,9 @@ callouts:
   info:
     title: Info
     color: blue
+  hint:
+    title: Hint
+    color: green
 
 # Collections for website data
 collections:
