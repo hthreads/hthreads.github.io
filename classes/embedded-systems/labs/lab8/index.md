@@ -148,7 +148,8 @@ around the track.
 >    nearby will give you false readings.
 > 3. Test the functionality of your sensor on your desk first before moving to the
 >    track. This will save you a lot of time during development.
-> 4. While I recommend using FreeRTOS, you are free to design your application
+> 4. If you get stuck, ask for help.
+> 5. While I recommend using FreeRTOS, you are free to design your application
 >    however you see fit. Remember, there are bonus points on the line. Take them
 >    by any means necessary!
 >
@@ -156,19 +157,23 @@ around the track.
 
 ### Project Assignment
 
-- Turn your car into a line following robot. The line will be a (white) duct tape track and your car should drive around the track with wheels on either side of the track. There will be an obstacle at the end of the track, use this to stop your car. To do this, you will need:
-  - Use the GPIO PMOD LS1 to detect when your car drives over the line and steer that car back onto the track
-  - Use the PMOD MAXSONAR to detect obstacles and stop the car before the obstacle.
-  - Program the Arty's non-volatile 16 MB Quad-SPI flash memory with your SoC and application so that your application runs when you power on the Arty board. NB: the file names in this section may be different from what you have in your project. Just remember what you named your soc in Vivado and project name in the SDK and the rest should look familiar. If you're unsure ask your TA for help. To program your Arty
-    - Right click your project folder, the project you want to flash onto the board, and select **Generate Linker Script**. On the right side, change all 3 dropdowns from *microblaze_0_local*... to *mig_7series_0_memaddr*. If you are on Linux this might not work. You may need to open the **lscript.ld** file in your project's src directory and manually change all the entries to *mig_7series_0_memaddr*.
-    - Click the **Program Flash** button in the toolbar. Next to Image File, click Browse and navigate to your project folder, then into Debug. Select your_project_name.elf and click open. Next to Offset, enter `0x00C00000`. This is the address offset where your program will be stored in the flash memory. Next to 'Flash Type,' select *S25FL128sxxxxxx0-spi-x1_x2_x4*. **IMPORTANT**, make sure 'Convert ELF to bootloadable SREC format and program' is checked. Click **Program**.
-    - To create a bootloader, in the toolbar select File > New > Application Project. Name the project something like 'bootloader' as shown in the image above. Click **Next**.
-    - Select **SREC SPI Bootloader**, and select **Finish**.
-    - We need to make a few changes to our bootloader before loading it onto the Arty board. First, we need to set the 'address offset' so the bootloader can find our application. In the 'Bootloader' project, open the blconfig.h file and change the **FLASH_IMAGE_BASEADDR** to `0x00C00000`. Note, this same address you used when you flashed your application onto the flash memory earlier.
-    - > **Optional**, if you wish to improve your ArtyBot's startup time. Edit the file bootloader.c and comment out the line `#define VERBOSE`. This will turn off console logging. **NB:** Console logs may be useful when you're initially setting things up.
-    - Click the **Program FPGA** button in the toolbar. In the right half of the Software Configuration section, there is a cell that says `bootloop`. Click the right side of this cell to reveal a drop-down menu. Select **Bootloop.elf** from the list, then click Program. This will generate a bit file with the MicroBlaze's memory initialized with the program that you have written. The Arty is also programmed and if everything went well you should see your application running in your favorite console application (e.g. SDK Terminal, Putty or TeraTerm)
-    - Almost there, click the **Program Flash** button in the toolbar. Next to Image File, click Browse and navigate to the SDK workspace, then into `base_soc_wrapper_hw_platform_0`. Select download.bit and click **Open**. Next of Offset, enter `0x0`. Next to Flash Type, select `S25FL128sxxxxxx0-spi-x1_x2_x4`. Click **Program**.
-    - Congratulations, you have flashed the bootloader and your application to the non-volatile SPI Qflash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.
+{: .note}
+> The PDF instructions have more details and illustration images.
+
+- Turn your car into a line following robot. The line will be a (silver) duct tape track and your car should drive around the track with wheels on either side of the track. There will be an obstacle at the end of the track, use this to stop your car. To do this:
+  - Use the __GPIO PMOD LS1__ to detect when your car drives over the line and steer that car back onto the track
+  - Use the __PMOD MAXSONAR__ to detect obstacles and stop the car before the obstacle.
+  - Program the Arty's non-volatile 16 MB Quad-SPI flash memory with your SoC and application so that your application runs when you power on the Arty board. __NB:__ the file names in this section may be different from what you have in your project. Just remember what you named your SoC in Vivado and project name in the SDK and the rest should look familiar. If you are unsure ask your TA for help.
+To program your Arty:
+  - Right-click your project folder, the project you want to flash onto the board, and select __Generate Linker Script__. On the right side, change all 3 dropdowns from `microblaze_0_local`... to `mig_7series_0_memaddr`. If you are on Linux this might not work. You may need to open the __lscript.ld__ file in your project's `src` directory and manually change all the entries to `mig_7series_0_memaddr`.
+  - Click the __Program Flash__ button in the toolbar. Next to Image File, click Browse and navigate to your project folder, then into Debug. Select your_project_name.elf and click open. Next to Offset, enter `0x00C00000`. This is the address offset where your program will be stored in the flash memory. Next to 'Flash Type,' select *S25FL128sxxxxxx0-spi-x1_x2_x4*. __IMPORTANT__, make sure 'Convert ELF to bootloadable SREC format and program' is checked. Click __Program__.
+  - To create a bootloader, in the toolbar select File > New > Application Project. Name the project something like 'bootloader' as shown in the image above. Click __Next__.
+  - Select __SREC SPI Bootloader__, and select __Finish__.
+  - We need to make a few changes to our bootloader before loading it onto the Arty board. First, we need to set the 'address offset' so the bootloader can find our application. In the 'Bootloader' project, open the __blconfig.h__ file and change the __FLASH_IMAGE_BASEADDR__ to `0x00C00000`. Note, this same address you used when you flashed your application onto the flash memory earlier.
+  - > __Optional__, if you wish to improve your ArtyBot's startup time. Edit the file bootloader.c and comment out the line `#define VERBOSE`. This will turn off console logging. __NB:__ Console logs may be useful when you're initially setting things up.
+  - Click the __Program FPGA__ button in the toolbar. In the right half of the Software Configuration section, there is a cell that says `bootloop`. Click the right side of this cell to reveal a drop-down menu. Select __Bootloop.elf__ from the list, then click Program. This will generate a bit file with the MicroBlaze's memory initialized with the program that you have written. The Arty is also programmed and if everything went well you should see your application running in your favorite console application (e.g. SDK Terminal, Putty or TeraTerm)
+  - Almost there, click the __Program Flash__ button in the toolbar. Next to Image File, click Browse and navigate to the SDK workspace, then into `base_soc_wrapper_hw_platform_0`. Select `download.bit` and click __Open__. Next of Offset, enter `0x0`. Next to Flash Type, select `S25FL128sxxxxxx0-spi-x1_x2_x4`. Click __Program__.
+  - Congratulations, you have flashed the bootloader and your application to the non-volatile SPI Qflash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.
 
 ### Prelab Assignment
 
