@@ -58,11 +58,11 @@ nav_order: 2
 | Weds  |  [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)|  [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | Fri   |  [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)|    |
 | **Week 13 11/13-11/17**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |       |
+| Mon   |  [binary Semaphores and Mutexes](../../_modules/eecs-4114/freeRtos.pdf)|       |
 | Weds  |  [Queues](../../_modules/eecs-4114/Queues2.pdf)|   |
-| Fri   |  |    |
+| Fri   |  [Queues](../../_modules/eecs-4114/Queues2.pdf)||    |
 | **Week 14 11/20-11/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |       |
+| Mon   |  [Queues](../../_modules/eecs-4114/Queues2.pdf)||       |
 | Weds  |  Thanksgiving Break! |   |
 | Fri   |  Thanksgiving Break!|    |
 | **Week 15 11/27-12/1**       |  **Lecture Topic**                        | **Assignment**          |
