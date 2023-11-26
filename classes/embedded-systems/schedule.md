@@ -66,9 +66,9 @@ nav_order: 2
 | Weds  |  Thanksgiving Break! |   |
 | Fri   |  Thanksgiving Break!|    |
 | **Week 15 11/27-12/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |       |
-| Weds  |  |   |
-| Fri   |  |    |
+| Mon   |  Control Systems|  Ch 11.1-2     |
+| Weds  |  PID Controllers | Ch 11.2-4  |
+| Fri   |  PID Controllers|  Ch 11.4-5  |
 | **Week 16 12/4-12/8**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
 | Weds  |  Semester Review| All Materials Due Before Friday  |
