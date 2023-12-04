@@ -48,7 +48,7 @@ This class has a laboratory component allowing students to gain hands-on experie
 | Activity |   Weight |
 |:-------- | --------:|
 | 2 Exams  | 30% each |
-| Labs     |      20% |
+| Labs     |      30% |
 | Homework |      10% |
 
 Grading will be on a 90%-80%-70%-60% scale.  Curving may be applied based on course average.
