@@ -41,12 +41,12 @@ nav_order: 2
 | Fri   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |    |
 | **Week 8 3/4-3/8**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |       |
-| Weds  | **Midterm Review** |   |
-| Fri   | **Midterm Exam** |    |
+| Weds  |  |   |
+| Fri   |  |    |
 | **Week 9 3/11-3/15**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |     |
-| Weds  |  |   |
-| Fri   |  |   |
+| Weds  |  **Midterm Review**|   |
+| Fri   | **Midterm Exam** |   |
 | **Week 10 3/18-3/22**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Spring Break !     |
 | Weds   |  Spring Break !|    |
