@@ -13,7 +13,7 @@ nav_order: 2
 | Week 1 1/15-1/19       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | Martin Luther King Day |  No Class    |
-| Weds  |  [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf)|  Read Ch 1 |
+| Weds  |  [Course Introduction](../../_modules/eecs-4213/intro-spr24.pdf)|  Read Ch 1 |
 | Fri   |  [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) | Homework #1 Assigned in Blackboard   |
 | **Week 2 1/22-1/26**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Moore's Law, Dennard Scaling |      |
