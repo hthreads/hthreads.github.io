@@ -10,9 +10,9 @@ nav_order: 2
 
 # Weekly Schedule
 
-| Week 1 1/17-1/19       | Lecture Topic                          | Assignment          |
+| Week 1 1/15-1/19       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
-| Mon   |  |  No Class    |
+| Mon   | Martin Luther King Day |  No Class    |
 | Weds  |  [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf)|  Read Ch 1 |
 | Fri   |  [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) | Homework #1 Assigned in Blackboard   |
 | **Week 2 1/22-1/26**       |  **Lecture Topic**                        | **Assignment**          |
