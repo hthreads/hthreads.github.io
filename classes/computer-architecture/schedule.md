@@ -12,21 +12,21 @@ nav_order: 2
 
 | Week 1 1/17-1/19       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
-| Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
-| Weds  | [Characteristics of Embedded Systems](../../_modules/eecs-4114/4114_emboverview2_F23.pdf) |  Read Ch 2.8 |
-| Fri   | [Basic Software Techniques:Pointer Review](../../_modules/eecs-4114/Pointers.pdf) | Homework #1 Assigned in Blackboard   |
+| Mon   |  |  No Class    |
+| Weds  |  [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf)|  Read Ch 1 |
+| Fri   |  [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) | Homework #1 Assigned in Blackboard   |
 | **Week 2 1/22-1/26**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/eecs-4114/4114_bit_twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf)    |
-| Weds  | [Parallel Input/Output](../../_modules/eecs-4114/4114_gpio.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf) |
-| Fri   | More on Basic Software Techniques |    |
+| Mon   |  Moore's Law, Dennard Scaling |      |
+| Weds  |  |   |
+| Fri   |  |   |
 | **Week 3 1/29-2/2**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | Labor Day |      |
-| Weds  | Lab 1 makeup |   |
-| Fri   | Tips on Vivado |    |
+| Mon   |  |   |
+| Weds  |  |   |
+| Fri   |  |   |
 | **Week 4 2/5-2/9**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) | Homework #2 Asssigned in Blackboard    |
-| Weds  |  [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)| Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
-| Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |  Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
+| Mon   |  | Homework #2 Asssigned in Blackboard    |
+| Weds  |  |  |
+| Fri   |  |  Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | **Week 5 2/12-2/16**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [Timer Basics and Modes](../../_modules/eecs-4114/4114timers.pdf)|  Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)    |
 | Weds  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) |   Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf)|
