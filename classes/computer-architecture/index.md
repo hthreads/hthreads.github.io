@@ -30,6 +30,8 @@ The architecture of modern scalar and parallel computing systems. Techniques for
 ## Textbook
 Computer Architecture. A Quantitative Approach. Sixth Edition, by David A. Patterson and John L. Hennessy, Morgan Kaufmann Publishers, Inc., 2019.
 
+## Syllabus
+[Class Syllabus](./syllabus)
 ## Topics Covered
 - Technology trends and Performance Evaluation
 - Instruction Level parallelism
