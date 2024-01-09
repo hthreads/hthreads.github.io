@@ -14,9 +14,9 @@ nav_order: 2
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | Martin Luther King Day |  No Class    |
 | Weds  |  [Course Introduction](../../_modules/eecs-4213/intro-spr24.pdf)|  Read Ch 1 |
-| Fri   |  [Moore's Law Dennard Scaling](../../_modules/eecs-4114/moore-dennard.pdf) | Homework #1 Assigned in Blackboard   |
+| Fri   |  [Moore's Law Dennard Scaling](../../_modules/eecs-4213/moore-dennard.pdf) | Homework #1 Assigned in Blackboard   |
 | **Week 2 1/22-1/26**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Moore's Law Dennard Scaling](../../_modules/eecs-4114/moore-dennard.pdf) |      |
+| Mon   | [Moore's Law Dennard Scaling](../../_modules/eecs-4213/moore-dennard.pdf) |      |
 | Weds  |  |   |
 | Fri   |  |   |
 | **Week 3 1/29-2/2**       |  **Lecture Topic**                    |     **Assignment**      |
