@@ -44,8 +44,12 @@ Computer Architecture. A Quantitative Approach. Sixth Edition, by David A. Patte
 - Memory Hierarchies
 
 ## Class/Assigned Readings
-- Lecture meets M/W/F 3:05 - 3:55  in Blackboard
+- Lecture meets M/W/F 3:05 - 3:55 Bell 2267
 - Readings posted for a week represent the material that will be covered for that week. Part of your preparation for the week is to have performed a first reading of the material in order to familiarize yourself with the topics that will be covered.
+
+## Office Hours
+- Professor: David Andrews M-W-F 2:00 - 2:50 JBHT 527
+- TA:  Tendayi Kamucheka Tues/Thurs 2:00 - 3:30 Virtual via Teams (Link will be provided in class)
 
 ## Course Outcomes
 - Knowledge of the history and social impact of high performance computing
