@@ -21,7 +21,7 @@ has_toc: false
 
 ## Introduction
 
-Welcome to EECS 4213 Computer Architecture. It is truly an exciting time to study computer architecture as we are about to engage in a major change in how computers are built ! In this class you will first become familiar with how to measure performance and understand current trends in how the industry is building computers. Then, you will study many of the important historical techniques that the computer industry has developed over the last 20 years for executing multiple instructions concurrently and out of order within scalar cores.  This is followed by studying how to combine multiple cores into a multiprocessor system.  This will include cache coherency and architecture support for atomic operations. Finally you will study architectures used to accelerate machine learning applications. 
+Welcome to EECS 4213 Computer Architecture. It is truly an exciting time to study computer architecture as we are about to engage in a major change in how computers are built! In this class you will first become familiar with how to measure performance and understand current trends in how the industry is building computers. Then, you will study important architecture techniques that the computer industry has developed over the last 20 years for delivering generational performance increases through exploiting parallelism at the instruction, thread, and data level.  Finally you will study architectures emerging to accelerate todays data intensive machine learning applications. 
 
 ## Catalog Description
 
