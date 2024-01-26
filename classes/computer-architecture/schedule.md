@@ -20,8 +20,8 @@ nav_order: 2
 | Weds  |  [Trends, Performance, Parallelism](../../_modules/eecs-4213/trends,parallelism,performance.pdf)|  Reading Ch 2.1 -2.2  |
 | Fri   |  [Memory Hierarchy Overview](../../_modules/eecs-4213/cacheuark-24.pdf)| Ch 2.1-2.2   |
 | **Week 3 1/29-2/2**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  ABC of Caches | Appendix B1-B3  |
-| Weds  |  |   |
+| Mon   |  [ABC of Caches](../../_modules/eecs-4213/cacheuark-24.pdf) | Appendix B1-B3  |
+| Weds  | [ABC of Caches](../../_modules/eecs-4213/cacheuark-24.pdf) |   |
 | Fri   |  |   |
 | **Week 4 2/5-2/9**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |   |
