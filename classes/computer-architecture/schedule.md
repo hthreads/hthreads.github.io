@@ -20,20 +20,20 @@ nav_order: 2
 | Weds  |  [Trends, Performance, Parallelism](../../_modules/eecs-4213/trends,parallelism,performance.pdf)|  Reading Ch 2.1 -2.2  |
 | Fri   |  [Memory Hierarchy Overview](../../_modules/eecs-4213/cacheuark24.pdf)| Ch 2.1-2.2   |
 | **Week 3 1/29-2/2**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [ABC of Caches](../../_modules/eecs-4213/cacheuark24.pdf) | Appendix B1-B3  |
-| Weds  | [ABC of Caches](../../_modules/eecs-4213/cacheuark24.pdf) |   |
-| Fri   |  |   |
+| Mon   |  [Locality](../../_modules/eecs-4213/cacheuark24.pdf) | Appendix B1-B3  |
+| Weds  | [Cache Structures](../../_modules/eecs-4213/cacheuark24.pdf) |   |
+| Fri   |  [Direct Mapped/Fully AssociativeCaches](../../_modules/eecs-4213/cacheuark24.pdf)|   |
 | **Week 4 2/5-2/9**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  |   |
-| Fri   |  [Instruction Level Parallelism](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5   |
+| Mon   |  [Set Associative Caches](../../_modules/eecs-4213/cacheuark24.pdf)|   |
+| Weds  |  [Tuning through Trace Analysis/Cache Replacement Policies](../../_modules/eecs-4213/cacheuark24.pdf)|   |
+| Fri   |  [Intro to Instruction Level Parallelism](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5   |
 | **Week 5 2/12-2/16**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |   |
-| Weds  |  |   |
-| Fri   |  |   |
+| Mon   |  [Register Renaming](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | **Week 6 2/19-2/23**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  |   |
+| Mon   |  [Reorder Buffer](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Weds  |  [Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Fri   |  |   |
 | **Week 7 2/26-3/1**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |   |
