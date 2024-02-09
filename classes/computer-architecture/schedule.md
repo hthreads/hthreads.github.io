@@ -26,7 +26,7 @@ nav_order: 2
 | **Week 4 2/5-2/9**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |   |
 | Weds  |  |   |
-| Fri   |  |   |
+| Fri   |  [Instruction Level Parallelism](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5   |
 | **Week 5 2/12-2/16**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |   |
 | Weds  |  |   |
