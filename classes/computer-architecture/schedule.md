@@ -33,10 +33,10 @@ nav_order: 2
 | Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | **Week 6 2/19-2/23**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Reorder Buffer](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Weds  |  [Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Fri   |  |   |
+| Weds  |  [1-2 bit Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Fri   |  [Correlating Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | **Week 7 2/26-3/1**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |   |
+| Mon   |  [Reorder Buffer](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Weds  |  |   |
 | Fri   |  |   |
 | **Week 8 3/4-3/8**       |  **Lecture Topic**                        | **Assignment**          |
