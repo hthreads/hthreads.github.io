@@ -32,7 +32,7 @@ nav_order: 2
 | Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | **Week 6 2/19-2/23**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Tomasulo Walkthroug|   |
+| Mon   |  Tomasulo Walkthrough|   |
 | Weds  |  [1-2 bit Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)| Ch 3.3  |
 | Fri   |  [Correlating Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)| Ch 3.3  |
 | **Week 7 2/26-3/1**       |  **Lecture Topic**                    |     **Assignment**      |
@@ -40,11 +40,11 @@ nav_order: 2
 | Weds  |  Example of dual issue w/wo speculation| Ch 3.8  |
 | Fri   |  Intro to Data Level Parallelism| Ch 4.1, 4.2  |
 | **Week 8 3/4-3/8**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Vector Processors | Ch 4.2  |
-| Weds  |  Vector Processor | Ch 4.2  |
-| Fri   |  |   |
+| Mon   |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
+| Weds  |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf)  | Ch 4.2  |
+| Fri   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | **Week 9 3/11-3/15**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |   |
+| Mon   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | Weds  |  **Midterm Review**|   |
 | Fri   | **Midterm Exam** |   |
 | **Week 10 3/18-3/22**       |  **Lecture Topic**                        | **Assignment**          |
