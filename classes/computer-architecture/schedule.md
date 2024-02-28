@@ -32,16 +32,16 @@ nav_order: 2
 | Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | **Week 6 2/19-2/23**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Reorder Buffer](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Weds  |  [1-2 bit Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Fri   |  [Correlating Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Mon   |  Tomasulo Walkthroug|   |
+| Weds  |  [1-2 bit Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)| Ch 3.3  |
+| Fri   |  [Correlating Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)| Ch 3.3  |
 | **Week 7 2/26-3/1**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [Reorder Buffer](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Weds  |  |   |
-| Fri   |  |   |
+| Weds  |  Example of dual issue w/wo speculation| Ch 3.8  |
+| Fri   |  Intro to Data Level Parallelism| Ch 4.1, 4.2  |
 | **Week 8 3/4-3/8**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  |   |
+| Mon   |  Vector Processors | Ch 4.2  |
+| Weds  |  Vector Processor | Ch 4.2  |
 | Fri   |  |   |
 | **Week 9 3/11-3/15**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |   |
