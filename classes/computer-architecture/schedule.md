@@ -32,11 +32,11 @@ nav_order: 2
 | Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | **Week 6 2/19-2/23**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Tomasulo Walkthrough|   |
+| Mon   |  [Tomasulo Walkthrough](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Weds  |  1-2 bit Branch Prediction (slides in BB)| Ch 3.3  |
-| Fri   |  [Correlating Branch Prediction](slides in BB)| Ch 3.3  |
+| Fri   |  Correlating Branch Prediction (slides in BB)| Ch 3.3  |
 | **Week 7 2/26-3/1**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [Reorder Buffer](slides in BB)|   |
+| Mon   |  Reorder Buffer(slides in BB)|   |
 | Weds  |  Example of dual issue w/wo speculation (slides in BB)| Ch 3.8  |
 | Fri   |  Intro to Data Level Parallelism| Ch 4.1, 4.2  |
 | **Week 8 3/4-3/8**       |  **Lecture Topic**                        | **Assignment**          |
