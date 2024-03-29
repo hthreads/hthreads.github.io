@@ -52,28 +52,28 @@ nav_order: 2
 | Weds   |  Spring Break !|    |
 | Fri  |    Spring Break ! |  |
 | **Week 11 3/25-3/29**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  |   |
-| Fri   |  |   |
+| Mon   | Exam Return |   |
+| Weds  | [Chaining and Lanes](../../_modules/eecs-4213/VP.AppG.pdf) |   |
+| Fri   |  [strip mining](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | **Week 12 4/1-4/5**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  |   |
-| Fri   |  |   |
+| Mon   | Intro to Thread-Level Parallelism |  Ch 5.1 |
+| Weds  |  Cache Coherence| Ch 5.2  |
+| Fri   |  Snoopy Cache Protocol MSI|  Ch 5.2 |
 | **Week 13 4/8-4/112**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  |   |
-| Fri   |  |   |
+| Mon   |  Snoopy Cache Protocol MESI, MOESI| Ch 5.2   |
+| Weds  |  Directory Based Protocol | Ch 5.4  |
+| Fri   |  Synchronization | Ch 5.5   |
 | **Week 14 4/15-4/19**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  |   |
-| Fri   |  |   |
+| Mon   |  Synchronization | Ch 5.5  |
+| Weds  |  Synchronization | Ch 5.5  |
+| Fri   |  Domain-Specific Architectures | Ch 7.1-2  |
 | **Week 15 4/22-4/26**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Mon   |  Domain-Specific Architectures MLPs, CNNs | Ch 7.1-2 |
+| Weds  |  Domain-Specific Architectures TPU | Ch 7.3 |
+| Fri   |  Domain-Specific Architectures Systolic Arrays |  |
 | **Week 16 4/29-5/3**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  Semester Review| All Materials Due Before Friday  |
+| Mon   |  Semester Review |  |
+| Weds  |  Semester Review | All Materials Due Before Friday  |
 | Fri   |  Reading Day|   |
 | **Final 5/8**       |  **3:00pm - 5pm **                    | Final is not comprehensive         |
 
