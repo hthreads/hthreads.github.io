@@ -60,13 +60,13 @@ nav_order: 2
 | Weds  |  Cache Coherence| Ch 5.2  |
 | Fri   |  Snoopy Cache Protocol MSI|  Ch 5.2 |
 | **Week 13 4/8-4/112**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Snoopy Cache Protocol MESI, MOESI| Ch 5.2   |
-| Weds  |  Directory Based Protocol | Ch 5.4  |
-| Fri   |  Synchronization | Ch 5.5   |
+| Mon   |  Snoopy Cache Protocol MESI | Ch 5.2   |
+| Weds  |  Snoopy Cache Protocol MOESI | Ch 5.4  |
+| Fri   |  Snoopy protocol wrapup | Ch 5.5   |
 | **Week 14 4/15-4/19**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Synchronization | Ch 5.5  |
 | Weds  |  Synchronization | Ch 5.5  |
-| Fri   |  Domain-Specific Architectures | Ch 7.1-2  |
+| Fri   |  Guest Lecture |   |
 | **Week 15 4/22-4/26**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Domain-Specific Architectures MLPs, CNNs | Ch 7.1-2 |
 | Weds  |  Domain-Specific Architectures TPU | Ch 7.3 |
