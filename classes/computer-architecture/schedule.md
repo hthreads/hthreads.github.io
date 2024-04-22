@@ -68,7 +68,7 @@ nav_order: 2
 | Weds  |  Synchronization | Ch 5.5  |
 | Fri   |  Guest Lecture |   |
 | **Week 15 4/22-4/26**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Domain-Specific Architectures MLPs, CNNs | Ch 7.1-2 |
+| Mon   |  [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
 | Weds  |  Domain-Specific Architectures TPU | Ch 7.3 |
 | Fri   |  Domain-Specific Architectures Systolic Arrays |  |
 | **Week 16 4/29-5/3**       |  **Lecture Topic**                        | **Assignment**          |
