@@ -69,8 +69,8 @@ nav_order: 2
 | Fri   |  Guest Lecture |   |
 | **Week 15 4/22-4/26**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
-| Weds  |  Domain-Specific Architectures TPU | Ch 7.3 |
-| Fri   |  Domain-Specific Architectures Systolic Arrays |  |
+| Weds  |  [MLPs, Tensor Processing Unit (TPU)](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.3 |
+| Fri   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |  |
 | **Week 16 4/29-5/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Semester Review |  |
 | Weds  |  Semester Review | All Materials Due Before Friday  |
