@@ -11,23 +11,23 @@ nav_order: 2
 | Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
-| Weds  | Moore's Law |  Read [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
-| Fri   | Dennard Scaling |    |
+| Weds  | Characterizing A Domain Specific Accelerator |  |
+| Fri   | Characterizing Domain Specific Accelerators |  |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Looking back: General Purpose Processors and the Virtuous Cycle |  Read  [blah](https://dl.acm.org/doi/10.1145/3430936)   |
-| Weds  | Looking back: The Difficulty of Specialization |  Read  |
-| Fri   | Looking back: The breakdown of the Virtuous Cycle |    |
+| Mon  | Moore's Law |  Read [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
+| Weds   | Dennard Scaling |    |
+| Fri   | Looking back: General Purpose Processors and the Virtuous Cycle |  Read  [blah](https://dl.acm.org/doi/10.1145/3430936)   |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
-| Weds  | The Rise of Specialization |   |
-| Fri   | Economic Impacts |    |
+| Weds  | Looking back: The Difficulty of Specialization |  Read  |
+| Fri   | Looking back: The breakdown of the Virtuous Cycle |    |
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | The need for new scaling |  |
-| Weds  | Limits of Specialization | Read [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
-| Fri   |  |  |
+| Mon  | The Rise of Specialization |   |
+| Weds   | Economic Impacts |    |
+| Fri   | The need for new scaling | Read [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |  |
-| Weds  |  |  |
+| Mon  | Limits of Specialization | Read [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
+| Weds   |  |  |
 | Fri   |  |  |
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | |   |
