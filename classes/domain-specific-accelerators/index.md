@@ -40,9 +40,6 @@ Readings posted for a week represent the material that will be covered for that 
 
     Professor: David Andrews M-W-F 2:00 - 2:50 JBHT 527
 
-    
-
-## All lectures can be found through the following link: [EECS 4114 Lecture Page](./schedule.md).
 
 ## Course Outcomes
 
@@ -52,4 +49,8 @@ Readings posted for a week represent the material that will be covered for that 
 - Students are required to apply mathematics in the evaluation of the performance of a computer
 - Students are required to understand the architecture of a domain specific accelerator
 
+## Lectures
+[Weekly Schedule](./schedule)
 
+## Homework
+[Weekly Schedule](./schedule)
