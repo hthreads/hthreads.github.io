@@ -23,7 +23,7 @@ nav_order: 2
 | Fri   | Economic Impacts |    |
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | The need for new scaling |  |
-| Weds  | Limits of Specialization | Read [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/hpca19.pdf) |
+| Weds  | Limits of Specialization | Read [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
 | Fri   |  |  |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |  |
