@@ -20,7 +20,7 @@ has_toc: false
 
 ## Graduate Classes Offered by the CSDL Lab
 
-### EECS 5013 Domain Specific Accelerators
+### [EECS 5013 Domain Specific Accelerators](classes/domain-specific-accelerators)
 The rise of computationally expensive machine learning applications occured with the ending of Dennard scaling and slowing of Moore's Law.   Domain Specific Accelerators (DSAs) and Domain Specific Languages (DSLs) are our industries current path forward to meet the continually expanding computational demands of machine learning applications.  DSAs offer increased efficiencies of transistor densities on the matrix-vector type and spatial concurrency of the computations that dominate machine learning algorithms compared to general purpose processors. 
 
 ### EECS 5013 Post Moore’s Law Computer Architectures
