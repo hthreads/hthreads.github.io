@@ -11,7 +11,7 @@ nav_order: 2
 | Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
-| Weds  | Moore's Law |  Read [blah](../../_modules/domain-specific-accelerators/)|
+| Weds  | Moore's Law |  Read [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | Fri   | Dennard Scaling |    |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Looking back: General Purpose Processors and the Virtuous Cycle |  Read  [blah](https://dl.acm.org/doi/10.1145/3430936)   |
