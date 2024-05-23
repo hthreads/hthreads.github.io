@@ -10,11 +10,11 @@ nav_order: 2
 
 | Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
-| Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  Read ch 1.1, 2.1,2.2: download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
+| Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
 | Weds  | Characterizing A Domain Specific Accelerator |  |
 | Fri   | Characterizing Domain Specific Accelerators |  |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon  | Moore's Law |  Read [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
+| Mon  | Moore's Law |  Reading: [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | Weds   | Dennard Scaling |    |
 | Fri   | Looking back: General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
