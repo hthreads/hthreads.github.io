@@ -45,21 +45,26 @@ A senior level/graduate-level course that gives student the basics of autonomic 
 
 ## Undergraduate Classes Offered by the CSDL Lab
 
-### EECS 2214 Computer Organization
+### [EECS 4213 Computer Architecture](/classes/computer-architecture)
 
-An introductory course in computer organization and architecture including topics in digital logic, digital systems, and memory structure.
-
-### EECS 3613 Operating Systems
-
-An introduction to operating systems including topics in concepts and system structures, process management, memory management, files and storage management, distributed systems, and case studies.
+A senior level/graduate-level course that covers modern Computer Architecture.
 
 ### [EECS 4114 Embedded Systems](/classes/embedded-systems)
 
 A senior level/graduate-level course that covers modern Computer Architecture.
 
-### [EECS 4213 Computer Architecture](/classes/computer-architecture)
+### [EECS 4013 Domain Specific Accelerators](/classes/domain-specific-accelerators)
+The rise of computationally expensive machine learning applications occured with the ending of Dennard scaling and slowing of Moore's Law.   Domain Specific Accelerators (DSAs) and Domain Specific Languages (DSLs) are our industries current path forward to meet the continually expanding computational demands of machine learning applications.  DSAs offer increased efficiencies of transistor densities on the matrix-vector type and spatial concurrency of the computations that dominate machine learning algorithms compared to general purpose processors. 
 
-A senior level/graduate-level course that covers modern Computer Architecture.
+
+### EECS 3613 Operating Systems
+
+An introduction to operating systems including topics in concepts and system structures, process management, memory management, files and storage management, distributed systems, and case studies.
+
+### EECS 2214 Computer Organization
+
+An introductory course in computer organization and architecture including topics in digital logic, digital systems, and memory structure.
+
 
 ### EECS 2114 Digital Design
 
