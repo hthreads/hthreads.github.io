@@ -16,7 +16,7 @@ nav_order: 2
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon  | Moore's Law |  Read [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | Weds   | Dennard Scaling |    |
-| Fri   | Looking back: General Purpose Processors and the Virtuous Cycle |  Read  [blah](https://dl.acm.org/doi/10.1145/3430936)   |
+| Fri   | Looking back: General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
 | **Week 3 9/4-9/8**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
 | Weds  | Looking back: The Difficulty of Specialization |  Read  |
@@ -24,9 +24,9 @@ nav_order: 2
 | **Week 4 9/11-9/15**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon  | The Rise of Specialization |   |
 | Weds   | Economic Impacts |    |
-| Fri   | The need for new scaling | Read [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
+| Fri   | The need for new scaling | Reading: [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
 | **Week 5 9/18-9/22**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon  | Limits of Specialization | Read [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
+| Mon  | Limits of Specialization | Reading: [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf) |
 | Weds   |  |  |
 | Fri   |  |  |
 | **Week 6 9/25-9/29**       |  **Lecture Topic**                        | **Assignment**          |
