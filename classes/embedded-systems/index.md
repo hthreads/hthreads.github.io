@@ -23,7 +23,7 @@ This class will make use of the Xilinx/Digilent [Arty-A7-35](https://www.xilinx.
 
 ## Textbook
 
-[EECS 4114: Embedded Systems](https://learn.zybooks.com), Frank Vahid, Tony Givargis, Bailey Miller, Zybooks\
+[EECS 4114: Embedded Systems](https://learn.zybooks.com), Frank Vahid, Tony Givargis, Bailey Miller, Zybooks
 
 
 ## Schedule
