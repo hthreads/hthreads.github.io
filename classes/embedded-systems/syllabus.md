@@ -13,6 +13,12 @@ This course introduces students to the design and analysis of computer systems t
 ## Textbook
 
 - Frank Vahid, Tony Givargis, Bailey Miller, Programming Embedded Systems, Zybook.
+- To order your book:
+1. Sign in or create an account at learn.zybooks.com
+2. Enter zyBook code UARKCSCE4114AndrewsFall2024
+3. Subscribe
+
+
 - (Optional) Marilyn Wolf, Embedded System Interfacing: Design for the Internet-of-Things (IoT) and Cyber-Physical Systems (CPS), Elsevier; 2019 Edition.
 
 ## Lecture Topics
