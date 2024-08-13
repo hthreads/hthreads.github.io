@@ -24,11 +24,6 @@ This class will make use of the Xilinx/Digilent [Arty-A7-35](https://www.xilinx.
 ## Textbook
 
 [EECS 4114: Embedded Systems](https://learn.zybooks.com), Frank Vahid, Tony Givargis, Bailey Miller, Zybooks\
-To order your book\
-1 sign in or create an account at learn.zybooks.com.  
-2 Enter zyBook code UARKCSCE4114AndrewsFall2024 and 
-3 then Subscribe
-
 
 
 ## Schedule
