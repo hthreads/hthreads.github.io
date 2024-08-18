@@ -10,7 +10,7 @@ nav_order: 2
 
 | Week 1 8/19-8/23       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
-| Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Welcome! <br> [Domain Specific Accelerator](https://cacm.acm.org/research/domain-specific-hardware-accelerators/)    |
+| Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Welcome! <br> [Domain Specific Accelerators](https://cacm.acm.org/research/domain-specific-hardware-accelerators/)    |
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trends,parallelism,performance.pdf) |  |
 | Fri   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
 | **Week 2 8/26-8/30**       |  **Lecture Topic**                        | **Assignment**          |
