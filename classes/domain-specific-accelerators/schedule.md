@@ -11,7 +11,7 @@ nav_order: 2
 | Week 1 8/19-8/23       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Welcome!    |
-| Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trends,parallelism,performance.pdf |  |
+| Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trends,parallelism,performance.pdf) |  |
 | Fri   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
 | **Week 2 8/26-8/30**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon  | [Moore's Law Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
