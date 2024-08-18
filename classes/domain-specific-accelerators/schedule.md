@@ -10,9 +10,9 @@ nav_order: 2
 
 | Week 1 8/21-8/25       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
-| Mon   | [Course Introduction](../../_modules/eecs-4114/4114_intro_F23.pdf) |  download [Vivado 2019.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)     |
+| Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Welcome!    |
 | Weds  | Characterizing A Domain Specific Accelerator |  |
-| Fri   | Characterizing Domain Specific Accelerators |  |
+| Fri   | [Moore's Law Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  |
 | **Week 2 8/28-9/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon  | Moore's Law |  Reading: [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | Weds   | Dennard Scaling |    |
