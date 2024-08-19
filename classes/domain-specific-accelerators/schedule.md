@@ -12,14 +12,14 @@ nav_order: 2
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/Intro.pdf) |  Welcome! <br> [B. Dally et. al Domain-Specific Hardware Accelerators](https://cacm.acm.org/research/domain-specific-hardware-accelerators/) Comm of the ACM 2020   |
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trends,parallelism,performance.pdf) | Review from Chapter 1 Computer Architecture: A Quantitative Approach, Hennessy and Patterson |
-| Fri   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
+| Fri  | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | **Week 2 8/26-8/30**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon  | [Moore's Law Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated cirucits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
-| Weds   |[Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |    |
-| Fri   | Looking back: General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
+| Mon   | General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
+| Weds  | General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
+| Fri   | The Difficulty of Specialization | Reading:    |
 | **Week 3 9/2-9/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
-| Weds  | Looking back: The Difficulty of Specialization |  Read  |
+| Weds   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
 | Fri   | Looking back: The breakdown of the Virtuous Cycle |    |
 | **Week 4 9/9-9/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon  | The Rise of Specialization |   |
