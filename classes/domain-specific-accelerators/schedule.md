@@ -16,7 +16,7 @@ nav_order: 2
 | **Week 2 8/26-8/30**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
 | Weds  | General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
-| Fri   | The Difficulty of Specialization | Reading:    |
+| Fri   | The Difficulty of Specialization | Reading: [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf), A. Fuchs, D. Wentzlaff   |
 | **Week 3 9/2-9/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
 | Weds   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
