@@ -9,7 +9,7 @@ nav_order: 2
 # Weekly Schedule
 
 | Week 1 8/19-8/23       | Lecture Topic                          | Assignment          |
-| :----------- | :----------------------------------------------: | --------------------:|
+| :----------- | :----------------------------------------------: | :--------------------|
 | Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/Intro.pdf) |  Welcome! <br> [B. Dally et. al Domain-Specific Hardware Accelerators](https://cacm.acm.org/research/domain-specific-hardware-accelerators/) Comm of the ACM 2020   |
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trends,parallelism,performance.pdf) | Review from Chapter 1 Computer Architecture: A Quantitative Approach, Hennessy and Patterson |
 | Fri  | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
