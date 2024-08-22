@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Labs
-parent: EECS 4114 Embedded Systems
+parent: Embedded Systems
 grand_parent: Classes
 has_children: true
 nav_order: 3

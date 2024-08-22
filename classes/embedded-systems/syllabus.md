@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-parent: EECS 4114 Embedded Systems
+parent: Embedded Systems
 grand_parent: Classes
 nav_order: 1
 ---
@@ -23,18 +23,18 @@ This course introduces students to the design and analysis of computer systems t
 
 ## Lecture Topics
 
-| Topic                                                                           | Coverage |
-|:------------------------------------------------------------------------------- | --------:|
-| Characteristics of Embedded Systems                                             |  1 week |
-| Basic Software Techniques                                                       |  2 weeks |
-| Parallel Input and Output                                                       |  1 week |
-| Asynchronous and Synchronous Serial Communications                              |  1 week |
-| Polling, Interrupts, Timers                                                     |  3 week |
-| Data Acquisition, Sampling Theory and A/D Convertors                            |  2 weeks |
-| Real Time Programming Models and Requirements                                   |  2 weeks |
-| Real Time Scheduling                                                            |  1 week |
-| RTOS's (FreeRTOS)                                                               |  2 weeks |
-| Selected topics (Trends, OS and Compiler for ES, etc ...)                       |  1 week |
+| Topic                                                           | Coverage |
+|:--------------------------------------------------------------- | --------:|
+| Characteristics of Embedded Systems                             | 1 week   |
+| Basic Software Techniques                                       | 2 weeks  |
+| Parallel Input and Output                                       | 1 week   |
+| Asynchronous and Synchronous Serial Communications              | 1 week   |
+| Polling, Interrupts, Timers                                     | 3 week   |
+| Data Acquisition, Sampling Theory and A/D Convertors            | 2 weeks  |
+| Real Time Programming Models and Requirements                   | 2 weeks  |
+| Real Time Scheduling                                            | 1 week   |
+| RTOS's (FreeRTOS)                                               | 2 weeks  |
+| Selected topics (Trends, OS and Compiler for ES, etc ...)       | 1 week   |
 
 ## Laboratory Component
 

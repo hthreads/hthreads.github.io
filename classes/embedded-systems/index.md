@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EECS 4114 Embedded Systems
+title: Embedded Systems
 parent: Classes
 has_children: true
 nav_order: 1
