@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schedule
-parent: EECS 4114 Embedded Systems
+parent: Domain Specific Accelerators
 grand_parent: Classes
 nav_order: 2
 ---
