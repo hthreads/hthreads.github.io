@@ -2,7 +2,7 @@
 layout: page
 title: Domain Specific Accelerators
 parent: Classes
-nav_exclude: true
+nav_exclude: false
 ---
 EECS 40103/50103 Domain Specific Architectures
 
