@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EECS 4213 Computer Architecture
+title: Computer Architecture
 nav_title: comp arch
 parent: Classes
 has_children: true

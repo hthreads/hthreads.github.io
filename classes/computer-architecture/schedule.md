@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Schedule
-parent: EECS 4213 Computer Architecture
+parent: Computer Architecture
 grand_parent: Classes
 nav_order: 2
 ---
-
-# Weekly Schedule
 
 # Weekly Schedule
 
