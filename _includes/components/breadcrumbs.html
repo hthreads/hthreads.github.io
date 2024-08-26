@@ -14,20 +14,22 @@ pages_list, parent_page, grandparent_page.
     | where_exp: "item", "item.has_children != nil" -%}
 
   <!-- Create iterable array of url fragments -->
+  <!-- We're not going to use this directly, but it'll give us something
+       to iterate over that is relatively close in length to the number of
+       ancestors. -->
   {%- assign url_fragments = page.url 
     | remove_first: '/'
     | split: "/" -%}
 
   <!-- Array initializer -->
-  {%- assign ancestors = "," | split: "," -%}
+  {%- assign ancestors = "" | split: "" -%}
 
   <!-- Backtrack from current page and fill ancestor array -->
+  {%- assign ancestors = ancestors | push: page -%}
   {%- for _ in url_fragments -%}
-    {%- if forloop.first -%}
-      {%- assign current = page -%}
-    {%- else -%}
+    {%- if ancestors.last.parent -%}
       {%- assign current = pages_list
-        | where: "title", current.parent
+        | where: "title", ancestors.last.parent
         | first -%}
       {%- assign ancestors = ancestors | push: current -%}
     {%- endif -%}
@@ -40,13 +42,16 @@ pages_list, parent_page, grandparent_page.
   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
     <ol class="breadcrumb-nav-list">
       {% for ancestor in ancestors %}
-        <li class="breadcrumb-nav-list-item">
-          <a href="{{ancestor.url | relative_url}}">{{ ancestor.title }}</a>
-        </li>
+        {%- if forloop.last -%}
+          <li class="breadcrumb-nav-list-item">
+            <span>{{ page.title }}</span>
+          </li>
+        {%- else -%}
+          <li class="breadcrumb-nav-list-item">
+            <a href="{{ancestor.url | relative_url}}">{{ ancestor.title }}</a>
+          </li>
+        {%- endif -%}
       {% endfor %}
-      <li class="breadcrumb-nav-list-item">
-        <span>{{ page.title }}</span>
-      </li>
     </ol>
   </nav>
 

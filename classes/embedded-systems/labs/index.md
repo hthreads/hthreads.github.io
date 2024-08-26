@@ -19,7 +19,7 @@ nav_exclude: false
 | ------------- | --------------------------------------------------- |
 | 08/19 - 08/23 | Prelab: Download [Vivado 2024.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2024-1.html) on home computer |
 |               | [Vivado 2019.1 Installation Guide](./assets/guides/VivadoGuide2019_1.pdf) |
-|               | [Vivado 2024.1 Installation Guide](./assets/guides/VivadoGuide2024_1.pdf) |
+|               | [Vivado 2024.1 Installation Guide (Preferred)](./assets/guides/VivadoGuide2024_1.pdf) |
 | 08/26 - 09/06 | [Lab 1: How to build a basic SoC](./lab1)           |
 | 09/09 - 09/13 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
 | 09/16 - 09/20 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |

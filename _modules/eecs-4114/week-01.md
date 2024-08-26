@@ -1,16 +1,16 @@
 ---
-title: Week 1
+title: Week 1 8/19-8/23
 course: 4114
 ---
 
-Mon, Aug 21
-: [Course Introduction](#)
+Mon
+: [Course Introduction](./4114_intro_F24.pdf)
   : Read Ch 1.1, 2.1, 2.2
-  : Download Vivado 2019.1
+: [Download Vivado 2024.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)
 
-Weds, Aug 23
+Weds
 : [Characteristics of Embedded Systems](#)
 
-Fri, Aug 25
+Fri
 : [Basic Software Techniques: Pointer Review](#)
   : **HW 1 Assigned**{: .label .label-purple}
