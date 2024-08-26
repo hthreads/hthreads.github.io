@@ -36,6 +36,10 @@ __Vivado - Generating a bitstream:__
 |:--:|
 | *SoC Block Design* |
 
+1. **Export your project:**
+    1. Open Vivado and select `File > Export > Export Hardware`.
+    2. Check the box that says "Include bitstream" and click "Finish".
+
 __Vitis IDE - Creating Software Project:__
 
 1. To open Vitis IDE, select `Tools > Launch Vitis IDE` in the top menu.
@@ -76,20 +80,35 @@ __Vitis IDE - Creating Software Project:__
 
         int main(void) {
 
+            // Your code goes here:
             // Print your name and student ID 5 times
 
             return 0;
         }
         ```
+10. **Building and Running the Application:**
+    1. In the top menu, select `Vitis > New Feature Preview`.
+    2. Select the "Serial Monitor" and click "Enable". This will allow you to see the output of your program.
+    3. In the top menu, select `Vitis > Serial Monitor`. The serial monitor window will open in the bottom panel.
+    4. Under "Vitis Components", select your application, then in the "Flow" panel, click "Build".
+    5. Once the build is complete, click "Run" to program the FPGA and run your application.
 
 ## Submission
+
+{: .note-title}
+> Submission Requirements:
+>
+> **Due Date**: Friday, September 6, 2024
+>
+> * __DO NOT__ paste your code in your lab report.
+> * __DO NOT__ submit your entire project folder or .xsa file.
+> * __DO NOT__ submit zip files or any other compressed files.
 
 1. Prepare a lab report: (Use the lab report template provided)
     * Give an account of what you did in this lab, what you learned, and anything you found interesting.
     * Include the screenshots of your block design and the output of your `Vitis > Serial Monitor` or [Putty](https://portableapps.com/apps/internet/putty_portable) window.
     * Include only essential relevant screenshots, diagrams, and code snippets necessary to your writing in the report.  
 2. Submit, separately, all your code files (e.g. the "helloworld.c" file).
-    * ___NB: DO NOT__ paste your code in your lab report._
 
 ## Prelab Assignment
 
