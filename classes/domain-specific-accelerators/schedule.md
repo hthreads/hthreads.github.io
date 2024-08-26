@@ -14,8 +14,8 @@ nav_order: 2
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trendsreview.pdf) | Review from Chapter 1 Computer Architecture: A Quantitative Approach, Hennessy and Patterson |
 | Fri  | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | **Week 2 8/26-8/30**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
-| Weds  | General Purpose Processors and the Virtuous Cycle |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
+| Mon   | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
+| Weds  | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936)   |
 | Fri | Performance through Parallelization | Reading:   |
 | **Week 3 9/2-9/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
