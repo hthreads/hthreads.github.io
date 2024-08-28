@@ -14,9 +14,10 @@ nav_order: 2
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trendsreview.pdf) | Review from Chapter 1 Computer Architecture: A Quantitative Approach, Hennessy and Patterson |
 | Fri  | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | **Week 2 8/26-8/30**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),     |
+| Mon | Finish review on Parallelism, Flynn's Taxonomy | Reading:   |
 | Weds  | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),    |
-| Fri | Performance through Parallelization | Reading:   |
+| Fri   | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),     |
+
 | **Week 3 9/2-9/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
 | Weds   | Processor In Memory Architectures |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
