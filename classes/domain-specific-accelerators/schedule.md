@@ -19,7 +19,7 @@ nav_order: 2
 | Fri | Performance through Parallelization | Reading:   |
 | **Week 3 9/2-9/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
-| Weds   | Processor In Memory Architectures |    |
+| Weds   | Processor In Memory Architectures |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
 | Fri   | Processor In Memory Architectures  |   |
 | **Week 4 9/9-9/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
