@@ -7,7 +7,7 @@ nav_order: 1
 has_toc: false
 ---
 
-# EECS 4114/5114 Embedded Systems
+# EECS 41104/51104 Embedded Systems
 
 | Arty-A7 Protoboard                       | Autonomous Vehicle                     |
 | ---------------------------------------- | -------------------------------------- |

@@ -2,7 +2,7 @@
 layout: page
 title: Lab 1
 parent: Labs
-grand_parent: EECS 4114 Embedded Systems
+grand_parent: Embedded Systems
 nav_exclude: true
 ---
 
