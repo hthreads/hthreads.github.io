@@ -47,13 +47,13 @@ This may not seem like much, but at the end of this laboratory, you will have cr
     2. Search for "Clocking Wizard" and double-click to add it to your design.
     3. Double-click on the Clocking Wizard block to open the configuration window.
     4. In the "Board" tab, set the following parameters:
-        - **CLK_IN1:** sys clock
-        - **RESET:** reset
+        - **CLK_IN1:** `sys clock`
+        - **RESET:** `reset`
     5. In the "Output Clocks" tab, set the following parameters:
-        - **CLK_OUT1:** 200 MHz
-        - **CLK_OUT2:** 100 MHz
-        - **Reset Type:** Active Low
-        - **Locked:** Disable
+        - **CLK_OUT1:** `200 MHz`
+        - **CLK_OUT2:** `100 MHz`
+        - **Reset Type:** `Active Low`
+        - **Locked:** `Disable`
     6. Click "OK" to close the configuration window.
     7. You should see a green bar at the top of the block design window. Click on the "Run Connection Automation" option.
     8. Check all the boxes to automate connecting the systems clock and reset and click "OK".

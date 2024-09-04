@@ -8,18 +8,6 @@ nav_exclude: true
 
 # Lab 2: GPIO Peripherals
 
-{: .note}
-> Redownload the [starter project](https://github.com/tkamucheka/eecs-4114-labs) before attempting this lab. The new starter project incorporates the following changes:
->
-> 1. The AXI SmartConnects are replaced with AXI InterConnects. The AXI SmartConnects' internal circuitry does not adapt to accommodate addition of new peripherals in this and potentially future labs. This is either by design or a bug in the IP...  
-> 2. An additional AXI Instruction port on the MicroBlaze. We'll need this later in the semester when we move our applications from local memory to DDR memory.
->
-> __Things to do before you start this lab:__ 
->
-> 1. Add the __AXI Uartlite IP__ to your design. Following instructions in [Lab 1: Vivado - Generating a bitstream (4)](../lab1/index.md#directions){: target="_blank"}.
-> 2. Assign an address to the __UartLite IP__ in the "Address Editor" window.
-> 3. Create an HDL wrapper for your block design.
-
 ## Introduction
 
 In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller which gave us the ability to see the output of our applications. We want to do more with our SoC and the peripherals built into the Arty development board. Therefore, in lab 2, we will add two GPIO controllers to gain access to buttons, switches, and LEDs on our development board. After adding the GPIO controllers, we will synthesize our design and generate a new bitstream. Some boilerplate code is supplied that demonstrates how to connect push button inputs to the green LEDs. When a button is pressed, the corresponding LEDs on the opposite side of the board will light up. You will tinker with the supplied code, and observe how the pointers created are used to perform memory-mapped IO. From there, you will build on the supplied code to add support for the 4 switches on the [Arty board](./assets/datasheets/arty_rm.pdf) and make them control the corresponding RGB LEDs. In order to complete this laboratory successfully, you will need to understand the workings of the GPIO peripheral by reading the [GPIO (General Purpose Input/Output)](./assets/datasheets/axi-gpio.pdf).
@@ -43,27 +31,23 @@ In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller
 __Vivado - Block Design:__
 
 1. In Vivado, open the "Block Design" from the "Flow Navigator" window.
-2. Double-click on the __"microblaze_0_periph"__ AXI Interconnect and change "Number of Master Interfaces" to (3). Click "OK" to close the dialog window. You should see two additional ports appear, __"M01_AXI"__ and __"M02_AXI"__.
-![microblaze_0_periph](./assets/images/axi_interconnect.png)
-3. Use the "__+ Add IP__" feature to add the __AXI GPIO__ IP to your design:
-    1. Right-click on the __"S_AXI"__ port on the GPIO controller and select "Make Connection...".
-    2. Choose __"M01_AXI"__ in the "Make Connection" window and click "OK" to make the connection.
-    3. Select "Run Connection Automation". Then select __"s_axi_clk"__ and __"M01_ACLK"__ and set __"Clock Source:"__ to `/mig_7series_0/ui_clk (81 MHz)`.
-    4. Double-click on the AXI GPIO IP to open the "Re-Customize IP" window.
-    5. Set the __GPIO__ interface to `led_4bits` and __GPIO2__ to `push_buttons 4bits`. Click "OK" to exit the window.
-    6. Finally, select "Run Connection Automation" again, and select both __GPIO__ and __GPIO2__ interfaces. Click "OK" to automate the connections.
-    ![AXI GPIO 0](./assets/images/axi_gpio_0.png)
-    7. Use the "Regenerate Layout" button to reorganize things in your block design.
-    ![Regenerate Layout](./assets/images/regenerate_layout.png).
-4. Add another AXI GPIO controller to your design:
-    1. This time, connect the __"S_AXI"__ port to __"M02_AXI"__ port on __"microblaze_0_periph"__.
-    2. For __"s_axi_clk"__ and __"M02_ACLK"__, use the same `/mig_7series_0/ui_clk (81 MHz)` clock you used earlier.
-    3. Then connect __GPIO__ and __GPIO2__ interfaces to `rgb led` and `dip switch 4bits`, respectively.
-    ![AXI GPIO 1](./assets/images/axi_gpio_1.png)
-5. Use the "Address Editor" window to assign addresses to the GPIO IPs you just added.
-  ![Address Editor](./assets/images/address_editor.png)
-6. Save your block design and generate a new bitstream.
-7. Export your hardware, making sure you include the bitstream, and Launch the SDK.
+    ![microblaze_0_periph](./assets/images/axi_interconnect.png)
+2. Use the "__+ Add IP__" feature to add the __AXI GPIO__ IP to your design:
+    1. Double-click on the AXI GPIO IP to open the "Re-Customize IP" window.
+    2. Set the __GPIO__ interface to `led_4bits` and __GPIO2__ to `push_buttons 4bits`. Click "OK" to exit the window.
+    3. Finally, select "Run Connection Automation", and select **AXI**, __GPIO__ and __GPIO2__ interfaces.
+    4. Click "OK" to automate the connections.
+        ![AXI GPIO 0](./assets/images/axi_gpio_0.png)
+    5. Use the "Regenerate Layout" button to reorganize things in your block design.
+        ![Regenerate Layout](./assets/images/regenerate_layout.png).
+3. Add another AXI GPIO controller to your design:
+    1. Configure the __GPIO__ and __GPIO2__ interfaces to `rgb led` and `dip switch 4bits`, respectively.
+        ![AXI GPIO 1](./assets/images/axi_gpio_1.png)
+    2. Run the connection automation again, to connect the **AXI**, **GPIO**, and **GPIO2** interfaces.
+4. Use the "Address Editor" window to assign addresses to the GPIO IPs you just added. There's a good chance Vivado will have automatically assigned addresses to to your newly added peripherals.
+   ![Address Editor](./assets/images/address_editor.png)
+5. Save your block design and generate a new bitstream.
+6. Export your hardware, making sure you include the bitstream, and Launch the SDK.
 
 __Final Block Design (PDF Version):__ [Block Design](./assets/datasheets/block_design.pdf){: target="_blank"}
 
@@ -148,13 +132,9 @@ int main(void)
 ```
 
 1. Create a new application project:
-    1. Give your application a name (e.g. lab2).
-    2. For __"Board Support Package:"__, select "Create New".
-    3. On the next page, select "Empty Application", and select "Finish".
-    4. Right-click on `lab2/src`, and select `New > Source File`.
-    5. Enter "main.c" in __"Source File:"__ and select "Finish".
-    6. Copy the example code into your "main.c" file.
-    7. Program the FPGA and run the application to see the green LEDs respond to button presses.
+    - Start by create a new platform component.
+    - Then create a new application project.
+    - Copy and paste the demo C code into your application.
 2. Add your own code to achieve similar behavior with the dip switches and RGB LEDs:
     - When SW0 (far right) switch is in the up position, LD0 (far right RGB LED) will glow white.
     - When SW1 switch is in the up position, LD1 will glow white.
@@ -174,7 +154,7 @@ __Hints:__
 
 1. Prepare a lab report, and give an account of what you did to complete the lab.
 2. In your lab report, include a screenshot of the 2 AXI GPIO controllers you added to your design.
-3. Submit your code file.
+3. Submit your lab report and code file separately on Blackboard.
 
 ## Prelab Assignment
 
