@@ -30,7 +30,7 @@ So the states in order go: green → blinking red → solid red → blinking red
 
 ## Lab Directions
 
-This is a two part lab that will run in two weeks. In the first week you will have to simulate the 4 and 6-second delays using dummy loops. In the second week you will replace the dummy loops with a timer.
+This is a two part lab that will run in two weeks. In the first week you will simulate the 4 and 6-second delays using dummy loops. In the second week you will replace the dummy loops with a timer.
 
 - In the first week you will write the code to control two push buttons signifying the two cyclist/walkers control boxes and two LEDs signifying the traffic lights. After a control box is pushed, the traffic lights automatically transition between blinking red, solid red, blinking red, and then back to green. You will need to simulate this transition using delay loops. i.e., after a button is pushed the blinking red should appear for approximately 6 seconds, then switch to solid red for 4 seconds, back to blinking red for 6 seconds, and then back to green. Since you don’t have timers you will have to write nested loops that essentially do nothing useful but delay for the appropriate amount of time (approximately, can be a little fast or slow) before switching to the next color.
 
@@ -38,7 +38,7 @@ You will also have to blink the red LED on and off at approximately 1 second int
 
 **Step 1:**
 
-In SDK, create a new blank Application project in the SDK workspace like in last lab. Create a `lab3.c` file and populate it with the necessary empty main() function and includes.
+In Vitis, create a new blank Application project in the workspace like in last lab. Create a `lab3.c` file and populate it with the necessary empty main() function and includes.
 
 1. To start off, we can see this lab is going to utilize waiting in varying time intervals based around the second unit. It would probably be helpful if we created a function to wait for us. Let's make a `delay_ms(int ms)` function, so we can reuse it in other portions of this lab and possible future labs:
     - Copy/paste the following to your source code file:
