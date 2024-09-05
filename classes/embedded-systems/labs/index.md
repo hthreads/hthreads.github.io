@@ -24,10 +24,10 @@ nav_exclude: false
 | 09/02 - 09/06 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
 | 09/09 - 09/13 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
 | 09/16 - 09/20 | [Lab 4: Timers](./lab4)                             |
-| 09/23 - 09/27 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
+| 09/23 - 09/27 | [Lab 5: Interrupt Driven Microblaze: System](./lab5) |
 | 09/30 - 10/04 | [Lab 6: Bare Metal Task Control Blocks (TCBs)](./lab6) |
 | 10/07 - 10/11 | [Lab 7: FreeRTOS](./lab7)                           |
-| 10/14 - 10/18 | [Lab 8: Autonomous Vehicle](./lab8)                 |
+| 10/14 - 10/25 | [Lab 8: Autonomous Vehicle](./lab8)                 |
 
 ## Lab Reports
 
