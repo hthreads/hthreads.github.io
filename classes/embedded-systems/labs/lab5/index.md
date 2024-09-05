@@ -19,8 +19,7 @@ The goal of these labs is to become familiar with the idea of interrupt-based pr
 
 For this lab, you will explore the use of software interrupts and timer interrupts in example programs, and then you will modify the design of the Fayetteville bike crossing signal to rely on interrupts rather than polling to see if the timer has completed.
 
-To keep the design consistent between all students for grading purposes, the final design should contain/do the
-following:
+To keep the design consistent between all students for grading purposes, the final design should contain/do the following:
 
 1. Display a green (RGB) output on the display when no bikers or walkers are trying to cross the street.
 2. Display a flashing red output on the display immediately after any of the tactile push buttons are pressed.
