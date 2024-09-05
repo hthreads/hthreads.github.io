@@ -28,10 +28,15 @@ In lab 1, we started with a basic MicroBlaze SoC, and we added a UART controller
 
 ## Directions
 
-__Vivado - Block Design:__
+{: .note}
+> - This lab assumes you have completed lab 1.
+> - Move quickly through the Vivado section, you'll be spending most of your time in Vitis.
+> - Open your existing project and start hacking.
+
+
+### Vivado - Block Design
 
 1. In Vivado, open the "Block Design" from the "Flow Navigator" window.
-    ![microblaze_0_periph](./assets/images/axi_interconnect.png)
 2. Use the "__+ Add IP__" feature to add the __AXI GPIO__ IP to your design:
     1. Double-click on the AXI GPIO IP to open the "Re-Customize IP" window.
     2. Set the __GPIO__ interface to `led_4bits` and __GPIO2__ to `push_buttons 4bits`. Click "OK" to exit the window.
@@ -51,7 +56,7 @@ __Vivado - Block Design:__
 
 __Final Block Design (PDF Version):__ [Block Design](./assets/datasheets/block_design.pdf){: target="_blank"}
 
-__SDK - Creating Software Project:__
+### Vitis - Software Project
 
 ```c
 // GPIO Tutorial Using Pointers
@@ -146,8 +151,8 @@ int main(void)
 __Hints:__
 {: .label .label-green}
 
-- For RGB LEDs and dip switches, find the memory address of __"axi_gpio_1"__ in the `base_soc_wrapper_hw_platform_0/system.hdf` file. Alternatively, you can find the address in the "Address Editor" window in Vivado.
-- Unlike the green LED data register, which is only 4 bits wide, the RGB LED data register is 12 bits wide. Starting from the MSB (Most Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn LD0 white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
+- For RGB LEDs and dip switches, find the address in the "Address Editor" window in Vivado.
+- Unlike the green LED data register, which is only 4 bits wide, the RGB LED data register is 12 bits wide. Starting from the LSB (Lost Significant Bit), each LED occupies 3 bits - 1 for each of the RGB (Red, Green, and Blue) channels. The first 3 bits control the right-most LED (LD0). To turn LD0 white, write 1's to all three color channels (i.e. `0b111` or `0x7`).
 - You can use bit-wise boolean operations to toggle bits in a register. Refer to class slides on bit twiddling in C.
 
 ## Submission
