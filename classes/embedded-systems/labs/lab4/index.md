@@ -17,7 +17,7 @@ Specifically, you should study the data sheet to determine:
 
 1. How to set the control register to configure the timer to be in the generate mode, count down, automatically reload, and disable the generation of an external interrupt.
 2. How to set the control register to transfer the value from the load register into the timer and then start the timer.
-3. How to poll the status register to identify when the counter transitions to 0 (i.e. 3..2..1..0...reload new count from load register). You will have to poll (read) a specific bit in the control and status register (TCSRx). Once the transition is identified, clear the same bit by writing back a 1.
+3. How to poll the status register to identify when the counter transitions to 0 (i.e. 3..2..1..0... reload new count from load register). You will have to poll (read) a specific bit in the control and status register (TCSRx). Once the transition is identified, clear the same bit by writing back a 1.
 
 ## Project Assignment
 
@@ -33,7 +33,7 @@ What follows next is a description of how to use a single timer in the Generate 
 
 To start off, we need to add the AXI Timer module to our SoC. This means we need to go back into Vivado and make some modifications to our block design. If you have kept your project organized such that you can modify your original design, then go ahead. If not, then you may need to redownload the starter project and add the AXI Uartlite, 2 AXI GPIO, and AXI Timer to your design as we did in previous labs.
 
-__Vivado - Modifying the Block Design:__
+### Vivado - Modifying the Block Design
 
 {: .warning}
 > Move quickly through this section to give yourself ample time to complete the coding exercise.
@@ -41,39 +41,33 @@ __Vivado - Modifying the Block Design:__
 Now that we have our Vivado project open, we need to go into the block design. Once in the block design, perform the following steps:
 
 1. Start by opening the block design.
-2. We need somewhere to connect our AXI Timer to the AXI bus. Add a new AXI master to the __"microblaze_0_axi_periph"__ AXI Interconnect.
-    1. Double-click on the __"microblaze_0_axi_periph"__ AXI Interconnect to open the __"Re-Customize IP"__ dialog.
-    2. Change "Number of Master Interfaces" to (4) and select "OK" to close the dialog window. You should see one additional port appear, __"M03_AXI"__.
-3. Now add the AXI Timer to your design.
-    1. Use the __"+ Add IP"__ feature to add the __AXI Timer__ to your block design.
-    2. Right-click on the __"S_AXI"__ port on the AXI Timer and select "Make Connection...".
-    3. Choose __"M03_AXI"__ in the "Make Connection" window and select "OK" to make the connection.
-    4. Run the connection automator from the green bar that appears at the top.
-    5. Add a clock source by selecting "Run Connection Automation". Set __"Clock Source:"__ to `/mig_7series_0/ui_clk (81 MHz)` for both __"s_axi_clk"__ and __"M03_ACLK"__.
-4. Now, to future-proof the design with interrupt capability, add the "AXI Interrupt Controller" to the design in the same fashion as the timer.
-5. Enable interrupts on AXI GPIO IP with where you connected __"push_buttons_4bits"__:
-    1. Double-click on __"axi_gpio_0__ IP block.
-    2. Select __"Enable Interrupt"__, and then __"OK"__ to enable GPIO interrupts.  
-6. Finally, we want to create a signal path for interrupt signals originating from IP blocks (like the AXI Timer) to reach the AXI Interrupt IP. We will need to manually connect certain I/O signals to accomplish this. 
-![Updated Block Design](./assets/images/block_design.png)
-    1. Use the __"+ Add IP"__ feature and add a __"Concat"__ IP.
-    2. Connect the __"interrupt"__ output port on the AXI Timer IP to the __"In0[0:0]"__ input port on the Concat IP.
-    3. Connect the __"ip2intc_irpt"__ output port on the __"AXI GPIO"__ (with push buttons) to the __"In1[0:0]"__ input port on the Concat IP.
-    4. Connect __"dout[1:0]"__ output port on the Concat IP to __"intr[0:0]"__ input port on the AXI Interrupt Controller.
-    5. Connect the __"interrupt"__ output bus port on the right side of the "AXI Interrupt Controller" to the __"INTERRUPT"__ bus input port on the left side of the MicroBlaze IP block.
-7. Regenerate the layout and take a screenshot of your design. If you need help later on in the lab, I will need to see this layout to ensure you connected everything correctly.
-8. Now, just like previous labs, assign addresses to the new IP blocks, validate the design, and generate a bitstream.
-9. Export the bitstream and launch SDK from the respective File menu options.
+2. Add the AXI Timer to your design.
+    1. Use the **"+ Add IP"** feature to add the **AXI Timer** to your block design.
+    2. Use the **"Run Connection Automation"** feature to connect the AXI Timer to the AXI SmartConnect.
+3. Now, to future-proof the design with interrupt capability, add the "AXI Interrupt Controller" to the design in the same fashion as the timer.
+4. Enable interrupts on AXI GPIO IP with where you connected **"push_buttons_4bits"**:
+    1. Double-click on **"axi_gpio_0** IP block.
+    2. Select **"Enable Interrupt"**, and then **"OK"** to enable GPIO interrupts.  
+5. Finally, we want to create a signal path for interrupt signals originating from IP blocks (like the AXI Timer) to reach the AXI Interrupt IP. We will need to manually connect certain I/O signals to accomplish this. 
+    ![Updated Block Design](./assets/images/block_design.png)
+    1. Use the **"+ Add IP"** feature and add a **"Concat"** IP.
+    2. Connect the **"interrupt"** output port on the AXI Timer IP to the **"In0[0:0]"** input port on the Concat IP.
+    3. Connect the **"ip2intc_irpt"** output port on the **"AXI GPIO"** (with push buttons) to the **"In1[0:0]"** input port on the Concat IP.
+    4. Connect **"dout[1:0]"** output port on the Concat IP to **"intr[0:0]"** input port on the AXI Interrupt Controller.
+    5. Connect the **"interrupt"** output bus port on the right side of the "AXI Interrupt Controller" to the **"INTERRUPT"** bus input port on the left side of the MicroBlaze IP block.
+6. Regenerate the layout and take a screenshot of your design. If you need help later on in the lab, I will need to see this layout to ensure you connected everything correctly.
+7. Now, just like previous labs, assign addresses to the new IP blocks, validate the design, and generate a bitstream.
+8. Export the bitstream and launch Vitis from the respective File menu options.
 
 {: .info}
 > The Concat IP combines individual signals into a single bus.
 
-__SDK - Creating Software Project:__
+### Vitis - Creating Software Project
 
-Now, within SDK, create a new blank Application project for Lab 4. You are eventually going to transfer your FSM design of our bike-crossing light over and use the timer instead of the delay function previously created. Before you do this though, take some time to play around with the Timer module in C code either using the Xilinx API by including "xtmrctr.h" as a header file, or by using pointers like how you interface with GPIOs currently. The implementation choice is up to you. If you would like to use the "xtmrctr.h" APIs, you can open up the system.mss file included with your project, and it will show the peripherals you currently have installed and C examples for how to interface with them with Xilinx APIs.
+Now, within Vitis, create a new blank Application project for Lab 4. You are eventually going to transfer your FSM design of our bike-crossing light over and use the timer instead of the delay function previously created. Before you do this though, take some time to play around with the Timer module in C code either using the Xilinx API by including "xtmrctr.h" as a header file, or by using pointers like how you interface with GPIOs currently. The implementation choice is up to you. If you would like to use the "xtmrctr.h" APIs, you can open up the system.mss file included with your project, and it will show the peripherals you currently have installed and C examples for how to interface with them with Xilinx APIs.
 
 {: .note}
-_Since this method of controlling the timer is vastly different from using pointers, I will only be able to aid in debugging with the pointer implementations. So if you do not make headway with the API or don't know where to start, choose the pointer method._
+_Since this method of controlling the timer is vastly different from using the Timer API, I will only be able to aid in debugging with pointer implementations. So if you do not make headway with the API or don't know where to start, choose the pointer method._
 
 ```c
 // Example: LEDs Binary Counter
@@ -125,7 +119,7 @@ simplicity.
 
 1. Prepare a lab report, and give an account of what you did to complete the lab.
 2. Lab 3 and Lab 4 code files
-3. Upload your files separately on Blackboard. __No zip files!__
+3. Upload your files separately on Blackboard. **No zip files!**
 
 ## Prelab Assignment
 
