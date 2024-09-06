@@ -16,13 +16,13 @@ nav_order: 2
 | **Week 2 8/26-8/30**    |  **Lecture Topic**                     | **Assignment**       |
 | Mon   | [Basic Software Techniques:Bit twiddling in C](../../_modules/eecs-4114/4114_bit_twiddling.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf)    |
 | Weds  | [Parallel Input/Output](../../_modules/eecs-4114/4114_gpio.pdf) |  Read the [GPIO data sheet](../../_modules/eecs-4114/data-sheets/axi-gpio.pdf) |
-| Fri   | More on Basic Software Techniques |    |
+| Fri   | More on Basic Software Techniques |  Homework #2 Asssigned in Blackboard  |
 | **Week 3 9/2-9/6**      | **Lecture Topic**                      | **Assignment**       |
 | Mon   | Labor Day       |      |
 | Weds  | Lab 1 makeup    |      |
 | Fri   | Tips on Vivado  |      |
 | **Week 4 9/9-9/13**     | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) | Homework #2 Asssigned in Blackboard |
+| Mon   | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) |  |
 | Weds  | [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf) | Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |  Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | **Week 5 9/16-9/20**    | **Lecture Topic**                      | **Assignment**       |
