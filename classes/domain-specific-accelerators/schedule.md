@@ -22,7 +22,7 @@ nav_order: 2
 | Weds   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
 | Fri   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf)  |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
 | **Week 4 9/9-9/13**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
+| Mon   | [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-acceleratorss/PIM-intro.pdf) | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
 | Weds   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
 | Fri  | Machine Learning Boot Camp |   |
 | Weds   | Machine Learning Boot Camp |    |
