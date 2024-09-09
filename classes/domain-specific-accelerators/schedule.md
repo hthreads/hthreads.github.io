@@ -20,7 +20,7 @@ nav_order: 2
 | **Week 3 9/2-9/6**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Labor Day |      |
 | Weds   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
-| Fri   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf)  |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
+| Fri   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf)  |  Reading: K. Asi Fuzzaman et. al. Oliveira[A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
 | **Week 4 9/9-9/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
 | Weds   | What is driving demand for DSA's | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
