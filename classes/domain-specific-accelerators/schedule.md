@@ -23,7 +23,7 @@ nav_order: 2
 | Fri   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf)  |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
 | **Week 4 9/9-9/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
-| Weds   | Machine Learning Boot Camp | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 |
+| Weds   | Machine Learning Boot Camp | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 <br> Optional: [Implications of Makimoto's Wave](https://ieeexplore.ieee.org/document/6583917) T. Makimoto|
 | Fri  | Machine Learning Boot Camp | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 |
 | **Week 5 9/16-9/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon    | Tensor Processing Unit (TPU)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al |
