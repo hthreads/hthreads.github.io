@@ -23,10 +23,8 @@ nav_order: 2
 | Fri   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf)  |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
 | **Week 4 9/9-9/13**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
-| Weds   | Machine Learning Boot Camp | Read Ch 7 |
-| Fri  | Machine Learning Boot Camp |   |
-| Weds   | Machine Learning Boot Camp |    |
-| Fri | Catch up and Synch up |  |
+| Weds   | Machine Learning Boot Camp | Read Ch 7.3-4 |
+| Fri  | Machine Learning Boot Camp |  Read Ch 7.3-4 |
 | **Week 5 9/16-9/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon    | Tensor Processing Unit (TPU)  |  |
 | Weds   | Tensor Processing Unit (TPU) |  |
