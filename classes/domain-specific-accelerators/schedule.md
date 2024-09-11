@@ -28,7 +28,7 @@ nav_order: 2
 | **Week 5 9/16-9/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon    | Tensor Processing Unit (TPU)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al |
 | Weds   | Tensor Processing Unit (TPU) | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al |
-| Fri   |  |  |
+| Fri   | Synch up day |  |
 | **Week 6 9/23-9/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | |   |
 | Weds  | |   |
