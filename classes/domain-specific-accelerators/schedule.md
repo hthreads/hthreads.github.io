@@ -27,8 +27,8 @@ nav_order: 2
 | Fri  | [Machine Learning Boot Camp](../../_modules/domain-specific-accelerators/ML-bootcamp.pdf) | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 <br> Optional: [Implications of Makimoto's Wave](https://ieeexplore.ieee.org/document/6583917) T. Makimoto |
 | **Week 5 9/16-9/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | [Introduction to the Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) | Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785) S. Williams et. al.|
-| Weds    | [In-Datacenter Perforamnce Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al <br> [Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785)S. Williams et. al.|
-| Fri   | [In-Datacenter Perforamnce Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
+| Weds    | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al <br> [Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785)S. Williams et. al.|
+| Fri   | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
 | **Week 6 9/23-9/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | |   |
 | Weds  | |   |
