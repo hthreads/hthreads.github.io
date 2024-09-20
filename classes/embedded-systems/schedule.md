@@ -28,10 +28,10 @@ nav_order: 2
 | **Week 5 9/16-9/20**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Timer Basics and Modes](../../_modules/eecs-4114/4114timers.pdf) | Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
 | Weds  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
-| Fri   |   [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) |
+| Fri   |   [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 |
 | **Week 6 9/23-9/27**    | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) |
-| Weds   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) |
+| Mon   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Components: Ch 3.1  |
+| Weds   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Component Ch 3.1 |
 | Fri | [Interrupts Priority Interrupt Controller (PIC)](../../_modules/eecs-4114/4114-Interrupts-axi.pdf)| [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)|
 | **Week 7 9/30-10/4**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Interrupts Priority Interrupt Controller (PIC)](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) |  [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)   |
