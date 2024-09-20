@@ -27,16 +27,16 @@ nav_order: 2
 | Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) |  Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf) |
 | **Week 5 9/16-9/20**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Timer Basics and Modes](../../_modules/eecs-4114/4114timers.pdf) | Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
-| Weds  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) | Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
-| Fri   | [Timer Usage](../../_modules/eecs-4114/4114timers.pdf)   | [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
+| Weds  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
+| Fri   |   [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) |
 | **Week 6 9/23-9/27**    | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf) | [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
-| Weds  | [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 |
-| Fri   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) |
+| Mon   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) |
+| Weds   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) |
+| Fri | [Interrupts Priority Interrupt Controller (PIC)](../../_modules/eecs-4114/4114-Interrupts-axi.pdf)| [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)|
 | **Week 7 9/30-10/4**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Interrupts Priority Interrupt Controller (PIC)](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) |  [INTC IP](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf)   |
-| Weds  |   |   |
-| Fri   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |    |
+| Weds  |  [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |   |
+| Fri   |  |    |
 | **Week 8 10/7-10/11**   | **Lecture Topic**                      | **Assignment**       |
 | Mon   |   |   |
 | Weds  | **Midterm Review** |   |
