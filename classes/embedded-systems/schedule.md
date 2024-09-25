@@ -32,10 +32,10 @@ nav_order: 2
 | **Week 6 9/23-9/27**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Components: Ch 3.1  |
 | Weds   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Component Ch 3.1 |
-| Fri | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) | |
+| Fri | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |Ch 12.4,12.6 |
 | **Week 7 9/30-10/4**    | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |    |
-| Weds  | [SA A/D](../../_modules/eecs-4114/AtoD.pdf) |   |
+| Mon   | [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
+| Weds  | [SA A/D](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
 | Fri   |  |    |
 | **Week 8 10/7-10/11**   | **Lecture Topic**                      | **Assignment**       |
 | Mon   |   |   |
@@ -44,9 +44,9 @@ nav_order: 2
 | **Week 9 10/14-10/18**  | **Lecture Topic**                      | **Assignment**       |
 | Mon   | Fall Break      |   |
 | Weds  | Exam Handback   |   |
-| Fri   | [A/D convertors](../../_modules/eecs-4114/AtoD.pdf)      | Ch 12.4,12.6         |
+| Fri   |      |          |
 | **Week 10 10/21-10/25** |  **Lecture Topic**                     | **Assignment**       |
-| Mon   | [A/D convertors](../../_modules/eecs-4114/AtoD.pdf)      |  Ch 12.4,12.6        |
+| Mon   |       |  Ch 12.4,12.6        |
 | Weds  | [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf) | Computers as Components Ch 6.1-2 |
 | Fri   | [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf) | Computers as Components Ch 6.2, 6.3.1-2 |
 | **Week 11 10/28-11/1**  | **Lecture Topic**                      | **Assignment**       |
