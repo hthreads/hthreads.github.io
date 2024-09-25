@@ -1,3 +1,14 @@
+---
+layout: page
+title: Simulated Interrupt Example
+nav_exclude: true
+---
+[< Back](./index.md#project-instructions){: .btn .btn-green}
+# Lab 5: Simulated Interrupt Example
+__Raw:__ [xintc_example.c](./assets/examples/xint_example.c){: target="_blank"}
+
+
+```c
 /******************************************************************************
 * Copyright (C) 2002 - 2021 Xilinx, Inc.  All rights reserved.
 * Copyright (C) 2022 - 2024 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -552,3 +563,4 @@ void TmrCtrDisableIntr( u16 IntrId, UINTPTR IntrParent)
 	XDisableIntrId( IntrId, IntrParent);
 #endif
 }
+```
