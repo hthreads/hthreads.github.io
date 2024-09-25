@@ -34,8 +34,8 @@ nav_order: 2
 | Weds   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Component Ch 3.1 |
 | Fri | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) | |
 | **Week 7 9/30-10/4**    | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |    |
-| Weds  | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |   |
+| Mon   | [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |    |
+| Weds  | [SA A/D](../../_modules/eecs-4114/AtoD.pdf) |   |
 | Fri   |  |    |
 | **Week 8 10/7-10/11**   | **Lecture Topic**                      | **Assignment**       |
 | Mon   |   |   |
