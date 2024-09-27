@@ -31,7 +31,7 @@ nav_order: 2
 | Fri   |   [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 |
 | **Week 6 9/23-9/27**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Components: Ch 3.1  |
-| Weds   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [Intc PIC](../../_modules/eecs-4114/data-sheets/pg099-axi-intc.pdf) <br> Computers as Component Ch 3.1 |
+| Weds   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4, 12.6 |
 | Fri | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |Ch 12.4,12.6 |
 | **Week 7 9/30-10/4**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
