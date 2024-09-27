@@ -2,7 +2,7 @@
 layout: page
 title: Lab 5
 parent: Labs
-grand_parent: EECS 4114 Embedded Systems
+grand_parent: Embedded Systems
 has_children: true
 nav_exclude: true
 has_toc: false
@@ -16,6 +16,9 @@ The goal of these labs is to become familiar with the idea of interrupt-based pr
 > You can refer to Dr. Andrews' slides from lecture if you have conceptual misunderstandings.
 
 ## Lab Directions
+
+{: .new}
+> Code examples for this lab have been updated - 09/26/2024
 
 For this lab, you will explore the use of software interrupts and timer interrupts in example programs, and then you will modify the design of the Fayetteville bike crossing signal to rely on interrupts rather than polling to see if the timer has completed.
 
@@ -70,7 +73,7 @@ In order to correct the situation described above, the interrupt handler should 
 {: .highlight-title}
 > Before Executing the Lab:
 >
-> I recommend looking through the [AXI Timer](https://www.xilinx.com/support/documentation/ip_documentation/axi_timer/v2_0/pg079-axi-timer.pdf) and [AXI Interrupt Controller](https://www.xilinx.com/support/documentation/ip_documentation/axi_intc/v4_1/pg099-axiintc.pdf) data sheets to better understand the modules we will be working with in this lab. It is also worth mentioning that C documentation for interacting with these modules is available within SDK by looking at the `system.mss` file typically located within the project's Board Support Package _(the folder with the "_bsp" suffix.)_
+> I recommend looking through the [AXI Timer](https://www.xilinx.com/support/documentation/ip_documentation/axi_timer/v2_0/pg079-axi-timer.pdf) and [AXI Interrupt Controller](https://www.xilinx.com/support/documentation/ip_documentation/axi_intc/v4_1/pg099-axiintc.pdf) data sheets to better understand the modules we will be working with in this lab.
 
 **Hardware:**
 
