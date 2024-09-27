@@ -30,9 +30,9 @@ nav_order: 2
 | Weds    | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al <br> [Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785)S. Williams et. al.|
 | Fri   | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
 | **Week 6 9/23-9/27**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | |   |
-| Weds  | |   |
-| Fri   | |   |
+| Mon   | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al.|   |
+| Weds  | Paper Selection/Team Formations|   |
+| Fri   | Presentation Outline|   |
 | **Week 7 9/30-10/4**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |  |
 | Weds  |  |  |
@@ -43,16 +43,16 @@ nav_order: 2
 | Fri   |  |  |
 | **Week 9 10/14-10/18**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
-| Weds  |  |  |
-| Fri   |  |  |
+| Weds  | Group #1 |  |
+| Fri   | Group #2|  |
 | **Week 10 10/21-10/25**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Weds  | Group #3 |  |
+| Fri   |  Group #4|  |
 | **Week 11 10/28-11/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  | 
-| Weds  |  |  |
-| Fri   |  |  |
+| Weds  |  Group #5|  |
+| Fri   |  Group #6|  |
 | **Week 12 11/4-11/8**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |  |  |
