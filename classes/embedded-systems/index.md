@@ -11,7 +11,7 @@ has_toc: false
 
 | Arty-A7 Protoboard                       | Autonomous Vehicle                     |
 | ---------------------------------------- | -------------------------------------- |
-| ![Arty-A7 Protoboard](../../_modules/eecs-4114/arty.png) | ![Autonomous Vehicle](../../_modules/eecs-4114/car-2.png) |
+| ![Arty-A7 Protoboard](assets) | ![Autonomous Vehicle](../../_modules/eecs-4114/car-2.png) |
 
 ## Course Description
 
