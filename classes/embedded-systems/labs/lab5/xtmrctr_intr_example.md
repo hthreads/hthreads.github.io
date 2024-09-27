@@ -41,16 +41,25 @@ __Raw:__ [xtmrctr_intr_example.c](./assets/examples/xtmrctr_intr_example.c){: ta
 #include "xtmrctr.h"
 
 // Device IDs:
-// Only one interrupt controller and timer counter are used in this example
-// because there is only one device of each in the hardware design. So the
-// device IDs are set to 0.
+// Only one interrupt controller and timer counter are used in the hardware 
+// design. So the device IDs are set to 0 for both.
 #define INTC_DEVICE_ID   0
 #define TMRCTR_DEVICE_ID 0
 
-// NB:
-// XPAR_FABRIC_XTMRCTR_0_INTR is the interrupt ID of the timer counter device
-// that is connected to the interrupt controller. This is defined in
-// xparameters.h.
+/*
+ *  This is the Interrupt Number of the Device whose Interrupt Output is
+ *  connected to the Input of the Interrupt Controller.
+ *  - XPAR_FABRIC_XTMRCTR_0_INTR is the interrupt ID 
+ *    of the AXI Timer IP that is connected to the interrupt 
+ *    controller. Definition in xparameters.h.
+ *  - These ids are generated based the order you connected your 
+ *    interrupt sources to the Concat IP.
+ *    i.e.:
+ * 
+ *    (0) axi_timer_0 ---\
+ *                        ---> Concat ---> axi_intc_0
+ *    (1) axi_gpio_0  ---/
+ */
 #define TMRCTR_INTERRUPT_ID XPAR_FABRIC_XTMRCTR_0_INTR
 
 // The following constant determines which timer counter of the device that is
@@ -62,7 +71,8 @@ __Raw:__ [xtmrctr_intr_example.c](./assets/examples/xtmrctr_intr_example.c){: ta
 // The following constant is used to set the reset value of the timer counter
 // to half the CPU frequency. This value is loaded into the timer counter such
 // that the timer counter will expire after half a second.
-#define LOAD_VALUE 81247969 >> 1 // CPU_Freq (Hz) / 2
+// i.e. CPU_Freq (Hz) / 2
+#define LOAD_VALUE 81247969 >> 1
 
 // Function Prototypes:
 void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber);
