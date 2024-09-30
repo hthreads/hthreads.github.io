@@ -34,7 +34,7 @@ nav_order: 2
 | Weds  | Paper Selection/Team Formations|   |
 | Fri   | Presentation Outline|   |
 | **Week 7 9/30-10/4**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  |  |
+| Mon   | Presentation Style/Team Formations |  |
 | Weds  |  |  |
 | Fri   |  |  |
 | **Week 8 10/7-10/11**       |  **Lecture Topic**                        | **Assignment**          |
