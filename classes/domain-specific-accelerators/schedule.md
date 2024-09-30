@@ -51,7 +51,7 @@ nav_order: 2
 | Fri   |  Nicholas,Donna,Ogden| Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https:/ieeexplore.ieee.org/abstract/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023|
 | **Week 11 10/28-11/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  | 
-| Weds  |  Group #5|  |
+| Weds  | Thomas,Matthew,Stephen| J. Vasiljevic, D. Capalija [Blackhole & TT-Mealium: The Standalone AI Computer and its Programming Model](https://ieeexplore.ieee.org/document/10664810) Proceedings of the 2024 IEEE Hot Chips 36 Symposium (HCS) |
 | Fri   |  Group #6|  |
 | **Week 12 11/4-11/8**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
