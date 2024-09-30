@@ -44,7 +44,7 @@ nav_order: 2
 | **Week 9 10/14-10/18**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
 | Weds  | Stephanie,Abe,Nathaniel | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015.|
-| Fri   | Group #2|  |
+| Fri   | Nick,Karis,Kyle,Case| J. Choquette, W. Gandhi, O. Giroux, N. Stam, and R. Krashinsky,[NVIDIA A100 Tensor Core GPU: Performance and Innovation](https://ieeexplore.ieee.org/document/9361255) IEEE Micro Volume: 41, Issue: 2, 01 March-April 2021 |
 | **Week 10 10/21-10/25**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  | Group #3 |  |
