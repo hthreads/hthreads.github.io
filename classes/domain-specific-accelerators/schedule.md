@@ -47,7 +47,7 @@ nav_order: 2
 | Fri   | Nick,Karis,Kyle,Case| J. Choquette, W. Gandhi, O. Giroux, N. Stam, and R. Krashinsky,[NVIDIA A100 Tensor Core GPU: Performance and Innovation](https://ieeexplore.ieee.org/document/9361255) IEEE Micro Volume: 41, Issue: 2, 01 March-April 2021 |
 | **Week 10 10/21-10/25**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
-| Weds  | Group #3 |  |
+| Weds  | Marvin,Jeff, Dhruv | J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305.  |
 | Fri   |  Group #4|  |
 | **Week 11 10/28-11/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  | 
