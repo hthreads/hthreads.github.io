@@ -35,7 +35,7 @@ nav_order: 2
 | Fri | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |Ch 12.4,12.6 |
 | **Week 7 9/30-10/4**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
-| Weds  | [SA A/D](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
+| Weds  | [Successive Approximation (SA) A/Ds](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
 | Fri   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
 | **Week 8 10/7-10/11**   | **Lecture Topic**                      | **Assignment**       |
 | Mon   |   [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
