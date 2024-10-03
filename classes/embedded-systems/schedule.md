@@ -36,9 +36,9 @@ nav_order: 2
 | **Week 7 9/30-10/4**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
 | Weds  | [SA A/D](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
-| Fri   |  |    |
+| Fri   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
 | **Week 8 10/7-10/11**   | **Lecture Topic**                      | **Assignment**       |
-| Mon   |   |   |
+| Mon   |   [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
 | Weds  | **Midterm Review** |   |
 | Fri   | **Midterm Exam**   |   |
 | **Week 9 10/14-10/18**  | **Lecture Topic**                      | **Assignment**       |
