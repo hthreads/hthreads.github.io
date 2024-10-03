@@ -36,11 +36,11 @@ nav_order: 2
 | **Week 7 9/30-10/4**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Presentation Style/Team Formations |  |
 | Weds  |  |  |
-| Fri   |  |  |
+| Fri   |  DSA Technologies: Now and Emerging |  |
 | **Week 8 10/7-10/11**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Mon   | DRAM PIM|[In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
+| Weds  |  DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
+| Fri   |  UPMEM | [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019  |
 | **Week 9 10/14-10/18**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
 | Weds  | Stephanie,Abe,Nathaniel | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015.|
