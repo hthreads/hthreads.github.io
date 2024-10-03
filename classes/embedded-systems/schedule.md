@@ -38,21 +38,21 @@ nav_order: 2
 | Weds  | [Successive Approximation (SA) A/Ds](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
 | Fri   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
 | **Week 8 10/7-10/11**   | **Lecture Topic**                      | **Assignment**       |
-| Mon   |   [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
+| Mon   |   [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.2, 6.3.1-2  |
 | Weds  | **Midterm Review** |   |
 | Fri   | **Midterm Exam**   |   |
 | **Week 9 10/14-10/18**  | **Lecture Topic**                      | **Assignment**       |
 | Mon   | Fall Break      |   |
 | Weds  | Exam Handback   |   |
-| Fri   |      |          |
+| Fri   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)    |          |
 | **Week 10 10/21-10/25** |  **Lecture Topic**                     | **Assignment**       |
-| Mon   |       |  Ch 12.4,12.6        |
-| Weds  | [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf) | Computers as Components Ch 6.1-2 |
-| Fri   | [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf) | Computers as Components Ch 6.2, 6.3.1-2 |
+| Mon   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)     |         |
+| Weds  | [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)|  |
+| Fri   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)| [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | **Week 11 10/28-11/1**  | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)   |   |
-| Weds  | [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)   |   |
-| Fri   | [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf) | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)  |
+| Mon   |    |   |
+| Weds  |    |   |
+| Fri   |  | [  |
 | **Week 12 11/4-11/8**   | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Tasks](../../_modules/eecs-4114/freeRtos.pdf)           | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
 | Weds  | [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)      | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
