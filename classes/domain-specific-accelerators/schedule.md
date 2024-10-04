@@ -36,17 +36,17 @@ nav_order: 2
 | **Week 7 9/30-10/4**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Presentation Style/Team Formations |  |
 | Weds  |  |  |
-| Fri   |  DSA Technologies: Now and Emerging | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
+| Fri   |  Processing in DRAM | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
 | **Week 8 10/7-10/11**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | DRAM PIM|[In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
-| Weds  |  DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
-| Fri   |  UPMEM | [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019  |
+| Mon   |  Processing in DRAM | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
+| Mon   | PUM |[In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
+| Weds   |  UPMEM | [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019  |
 | **Week 9 10/14-10/18**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
 | Weds  | Stephanie,Abe,Nathaniel | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015.|
 | Fri   | Nick,Karis,Kyle,Case| J. Choquette, W. Gandhi, O. Giroux, N. Stam, and R. Krashinsky,[NVIDIA A100 Tensor Core GPU: Performance and Innovation](https://ieeexplore.ieee.org/document/9361255) IEEE Micro Volume: 41, Issue: 2, 01 March-April 2021 |
 | **Week 10 10/21-10/25**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
+| Mon   | DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 | 
 | Weds  | Marvin,Jeff,Dhruv | J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305.  |
 | Fri  | Thomas,Matthew,Stephen| J. Vasiljevic, D. Capalija [Blackhole & TT-Mealium: The Standalone AI Computer and its Programming Model](https://ieeexplore.ieee.org/document/10664810) Proceedings of the 2024 IEEE Hot Chips 36 Symposium (HCS) |
 | **Week 11 10/28-11/1**       |  **Lecture Topic**                        | **Assignment**          |
