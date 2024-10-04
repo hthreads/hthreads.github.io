@@ -36,7 +36,7 @@ nav_order: 2
 | **Week 7 9/30-10/4**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Presentation Style/Team Formations |  |
 | Weds  |  |  |
-| Fri   |  DSA Technologies: Now and Emerging |  |
+| Fri   |  DSA Technologies: Now and Emerging | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
 | **Week 8 10/7-10/11**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | DRAM PIM|[In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
 | Weds  |  DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
