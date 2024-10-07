@@ -19,6 +19,8 @@ Specifically, you should study the data sheet to determine:
 2. How to set the control register to transfer the value from the load register into the timer and then start the timer.
 3. How to poll the status register to identify when the counter transitions to 0 (i.e. 3..2..1..0... reload new count from load register). You will have to poll (read) a specific bit in the control and status register (TCSRx). Once the transition is identified, clear the same bit by writing back a 1.
 
+__NB:__ A button press in the second flashing state should not reset the stage. 
+
 ## Project Assignment
 
 What follows next is a description of how to use a single timer in the Generate Mode to provide all timing for the Fayetteville Bike crossing. Here is a strategy:

@@ -18,6 +18,8 @@ Cyclist/Walker control boxes: One on each side of the path that crosses the road
 2. Solid Red: Cars must stop. This signifies a cyclist/walker is in the crosswalk.
 3. Blinking Red: Cars must slow and look for cyclists/walkers. A blinking red occurs prior to and immediately following a solid red light.
 
+__NB:__ A button press in the second flashing state should not reset the stage. 
+
 **Operation and control of the push button control box:**
 
 When a cyclist/walker pushes the button in the control box,
