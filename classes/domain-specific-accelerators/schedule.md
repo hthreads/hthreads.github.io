@@ -40,7 +40,7 @@ nav_order: 2
 | **Week 8 10/7-10/11**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Bit Serial Arithmetic | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
 | Weds   | Processing in DRAM | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
-| Fri   |  UPMEM | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
+| Fri   |  [UPMEM](https://ieeexplore.ieee.org/document/8875680) | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
 | **Week 9 10/14-10/18**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Fall Break |     |
 | Weds  | Stephanie,Abe,Nathaniel | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015.|
