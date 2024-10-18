@@ -44,7 +44,7 @@ nav_order: 2
 | **Week 9 10/14-10/18**  | **Lecture Topic**                      | **Assignment**       |
 | Mon   | Fall Break      |   |
 | Weds  | Exam Handback   |   |
-| Fri   |  [Scheduling Theory Basics and Assumptions](../../_modules/eecs-4114/4114OS-1.pdf)    |   Computers as Components: Ch 6.2,6.3    |
+| Fri   |  [Scheduling Parameters,Simplifying Assumptions, Schedulability](../../_modules/eecs-4114/4114OS-1.pdf)    |   Computers as Components: Ch 6.2,6.3    |
 | **Week 10 10/21-10/25** |  **Lecture Topic**                     | **Assignment**       |
 | Mon   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)     |         |
 | Weds  | [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)|  |
