@@ -46,13 +46,14 @@ nav_order: 2
 | Weds  | Exam Handback   |   |
 | Fri   |  [Scheduling Parameters,Simplifying Assumptions, Schedulability](../../_modules/eecs-4114/4114OS-1.pdf)    |   Computers as Components: Ch 6.2,6.3    |
 | **Week 10 10/21-10/25** |  **Lecture Topic**                     | **Assignment**       |
-| Mon   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)     |         |
-| Weds  | [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)|  |
-| Fri   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)| [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Mon   |  FSM Bare Metal Scheduling  |   Ch 8.2      |
+| Weds  |  FSM Bare Metal Scheduling   |  Ch 8.2       |
+| Fri   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)  |         |
 | **Week 11 10/28-11/1**  | **Lecture Topic**                      | **Assignment**       |
+| Fri   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)| [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | Mon   |    |   |
 | Weds  |    |   |
-| Fri   |  | [  |
+
 | **Week 12 11/4-11/8**   | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Tasks](../../_modules/eecs-4114/freeRtos.pdf)           | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
 | Weds  | [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)      | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
