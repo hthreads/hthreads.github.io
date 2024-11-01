@@ -54,24 +54,24 @@ nav_order: 2
 | Weds  |  Nicholas,Donna,Ogden | Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 |
 | Fri   |  Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. |
 | **Week 12 11/4-11/8**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | PUM |[In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
+| Mon   | [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) | |
 | Weds   | DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
-| Fri   |  |  |
+| Fri   | PUM | [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
 | **Week 13 11/11-11/15**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Weds  | Group 1 |  |
+| Fri   | Group 2 |  |
 | **Week 14 11/18-11/22**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Weds  |  Group 3|  |
+| Fri   |  Group 4|  |
 | **Week 15 11/25-11/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |   Thanksgiving Break!|  |
 | Fri   |   Thanksgiving Break!|  |
 | **Week 16 12/2-12/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  Semester Review| All Materials Due Before Friday  |
+| Mon   | Group 5 |  |
+| Weds  | Group 6| All Materials Due Before Friday  |
 | Fri   |  Reading Day|   |
 | **Final 12/11**       |  **10:15pm - 12:15pm **                    | Final is not comprehensive         |
 
