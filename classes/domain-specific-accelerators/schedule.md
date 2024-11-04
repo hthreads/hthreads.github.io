@@ -59,7 +59,7 @@ nav_order: 2
 | Fri   | PUM | [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
 | **Week 13 11/11-11/15**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
-| Weds  | Stephanie,Abe,Nathaniel | [CoMeFa: Compute-in-Memory Blocks for FPGAs](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) |
+| Weds  | Stephanie,Abe,Nathaniel | Amam Arora et. al. [CoMeFa: Compute-in-Memory Blocks for FPGAs](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) |
 | Fri   | Group 2 |  |
 | **Week 14 11/18-11/22**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
