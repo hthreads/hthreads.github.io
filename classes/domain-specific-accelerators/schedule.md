@@ -71,7 +71,7 @@ nav_order: 2
 | Fri   |   Thanksgiving Break!|  |
 | **Week 16 12/2-12/6**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Nicholas,Donna,Ogden | Mingyi Rao et. al. [Thousands of conductance levels in memristors integrated on CMOS](https://nature.com/articles/s41586-023-05759-5) Nature, Vol 615, 30 March 2023|
-| Weds  | Group 6| All Materials Due Before Friday  |
+| Weds  | Grant,Gideon,Henry| Emil Talpes et. al. [Compute Solution for Tesla’s Full Self-Driving Computer](https://ieeexplore.ieee.org/document/9007413) IEEE Micro Volume 40, Issue 2, 01 March-April 2020 |
 | Fri   |  Reading Day|   |
 | **Final 12/11**       |  **10:15pm - 12:15pm **                    | Final is not comprehensive         |
 
