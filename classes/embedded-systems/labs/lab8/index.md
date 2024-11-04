@@ -2,7 +2,6 @@
 layout: page
 title: Lab 8
 parent: Labs
-grand_parent: EECS 4114 Embedded Systems
 nav_exclude: true
 ---
 
@@ -23,10 +22,9 @@ need them.
 ### Lab Instructions
 
 {: .note }
-> Go to GitHub, and download and extract the [base-soc repository](https://github.com/tkamucheka/eecs-4114-labs)
-> again. Open the extracted directory and copy the "ip_repo" directory. Paste
-> the copied directory in your project directory next to the "base-soc" directory.
-> If you already have an "ip_repo" directory, overwrite it.
+> Start by downloading this [IP Repository](./assets/ip_repo.zip). It contains 
+> some of the IPs we'll need for our robot project. Extract the "ip_repo" directory 
+> and place it in your SoC project directory.
 
 1. Now let us make some changes to our SoC (System on Chip). Start by opening
 your project in Vivado. In the __Flow Navigator__ on the left side, navigate to
@@ -61,10 +59,10 @@ detecting light sensors, Pmod MAXSONAR sensor, and Pmod DHB1 motor driver.
         a Pmod Bridge.
 4. Go to "Address Editor" window of the block design and assign memory addresses to the newly added IP.
 5. Validate your design and generate a bitstream.
-6. Watch the assembly [instruction video](https://www.youtube.com/watch?v=aJRYTqZu5OE) or follow the [instructions given here](https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis) to assembly the chassis of your robot.
 
 ### Project Assignment
 
+0. Watch the assembly [instruction video](https://www.youtube.com/watch?v=aJRYTqZu5OE) or follow the [instructions given here](https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis) to assembly the chassis of your robot.
 1. Mount the two IR (infrared) Proximity sensors somewhere on the front of car. Try to mount them as close as possible to the floor. Connect the sensors to one of S1, S2, S3, or S4 pin headers on the Pmod LS1 module. Finally, connect the Pmod LS1 module to the Arty board via the Pmod port you connected the AXI GPIO in the board design.
 2. Mount the two Pmod MAXSONAR sensors on the front of the car. Use the provided Pmod extension cables to connect the sensors to the Pmod port where you connected the AXI GPIO in the board design. Connect one sensor to the bottom row of the Pmod port and the other to the top row of the same Pmod port.
 3. Connect the Pmod DHB1 to the Arty board via the Pmod port you selected in the board design. Now make the following connections on the Pmod DHB1 module:
