@@ -25,9 +25,9 @@ nav_exclude: false
 | 09/09 - 09/13 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
 | 09/16 - 09/20 | [Lab 4: Timers](./lab4)                             |
 | 09/23 - 10/04 | [Lab 5: Interrupt Driven Microblaze: System](./lab5) |
-| 10/07 - 10/11 | [Lab 6: Bare Metal Task Control Blocks (TCBs)](./lab6) |
-| 10/14 - 10/25 | [Lab 7: FreeRTOS](./lab7)                           |
-| 10/28 - 11/08 | [Lab 8: Autonomous Vehicle](./lab8)                 |
+| 10/21 - 10/25 | [Lab 6: Bare Metal Task Control Blocks (TCBs)](./lab6) |
+| 10/28 - 11/01 | [Lab 7: FreeRTOS](./lab7)                           |
+| 11/03 - 11/15 | [Lab 8: Autonomous Vehicle](./lab8)                 |
 
 ## Lab Reports
 
