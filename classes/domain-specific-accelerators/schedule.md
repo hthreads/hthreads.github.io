@@ -64,13 +64,13 @@ nav_order: 2
 | **Week 14 11/18-11/22**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |  Marvin,Jeff,Dhruv|  Murali Emani et. al. [Accelerating Scientific Applications With SambaNova Reconfigurable Dataflow Architecture](https://ieeexplore.ieee.org/document/9387491) Computing in Science & Engineering ( Volume: 23, Issue: 2, 01 March-April 2021) |
-| Fri   |  Group 4|  |
+| Fri   |  Thomas,Matthew,Stephen|  |
 | **Week 15 11/25-11/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |   Thanksgiving Break!|  |
 | Fri   |   Thanksgiving Break!|  |
 | **Week 16 12/2-12/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group 5 |  |
+| Mon   | Nicholas,Donna,Ogden | Mingyi Rao et. al. [Thousands of conductance levels in memristors integrated on CMOS](https://nature.com/articles/s41586-023-05759-5) Nature, Vol 615, 30 March 2023|
 | Weds  | Group 6| All Materials Due Before Friday  |
 | Fri   |  Reading Day|   |
 | **Final 12/11**       |  **10:15pm - 12:15pm **                    | Final is not comprehensive         |
