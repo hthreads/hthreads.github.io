@@ -64,7 +64,7 @@ nav_order: 2
 | **Week 14 11/18-11/22**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |  Marvin,Jeff,Dhruv|  Murali Emani et. al. [Accelerating Scientific Applications With SambaNova Reconfigurable Dataflow Architecture](https://ieeexplore.ieee.org/document/9387491) Computing in Science & Engineering ( Volume: 23, Issue: 2, 01 March-April 2021) |
-| Fri   |  Thomas,Matthew,Stephen|  |
+| Fri   |  Thomas,Matthew,Stephen| Norman Jouppi et. al. [Ten Lessons From Three Generations Shaped Google’s TPUv4i : Industrial Product](https://ieeexplore.ieee.org/document/9499913) Proceedings of the 2021 ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA)|
 | **Week 15 11/25-11/29**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |   Thanksgiving Break!|  |
