@@ -50,17 +50,17 @@ nav_order: 2
 | Weds  |  FSM Bare Metal Scheduling   |  Ch 8.2       |
 | Fri   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)  |         |
 | **Week 11 10/28-11/1**  | **Lecture Topic**                      | **Assignment**       |
-| Fri   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)| [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
-| Mon   |    |   |
-| Weds  |    |   |
+| Mon   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)| [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Mon   |  [Tasks](../../_modules/eecs-4114/freeRtos.pdf)   |   |
+| Weds  |  [Scheduling](../../_modules/eecs-4114/freeRtos.pdf) |   |
 | **Week 12 11/4-11/8**   | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Tasks](../../_modules/eecs-4114/freeRtos.pdf)           | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
-| Weds  | [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)      | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
-| Fri   | [FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)        |   |
+| Mon   |   [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)        | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
+| Weds  |    [Queues](../../_modules/eecs-4114/Queues2.pdf)    | [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Fri   | [Queues](../../_modules/eecs-4114/Queues2.pdf)         |   |
 | **Week 13 11/11-11/15** | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [binary Semaphores and Mutexes](../../_modules/eecs-4114/freeRtos.pdf) |        |
-| Weds  | [Queues](../../_modules/eecs-4114/Queues2.pdf)           |   |
-| Fri   | [Queues](../../_modules/eecs-4114/Queues2.pdf)           |   |
+| Mon   |  |        |
+| Weds  |   [Mutexes ](../../_modules/eecs-4114/freeRtos.pdf)        |   |
+| Fri   |  [Semaphores](../../_modules/eecs-4114/freeRtos.pdf)         |   |
 | **Week 14 11/18-11/22** | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Simple Control System](../../_modules/eecs-4114/PIDcontrol.pdf)| Ch 11.1-2     |
 | Weds  | [Proportional-Derivative Controller](../../_modules/eecs-4114/PIDcontrol.pdf) | Ch 11.2-4 |
