@@ -58,7 +58,7 @@ nav_order: 2
 | Weds  |    [Queues](../../_modules/eecs-4114/Queues2.pdf)    | [FreeRtos Tutorial Ch4](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | Fri   | [Queues](../../_modules/eecs-4114/Queues2.pdf)         | [FreeRtos Tutorial Ch4](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | **Week 13 11/11-11/15** | **Lecture Topic**                      | **Assignment**       |
-| Mon   |  |        |
+| Mon   |  [Intro to Control Systems](../../_modules/eecs-4114/4114ctrlsys.pdf)| Ch 11      |
 | Weds  |   [Mutexes ](../../_modules/eecs-4114/freeRtos.pdf)        |   |
 | Fri   |  [Semaphores](../../_modules/eecs-4114/freeRtos.pdf)         |   |
 | **Week 14 11/18-11/22** | **Lecture Topic**                      | **Assignment**       |
