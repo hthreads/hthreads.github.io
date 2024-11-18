@@ -62,7 +62,7 @@ nav_order: 2
 | Weds  | [Proportional-Derivative Controller](../../_modules/eecs-4114/PIDcontrol.pdf) | Ch 11.2-4 |
 | Fri   | [Proportional-Integral-Derivative Controller](../../_modules/eecs-4114/PIDcontrol.pdf)| Ch 11.4-5 |
 | **Week 14 11/18-11/22** | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Structured Top Down Design](../../_modules/eecs-4114/PIDcontrol.pdf)  |
+| Mon   | [Structured Top Down Design](../../_modules/eecs-4114/top-down-design.pdf)  |
 | Weds  | [Requirements Analysis](../../_modules/eecs-4114/PIDcontrol.pdf)|  |
 | Fri   | |  |
 | **Week 15 11/25-11/29** | **Lecture Topic**                      | **Assignment**       |
