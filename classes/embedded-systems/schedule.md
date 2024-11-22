@@ -64,7 +64,7 @@ nav_order: 2
 | **Week 14 11/18-11/22** | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Structured Top Down Design](../../_modules/eecs-4114/top-down-design.pdf)  |
 | Weds  | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf)|  |
-| Fri   | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf)|  |
+| Fri   | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf)| [Top Level Design](../../_modules/eecs-4114/toplevel.pdf) |
 | **Week 15 11/25-11/29** | **Lecture Topic**                      | **Assignment**       |
 | Mon   | Catchup |   |
 | Weds  | Thanksgiving Break! |   |
