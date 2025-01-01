@@ -10,11 +10,11 @@ nav_order: 2
 
 | Week 1 1/13-1/17       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
-| Mon   | Martin Luther King Day |  No Class    |
-| Weds  |  [Course Introduction](../../_modules/eecs-4213/intro-spr24.pdf)|  Read Ch 1 |
-| Fri   |  [Moore's Law Dennard Scaling](../../_modules/eecs-4213/moore-dennard.pdf) | [Cramming More Components onto Integrated Circuits](../../_modules/eecs-4213/gordon_moore_1965_article.pdf)   |
+| Mon   | [Course Introduction](../../_modules/eecs-4213/intro-spr24.pdf) |  Ch 1    |
+| Weds  |  [Moore's Law Dennard Scaling](../../_modules/eecs-4213/moore-dennard.pdf)  | [Cramming More Components onto Integrated Circuits](../../_modules/eecs-4213/gordon_moore_1965_article.pdf) |
+| Fri   | [Trends, Performance, Parallelism](../../_modules/eecs-4213/trends,parallelism,performance.pdf)  |  Homework #1 Assigned in Blackboard <br>  Reading Ch 1 Amdhal's Law  |
 | **Week 2 1/20-1/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Trends, Performance, Parallelism](../../_modules/eecs-4213/trends,parallelism,performance.pdf) | Homework #1 Assigned in Blackboard <br>  Reading Ch 1 Amdhal's Law   |
+| Mon   | Martin Luther King Day  |    |
 | Weds  |  [Trends, Performance, Parallelism](../../_modules/eecs-4213/trends,parallelism,performance.pdf)|  Reading Ch 2.1 -2.2  |
 | Fri   |  [Memory Hierarchy Overview](../../_modules/eecs-4213/cacheuark24.pdf)| Ch 2.1-2.2   |
 | **Week 3 1/27-1/31**       |  **Lecture Topic**                    |     **Assignment**      |
