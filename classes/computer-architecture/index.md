@@ -49,7 +49,7 @@ Computer Architecture. A Quantitative Approach. Sixth Edition, by David A. Patte
 
 ## Office Hours
 - Professor: David Andrews M-W-F 2:00 - 2:50 JBHT 527
-- TA:  Tendayi Kamucheka Tues/Thurs 2:00 - 3:30 Virtual via Teams (Link will be provided in class)
+- TA:  Tendayi Kamucheka M-W-F 10:00 - 11:30 Virtual via Teams (Link will be provided in class)
 
 ## Course Outcomes
 - Knowledge of the history and social impact of high performance computing
