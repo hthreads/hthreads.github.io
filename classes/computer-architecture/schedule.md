@@ -28,7 +28,7 @@ nav_order: 2
 | **Week 5 2/10-2/14**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [Register Renaming](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)| [Robert Tomasulo talk at UMich](https://www.youtube.com/watch?v=S6weTM1tNzQ)  |
 | **Week 6 2/17-2/21**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Tomasulo Walkthrough](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Weds  |  1-2 bit Branch Prediction (slides in BB)| Ch 3.3  |
