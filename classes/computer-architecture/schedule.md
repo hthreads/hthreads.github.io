@@ -43,8 +43,8 @@ nav_order: 2
 | Fri   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | **Week 9 3/10-3/14**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
-| Weds  |  **Midterm Review**|   |
-| Fri   | **Midterm Exam** |   |
+| Weds  |  |   |
+| Fri   |  |   |
 | **Week 10 3/17-3/21**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | Weds  |  **Midterm Review**|   |
