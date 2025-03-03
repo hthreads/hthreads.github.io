@@ -36,15 +36,15 @@ nav_order: 2
 | **Week 7 2/24-2/28**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  Reorder Buffer(slides in BB)|   |
 | Weds  |  Example of dual issue w/wo speculation (slides in BB)| Ch 3.8  |
-| Fri   |  Intro to Data Level Parallelism| Ch 4.1, 4.2  |
+| Fri   |  No Class | Ch 4.1, 4.2  |
 | **Week 8 3/3-3/7**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
-| Weds  |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf)  | Ch 4.2  |
-| Fri   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
+| Mon   |  Data Level Parallelism  | Ch 4.2  |
+| Weds  |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
+| Fri   |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf) |   |
 | **Week 9 3/10-3/14**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | Weds  |   [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
-| Fri   |  |   |
+| Fri   |  Vector Processor Wrap up|   |
 | **Week 10 3/17-3/21**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | |   |
 | Weds  |  **Midterm Review**|   |
