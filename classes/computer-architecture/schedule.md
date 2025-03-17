@@ -42,12 +42,12 @@ nav_order: 2
 | Weds  |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
 | Fri   |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf) |   |
 | **Week 9 3/10-3/14**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
-| Weds  |   [VP Optimizations](../../_modules/eecs-4213/VP.AppG.pdf)|   |
+| Mon   |  [VP Optimizations Chaining](../../_modules/eecs-4213/VP.AppG.pdf)|   |
+| Weds  |   [VP Optimizations Multiple Lanes](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | Fri   |  Vector Processor Wrap up|   |
 | **Week 10 3/17-3/21**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | |   |
-| Weds  |  **Midterm Review**|   |
+| Mon   | **First half of the semester overview** |   |
+| Weds  |  **Midterm Q/A**|   |
 | Fri   | **Midterm Exam** |   |
 | **Week 11 3/24-3/28**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Spring Break !     |
