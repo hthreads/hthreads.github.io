@@ -38,7 +38,7 @@ nav_order: 2
 | Weds  |  Example of dual issue w/wo speculation (slides in BB)| Ch 3.8  |
 | Fri   |  No Class | Ch 4.1, 4.2  |
 | **Week 8 3/3-3/7**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Data Level Parallelism  | Ch 4.2  |
+| Mon   |  Intro to Data Level Parallelism  | Ch 4.2  |
 | Weds  |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
 | Fri   |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf) |   |
 | **Week 9 3/10-3/14**       |  **Lecture Topic**                    |     **Assignment**      |
