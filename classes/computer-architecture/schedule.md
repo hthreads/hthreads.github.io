@@ -54,25 +54,25 @@ nav_order: 2
 | Weds   |  Spring Break !|    |
 | Fri  |    Spring Break ! |  |
 | **Week 12 3/31-4/4**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Exam Return |   |
-| Weds  | [Chaining and Lanes](../../_modules/eecs-4213/VP.AppG.pdf) |   |
-| Fri   |  [strip mining](../../_modules/eecs-4213/VP.AppG.pdf)|   |
+| Mon   | Intro to Thread-Level Parallelism  | Ch 5.1  |
+| Weds  | Exam Return |   |
+| Fri   |  Cache Coherence| Ch 5.2  |
 | **Week 13 4/7-4/11**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Intro to Thread-Level Parallelism |  Ch 5.1 |
-| Weds  |  Cache Coherence| Ch 5.2  |
-| Fri   |  Snoopy Cache Protocol MSI|  Ch 5.2 |
+| Mon   | Snoopy Cache Protocol MSI |  Ch 5.2 |
+| Weds  | Snoopy Cache Protocol MESI | Ch 5.2  |
+| Fri   | Snoopy Cache Protocol MOESI|  Ch 5.2 |
 | **Week 14 4/14-4/18**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Snoopy Cache Protocol MESI | Ch 5.2   |
-| Weds  |  Snoopy Cache Protocol MOESI | Ch 5.4  |
-| Fri   |  Snoopy protocol wrapup | Ch 5.5   |
+| Mon   | Directory Based Coherence | Ch 5.4   |
+| Weds  | Directory Based Coherence | Ch 5.4 |
+| Fri   | Synchronization | Ch 5.5   |
 | **Week 15 4/21-4/25**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Synchronization | Ch 5.5  |
+| Mon   |   Synchronization | Ch 5.5  |
 | Weds  |  Synchronization | Ch 5.5  |
-| Fri   |  Guest Lecture |   |
+| Fri   |  [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.3  |
 | **Week 16 4/28-5/2**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
-| Weds  |  [MLPs, Tensor Processing Unit (TPU)](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.3 |
-| Fri   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |  |
+| Mon   |   [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
+| Weds  |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |  |
+| Fri   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf)  |  |
 | **Week 16 4/28-5/2**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Semester Review |  |
 | Weds  |  Semester Review | All Materials Due Before Friday  |
