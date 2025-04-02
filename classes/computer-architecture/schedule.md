@@ -54,7 +54,7 @@ nav_order: 2
 | Weds   |  Spring Break !|    |
 | Fri  |    Spring Break ! |  |
 | **Week 12 3/31-4/4**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Intro to Thread-Level Parallelism  | Ch 5.1  |
+| Mon   | [Intro to Thread-Level Parallelism](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.1  |
 | Weds  | Exam Return |   |
 | Fri   |  Cache Coherence| Ch 5.2  |
 | **Week 13 4/7-4/11**       |  **Lecture Topic**                        | **Assignment**          |
