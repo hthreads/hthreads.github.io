@@ -59,7 +59,7 @@ nav_order: 2
 | Fri   |  Cache Coherence| Ch 5.2  |
 | **Week 13 4/7-4/11**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Snoopy Cache Protocol MSI](https://en.wikipedia.org/wiki/MSI_protocol) |  Ch 5.2 |
-| Weds  | ]Snoopy Cache Protocol MESI](https://en.wikipedia.org/wiki/MESI_protocol) | Ch 5.2  |
+| Weds  | [Snoopy Cache Protocol MESI](https://en.wikipedia.org/wiki/MESI_protocol) | Ch 5.2  |
 | Fri   | [Snoopy Cache Protocol MOESI](https://en.wikipedia.org/wiki/MOESI_protocol) | Ch 5.2 |
 | **Week 14 4/14-4/18**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Directory Based Coherence | Ch 5.4   |
