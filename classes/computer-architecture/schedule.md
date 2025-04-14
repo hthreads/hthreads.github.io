@@ -63,7 +63,7 @@ nav_order: 2
 | Fri   | [Snoopy Cache Protocol MOESI](https://en.wikipedia.org/wiki/MOESI_protocol) | Ch 5.2 |
 | **Week 14 4/14-4/18**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Directory Based Coherence](../../_modules/eecs-4213/13_directory.pdf) | Ch 5.4   |
-| Weds  | Directory Based Coherence | Ch 5.4 |
+| Weds  | [Directory Based Coherence](../../_modules/eecs-4213/13_directory.pdf) | Ch 5.4 |
 | Fri   | Synchronization | Ch 5.5   |
 | **Week 15 4/21-4/25**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |   Synchronization | Ch 5.5  |
