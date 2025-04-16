@@ -67,7 +67,7 @@ nav_order: 2
 | Fri   | Synchronization | Ch 5.5   |
 | **Week 15 4/21-4/25**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |   [Synchronization](../../_modules/eecs-4213/synch1.pdf) | Ch 5.5  |
-| Weds  |  Synchronization | Ch 5.5  |
+| Weds  |  [Synchronization](../../_modules/eecs-4213/synch1.pdf) | Ch 5.5  |
 | Fri   |  [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.3  |
 | **Week 16 4/28-5/2**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |   [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
