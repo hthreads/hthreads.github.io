@@ -70,13 +70,9 @@ nav_order: 2
 | Weds  |  [Synchronization](../../_modules/eecs-4213/synch1.pdf) | Ch 5.5  |
 | Fri   |  [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.3  |
 | **Week 16 4/28-5/2**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |   [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
-| Weds  |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |  |
-| Fri   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf)  |  |
-| **Week 16 4/28-5/2**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Semester Review |  |
-| Weds  |  Semester Review | All Materials Due Before Friday  |
-| Fri   |  Reading Day|   |
+| Mon   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
+| Weds  |   Semester Review |  |
+| Fri   |  Reading Day  |  |
 | **Final 5/7**       |  **3:00pm - 5pm **                    | Final is not comprehensive         |
 
 
