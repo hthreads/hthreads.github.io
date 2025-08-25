@@ -195,11 +195,13 @@ This may not seem like much, but at the end of this laboratory, you will have cr
 {: .note-title}
 > Submission Requirements:
 >
-> **Due Date**:
+> **Due Dates**:
 >
-> **Monday lab:** September 1, 2025
-> **Wednesday lab:** September 3, 2025
-> **Friday lab:** September 5, 2025
+> - **Monday lab:** September 1, 2025
+> - **Wednesday lab:** September 3, 2025
+> - **Friday lab:** September 5, 2025
+>
+> **Note:**
 >
 > - **DO NOT** paste your code in your lab report.
 > - **DO NOT** submit your entire project folder or .xsa file.
