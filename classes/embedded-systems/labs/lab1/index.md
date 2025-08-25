@@ -132,7 +132,7 @@ This may not seem like much, but at the end of this laboratory, you will have cr
     2. Check the box that says "Include bitstream" and click "Finish".
 
 | ![SoC Block Design](./assets/images/block-design.png) |
-|:--:|
+|:----------------:|
 | *SoC Block Design* |
 
 ### Vitis IDE - Creating Software Project
@@ -195,14 +195,18 @@ This may not seem like much, but at the end of this laboratory, you will have cr
 {: .note-title}
 > Submission Requirements:
 >
-> **Due Date**: Friday, September 6, 2024
+> **Due Date**:
+>
+> **Monday lab:** September 1, 2025
+> **Wednesday lab:** September 3, 2025
+> **Friday lab:** September 5, 2025
 >
 > - **DO NOT** paste your code in your lab report.
 > - **DO NOT** submit your entire project folder or .xsa file.
 > - **DO NOT** submit zip files or any other compressed files.
 
 1. Prepare a lab report: (Use the lab report template provided)
-    - Give an account of what you did in this lab, what you learned, and anything you found interesting.
+    - Give a comprehensive account of what you did in this lab, what you learned, and anything you found interesting.
     - Include the screenshots of your block design and the output of your `Vitis > Serial Monitor` or [Putty](https://portableapps.com/apps/internet/putty_portable) window.
     - Include only essential relevant screenshots, diagrams, and code snippets necessary to your writing in the report.  
 2. Submit, separately, all your code files (e.g. the "helloworld.c" file).

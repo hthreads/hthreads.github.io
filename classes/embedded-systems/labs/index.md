@@ -17,9 +17,8 @@ nav_exclude: false
 
 | Date          | Lab                                                 |
 | ------------- | --------------------------------------------------- |
-| 08/19 - 08/23 | Prelab: Download [Vivado 2024.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2024-1.html) on home computer |
-|               | [Vivado 2019.1 Installation Guide](./assets/guides/VivadoGuide2019_1.pdf) |
-|               | [Vivado 2024.1 Installation Guide (Preferred)](./assets/guides/VivadoGuide2024_1.pdf) |
+| 08/19 - 08/23 | Prelab: Download [Vivado 2025.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2024-1.html) on home computer |
+|               | [Vivado 2025.1 Installation Guide](./assets/guides/VivadoGuide2024_1.pdf) |
 | 08/26 - 08/30 | [Lab 1: How to build a basic SoC](./lab1)           |
 | 09/02 - 09/06 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
 | 09/09 - 09/13 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
@@ -28,6 +27,12 @@ nav_exclude: false
 | 10/21 - 10/25 | [Lab 6: Bare Metal Task Control Blocks (TCBs)](./lab6) |
 | 10/28 - 11/01 | [Lab 7: FreeRTOS](./lab7)                           |
 | 11/03 - 11/15 | [Lab 8: Autonomous Vehicle](./lab8)                 |
+
+## Prelabs
+
+Some labs will have a prelab component, these must be completed before lab. Students who have not completed their prelab will be denied entry into lab.
+
+It is not necessary to print your prelabs. Showing an electronic copy on your device will be sufficient.
 
 ## Lab Reports
 
@@ -39,10 +44,3 @@ You are required to complete a lab report after each lab. The report along with 
 
 A rubric will be attached to each assignment on Blackboard. Make sure you read the rubric before you submit your assignment.
 
-{% comment %}
-## Lab Schedule
-{% assign modules = site.modules | where: 'course', '4114-labs' %}
-{% for module in modules %}
-{{ module }}
-{% endfor %}
-{% endcomment %}

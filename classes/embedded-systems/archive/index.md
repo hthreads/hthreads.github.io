@@ -9,4 +9,5 @@ nav_exclude: true
 
 # Embedded Systems Archive
 
-- [Spring 2023](./spring-2023)
+- [Fall 2023](./fall-2023)
+- [Fall 2024](./fall-2024)
