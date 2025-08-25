@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-parent: Embedded Systems
+parent: Embedded Systems 2025
 grand_parent: Classes
 nav_order: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schedule
-parent: Embedded Systems
+parent: Embedded Systems Archive
 grand_parent: Classes
 nav_order: 2
 nav_exclude: true

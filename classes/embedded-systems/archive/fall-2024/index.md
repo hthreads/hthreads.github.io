@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Embedded Systems 2024
-parent: Classes
+parent: Embedded Systems Archive
 has_children: true
 nav_order: 1
 has_toc: false

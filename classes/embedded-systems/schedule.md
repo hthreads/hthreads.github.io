@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Schedule
-parent: Embedded Systems
+parent: Embedded Systems 2025
 grand_parent: Classes
 nav_order: 2
 ---

@@ -2,6 +2,7 @@
 layout: page
 title: Lab 8
 parent: Labs
+grand_parent: Embedded Systems 2024
 nav_exclude: true
 ---
 
