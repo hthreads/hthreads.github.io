@@ -17,7 +17,7 @@ nav_exclude: false
 
 | Date          | Lab                                                 |
 | ------------- | --------------------------------------------------- |
-| 08/19 - 08/23 | Prelab: Download [Vivado 2025.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2024-1.html) on home computer |
+| 08/19 - 08/23 | Prelab: Download [Vivado 2025.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2025-1.html) on your computer |
 |               | [Vivado 2025.1 Installation Guide](./assets/guides/VivadoGuide2024_1.pdf) |
 | 08/26 - 08/30 | [Lab 1: How to build a basic SoC](./lab1)           |
 | 09/02 - 09/06 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |

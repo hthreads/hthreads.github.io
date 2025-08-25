@@ -4,6 +4,7 @@ title: Syllabus
 parent: Embedded Systems
 grand_parent: Classes
 nav_order: 1
+nav_exclude: true
 ---
 
 ## Overview

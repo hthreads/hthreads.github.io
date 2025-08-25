@@ -4,6 +4,7 @@ title: Schedule
 parent: Embedded Systems
 grand_parent: Classes
 nav_order: 2
+nav_exclude: true
 ---
 
 # Weekly Schedule

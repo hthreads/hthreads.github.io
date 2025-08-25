@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Embedded Systems
+title: Embedded Systems 2024
 parent: Classes
 has_children: true
 nav_order: 1
 has_toc: false
+nav_exclude: true
 ---
 
 # EECS 41104/51104 Embedded Systems
