@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Embedded Systems 2025
+title: Embedded Systems
 parent: Classes
 has_children: true
 nav_order: 1

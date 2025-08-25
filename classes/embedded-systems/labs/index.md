@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Labs
-parent: Embedded Systems 2025
+parent: Embedded Systems
 grand_parent: Classes
 has_children: true
 nav_order: 3
