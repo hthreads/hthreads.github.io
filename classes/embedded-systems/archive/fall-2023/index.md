@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Embedded Systems 2023
-parent: Embedded Systems
+parent: Embedded Systems Archive
 grand_parent: Classes
 has_children: true
 nav_order: 1
