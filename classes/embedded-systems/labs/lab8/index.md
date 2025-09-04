@@ -6,7 +6,7 @@ grand_parent: Embedded Systems
 nav_exclude: true
 ---
 
-# Lab 8: Autonomus Vehicle
+# Lab 8: Autonomous Vehicle
 
 ## Week 1
 
@@ -22,7 +22,7 @@ need them.
 
 ### Lab Instructions
 
-{: .note }
+{: .note}
 > Start by downloading this [IP Repository](./assets/ip_repo.zip). It contains 
 > some of the IPs we'll need for our robot project. Extract the "ip_repo" directory 
 > and place it in your SoC project directory.
@@ -39,7 +39,7 @@ communicating with the external Pmod peripherals. We will add AXI GPIO,
 Pmod_DHB1, and Pmod_Dual_MAXSONAR IP for communication with the two line
 detecting light sensors, Pmod MAXSONAR sensor, and Pmod DHB1 motor driver.  
 
-    {: .warning }
+    {: .warning}
     > __Do not use connection automation...__  
 
     1. __AXI GPIO >> jA >> Pmod LS1:__
@@ -120,7 +120,7 @@ window:
 5. Validate your design, and generate a bitstream.
 6. Export your bitstream. Remember, to select to __"include bitstream"__ option.
 
-{: .info }
+{: .info}
 > Spansion is the manufacturer of the SPI flash memory chip on the FPGA board.
 >
 > -- [follow this link for more details](https://digilent.com/reference/programmable-logic/arty-a7/reference-manual#quad-spi_flash).
