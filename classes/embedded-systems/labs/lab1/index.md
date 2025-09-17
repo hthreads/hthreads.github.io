@@ -72,7 +72,7 @@ This may not seem like much, but at the end of this laboratory, you will have cr
     1. Start by adding the MicroBlaze processor to your design.
     2. Search for "MicroBlaze" and add it to your design. **DO NOT** select the MicroBlaze V.
     3. Select "Run Block Automation" and set the following parameters:
-        - **Preset:** `Real-time`
+        - **Preset:** `Microcontroller`
         - **Local Memory:** `32KB`
         - **Local Memory ECC:** `None`
         - **Debug Module:** `Debug Only`
@@ -85,9 +85,6 @@ This may not seem like much, but at the end of this laboratory, you will have cr
     6. Click on the "Run Connection Automation" option.
         - Change the "Master interface" to `/microblaze_0 (Periph)`
         - Click "OK" to connect the MIG to the peripheral interface of the MicroBlaze processor.
-    7. Click on the "Run Connection Automation" option again.
-        - Check all the boxes to automate connection "M_AXI_DC" (data cache) and "M_AXI_IC" (instruction cache) to the MIG.
-        - Click "OK" to connect the MicroBlaze processor to the DDR memory controller.
 6. **Adding the UART controller:**
     1. Search for "AXI Uartlite" and add it to your design.
     2. Click on the "Run Connection Automation" option.
