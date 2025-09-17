@@ -187,6 +187,9 @@ This may not seem like much, but at the end of this laboratory, you will have cr
     4. Under "Vitis Components", select your application, then in the "Flow" panel, click "Build".
     5. Once the build is complete, click "Run" to program the FPGA and run your application.
 
+{: .note}
+> The COM port may vary, so ensure you select the correct one. The correct COM port should be listed with the text "(FTDI)" next to it.
+
 ## Submission
 
 {: .note-title}
