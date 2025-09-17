@@ -113,9 +113,16 @@ int main()
 }
 ```
 
+{: hint}
+> - Your solution should not use any loops other than the main `while(1)` loop and the loops in the `delay_ms()` function.
+
 ## Submission
 
-Nothing will be due for the first week, though you should double-check your design and ensure it produces the desired output. Make sure your design is modular as well as we will refactor this code and use timers in place of the dummy delay loops in the second week. For the submission after week 2, you will turn in your report which should contain a state transition graph of your FSM, and your C file.
+1. Submit your code file to the appropriate assignment on Blackboard.
+2. No report is required for this week.
+
+{: note}
+You should double-check your design and ensure it produces the desired behavior. Make sure your design is modular as we will refactor this code and use timers in place of the dummy delay loops in the next week. Next week's submission will require a combined lab report for this week and next week's lab.
 
 ## Prelab Assignment
 
