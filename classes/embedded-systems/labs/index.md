@@ -19,14 +19,14 @@ nav_exclude: false
 | ------------- | --------------------------------------------------- |
 | 08/19 - 08/23 | Prelab: Download [Vivado 2025.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2025-1.html) on your computer |
 |               | [Vivado 2025.1 Installation Guide](./assets/guides/VivadoGuide2024_1.pdf) |
-| 08/26 - 08/30 | [Lab 1: How to build a basic SoC](./lab1)           |
-| 09/02 - 09/06 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
-| 09/09 - 09/13 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
-| 09/16 - 09/20 | [Lab 4: Timers](./lab4)                             |
-| 09/23 - 10/04 | [Lab 5: Interrupt Driven Microblaze: System](./lab5) |
-| 10/21 - 10/25 | [Lab 6: Bare Metal Task Control Blocks (TCBs)](./lab6) |
-| 10/28 - 11/01 | [Lab 7: FreeRTOS](./lab7)                           |
-| 11/03 - 11/15 | [Lab 8: Autonomous Vehicle](./lab8)                 |
+| 08/25 - 09/03 | [Lab 1: How to build a basic SoC](./lab1)           |
+| 09/05 - 09/10 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
+| 09/12 - 09/17 | [Lab 3: Fayetteville Bike Crossing](./lab3)         |
+| 09/19 - 09/24 | [Lab 4: Timers](./lab4)                             |
+| 09/26 - 10/01 | [Lab 5: Interrupt Driven Microblaze System](./lab5) |
+| 10/03 - 10/08 | [Lab 6: Bare Metal Task Control Blocks (TCBs)](./lab6) |
+| 10/10 - 10/15 | [Lab 7: FreeRTOS](./lab7)                           |
+| 10/17 - 10/22 | [Lab 8: Autonomous Vehicle](./lab8)                 |
 
 ## Prelabs
 
