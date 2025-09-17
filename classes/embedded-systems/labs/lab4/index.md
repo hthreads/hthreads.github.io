@@ -120,14 +120,15 @@ simplicity.
 ## Submission
 
 1. Prepare a lab report, and give an account of what you did to complete the lab.
-2. Lab 3 and Lab 4 code files
+2. Upload code file
 3. Upload your files separately on Blackboard. **No zip files!**
 
 ## Prelab Assignment
 
-Your answers should be typed and printed with your name, date, and lab number. In addition to answering the following questions, please read the lab assignment on this page and reread the Xilinx AXI Timer Datasheet. You may want to write pseudo code if you think you may have trouble finishing the project during your lab time or if you're feeling like a good student.
+{: .info}
+> - Include your answers to the following questions in your lab report.
 
-1. What is the advantage of a timer over the previously used delay_ms function?
+1. What is the advantage of a timer over the previously used `delay_ms` function?
 2. There are several registers required to interface with the timer module in the SoC, what are those registers and what is their function?
 3. When enabling the timer, there is one bit you need to set and one bit you need to clear. What are those two bits?
 4. What two methods exist in C for setting the timer parameters?

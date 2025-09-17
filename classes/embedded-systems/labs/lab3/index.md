@@ -113,7 +113,7 @@ int main()
 }
 ```
 
-{: hint}
+{: .hint}
 > - Your solution should not use any loops other than the main `while(1)` loop and the loops in the `delay_ms()` function.
 
 ## Submission
@@ -121,7 +121,7 @@ int main()
 1. Submit your code file to the appropriate assignment on Blackboard.
 2. No report is required for this week.
 
-{: note}
+{: .note}
 You should double-check your design and ensure it produces the desired behavior. Make sure your design is modular as we will refactor this code and use timers in place of the dummy delay loops in the next week. Next week's submission will require a combined lab report for this week and next week's lab.
 
 ## Prelab Assignment
