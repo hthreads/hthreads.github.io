@@ -17,11 +17,12 @@ description: A listing of all the CSDL members.
 
 ## Students
 
-{% assign teaching_assistants = site.staffers | where: 'role', 'Graduate Assistant' %}
-{% assign num_teaching_assistants = teaching_assistants | size %}
-{% if num_teaching_assistants != 0 %}
+{% assign assistants = site.staffers | where_exp: "assistant", "assistant.role == 'Graduate Assistant' or assistant.role == 'Research Assistant'" %}
+{% assign num_assistants = assistants | size %}
+{% if num_assistants != 0 %}
 
 {% for staffer in teaching_assistants %}
 {{ staffer }}
 {% endfor %}
+
 {% endif %}
