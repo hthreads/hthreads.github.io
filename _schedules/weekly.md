@@ -41,7 +41,7 @@ schedule:
         end: 12:00 PM
         location: JBHT 444 / Teams
       - name: Research Group Meeting
-        start: 2:30 AM
+        start: 2:30 PM
         end: 3:30 PM
         location: JBHT 444
   - name: Thursday
@@ -53,6 +53,6 @@ schedule:
         location: JBHT 444 / Teams
       - name: Embedded Systems Lab
         start: 10:30 AM
-        end: 12:30 AM
+        end: 12:30 PM
         location: JBHT 243
 ---
