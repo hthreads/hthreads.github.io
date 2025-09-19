@@ -18,7 +18,7 @@ nav_order: 2
 | Weds  |  [Trends, Performance, Parallelism](../../_modules/eecs-4213/trends,parallelism,performance.pdf)|  Reading Ch 1.8-.9  |
 | Fri   |  [Memory Hierarchy Overview](../../_modules/eecs-4213/cacheuark24.pdf)| Ch 2.1-2.2   |
 | **Week 3 1/27-1/31**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [Locality](../../_modules/eecs-4213/cacheuark24.pdf) | Appendix B1-B3  |
+| Mon   |  [Cache Basics](../../_modules/eecs-4213/cacheuark24.pdf) | Appendix B1-B3  |
 | Weds  | [Cache Structures](../../_modules/eecs-4213/cacheuark24.pdf) |   |
 | Fri   |  [Direct Mapped/Fully AssociativeCaches](../../_modules/eecs-4213/cacheuark24.pdf)|   |
 | **Week 4 2/3-2/7**       |  **Lecture Topic**                        | **Assignment**          |
