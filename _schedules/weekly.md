@@ -49,7 +49,7 @@ schedule:
     events:
       - name: Office Hours
         start: 9:00 AM
-        end: 10:00 PM
+        end: 10:00 AM
         location: JBHT 444 / Teams
       - name: Embedded Systems Lab
         start: 10:30 AM
