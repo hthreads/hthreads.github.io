@@ -8,10 +8,10 @@ nav_exclude: true
 
 # Lab 4: Timers
 
-In this lab, we will replace the dummy loops inserted in the previous lab to waste a certain amount of time for transitioning the traffic lights with more precise delays provided by the [Xilinx AXI Timer core](https://docs.xilinx.com/v/u/en-US/pg079-axi-timer). The timer core contains two 32-bit timers that can be used independently or combined to form either (1) an extended 64-bit timer, or (2) a Pulse Modulation Wave generator. When used independently each timer can be set up in either (1) Capture, or (2) Generate Mode. There are many solutions you could implement for this lab using a combination of the two timers. However, the simplest solution is to use one timer in the Generate Mode.
+In this lab, we will replace the dummy loops inserted in the previous lab to waste a certain amount of time for transitioning the traffic lights with more precise delays provided by the [Xilinx AXI Timer core](./assets/docs/pg079-axi-timer.pdf). The timer core contains two 32-bit timers that can be used independently or combined to form either (1) an extended 64-bit timer, or (2) a Pulse Modulation Wave generator. When used independently each timer can be set up in either (1) Capture, or (2) Generate Mode. There are many solutions you could implement for this lab using a combination of the two timers. However, the simplest solution is to use one timer in the Generate Mode.
 
 {: .note}
-Before you enter the lab you should read and familiarize yourself with the [Timer Core Datasheet](https://docs.xilinx.com/v/u/en-US/pg079-axi-timer).
+Before you enter the lab you should read and familiarize yourself with the [Timer Core Datasheet](./assets/docs/pg079-axi-timer.pdf).
 
 Specifically, you should study the data sheet to determine:
 
@@ -135,4 +135,4 @@ simplicity.
 
 ## References
 
-1. [Xilinx AXI Timer core](https://docs.xilinx.com/v/u/en-US/pg079-axi-timer)
+1. [Xilinx AXI Timer core](.assets/docs/pg079-axi-timer.pdf)
