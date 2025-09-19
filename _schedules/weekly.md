@@ -1,5 +1,6 @@
 ---
 timeline:
+  - '8:30 AM'
   - '9:00 AM'
   - '9:30 AM'
   - '10:00 AM'
@@ -17,7 +18,6 @@ timeline:
   - '4:00 PM'
   - '4:30 PM'
   - '5:00 PM'
-  - '5:30 PM'
 schedule:
   - name: Monday
     events:
