@@ -11,7 +11,7 @@ nav_order: 2
 | Week 1 1/13-1/17       | Lecture Topic                          | Assignment          |
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon    | [Course Introduction](../../_modules/eecs-4213/intro-spr25.pdf) |  Reading Ch 1.1    |
-| Weds   | [Moore's Law Dennard Scaling](../../_modules/eecs-4213/moore-dennard.pdf)  | <br> [Cramming More Components onto Integrated Circuits](../../_modules/eecs-4213/gordon_moore_1965_article.pdf) <br> [The Decline of Computers as a General Purpose Technology](../../_modules/eecs-4213/trends,parallelism,performance.pdf) |
+| Weds   | [Moore's Law Dennard Scaling](../../_modules/eecs-4213/moore-dennard.pdf)  | <br> [Cramming More Components onto Integrated Circuits](../../_modules/eecs-4213/gordon_moore_1965_article.pdf) <br> [The Decline of Computers as a General Purpose Technology](../../_modules/eecs-4213/declineofgeneralization.pdf) |
 | Fri    | [Trends, Performance, Parallelism](../../_modules/eecs-4213/trends,parallelism,performance.pdf)  |    Reading Ch 1.4-.5, 1.8-.9 <br> Homework #1 Assigned in Blackboard <br> |
 | **Week 2 1/20-1/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Martin Luther King Day  |    |
