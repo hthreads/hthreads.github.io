@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Simulated Interrupt Example
+title: Task Control Block Example
 nav_exclude: true
 ---
 
