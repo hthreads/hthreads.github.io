@@ -27,8 +27,10 @@ Materials for this course will be drawn from the literature. Students will be re
 
 ## Topics Covered
 
-- The rise and decline of Moore's Law
-- Understanding the requirements of Machine Learning
+- The Economics of Moore's Law
+- Understanding Performance Gains from Specialization and the Accelerator Wall
+- The Requirements of Machine Learning
+- The New Economics of Machine learning
 - SIMD Architectures
 - Vector Processors
 - Array Processors
