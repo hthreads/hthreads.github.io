@@ -3,6 +3,5 @@ name: Stephen Ni
 role: Research Assistant
 email: stephenn@uark.edu
 website: 
-photo: 
+photo: eecs-no-photo.jpg
 ---
-
