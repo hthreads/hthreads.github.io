@@ -28,14 +28,15 @@ Materials for this course will be drawn from the literature. Students will be re
 ## Topics Covered
 
 - The Economics of Moore's Law
-- Understanding Performance Gains from Specialization and the Accelerator Wall
-- The Requirements of Machine Learning
+- Measuring Performance
+- Understanding Performance Gains and Limitations from Specialization
 - The New Economics of Machine learning
-- SIMD Architectures
-- Vector Processors
-- Array Processors
-- Graphics Processor Units (GPUs)
+- Architecture Requirements of Machine Learning Models
+- Domain Specific Accelerator Architectures
+- Vector and Array Processors
 - Systolic Arrays
+- In/Near Memory computational Models
+- Analog and Mixed Signal Computational Models
 - Case Studies
 
 ## Class/Assigned Readings
