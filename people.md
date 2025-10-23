@@ -8,7 +8,7 @@ description: A listing of all the CSDL members.
 
 ## Professors
 
-{% assign professors = site.staffers | where: "role", "professor" %}
+{% assign professors = site.staffers | where: "role", "Professor" %}
 {% for professor in professors %}
   {{ professor }}
 {% endfor %}
