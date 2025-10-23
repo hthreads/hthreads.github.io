@@ -35,7 +35,7 @@ Materials for this course will be drawn from the literature. Students will be re
 - Domain Specific Accelerator Architectures
 - Vector and Array Processors
 - Systolic Arrays
-- In/Near Memory computational Models
+- In/Near Memory Computational Models
 - Analog and Mixed Signal Computational Models
 - Case Studies
 
