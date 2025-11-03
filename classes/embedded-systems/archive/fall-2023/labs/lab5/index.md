@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Lab 5
-parent: Labs
-grand_parent: EECS 4114 Embedded Systems
+parent: Labs 2023
+grand_parent: Embedded Systems 2023
 has_children: true
 nav_exclude: true
-has_toc: false
 ---
 
 # Lab 5: Interrupt Driven MicroBlaze System

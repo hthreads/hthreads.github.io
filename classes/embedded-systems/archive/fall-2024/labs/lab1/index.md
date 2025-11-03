@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lab 1
-parent: Labs
+parent: Labs 2024
 grand_parent: Embedded Systems 2024
 nav_exclude: true
 ---

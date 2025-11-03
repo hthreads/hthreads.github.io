@@ -1,11 +1,9 @@
 ---
 layout: page
 title: Lab 5
-parent: Labs
+parent: Labs 2024
 grand_parent: Embedded Systems 2024
-has_children: true
 nav_exclude: true
-has_toc: false
 ---
 
 # Lab 5: Interrupt Driven MicroBlaze System

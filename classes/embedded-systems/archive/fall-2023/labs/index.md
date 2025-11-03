@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Labs
+title: Labs 2023
 parent: Embedded Systems 2023
 grand_parent: Embedded Systems
 has_children: true

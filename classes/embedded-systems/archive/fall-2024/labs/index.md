@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Labs
+title: Labs 2024
 parent: Embedded Systems 2024
 grand_parent: Classes
 has_children: true

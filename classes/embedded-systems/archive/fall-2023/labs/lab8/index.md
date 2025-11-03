@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Lab 8
-parent: Labs
-grand_parent: EECS 4114 Embedded Systems
+parent: Labs 2023
+grand_parent: Embedded Systems 2023
 nav_exclude: true
 ---
 
-# Lab 8: Autonomus Vehicle
+# Lab 8: Autonomous Vehicle
 
 ## Week 1
 
