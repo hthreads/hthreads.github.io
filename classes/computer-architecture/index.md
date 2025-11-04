@@ -31,17 +31,19 @@ The architecture of modern scalar and parallel computing systems. Techniques for
 Computer Architecture. A Quantitative Approach. Sixth Edition, by David A. Patterson and John L. Hennessy, Morgan Kaufmann Publishers, Inc., 2019.
 
 ## Topics Covered
-- Technology trends and Performance Evaluation
+- Technology trends
+- Measuring Performance
+- Caches/Memory Hierarchies
 - Instruction Level parallelism
 - Branch Prediction, Dynamic Scheduling, Hardware Speculation
 - Limitations of Instruction-Level Parallelism
 - Multithreading and Thread Level Parallelism
 - Symmetric Shared-Memory Architectures Performance and Synchronization
 - Distributed Shared Memory and Directory Based Coherence
+- SIMD Architectures
 - Vector Processors
-- SIMD Extensions
-- Graphics Processor Units (GPUs)
-- Memory Hierarchies
+- Systolic Arrays
+- Domain Specific Accelerators
 
 ## Class/Assigned Readings
 - Lecture meets M/W/F 3:05 - 3:55 Bell 2267
