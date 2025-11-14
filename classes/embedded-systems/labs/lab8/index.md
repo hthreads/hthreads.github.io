@@ -114,8 +114,8 @@ We're going to add the SPI Flash Memory to our design. The instructions below wi
 **Vitis:**
 
 1. Download [this GitHub repo](https://github.com/tkamucheka/embedded-systems-lab/tree/main), and look at the example applications in the __"embedded_systems_lab.sdk"__ directory. The examples demonstrate how to use the sensors and control the motors on your car.
-2. Download the [Board Flashing Guide](./assets/slides/Board-Flashing-Instructions.pdf). The guide will show you how to flash any application onto your FPGA board. You can use any application from the "Fayetteville Bike Crossing" series to test the process.
-3. Design an application capable of driving your car and following the line around the track.
+<!-- 2. Download the [Board Flashing Guide](./assets/slides/Board-Flashing-Instructions.pdf). The guide will show you how to flash any application onto your FPGA board. You can use any application from the "Fayetteville Bike Crossing" series to test the process. -->
+2. Design an application capable of driving your car and following the line around the track.
 
 {: .hint-title}
 > Hints:
@@ -136,8 +136,8 @@ We're going to add the SPI Flash Memory to our design. The instructions below wi
 
 ### Project Assignment
 
-{: .note}
-> The PDF instructions have more details and illustration images.
+<!-- {: .note} -->
+<!-- > The PDF instructions have more details and illustration images. -->
 
 Turn your car into a line following robot. The line will be a (silver) duct tape track, and your car should drive around the track following the line. There will be an obstacle at the end of the track, use this to stop your car. You'll have to do the following:
 1. Use the **GPIO PMOD LS1** to detect when your car drives over the line and steer that car back onto the track
@@ -146,12 +146,42 @@ Turn your car into a line following robot. The line will be a (silver) duct tape
 
 Programming the Quad SPI Flash Memory:
 
-{: .note}
-> - This section assumes you have already created your application project in Vitis and have the bitstream generated from Vivado.
-> - The file names in this section may be different from what you have in your project. Just remember what you named your SoC in Vivado and project name in the SDK and the rest should look familiar. If you are unsure ask your TA for help.
+{: .important}
+> 1. This section assumes the following:
+>     - You already added the Quad SPI Flash memory controller to your SoC in Vivado.
+>     - You exported your hardware design (XSA) from Vivado and imported it into Vitis.
+>     - You have created a Vitis platform project using the imported hardware design.
+>     - You have created your application project in Vitis; Any application, including older labs. 
+> 2. The file names in this section may be different from what you have in your project. Just remember what you named your SoC in Vivado and project name in the SDK and the rest should look familiar. If you are unsure ask your TA for help.
 
 {: .info}
 > The following is a 2-step process. First, we will flash your application to the SPI flash memory. Then we will create and flash a bootloader that will load your application from the SPI flash memory when the Arty board is powered on.
+
+**Quad SPI Flash Memory Map Information:**
+The SPI Flash memory on the Arty board is 16 MB in size. We will divide this memory into two regions:
+1. Bootloader Region - This region will store the bootloader program that loads your application from the flash memory when the board is powered on. This region will occupy the first 12 MB of the flash memory.
+2. Application Region - This region will store your application program. This region will occupy the remaining 4 MB of the flash memory.
+
+| Memory Region       | Base Address  | High Address  | Size      |
+|---------------------|---------------|---------------|-----------|
+| Bootloader Region   | 0x00000000    | 0x00BFFFFF    | 12 MB     |
+| Application Region  | 0x00C00000    | 0x00FFFFFF    | 4 MB      |
+
+**System Memory Map Information:**
+The following table shows the memory map for the MicroBlaze processor:
+
+| Memory Region       | Base Address  | High Address  | Size      |
+|---------------------|---------------|---------------|-----------|
+| Local Memory (BRAM) | 0x00000000    | 0x0001FFFF    | 128 KB    |
+| DDR Memory          | 0x80000000    | 0x8FFFFFFF    | 256 MB    |
+
+{: .note}
+Local Memory size may vary based on your design.
+
+When you compile your application, you can modify the linker script to select the memory region where your application will be stored. Until now, we paid no attention to this because we simply did not care where our application was stored. However, now that we are essentially creating a custom boot process, running two applications (bootloader and main application), we need to be more careful about where we store our application.
+
+{: .important}
+Our application will have to be stored in the DDR memory region, while the bootloader will be stored in the local memory region. This setup, allows us to load the bootloader program first, which will then load the main application from the SPI flash memory into the DDR memory region. Once the application is loaded into DDR memory, the bootloader will transfer control to the application, and the application will start executing.
 
 **Flashing your application to SPI Flash Memory:**
 
@@ -163,7 +193,8 @@ Programming the Quad SPI Flash Memory:
     - **Offset:** Enter `0x00C00000`. This is the address offset where your program will be stored in the flash memory.
     - **Flash Type:** Select *S25FL128sxxxxxx0-spi-x1_x2_x4*.
     - __IMPORTANT__, make sure to select 'Convert ELF to bootloadable SREC format'.
-![Flash Programming Window](./assets/flash-prog.png)
+    - **Image File:** Copy the SREC file path that is generated, and paste it into the Image File field. 
+![Flash Programming Window](./assets/flash-prog-after.png)
 5. Click __Program__.
 
 **Creating and Flashing the Bootloader to SPI Flash Memory:**
