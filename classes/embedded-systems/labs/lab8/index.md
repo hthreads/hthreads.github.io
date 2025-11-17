@@ -187,7 +187,7 @@ Our application will have to be stored in the DDR memory region, while the bootl
 
 1. Open the linker script in your application project. You can find it in the `src` directory of your project.
 2. Find the "Section to Memory Region Mapping" portion of the linker script. Change all the memory regions from `microblaze_0_local`... to `mig_7series_0_memory`. Save and close the file.
-3. From the toolbar, select __Xilinx > Program Flash__ to open the flash programming window.
+3. From the menu bar, select __Xilinx > Program Flash__ to open the flash programming window.
 4. In the flash programming window, do the following:
     - **Image File:** Click __Browse__ and navigate to your project folder, then into `Build`. Select [your_project_name].elf and click open.
     - **Offset:** Enter `0x00C00000`. This is the address offset where your program will be stored in the flash memory.
@@ -200,26 +200,27 @@ Our application will have to be stored in the DDR memory region, while the bootl
 **Creating and Flashing the Bootloader to SPI Flash Memory:**
 
 1. Create a new platform using your newly minted hardware design (XSA) that includes the SPI flash memory controller.
-2. From the Vitis toolbar, select __File > New Example__.
+2. From the Vitis menu bar, select __File > New Example__.
 3. Select **SREC SPI Bootloader** from the list of examples. Click **Create Application Component From Template**.
 4. Create the SREC Bootloader application component in the newly created platform.
 5. We need to make a few changes to our bootloader before loading it onto the Arty board.
     - First, we need to set the 'address offset' so the bootloader can find our application. In the 'Bootloader' project, open the __blconfig.h__ file and change the __FLASH_IMAGE_BASEADDR__ to `0x00C00000`. Note, this same address you used when you flashed your application onto the flash memory earlier.
     - __Optional__, if you wish to improve your ArtyBot's startup time. Edit the file bootloader.c and comment out the line `#define VERBOSE`. This will turn off console logging. 
     __NB:__ *Console logs may be useful when you're initially setting things up*.
-6. In the toolbar, select __Xilinx > Program FPGA__ to open the FPGA programming window.
+6. In the menu bar, select __Xilinx > Program FPGA__ to open the FPGA programming window.
 7. In the FPGA programming window, do the following:
-    - 
-
-
-- To create a bootloader, in the toolbar select File > New > Application Project. Name the project something like 'bootloader' as shown in the image above. Click __Next__.
-- Select __SREC SPI Bootloader__, and select __Finish__.
-- We need to make a few changes to our bootloader before loading it onto the Arty board. First, we need to set the 'address offset' so the bootloader can find our application. In the 'Bootloader' project, open the __blconfig.h__ file and change the __FLASH_IMAGE_BASEADDR__ to `0x00C00000`. Note, this same address you used when you flashed your application onto the flash memory earlier.
-- > __Optional__, if you wish to improve your ArtyBot's startup time. Edit the file bootloader.c and comment out the line `#define VERBOSE`. This will turn off console logging. __NB:__ Console logs may be useful when you're initially setting things up.
-
-- Click the __Program FPGA__ button in the toolbar. In the right half of the Software Configuration section, there is a cell that says `bootloop`. Click the right side of this cell to reveal a drop-down menu. Select __Bootloop.elf__ from the list, then click Program. This will generate a bit file with the MicroBlaze's memory initialized with the program that you have written. The Arty is also programmed and if everything went well you should see your application running in your favorite console application (e.g. SDK Terminal, Putty or TeraTerm)
-- Almost there, click the __Program Flash__ button in the toolbar. Next to Image File, click Browse and navigate to the SDK workspace, then into `base_soc_wrapper_hw_platform_0`. Select `download.bit` and click __Open__. Next of Offset, enter `0x0`. Next to Flash Type, select `S25FL128sxxxxxx0-spi-x1_x2_x4`. Click __Program__.
-- Congratulations, you have flashed the bootloader and your application to the non-volatile SPI Qflash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.
+    - **Bitstream:** Should be prepopulated with `base_soc_wrapper.bit` or whatever you named your SoC in Vivado.
+    - **BMM/MMI File:** Select "Search" and choose `base_soc_wrapper.mmi` from the list presented.
+    - In the "software Configuration" section, next to "microblaze_0", make sure it says `bootloop`.
+    - Now click either `Generate` or `Program` to generate the bit file with the MicroBlaze's memory initialized with the bootloader program.
+    ![FPGA Programming Window](./assets/bootloader-prog-device.png)
+8. Almost there, back in the menu bar, select __Vitis > Program Flash__. In the flash programming window, do the following:
+    - **Image File:** Click __Browse__ and navigate to your project and locate this file, `srec_spi_bootloader/_ide/bitstream/download.bit`
+    - **Offset:** Enter `0x0`. This is the address offset where the bootloader will be stored in the flash memory.
+    - **Flash Type:** Select *S25FL128sxxxxxx0-spi-x1_x2_x4*.
+    - Click __Program__.
+    - ![Flash Programming Window](./assets/bootloader-prog-flash.png)
+- Congratulations, you have flashed the bootloader and your application to the non-volatile QSPI flash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.
 
 ### Prelab Assignment
 
