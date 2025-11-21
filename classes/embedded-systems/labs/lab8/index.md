@@ -211,7 +211,7 @@ Our application will have to be stored in the DDR memory region, while the bootl
 7. In the FPGA programming window, do the following:
     - **Bitstream:** Should be prepopulated with `base_soc_wrapper.bit` or whatever you named your SoC in Vivado.
     - **BMM/MMI File:** Select "Search" and choose `base_soc_wrapper.mmi` from the list presented.
-    - In the "software Configuration" section, next to "microblaze_0", make sure it says `bootloop`.
+    - In the "software Configuration" section, next to "microblaze_0", click `Browse` and locate your bootloader ELF file - `srec_spi_bootloader/build/srec_spi_bootloader.elf`.
     - Now click either `Generate` or `Program` to generate the bit file with the MicroBlaze's memory initialized with the bootloader program.
     ![FPGA Programming Window](./assets/bootloader-prog-device.png)
 8. Almost there, back in the menu bar, select __Vitis > Program Flash__. In the flash programming window, do the following:
