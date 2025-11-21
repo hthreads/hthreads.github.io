@@ -203,24 +203,26 @@ Our application will have to be stored in the DDR memory region, while the bootl
 2. From the Vitis menu bar, select __File > New Example__.
 3. Select **SREC SPI Bootloader** from the list of examples. Click **Create Application Component From Template**.
 4. Create the SREC Bootloader application component in the newly created platform.
-5. We need to make a few changes to our bootloader before loading it onto the Arty board.
+5. Open the linker script in the bootloader project. You can find it in the `src` directory of your project.
+6. Find the "Section to Memory Region Mapping" portion of the linker script. Change all the memory regions from `mig_7series_0_memory`... to `microblaze_0_local`. Save and close the file.
+7. We need to make a few changes to our bootloader before loading it onto the Arty board.
     - First, we need to set the 'address offset' so the bootloader can find our application. In the 'Bootloader' project, open the __blconfig.h__ file and change the __FLASH_IMAGE_BASEADDR__ to `0x00C00000`. Note, this same address you used when you flashed your application onto the flash memory earlier.
     - __Optional__, if you wish to improve your ArtyBot's startup time. Edit the file bootloader.c and comment out the line `#define VERBOSE`. This will turn off console logging. 
     __NB:__ *Console logs may be useful when you're initially setting things up*.
-6. In the menu bar, select __Xilinx > Program FPGA__ to open the FPGA programming window.
-7. In the FPGA programming window, do the following:
+8. In the menu bar, select __Xilinx > Program FPGA__ to open the FPGA programming window.
+9. In the FPGA programming window, do the following:
     - **Bitstream:** Should be prepopulated with `base_soc_wrapper.bit` or whatever you named your SoC in Vivado.
     - **BMM/MMI File:** Select "Search" and choose `base_soc_wrapper.mmi` from the list presented.
     - In the "software Configuration" section, next to "microblaze_0", click `Browse` and locate your bootloader ELF file - `srec_spi_bootloader/build/srec_spi_bootloader.elf`.
     - Now click either `Generate` or `Program` to generate the bit file with the MicroBlaze's memory initialized with the bootloader program.
     ![FPGA Programming Window](./assets/bootloader-prog-device.png)
-8. Almost there, back in the menu bar, select __Vitis > Program Flash__. In the flash programming window, do the following:
+10. Almost there, back in the menu bar, select __Vitis > Program Flash__. In the flash programming window, do the following:
     - **Image File:** Click __Browse__ and navigate to your project and locate this file, `srec_spi_bootloader/_ide/bitstream/download.bit`
     - **Offset:** Enter `0x0`. This is the address offset where the bootloader will be stored in the flash memory.
     - **Flash Type:** Select *S25FL128sxxxxxx0-spi-x1_x2_x4*.
     - Click __Program__.
     - ![Flash Programming Window](./assets/bootloader-prog-flash.png)
-- Congratulations, you have flashed the bootloader and your application to the non-volatile QSPI flash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.
+11. Congratulations, you have flashed the bootloader and your application to the non-volatile QSPI flash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.
 
 ### Troubleshooting
 
