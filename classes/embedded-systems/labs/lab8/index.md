@@ -222,6 +222,28 @@ Our application will have to be stored in the DDR memory region, while the bootl
     - ![Flash Programming Window](./assets/bootloader-prog-flash.png)
 - Congratulations, you have flashed the bootloader and your application to the non-volatile QSPI flash memory. Next time you power on the board, the bootloader will be copied from the flash memory and when it runs, it will execute your application.
 
+### Troubleshooting
+
+#### Missing "Convert ELF to bootloadable SREC format" option
+
+If you're missing the "Convert ELF to bootloadable SREC format" option in the flash programming window, you may need to manually convert your ELF file to SREC format using the `mb-objcopy` tool. Here's how you can do it:
+
+1. Open a terminal or command prompt. In the menu bar of Vitis, `Terminal > New Terminal`.
+2. Navigate to your application directory. For example:
+   ```
+   cd lab8
+   ```
+3. Make a new directory to store the SREC file:
+   ```
+   mkdir flash
+   ```
+4. Use the `mb-objcopy` tool to convert the ELF file to SREC format. Replace `[your_project_name]` with the actual name of your project:
+   ```
+   mb-objcopy -O srec build\[your_project_name].elf flash\[your_project_name].elf.srec
+   ```
+5. Now, in the flash programming window, you can use the generated SREC file located in the `flash` directory as your image file.
+
+
 ### Prelab Assignment
 
 None this week. Lucky you!
