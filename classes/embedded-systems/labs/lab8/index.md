@@ -158,6 +158,7 @@ Programming the Quad SPI Flash Memory:
 > The following is a 2-step process. First, we will flash your application to the SPI flash memory. Then we will create and flash a bootloader that will load your application from the SPI flash memory when the Arty board is powered on.
 
 **Quad SPI Flash Memory Map Information:**
+
 The SPI Flash memory on the Arty board is 16 MB in size. We will divide this memory into two regions:
 1. Bootloader Region - This region will store the bootloader program that loads your application from the flash memory when the board is powered on. This region will occupy the first 12 MB of the flash memory.
 2. Application Region - This region will store your application program. This region will occupy the remaining 4 MB of the flash memory.
@@ -168,6 +169,7 @@ The SPI Flash memory on the Arty board is 16 MB in size. We will divide this mem
 | Application Region  | 0x00C00000    | 0x00FFFFFF    | 4 MB      |
 
 **System Memory Map Information:**
+
 The following table shows the memory map for the MicroBlaze processor:
 
 | Memory Region       | Base Address  | High Address  | Size      |
