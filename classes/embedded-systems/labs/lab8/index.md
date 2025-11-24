@@ -228,6 +228,14 @@ Our application will have to be stored in the DDR memory region, while the bootl
 
 ### Troubleshooting
 
+{: .note}
+> **Known working XSA and Bootloader**
+>
+> - [Working XSA](./assets/hw/base_soc_wrapper.xsa)
+> - [Working Bootloader Project (Ready to flash)](./assets/hw/srec_spi_bootloader_a7_100t.zip)
+>
+> - NB: *UART Baud rate set to 115200*
+
 #### Missing "Convert ELF to bootloadable SREC format" option
 
 If you're missing the "Convert ELF to bootloadable SREC format" option in the flash programming window, you may need to manually convert your ELF file to SREC format using the `mb-objcopy` tool. Here's how you can do it:
@@ -246,6 +254,12 @@ If you're missing the "Convert ELF to bootloadable SREC format" option in the fl
    mb-objcopy -O srec build\[your_project_name].elf flash\[your_project_name].elf.srec
    ```
 5. Now, in the flash programming window, you can use the generated SREC file located in the `flash` directory as your image file.
+
+### Known Issues
+
+1. In some cases, the Pmod MAXSONAR sensor may not function correctly, resulting in no data being read. If you encounter this issue, try the following troubleshooting steps:
+    - Ensure that the Pmod MAXSONAR is properly connected to the Pmod port. Make sure the `VDD`, `GND`, `TX`, and `RX` pins are correctly aligned with the corresponding pins on the Pmod port.
+    - If the problem persists, consult with your TA for further assistance.
 
 
 ### Prelab Assignment
