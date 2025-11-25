@@ -233,10 +233,10 @@ Our application will have to be stored in the DDR memory region, while the bootl
 >
 > If you are having trouble getting started, you can use one of the starter projects below. Each project contains a pre-configured XSA and SREC SPI Bootloader application. You will still need to create your own application project and flash both the bootloader and your application to the SPI flash memory as described above.
 > 
-> [Arty A7-35T Starter Project](./assets/hw/es2025-arty-a7-35t.zip)
-> [Arty A7-100T Starter Project](./assets/hw/es2025-arty-a7-100t.zip)
+> - [Arty A7-35T Starter Project](./assets/hw/es2025-arty-a7-35t.zip)
+> - [Arty A7-100T Starter Project](./assets/hw/es2025-arty-a7-100t.zip)
 >
-> - NB: *UART Baud rate set to 115200*
+> NB: *UART Baud rate set to 115200*
 
 #### Missing "Convert ELF to bootloadable SREC format" option
 
