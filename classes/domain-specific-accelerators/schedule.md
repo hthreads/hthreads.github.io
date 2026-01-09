@@ -14,7 +14,7 @@ nav_order: 2
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trendsreview.pdf) | Review from Chapter 1 Computer Architecture: A Quantitative Approach, Hennessy and Patterson |
 | Fri   | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | **Week 2 1/19-1/23**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Martin Luther King Day  | Reading:   |
+| Mon   | Martin Luther King Day  |   |
 | Weds  | [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) | Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785) S. Williams et. al.  |
 | Fri   | Performance Measuring Recap |  | 
 | **Week 3 1/26-1/30**       |  **Lecture Topic**                    |     **Assignment**      |
