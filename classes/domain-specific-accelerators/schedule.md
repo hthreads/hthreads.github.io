@@ -12,9 +12,9 @@ nav_order: 2
 | :----------- | :----------------------------------------------: | :--------------------|
 | Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/Intro.pdf) |  Welcome! <br> [B. Dally et. al Domain-Specific Hardware Accelerators](https://cacm.acm.org/research/domain-specific-hardware-accelerators/) Comm of the ACM 2020   |
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trendsreview.pdf) | Review from Chapter 1 Computer Architecture: A Quantitative Approach, Hennessy and Patterson |
-| Fri  | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
+| Fri   | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | **Week 2 1/19-1/23**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon | Finish review on Parallelism, Flynn's Taxonomy | Reading:   |
+| Mon   | Martin Luther King Day  | Reading:   |
 | Weds  | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth  [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),    |
 | Fri   | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),     |
 | **Week 3 1/26-1/30**       |  **Lecture Topic**                    |     **Assignment**      |
@@ -50,9 +50,9 @@ nav_order: 2
 | Weds  | Marvin,Jeff,Dhruv | J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305.  |
 | Fri  | Thomas,Matthew,Stephen| J. Vasiljevic, D. Capalija [Blackhole & TT-Mealium: The Standalone AI Computer and its Programming Model](https://ieeexplore.ieee.org/document/10664810) Proceedings of the 2024 IEEE Hot Chips 36 Symposium (HCS) |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) |  | 
-| Weds  |  Nicholas,Donna,Ogden | Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 |
-| Fri   |  Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. |
+| Mon   | Spring Break Yah ![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) |  | 
+| Weds  | Spring Break Yah ! Nicholas,Donna,Ogden | Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 |
+| Fri   | Spring Break Yah ! Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) | |
 | Weds   | DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
