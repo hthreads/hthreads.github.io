@@ -30,9 +30,9 @@ nav_order: 2
 | Weds   | [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
 | Fri   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf)  |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
 | **Week 6 2/16-2/20**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al.|   |
-| Weds  | Paper Selection/Team Formations|   |
-| Fri   | Presentation Outline|   |
+| Mon   |  |   |
+| Weds  |  |   |
+| Fri   |  |   |
 | **Week 7 2/23-2/27**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | Presentation Style/Team Formations |  |
 | Weds  |  |  |
