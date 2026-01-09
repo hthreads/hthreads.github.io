@@ -15,7 +15,7 @@ nav_order: 2
 | Fri   | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | **Week 2 1/19-1/23**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Martin Luther King Day  | Reading:   |
-| Weds  | [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) |   |
+| Weds  | [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) | Reading: [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) ISCA Tutorial  |
 | Fri   | [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),     |
 | **Week 3 1/26-1/30**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),     |
