@@ -27,19 +27,19 @@ nav_order: 2
 | Fri    | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al <br> [Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785)S. Williams et. al.|
 | **Week 5 2/9-2/13**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
-| Weds   | [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
-| Fri   | [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf)  |  Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  |
+| Weds   |  | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
+| Fri   |   |   |
 | **Week 6 2/16-2/20**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |   |
 | Weds  |  |   |
 | Fri   |  |   |
 | **Week 7 2/23-2/27**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | Presentation Style/Team Formations |  |
+| Mon   |  |  |
 | Weds  |  |  |
-| Fri   |  PIM Technologies | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
+| Fri   |  |  |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Bit Serial Arithmetic | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
-| Weds   | Processing in DRAM | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
+| Mon   |  |  |
+| Weds   | | |
 | Fri   |  |  |
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |  |
@@ -48,7 +48,7 @@ nav_order: 2
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |   | 
 | Weds  |  |   |
-| Fri  | | J. Vasiljevic, D. Capalija [Blackhole & TT-Mealium: The Standalone AI Computer and its Programming Model](https://ieeexplore.ieee.org/document/10664810) Proceedings of the 2024 IEEE Hot Chips 36 Symposium (HCS) |
+| Fri  | |  |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Spring Break Yah ! |  | 
 | Weds  | Spring Break Yah ! |  |
@@ -56,7 +56,7 @@ nav_order: 2
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  | |
 | Weds   | | |
-| Fri   | PUM | [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
+| Fri   |  | |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |  |  |
@@ -83,6 +83,12 @@ nav_order: 2
 <!-- Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015. -->
 <!-- [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 -->
 <!-- J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305. -->
+<!-- [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. -->
+<!-- [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) -->
+<!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) -->
+<!-- [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. -->
+<!-- Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  -->
+<!-- [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017  -->
 
 
 
