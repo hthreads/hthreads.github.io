@@ -51,7 +51,7 @@ Computer Architecture. A Quantitative Approach. Sixth Edition, by David A. Patte
 
 ## Office Hours
 - Professor: David Andrews M-W-F 2:00 - 2:50 JBHT 527
-- TA:  William Burroughs TBD  
+- TA:  William Burroughs M-W-F 11:00 -12:00 JBHT TA Bullpen  
 
 ## Course Outcomes
 - Knowledge of the history and social impact of high performance computing
