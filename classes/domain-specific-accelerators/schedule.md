@@ -51,8 +51,8 @@ nav_order: 2
 | Fri  | Thomas,Matthew,Stephen| J. Vasiljevic, D. Capalija [Blackhole & TT-Mealium: The Standalone AI Computer and its Programming Model](https://ieeexplore.ieee.org/document/10664810) Proceedings of the 2024 IEEE Hot Chips 36 Symposium (HCS) |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Spring Break Yah  |  | 
-| Weds  | Spring Break Yah ! | <!-- Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 --> |
-| Fri   | Spring Break Yah ! <!-- Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. -->|
+| Weds  | Spring Break Yah ! |  |
+| Fri   | Spring Break Yah ! |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) | |
 | Weds   | DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
@@ -67,15 +67,16 @@ nav_order: 2
 | Fri   |  |  |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
-| Weds  |   Thanksgiving Break!|  |
-| Fri   |   Thanksgiving Break!|  |
+| Weds  |  |  |
+| Fri   |  |  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | | |
 | Weds  | | |
 | Fri   |  Reading Day| All Done!  |
-| **Final 12/11**       |  **10:15pm - 12:15pm **                    | Final is not comprehensive         |
+| **Final**       |  **10:15pm - 12:15pm **                    |          |
 <!-- ![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) -->
-
+<!-- Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 -->
+<!-- Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. -->
 
 
 
