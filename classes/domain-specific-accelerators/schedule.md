@@ -50,9 +50,9 @@ nav_order: 2
 | Weds  | Marvin,Jeff,Dhruv | J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305.  |
 | Fri  | Thomas,Matthew,Stephen| J. Vasiljevic, D. Capalija [Blackhole & TT-Mealium: The Standalone AI Computer and its Programming Model](https://ieeexplore.ieee.org/document/10664810) Proceedings of the 2024 IEEE Hot Chips 36 Symposium (HCS) |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Spring Break Yah ![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) |  | 
-| Weds  | Spring Break Yah ! Nicholas,Donna,Ogden | Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 |
-| Fri   | Spring Break Yah ! Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. |
+| Mon   | Spring Break Yah <!---![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf)---> |  | 
+| Weds  | Spring Break Yah ! | <!---Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023---> |
+| Fri   | Spring Break Yah ! <!---Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. --->|
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) | |
 | Weds   | DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
