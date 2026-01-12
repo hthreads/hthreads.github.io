@@ -42,7 +42,7 @@ nav_order: 2
 | Weds   | Processing in DRAM | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
 | Fri   |  [UPMEM](https://ieeexplore.ieee.org/document/8875680) | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. |
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | Fall Break |     |
+| Mon   |   |     |
 | Weds  | Stephanie,Abe,Nathaniel | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015.|
 | Fri   | Nick,Karis,Kyle,Case| J. Choquette, W. Gandhi, O. Giroux, N. Stam, and R. Krashinsky,[NVIDIA A100 Tensor Core GPU: Performance and Innovation](https://ieeexplore.ieee.org/document/9361255) IEEE Micro Volume: 41, Issue: 2, 01 March-April 2021 |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                        | **Assignment**          |
@@ -50,9 +50,9 @@ nav_order: 2
 | Weds  | Marvin,Jeff,Dhruv | J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305.  |
 | Fri  | Thomas,Matthew,Stephen| J. Vasiljevic, D. Capalija [Blackhole & TT-Mealium: The Standalone AI Computer and its Programming Model](https://ieeexplore.ieee.org/document/10664810) Proceedings of the 2024 IEEE Hot Chips 36 Symposium (HCS) |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Spring Break Yah <!---![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf)---> |  | 
-| Weds  | Spring Break Yah ! | <!---Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023---> |
-| Fri   | Spring Break Yah ! <!---Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. --->|
+| Mon   | Spring Break Yah <!-- ![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) --> |  | 
+| Weds  | Spring Break Yah ! | <!-- Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 --> |
+| Fri   | Spring Break Yah ! <!-- Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. -->|
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) | |
 | Weds   | DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023 |
