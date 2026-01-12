@@ -46,7 +46,7 @@ Computer Architecture. A Quantitative Approach. Sixth Edition, by David A. Patte
 - Domain Specific Accelerators
 
 ## Class/Assigned Readings
-- Lecture meets M/W/F 3:05 - 3:55 Bell 2267
+- Lecture meets M/W/F 3:05 - 3:55 W. Walker Auditorium
 - Readings posted for a week represent the material that will be covered for that week. Part of your preparation for the week is to have performed a first reading of the material in order to familiarize yourself with the topics that will be covered.
 
 ## Office Hours
