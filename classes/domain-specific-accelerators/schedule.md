@@ -54,9 +54,9 @@ nav_order: 2
 | Weds  | Spring Break Yah ! |  |
 | Fri   | Spring Break Yah ! |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  | |
-| Weds   | | |
-| Fri   |  | |
+| Mon   |  |  |
+| Weds  |  |  |
+| Fri   |  |  |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |  |  |
@@ -70,10 +70,10 @@ nav_order: 2
 | Weds  |  |  |
 | Fri   |  |  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | | |
-| Weds  | | |
-| Fri   |  Reading Day| All Done!  |
-| **Final**       |  **10:15pm - 12:15pm **                    |          |
+| Mon   |  |  |
+| Weds  |  |  |
+| Fri   |  Reading Day | All Done!  |
+| **Final**       |  **10:15pm - 12:15pm **    |          |
 <!-- ![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) -->
 <!-- Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 -->
 <!-- Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. -->
