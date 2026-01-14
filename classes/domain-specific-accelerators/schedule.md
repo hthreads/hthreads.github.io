@@ -15,7 +15,7 @@ nav_order: 2
 | Fri   | [Moore's Law, Dennard Scaling Review](../../_modules/domain-specific-accelerators/moore-dennard.pdf) |  Reading: [Cramming more components onto integrated circuits](../../_modules/domain-specific-accelerators/gordon_moore_1965_article.pdf)|
 | **Week 2 1/19-1/23**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Martin Luther King Day  |   |
-| Weds  | [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) | Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785) S. Williams et. al. |
+| Weds  | [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) | Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785) S. Williams et. al.|
 | Fri   | Performance Measuring Recap |  | 
 | **Week 3 1/26-1/30**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf),     |
@@ -74,6 +74,22 @@ nav_order: 2
 | Weds  |  |  |
 | Fri   |  Reading Day | All Done!  |
 | **Final**       |  **10:15pm - 12:15pm **    |          |
+<!-- ![Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) -->
+<!-- Sean Lie [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 -->
+<!-- Grant,Gideon,Henry| D. Brooks et. al [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. -->
+<!-- [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) -->
+<!-- [UPMEM](https://ieeexplore.ieee.org/document/8875680) | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022.  -->
+<!-- DRAM PIM|[Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023  -->
+<!-- Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015. -->
+<!-- [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 -->
+<!-- J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305. -->
+<!-- [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. -->
+<!-- [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) -->
+<!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) -->
+<!-- [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. -->
+<!-- Reading: K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  -->
+<!-- [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017  -->
+
 
 
 
