@@ -46,9 +46,9 @@ nav_order: 2
 | Weds  |   [VP Optimizations Multiple Lanes](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | Fri   |  Vector Processor Wrap up|   |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | **First half of the semester overview** |   |
-| Weds  |  **Midterm Q/A**|   |
-| Fri   | **Midterm Exam** |   |
+| Mon   | **idterm Q/A** |   |
+| Weds  |  **Midterm Exam**|   |
+| Fri   | **Midterm Return** |   |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Spring Break !     |
 | Weds   |  Spring Break !|    |
