@@ -17,6 +17,7 @@ nav_order: 2
 | Mon   | Martin Luther King Day  |   |
 | Weds  | [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf) | Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785) S. Williams et. al. |
 | Fri   | Performance Measuring Recap |  | 
+<!--
 | **Week 3 1/26-1/30**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff [The Accelerator Wall: Limits of Chip Specialization](../../_modules/domain-specific-accelerators/wall-hpca19.pdf)    |
 | Weds  |  [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff |
