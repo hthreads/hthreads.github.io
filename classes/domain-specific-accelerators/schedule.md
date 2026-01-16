@@ -7,7 +7,6 @@ nav_order: 2
 ---
 
 # Weekly Schedule
-|  what   | is   | happening  |
 | Week 1 1/12-1/16  | Lecture Topic                  | Assignment           |
 | :----------- | :----------------------------------------------: | :-------------------- |
 | Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/Intro.pdf) |  Welcome! <br> [B. Dally et. al Domain-Specific Hardware Accelerators](https://cacm.acm.org/research/domain-specific-hardware-accelerators/) Comm of the ACM 2020   |
