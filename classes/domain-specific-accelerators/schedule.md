@@ -6,7 +6,6 @@ grand_parent: Classes
 nav_order: 2
 ---
 
-# Weekly Schedule
 
 # Weekly Schedule
 
