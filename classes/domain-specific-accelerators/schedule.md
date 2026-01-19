@@ -9,7 +9,8 @@ nav_order: 2
 
 # Weekly Schedule
 
-| Week 1 1/12-1/16       | Lecture Topic                          | Assignment          | <!--
+| Week 1 1/12-1/16       | Lecture Topic                          | Assignment          | 
+<!--
 | :----------- | :----------------------------------------------: | --------------------:|
 | Mon   | [Course Introduction](../../_modules/domain-specific-accelerators/Intro.pdf) |  Welcome! <br> [B. Dally et. al Domain-Specific Hardware Accelerators](https://cacm.acm.org/research/domain-specific-hardware-accelerators/) Comm of the ACM 2020   |
 | Weds  | [Technology Trends Review](../../_modules/domain-specific-accelerators/trendsreview.pdf) | Review from Chapter 1 Computer Architecture: A Quantitative Approach, Hennessy and Patterson |
