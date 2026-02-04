@@ -23,12 +23,12 @@ nav_order: 2
 | Weds  |  [General Purpose Processors and the Virtuous Cycle](../../_modules/domain-specific-accelerators/decline.pdf) |  Reading:  N. Thompson, S. Spanuth [The decline of computers as a general purpose technology](https://dl.acm.org/doi/10.1145/3430936) <br> A. Fuchs, D. Wentzlaff |
 | Fri  | [Machine Learning Boot Camp](../../_modules/domain-specific-accelerators/ML-bootcamp.pdf) | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 <br> Optional: [Implications of Makimoto's Wave](https://ieeexplore.ieee.org/document/6583917) T. Makimoto |
 | **Week 4 2/2-2/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Machine Learning Boot Camp](../../_modules/domain-specific-accelerators/ML-bootcamp.pdf) | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 <br> Optional: [Implications of Makimoto's Wave](https://ieeexplore.ieee.org/document/6583917) T. Makimoto |
-| Weds   | [Machine Learning Boot Camp](../../_modules/domain-specific-accelerators/ML-bootcamp.pdf) | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 <br> Optional: [Implications of Makimoto's Wave](https://ieeexplore.ieee.org/document/6583917) T. Makimoto |
+| Mon   | [Machine Learning Boot Camp MLPs ](../../_modules/domain-specific-accelerators/ML-bootcamp.pdf) | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 <br> Optional: [Implications of Makimoto's Wave](https://ieeexplore.ieee.org/document/6583917) T. Makimoto |
+| Weds   | [Machine Learning Boot Camp CNNs](../../_modules/domain-specific-accelerators/ML-bootcamp.pdf) | Reading: H&P Comp Arch: a Quant. Approach Ch 7.3-4 <br> Optional: [Implications of Makimoto's Wave](https://ieeexplore.ieee.org/document/6583917) T. Makimoto |
 | Fri    | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al <br> [Roofline: an insightful visual performance model for multicore architectures](https://dl.acm.org/doi/10.1145/1498765.1498785)S. Williams et. al. |
 | **Week 5 2/9-2/13**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
-| Weds   |  | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
+| Mon   |  | Read [Computational Power and AI](https://ainowinstitute.org/wp-content/uploads/2023/09/AI-Now_Computational-Power-an-AI.pdf) |
+| Weds   | [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
 | Fri   |   |   |
 | **Week 6 2/16-2/20**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |   |
