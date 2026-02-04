@@ -44,9 +44,9 @@ nav_order: 2
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [VP Optimizations Chaining](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | Weds  |   [VP Optimizations Multiple Lanes](../../_modules/eecs-4213/VP.AppG.pdf)|   |
-| Fri   |  **midterm Q/A**|   |
+| Fri   |  Guest Lecture|   |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | Guest Lecture |   |
+| Mon   | **Midterm Q/A** |   |
 | Weds  |  **Midterm Exam**|   |
 | Fri   | **Midterm Return** |   |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
