@@ -19,24 +19,24 @@ nav_order: 2
 | Fri   |  [Memory Hierarchy Overview](../../_modules/eecs-4213/cacheuark24.pdf)| Ch 2.1-2.2   |
 | **Week 3 1/26-1/30**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [Cache Basics](../../_modules/eecs-4213/cacheuark24.pdf) | Appendix B1-B3  |
-| Weds  | [Cache Structures](../../_modules/eecs-4213/cacheuark24.pdf) |   |
-| Fri   |  [Direct Mapped/Fully AssociativeCaches](../../_modules/eecs-4213/cacheuark24.pdf)|   |
+| Weds  | [Direct Mapped/Fully Associative](../../_modules/eecs-4213/cacheuark24.pdf) |   |
+| Fri   |  [Set Associative](../../_modules/eecs-4213/cacheuark24.pdf)|   |
 | **Week 4 2/2-2/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Set Associative Caches](../../_modules/eecs-4213/cacheuark24.pdf)|   |
-| Weds  |  [Tuning through Trace Analysis/Cache Replacement Policies](../../_modules/eecs-4213/cacheuark24.pdf)|   |
-| Fri   |  [Intro to Instruction Level Parallelism](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5   |
+| Mon   |  [Tuning through Trace Analysis/Cache Replacement Policies](../../_modules/eecs-4213/cacheuark24.pdf)| Ch 3.1  |
+| Weds  |  [Intro to ILP - Data Dependencies and Hazards](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5  |
+| Fri   |  [Intro to ILP Register Renaming](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5  |
 | **Week 5 2/9-2/13**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [Register Renaming](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Mon   |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Fri   |  [Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)| [Robert Tomasulo talk at UMich](https://www.youtube.com/watch?v=S6weTM1tNzQ)  |
+| Fri   |  [Tomasulo Walkthrough](../../_modules/eecs-4213/Tomosulo.pdf)| [Robert Tomasulo talk at UMich](https://www.youtube.com/watch?v=S6weTM1tNzQ)  |
 | **Week 6 2/16-2/20**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Tomasulo Walkthrough](../../_modules/eecs-4213/Tomosulo.pdf)|   |
+| Mon   |  [Control Hazards and Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Weds  |  1-2 bit Branch Prediction (slides in BB)| Ch 3.3  |
 | Fri   |  Correlating Branch Prediction (slides in BB)| Ch 3.3  |
 | **Week 7 2/23-2/27**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  Reorder Buffer(slides in BB)|   |
 | Weds  |  Example of dual issue w/wo speculation (slides in BB)| Ch 3.8  |
-| Fri   |  No Class | Ch 4.1, 4.2  |
+| Fri   |   |   |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  Intro to Data Level Parallelism  | Ch 4.2  |
 | Weds  |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
@@ -44,9 +44,9 @@ nav_order: 2
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [VP Optimizations Chaining](../../_modules/eecs-4213/VP.AppG.pdf)|   |
 | Weds  |   [VP Optimizations Multiple Lanes](../../_modules/eecs-4213/VP.AppG.pdf)|   |
-| Fri   |  Vector Processor Wrap up|   |
+| Fri   |  **midterm Q/A**|   |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   | **idterm Q/A** |   |
+| Mon   | Guest Lecture |   |
 | Weds  |  **Midterm Exam**|   |
 | Fri   | **Midterm Return** |   |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
