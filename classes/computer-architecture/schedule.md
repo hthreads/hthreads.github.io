@@ -26,9 +26,9 @@ nav_order: 2
 | Weds  |  [Intro to ILP - Data Dependencies and Hazards](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5  |
 | Fri   |  [Intro to ILP Register Renaming](../../_modules/eecs-4213/Tomosulo.pdf)|Ch3.1,3.4-3.5  |
 | **Week 5 2/9-2/13**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|   |
-| Fri   |  [Tomasulo Walkthrough](../../_modules/eecs-4213/Tomosulo.pdf)| [Robert Tomasulo talk at UMich](https://www.youtube.com/watch?v=S6weTM1tNzQ)  |
+| Mon   |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)| Ch3.4-6  <br> [Robert Tomasulo talk at UMich](https://www.youtube.com/watch?v=S6weTM1tNzQ) |
+| Weds  |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)| Ch3.4-6  |
+| Fri   |  [Dynamic Scheduling/Tomasulo's Algorithm](../../_modules/eecs-4213/Tomosulo.pdf)|  |
 | **Week 6 2/16-2/20**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Control Hazards and Branch Prediction](../../_modules/eecs-4213/Tomosulo.pdf)|   |
 | Weds  |  1-2 bit Branch Prediction (slides in BB)| Ch 3.3  |
