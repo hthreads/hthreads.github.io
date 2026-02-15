@@ -76,8 +76,8 @@ nav_order: 2
 | Fri   |  Reading Day | All Done!  |
 | Final       |  10:15pm - 12:15pm     |          |
 
-<!-- [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) 
-[Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) <br> -->
+<!-- [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) -->
+<!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) <br> -->
 [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br>
 [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. <br>
 [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) <br>
