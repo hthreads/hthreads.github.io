@@ -32,12 +32,12 @@ nav_order: 2
 | Fri   |   [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
 | **Week 6 2/16-2/20**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
-| Weds  | Processor In Memory Architectures |   |
+| Mon   |  [In-Datacenter Performance Analysis of a Tensor Processing Unit](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
 | Fri   | Processor In Memory Architectures |   |
 | **Week 7 2/23-2/27**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  Paper Selections |  |
+| Mon   |  Processor In Memory Architectures |  |
 | Weds  |  |  |
-| Fri   |  |  |
+| Fri   |  Paper Selections|  |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
 | Weds  |  |  |
