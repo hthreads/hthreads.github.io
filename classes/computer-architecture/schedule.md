@@ -35,15 +35,15 @@ nav_order: 2
 | Fri   |  [Speculation and Reorder Buffer](../../_modules/eecs-4213/reorder.pdf)| Ch 3.3  |
 | **Week 7 2/23-2/27**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  ILP wrapup| Ch 3.8   |
-| Weds  |   |   |
-| Fri   |   |   |
+| Weds  |  Intro to Data Level Parallelism | Ch 4.1,4.2  |
+| Fri   |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  Intro to Data Level Parallelism  | Ch 4.2  |
-| Weds  |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
-| Fri   |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf) |   |
+| Mon   |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf)  | Ch 4.2  |
+| Weds  |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
+| Fri   |  [VP Optimizations Chaining](../../_modules/eecs-4213/VP.AppG.pdf) |   |
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [VP Optimizations Chaining](../../_modules/eecs-4213/VP.AppG.pdf)|   |
-| Weds  |   [VP Optimizations Multiple Lanes](../../_modules/eecs-4213/VP.AppG.pdf)|   |
+| Mon   |  [VP Optimizations Multiple Lanes](../../_modules/eecs-4213/VP.AppG.pdf)|   |
+| Weds  |   |   |
 | Fri   |  Guest Lecture|   |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | **Midterm Q/A** |   |
