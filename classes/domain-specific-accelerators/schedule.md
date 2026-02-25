@@ -36,7 +36,7 @@ nav_order: 2
 | Fri   | Processor In Memory Architectures |   |
 | **Week 7 2/23-2/27**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  Processor In Memory Architectures |  |
-| Weds  |  |  |
+| Weds  |  [AMD Vivado Install](../../_modules/domain-specific-accelerators/Vivado_2025_tool_install.pdf) | Install the Tools on your PC |
 | Fri   |  Paper Selections|  |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  |  |
