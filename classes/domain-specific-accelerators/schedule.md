@@ -91,6 +91,7 @@ J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https:
 [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. <br>
 K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  <br>
 [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017  <br>
+[SK Hynix Presentation](../../_modules/domain-specific-accelerators/Memory-Centric_Computing_with_SK_Hynixs_Domain-Specific_Memory.pdf) <br>
 
 
 
