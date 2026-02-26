@@ -93,7 +93,7 @@ K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances a
 [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017  <br>
 N. Jouppi et. al. [Ten Lessons From Three Generations Shaped Google’s TPUv4i](https://ieeexplore.ieee.org/document/9499913) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
 Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 <br>
-
+Dennis Abts et. al. [A Software-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning](https://dl.acm.org/doi/10.1145/3470496.3527405) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
 
 
 
