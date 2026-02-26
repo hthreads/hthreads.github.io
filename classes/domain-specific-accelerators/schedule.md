@@ -96,6 +96,7 @@ Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelera
 Dennis Abts et. al. [A Software-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning](https://dl.acm.org/doi/10.1145/3470496.3527405) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
 Jack Kendall, Suhas Kumar [The building blocks of a brain-inspired computer](https://pubs.aip.org/aip/apr/article-abstract/7/1/011305/997408/The-building-blocks-of-a-brain-inspired-computer?redirectedFrom=fulltext) Applied Physics Reviews, Volume 7, Issue 1, March 2020 <br> 
 Jin Hyun Kim [Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond](https://ieeexplore.ieee.org/document/9567191)  IEEE Hot Chips 33, 2021 <br>
+S. Lee et. al. [Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology](https://ieeexplore.ieee.org/document/9499894) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
 
 
 
