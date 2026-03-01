@@ -39,9 +39,9 @@ nav_order: 2
 | Weds  | [AUP-ZU3](../../_modules/domain-specific-accelerators/aup-zu3.pdf) | [AMD Vivado Install](../../_modules/domain-specific-accelerators/Vivado_2025_tool_install.pdf) <br> [AUP-Zu3 ref manual](../../_modules/domain-specific-accelerators/ZU3_RM_A1.pdf) |
 | Fri   |  Paper Selections|  |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
+| Mon   | Presentation Assignments |  |
 | Weds  |  |  |
-| Fri   |  |  |
+| Fri   |  [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf)  |
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |  |
 | Weds  |  |  |
@@ -76,7 +76,6 @@ nav_order: 2
 | Fri   |  Reading Day | All Done!  |
 | Final       |  10:15pm - 12:15pm     |          |
 
-<!-- [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) -->
 <!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) <br> -->
 [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br>
 [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. <br>
