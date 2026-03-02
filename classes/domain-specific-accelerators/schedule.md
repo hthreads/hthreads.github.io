@@ -47,8 +47,8 @@ nav_order: 2
 | Weds  |  |  |
 | Fri   |  |  |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #1 |  | 
-| Weds  | Group #2 |  |
+| Mon   | Group #1: Randall,Pretha | [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 | 
+| Weds  | Group #2: Parker, Braylon | N. Jouppi et. al. [Ten Lessons From Three Generations Shaped Google’s TPUv4i](https://ieeexplore.ieee.org/document/9499913) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021 |
 | Fri   | Group #3 |  |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Spring Break Yah ! |  | 
@@ -77,7 +77,7 @@ nav_order: 2
 | Final       |  10:15pm - 12:15pm     |          |
 
 <!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) <br> -->
-[Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br>
+<!-- [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br> -->
 [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. <br>
 [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) <br>
 [UPMEM](https://ieeexplore.ieee.org/document/8875680) | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022.<br>
@@ -90,7 +90,7 @@ J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https:
 [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. <br>
 K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067)  <br>
 [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017  <br>
-N. Jouppi et. al. [Ten Lessons From Three Generations Shaped Google’s TPUv4i](https://ieeexplore.ieee.org/document/9499913) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
+
 Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 <br>
 Dennis Abts et. al. [A Software-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning](https://dl.acm.org/doi/10.1145/3470496.3527405) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
 Jack Kendall, Suhas Kumar [The building blocks of a brain-inspired computer](https://pubs.aip.org/aip/apr/article-abstract/7/1/011305/997408/The-building-blocks-of-a-brain-inspired-computer?redirectedFrom=fulltext) Applied Physics Reviews, Volume 7, Issue 1, March 2020 <br> 
