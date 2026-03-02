@@ -47,32 +47,32 @@ nav_order: 2
 | Weds  |  |  |
 | Fri   |  |  |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  | 
-| Weds  |  |  |
-| Fri   |  |  |
+| Mon   | Group #1 |  | 
+| Weds  | Group #2 |  |
+| Fri   | Group #3 |  |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Spring Break Yah ! |  | 
 | Weds  | Spring Break Yah ! |  |
 | Fri   | Spring Break Yah ! |  |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Mon   | Group #4 |  |
+| Weds  | Group #5 |  |
+| Fri   | Group #6 |  |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Mon   | Group #7 |  |
+| Weds  | Group #8 |  |
+| Fri   | Group #1 |  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Mon   | Group #2 |  |
+| Weds  | Group #3 |  |
+| Fri   | Group #4 |  |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  |  |
-| Fri   |  |  |
+| Mon   | Group #5 |  |
+| Weds  | Group #6 |  |
+| Fri   | Group #7 |  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |  |
-| Weds  |  |  |
+| Mon   | Group #8 |  |
+| Weds  | Project Reports Due |  |
 | Fri   |  Reading Day | All Done!  |
 | Final       |  10:15pm - 12:15pm     |          |
 
