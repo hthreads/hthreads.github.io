@@ -49,7 +49,7 @@ nav_order: 2
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #1: Randall,Pretha | [Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 | 
 | Weds  | Group #2: Parker, Braylon | N. Jouppi et. al. [Ten Lessons From Three Generations Shaped Google’s TPUv4i](https://ieeexplore.ieee.org/document/9499913) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021 |
-| Fri   | Group #3 |  |
+| Fri   | Group #3 Hunter, Chance | Jack Kendall, Suhas Kumar [The building blocks of a brain-inspired computer](https://pubs.aip.org/aip/apr/article-abstract/7/1/011305/997408/The-building-blocks-of-a-brain-inspired-computer?redirectedFrom=fulltext) Applied Physics Reviews, Volume 7, Issue 1, March 2020 |
 | **Week 11 3/23-3/27**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Spring Break Yah ! |  | 
 | Weds  | Spring Break Yah ! |  |
@@ -93,7 +93,7 @@ K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances a
 
 Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 <br>
 Dennis Abts et. al. [A Software-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning](https://dl.acm.org/doi/10.1145/3470496.3527405) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
-Jack Kendall, Suhas Kumar [The building blocks of a brain-inspired computer](https://pubs.aip.org/aip/apr/article-abstract/7/1/011305/997408/The-building-blocks-of-a-brain-inspired-computer?redirectedFrom=fulltext) Applied Physics Reviews, Volume 7, Issue 1, March 2020 <br> 
+
 Jin Hyun Kim [Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond](https://ieeexplore.ieee.org/document/9567191)  IEEE Hot Chips 33, 2021 <br>
 S. Lee et. al. [Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology](https://ieeexplore.ieee.org/document/9499894) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
 
