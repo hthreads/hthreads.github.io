@@ -55,8 +55,8 @@ nav_order: 2
 | Weds  | Spring Break Yah ! |  |
 | Fri   | Spring Break Yah ! |  |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #4 |  |
-| Weds  | Group #5 |  |
+| Mon   | Group #4: Ryan, Joseph| [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 |
+| Weds  | Group #5: Chase, Jacob | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015 |
 | Fri   | Group #6 |  |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #7 |  |
@@ -82,8 +82,7 @@ nav_order: 2
 [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf) <br>
 [UPMEM](https://ieeexplore.ieee.org/document/8875680) | [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022.<br>
 [Memory-Centric Computing with SK hynix’s Domain-Specific Memory](https://ieeexplore.ieee.org/document/10254717) 2023 Y. Kwon et. al.,IEEE Hot Chips 35 Symposium (HCS) 2023<br>
-Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015. <br>
-[The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 <br>
+
 J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https://doi.org/10.1063/1.5129306) Appl. Phys. Rev. 1 March 2020; 7 (1): 011305.<br>
 [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022. <br>
 [Tutorial on Memory-Centric Computing](../../_modules/domain-specific-accelerators/PIM-intro.pdf) <br>
