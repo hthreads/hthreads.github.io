@@ -60,7 +60,7 @@ nav_order: 2
 | Fri   | Group #6:Christian, Max | Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #7: McKyala,Nathan,Christian | K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067) |
-| Weds  | Group #8 |  |
+| Weds  | slack |  |
 | Fri   | Group #1 |  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #2 |  |
@@ -71,7 +71,7 @@ nav_order: 2
 | Weds  | Group #6 |  |
 | Fri   | Group #7 |  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #8 |  |
+| Mon   | slack |  |
 | Weds  | Project Reports Due |  |
 | Fri   |  Reading Day | All Done!  |
 | Final       |  10:15pm - 12:15pm     |          |
