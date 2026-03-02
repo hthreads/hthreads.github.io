@@ -40,7 +40,7 @@ nav_order: 2
 | Fri   |  Paper Selections|  |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Presentation Assignments |  |
-| Weds  | [Presentation Expectation/Style](../../_modules/domain-specific-accelerators/f08_terriblePresentations_v2(1).pptx) |  |
+| Weds  | [Presentation Expectation/Style](../../_modules/domain-specific-accelerators/f08_terriblePresentations_v2(1).pdf) |  |
 | Fri   |  [Emerging NVMs](../../_modules/domain-specific-accelerators/emergingnvm.pdf)  |
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  |  |
