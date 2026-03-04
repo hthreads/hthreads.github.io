@@ -38,12 +38,12 @@ nav_order: 2
 | Weds  |  Intro to Data Level Parallelism | Ch 4.1,4.2  |
 | Fri   |  [Intro to Vector Processors](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
 | **Week 8 3/2-3/6**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf)  | Ch 4.2  |
-| Weds  |  [VP Instruction sets](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
-| Fri   |  [VP Optimizations Chaining](../../_modules/eecs-4213/VP.AppG.pdf) |   |
+| Mon   |  [VP Optimizations: Chaining ](../../_modules/eecs-4213/VP.AppG.pdf)  | Ch 4.2  |
+| Weds  |  [VP strip mining](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
+| Fri   |  [Intro to Thread-Level Parallelism](../../_modules/eecs-4213/ch5-TLP.pdf) | Ch 5.1  |
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [VP Optimizations Multiple Lanes](../../_modules/eecs-4213/VP.AppG.pdf)|   |
-| Weds  |   |   |
+| Mon   |  [Multiprocessor Cache Coherence ](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
+| Weds  |   [Multiprocessor Cache Coherence](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
 | Fri   |  Guest Lecture|   |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | **Midterm Q/A** |   |
