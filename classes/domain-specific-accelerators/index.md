@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Domain Specific Accelerators
-has_children: true
 parent: Classes
+has_children: true
 nav_exclude: false
 ---
 
 # EECS 40103/50103 Domain Specific Architectures
-{:.no_toc}
+{: .no_toc}
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -61,3 +61,6 @@ Readings posted for a week represent the material that will be covered for that 
 
 ## Homework
 [Weekly Schedule](./schedule)
+
+## Labs
+[Lab Repository](./labs)
