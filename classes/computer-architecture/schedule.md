@@ -42,9 +42,9 @@ nav_order: 2
 | Weds  |  [VP strip mining](../../_modules/eecs-4213/VP.AppG.pdf) | Ch 4.2  |
 | Fri   |  [Intro to Thread-Level Parallelism](../../_modules/eecs-4213/ch5-TLP.pdf) | Ch 5.1  |
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
-| Mon   |  [Multiprocessor Cache Coherence ](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
-| Weds  |   [Multiprocessor Cache Coherence](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
-| Fri   |  [Multiprocessor Cache Coherence](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
+| Mon   |  [Cache Coherence Snoopy Cache MSI ](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  [Snoopy Cache Protocol MSI](https://en.wikipedia.org/wiki/MSI_protocol)|
+| Weds  |   [MESI](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2 [Snoopy Cache Protocol MESI](https://en.wikipedia.org/wiki/MESI_protocol)|
+| Fri   |  [MOESI Snoopy Cache Wrap up](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2 [Snoopy Cache Protocol MOESI](https://en.wikipedia.org/wiki/MOESI_protocol)|
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | **Midterm Q/A** |   |
 | Weds  |  **Midterm Exam**|   |
@@ -58,9 +58,9 @@ nav_order: 2
 | Weds  | Exam Return |   |
 | Fri   |  Cache Coherence| Ch 5.2  |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Snoopy Cache Protocol MSI](https://en.wikipedia.org/wiki/MSI_protocol) |  Ch 5.2 |
-| Weds  | [Snoopy Cache Protocol MESI](https://en.wikipedia.org/wiki/MESI_protocol) | Ch 5.2  |
-| Fri   | [Snoopy Cache Protocol MOESI](https://en.wikipedia.org/wiki/MOESI_protocol) | Ch 5.2 |
+| Mon   |  |   |
+| Weds  |  |   |
+| Fri   |  |  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Directory Based Coherence](../../_modules/eecs-4213/directory.pdf) | Ch 5.4   |
 | Weds  | [Directory Based Coherence](../../_modules/eecs-4213/directory.pdf) | Ch 5.4 |
