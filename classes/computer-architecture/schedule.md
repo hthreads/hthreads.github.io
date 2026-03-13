@@ -44,7 +44,7 @@ nav_order: 2
 | **Week 9 3/9-3/13**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   |  [Multiprocessor Cache Coherence ](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
 | Weds  |   [Multiprocessor Cache Coherence](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
-| Fri   |  Guest Lecture|   |
+| Fri   |  [Multiprocessor Cache Coherence](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.2  |
 | **Week 10 3/16-3/20**       |  **Lecture Topic**                    |     **Assignment**      |
 | Mon   | **Midterm Q/A** |   |
 | Weds  |  **Midterm Exam**|   |
