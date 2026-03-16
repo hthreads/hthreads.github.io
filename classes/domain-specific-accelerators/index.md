@@ -4,6 +4,7 @@ title: Domain Specific Accelerators
 parent: Classes
 has_children: true
 nav_exclude: false
+has_toc: false
 ---
 
 # EECS 40103/50103 Domain Specific Architectures

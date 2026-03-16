@@ -6,6 +6,7 @@ grand_parent: Classes
 has_children: true
 nav_order: 3
 nav_exclude: false
+has_toc: false
 ---
 
 # Lab Repository
