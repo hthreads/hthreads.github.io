@@ -21,6 +21,9 @@ baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://hthreads.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
+plugins:
+  - jekyll-katex
+
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.4.0
 color_scheme: light
@@ -62,6 +65,7 @@ collections:
   modules:
   schedules:
   announcements:
+
 # Default layouts for each collection type
 defaults:
   - scope:

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Lab 1
-parent: Labs
+parent: DSA Labs
+grand_parent:  Domain Specific Accelerators
 nav_exclude: true
 ---
 
