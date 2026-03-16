@@ -167,9 +167,9 @@ Benchmark and record execution times of the three implementations for different 
 1. Start by summarizing the execution times for each implementation and matrix size in a table or graph for better visualization.
 2. Calculate GFLOPS (Giga Floating Point Operations Per Second) for each implementation to quantify the performance improvements.
 
-    {% katex %}
-    \text{GFLOPS} = \dfrac{2N^3}{\text{Execution Time} \times 10^9}
-    {% endkatex %}
+    $$
+    GFLOPS = \frac{2N^3}{\text{Execution Time} \times 10^9}
+    $$
 
 3. Find the "Cliff" - At what value of **N** do you start to see significant performance differences between the implementations?
     1. Why do you think this is the case?
