@@ -21,7 +21,7 @@ In this lab, you will implement a matrix-multiply application on the ARM CPU of 
 - Implement matrix multiplication on the ARM CPU.
 - Optimize data access patterns for better cache utilization.
 
-## The way of the novice
+## The Way of the Novice
 
 {: .hint-title}
 > (1) Memory Access Patterns:
@@ -71,7 +71,7 @@ One of simplest optimizations is changing the loop order to `i, k, j`. By reorde
 - **Mechanism:** By making `j` the innermost loop, we access `B[k][j]` and `C[i][j]` in a way that is more cache-friendly, as we will be accessing elements in the same row consecutively.
 - **Impact:** Once the CPU loads a cache line containing `B[k][j]`, the next several iterations of `j` will likely find their data already in the cache, reducing the number of cache misses and improving performance. **Spatial Locality** is improved by simply changing the memory access pattern. 
 
-## The way of the master
+## The Beginning of the Mastery
 
 {: .hint-title}
 > (3) Tiling:
