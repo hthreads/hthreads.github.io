@@ -32,13 +32,16 @@ In this lab, you will implement a matrix-multiply application on the ARM CPU of 
 The most straightforward way to implement matrix multiplication is using three nested loops, `(i, j, k)`. This method is easy to understand and works correctly, but it often performs poorly due to inefficient use of the CPU cache.
 
 ```c
-void naive_matrix_multiply(int N, float A[N][N], float B[N][N], float C[N][N]) {
+#define IDX(i, j, N) ((i) * (N) + (j))
+
+void naive_matrix_multiply(int N, const float* A, const float* B, float* C) {
     for (int i = 0; i < N; i++)
         for (int j = 0; j < N; j++) {
-            C[i][j] = 0;
+            C[IDX(i, j, N)] = 0;
             for (int k = 0; k < N; k++)
-                C[i][j] += A[i][k] * B[k][j];
+                C[IDX(i, j, N)] += A[IDX(i, k, N)] * B[IDX(k, j, N)];
         }
+}
 ```
 
 Observe, the `i, j, k` loop iterates through the rows of `A`, and columns of `B`.
@@ -57,13 +60,14 @@ order leads to poor spatial locality when accessing the elements of matrix `B`, 
 Modern CPUs don't pull single elements from memory; they pull entire cache lines (typically 64 bytes) that contain multiple elements. In a naive matrix multiplication, while you iterate through a row of **A** *(good spatial locality)*, you simultaneously jump down columns of **B** *(poor spatial locality)*. This causes a "Cache Miss" on almost every access to **B**. In general, if our access pattern doesn't align well with how data is stored in memory, we end up with many cache misses, which can significantly degrade performance. 
 
 ```c
-void cache_aware_matrix_multiply(int N, float A[N][N], float B[N][N], float C[N][N]) {
+void cache_aware_matrix_multiply(int N, const float* A, const float* B, float* C) {
     for (int i = 0; i < N; ++i)
         for (int k = 0; k < N; ++k) {
-            float r = A[i][k];
+            float r = A[IDX(i, k, N)];
             for (int j = 0; j < N; ++j)
-                C[i][j] += r * B[k][j];
+                C[IDX(i, j, N)] += r * B[IDX(k, j, N)];
         }
+}
 ```
 
 One of simplest optimizations is changing the loop order to `i, k, j`. By reordering the loops from `(i, j, k)` to `(i, k, j)`, we can improve spatial locality when accessing **B** and **C**, as we will be accessing elements in the same row consecutively.
@@ -81,19 +85,21 @@ One of simplest optimizations is changing the loop order to `i, k, j`. By reorde
 Even with the loop reordering, for very large matrices, the data eventually exceeds the cache size, leading to cache evictions and subsequent cache misses. This is because the working set of data may not fit entirely in the cache. Tiling or blocking allows us to break down the matrix multiplication into smaller sub-matrices (tiles) that fit into the cache, enabling better reuse of data and reducing cache misses.
 
 ```c
-#define TILE_SIZE 64
+#define TILE_SIZE 16
+#define IDX(i, j, N) ((i) * (N) + (j))
 
-void tiled_matrix_multiply(int N, float A[N][N], float B[N][N], float C[N][N]) {
+void tiled_matrix_multiply(int N, const float* A, const float* B, float* C) {
     for (int i = 0; i < N; i += TILE_SIZE)
         for (int j = 0; j < N; j += TILE_SIZE)
             for (int k = 0; k < N; k += TILE_SIZE)
                 // Compute the tile C[i:i+TILE_SIZE][j:j+TILE_SIZE]
                 for (int ii = i; ii < i + TILE_SIZE && ii < N; ++ii)
                     for (int kk = k; kk < k + TILE_SIZE && kk < N; ++kk) {
-                        float r = A[ii][kk];
+                        float r = A[IDX(ii, kk, N)];
                         for (int jj = j; jj < j + TILE_SIZE && jj < N; ++jj)
-                            C[ii][jj] += r * B[kk][jj];
+                            C[IDX(ii, jj, N)] += r * B[IDX(kk, jj, N)];
                     }
+}
 ```
 
 - **Strategy:** Instead of processing the full row or column at once, we can process smaller blocks (tiles) of the matrix that fit into the cache. This way, we can maximize the reuse of data in the cache before it gets evicted.
@@ -106,13 +112,13 @@ Combined with loop reordering, tiling can significantly improve the performance 
 ### 1. Implementation
 
 ```c
-void naive_matrix_multiply(int N, float A[N][N], float B[N][N], float C[N][N]);
+void naive_matrix_multiply(int N, const float* A, const float* B, float* C);
 
-void cache_aware_matrix_multiply(int N, float A[N][N], float B[N][N], float C[N][N]);
+void cache_aware_matrix_multiply(int N, const float* A, const float* B, float* C);
 
-void tiled_matrix_multiply(int N, float A[N][N], float B[N][N], float C[N][N]);
+void tiled_matrix_multiply(int N, const float* A, const float* B, float* C);
 
-void fill_matrix(int N, float buffer[N][N]);
+void fill_matrix(int N, float* buffer);
 
 void init_random() {
     XTime t_now;
@@ -129,16 +135,28 @@ Implement the three versions of matrix multiplication: naive, cache-aware, and t
 ```c
 #include <stdio.h>
 #include <stdlib.h>
-#include <xtime_l.h>
+#include <string.h>
+#include <xiltimer.h>
 
 int main() {
-    init_random();
-    int N = 512; // Matrix size
-    float A[N][N], B[N][N], C[N][N];
+    int N = 32; // Matrix size
 
+    size_t matrix_size = (size_t)N * (size_t)N;
+    float* A = (float*)malloc(matrix_size * sizeof(float));
+    float* B = (float*)malloc(matrix_size * sizeof(float));
+    float* C = (float*)malloc(matrix_size * sizeof(float));
+    if (A == NULL || B == NULL || C == NULL) {
+        printf("Failed to allocate matrices for N = %d\n", N);
+        free(A);
+        free(B);
+        free(C);
+        return 1;
+    }
+
+    init_random();
     fill_matrix(N, A);
     fill_matrix(N, B);
-    memset(C, 0, sizeof(C)); // Initialize C to zero
+    memset(C, 0, matrix_size * sizeof(float)); // Initialize C to zero
 
     // Benchmark the three implementations here:
     XTime start, end;
@@ -150,6 +168,11 @@ int main() {
     XTime_GetTime(&end);
     double elapsed_time = (double)(end - start) / (COUNTS_PER_SECOND);
     printf("Elapsed time: %f seconds\n", elapsed_time);
+
+    free(A);
+    free(B);
+    free(C);
+    return 0;
 }
 ```
 
@@ -182,3 +205,4 @@ Benchmark and record execution times of the three implementations for different 
 ## Next Steps
 
 In the next lab, we will explore how to implement matrix multiplication on the FPGA fabric of the Zynq SoC using High-Level Synthesis (HLS). This will allow us to leverage the parallelism and customizability of the FPGA to further optimize our matrix multiplication implementation. We will also compare the performance of our FPGA implementation with our CPU implementations to see the benefits of hardware acceleration for this computationally intensive task.
+
