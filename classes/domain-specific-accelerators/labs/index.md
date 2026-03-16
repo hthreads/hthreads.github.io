@@ -11,6 +11,10 @@ has_toc: false
 
 # Labs
 
+Welcome to the Domain-Specific Accelerators lab series! This sequence provides practical, hands-on experience in hardware acceleration using the AMD Zynq UltraScale+ MPSoC platform. You will navigate a complete design evolution: starting with software execution on ARM processors, moving through custom hardware synthesis using High-Level Synthesis (HLS), and culminating in the deployment of specialized accelerators such as SPAR-2 and DaVinCi.
+
+Designed for graduate-level inquiry, these guides serve as a structural framework rather than an exhaustive tutorial. Success in this course requires a high degree of autonomy; you are expected to independently research the underlying concepts and critically investigate the architectural trade-offs between hardware and software implementations.
+
 ## Lab Schedule
 
 | Date          | Lab                                   |
