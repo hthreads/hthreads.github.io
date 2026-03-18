@@ -55,23 +55,23 @@ nav_order: 2
 | Weds  | Spring Break Yah ! |  |
 | Fri   | Spring Break Yah ! |  |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #4: Ryan, Joseph| [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 |
-| Weds  | Group #5: Chase, Jacob | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015 |
-| Fri   | Group #6:Christian, Max | Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 |
+| Mon  | Laboratory discussion | Bring in your boards |
+| Weds   | Group #4: Ryan, Joseph| [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 |
+| Fri  | Group #5: Chase, Jacob | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015 |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #7: McKyala,Nathan,Christian | K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067) |
-| Weds  | slack |  |
-| Fri   | Group #1 |  |
+| Mon   | Group #6:Christian, Max | Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 |
+| Weds   | Group #7: McKyala,Nathan,Christian | K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067) |
+| Fri  | slack |  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #2 |  |
-| Weds  | Group #3 |  |
-| Fri   | Group #4 |  |
+| Mon   | Group #1 |  |
+| Weds  | Group #2 |  |
+| Fri   | Group #3 |  |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #5 |  |
-| Weds  | Group #6 |  |
-| Fri   | Group #7 |  |
+| Mon   | Group #4 |  |
+| Weds  | Group #5 |  |
+| Fri   | Group #6 |  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | slack |  |
+| Mon   | Group #7 |  |
 | Weds  | Project Reports Due |  |
 | Fri   |  Reading Day | All Done!  |
 | Final       |  10:15pm - 12:15pm     |          |
