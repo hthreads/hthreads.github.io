@@ -56,7 +56,7 @@ nav_order: 2
 | Fri   | Spring Break Yah ! |  |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon  | Laboratory discussion | Bring in your boards |
-| Weds   | Group #4: Ryan, Joseph| [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 |
+| Weds   | Group #4: Ryan, Joseph, Phillip| [The true Processor in Memory Acceleartor](https://ieeexplore.ieee.org/document/8875680)F. Devaux, IEEE Hot Chips 31 Symposium (HCS) 2019 |
 | Fri  | Group #5: Chase, Jacob | Y. Chen and M. S. Abdelfattah, ["BRAMAC: Compute-in-BRAM Architectures for Multiply-Accumulate on FPGAs](https://ieeexplore.ieee.org/abstract/document/10171570)," 2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), Marina Del Rey, CA, USA, 2023, pp. 52-62, doi: 10.1109/FCCM57271.2023.00015 |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #6:Christian, Max | Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 |
