@@ -54,23 +54,23 @@ nav_order: 2
 | Weds   |  Spring Break !|    |
 | Fri  |    Spring Break ! |  |
 | **Week 12 3/30-4/3**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Intro to Thread-Level Parallelism](../../_modules/eecs-4213/ch5-TLP.pdf)| Ch 5.1  |
-| Weds  | Exam Return |   |
-| Fri   |  Cache Coherence| Ch 5.2  |
+| Mon   | Exam Return | Ch 5.1  |
+| Weds  | [Directory Based Coherence](../../_modules/eecs-4213/directory.pdf)  | Ch 5.4  |
+| Fri   |  [Synchronization](../../_modules/eecs-4213/synch1.pdf) | Ch 5.5  |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
+| Mon   |  [Synchronization](../../_modules/eecs-4213/synch1.pdf)|  Ch 5.5 |
 | Weds  |  |   |
-| Fri   |  |  |
+| Fri   | [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Directory Based Coherence](../../_modules/eecs-4213/directory.pdf) | Ch 5.4   |
-| Weds  | [Directory Based Coherence](../../_modules/eecs-4213/directory.pdf) | Ch 5.4 |
-| Fri   | Synchronization | Ch 5.5   |
+| Mon   |  |   |
+| Weds  |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf)|   |
+| Fri   |  |   |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |   [Synchronization](../../_modules/eecs-4213/synch1.pdf) | Ch 5.5  |
-| Weds  |  [Synchronization](../../_modules/eecs-4213/synch1.pdf) | Ch 5.5  |
-| Fri   |  [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2  |
+| Mon   |    | Ch 5.5  |
+| Weds  |   | Ch 5.5  |
+| Fri   |   | Ch 7.1-2  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2 |
+| Mon   |   | Ch 7.1-2 |
 | Weds  |   Semester Review |  |
 | Fri   |  Reading Day  |  |
 | **Final Monday 5/4**       |  **3:00pm - 5pm **                    | Final is not comprehensive         |
