@@ -77,7 +77,8 @@ nav_order: 2
 | Final       |  10:15pm - 12:15pm     |          |
 
 <!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) <br> -->
-<!==[Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br> -->
+<!--[Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br> -->
+A Gajjar et. al.,[Azure-Lily: An FPGA Architecture with Analog IMC Engines for Efficient AI](https://dl.acm.org/doi/10.1145/3796723#:~:text=Azure%2DLily:%20An%20FPGA%20Architecture%20with%20Analog%20IMC&text=AIRL%2C%20Hewlett%20Packard%20Labs%2C%20Hewlett%20Packard%20Enterprise%20Co%2C%20Palo%20Alto%2C%20United%20States)ACM Transactions on Architecture and Code Optimization, Volume 23, Issue 1 Article No.: 29, Pages 1 - 26 https://doi.org/10.1145/3796723 <br>
 X. Wang et. al.,[Compute Capable Block RAMs for Efficient Deep Learning Acceleration on FPGAs](https://ieeexplore.ieee.org/document/9444060)Proceedings of the 29th IEEE International Symposium on Field-Programmable Custom Computing Machines, 2021 <br>
 A. Arora et. al., [CoMeFa Compute in Memory Blocks for FPGAs ](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) Proceedings of the 30th IEEE International Symposium on Field-Programmable Custom Computing Machines, May 15-18, 2022 <br>
 [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. <br>
