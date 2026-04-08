@@ -61,18 +61,18 @@ nav_order: 2
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #6:Christian, Max | Dennis Abts et. al. [Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads](https://dl.acm.org/doi/10.1109/ISCA45697.2020.00023) Proceedings of the ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA), 2020 |
 | Weds   | Group #7: McKyala,Nathan,Christian | K. Asi Fuzzaman et. al. [A Survey on processing-in-memory techniques: Advances and challenges](https://www.osti.gov/pages/servlets/purl/1908067) |
-| Fri  | slack |  |
+| Fri  | Final Project Discussion |  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #1 |  |
-| Weds  | Group #2 |  |
-| Fri   | Group #3 |  |
+| Mon   | Individual Group Preparation |  |
+| Weds  | Group #1 |  |
+| Fri   | Group #2 |  |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #4 |  |
-| Weds  | Group #5 |  |
-| Fri   | Group #6 |  |
+| Mon   | Group #3 |  |
+| Weds  | Group #4 |  |
+| Fri   | Group #5 |  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #7 |  |
-| Weds  | Project Reports Due |  |
+| Mon   | Group #6 |  |
+| Weds  | Group #7 |  |
 | Fri   |  Reading Day | All Done!  |
 | Final       |  10:15pm - 12:15pm     |          |
 
