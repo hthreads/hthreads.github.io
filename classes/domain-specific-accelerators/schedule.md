@@ -64,8 +64,8 @@ nav_order: 2
 | Fri  | Final Project Discussion |  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Individual Group Preparation |  |
-| Weds  | Group #1 |  |
-| Fri   | Group #2 |  |
+| Weds  | Group #1 Ryan, Joseph, Phillip |  J. Gomez et. al.,[Benchmarking Memory-Centric Computing Systems: Analysis of Real Processing-In-Memory Hardware](https://ieeexplore.ieee.org/document/9651614) Proceedings of the 12th International Green and Sustainable Computing Conference (IGSC), 2021 |
+| Fri   | Group #2 Chase, Jacob | A. Arora et. al., [CoMeFa Compute in Memory Blocks for FPGAs ](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) Proceedings of the 30th IEEE International Symposium on Field-Programmable Custom Computing Machines, May 15-18, 2022 |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #3 |  |
 | Weds  | Group #4 |  |
@@ -78,13 +78,13 @@ nav_order: 2
 
 <!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) <br> -->
 <!--[Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br> -->
-J. Gomez et. al.,[Benchmarking Memory-Centric Computing Systems: Analysis of Real Processing-In-Memory Hardware](https://ieeexplore.ieee.org/document/9651614) Proceedings of the 12th International Green and Sustainable Computing Conference (IGSC), 2021
+<!-- J. Gomez et. al.,[Benchmarking Memory-Centric Computing Systems: Analysis of Real Processing-In-Memory Hardware](https://ieeexplore.ieee.org/document/9651614) Proceedings of the 12th International Green and Sustainable Computing Conference (IGSC), 2021 -->
 S. Lee et. al., [Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology](https://ieeexplore.ieee.org/abstract/document/9499894) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021
 G. Kim et. al.,[SK Hynix AI-Specific Computing Memory Solution: From AiM Device to Heterogeneous AiMX-xPU System for Comprehensive LLM Inference](https://www.computer.org/csdl/proceedings-article/hcs/2024/10664793/20b7xM0F8Pe)
 A. Rico etl.al, [AMD XDNA NPU in Ryzen AI Processors](https://ieeexplore.ieee.org/document/10592049) IEEE Micro Nov-Dec 2024 <br>
 A Gajjar et. al.,[Azure-Lily: An FPGA Architecture with Analog IMC Engines for Efficient AI](https://dl.acm.org/doi/10.1145/3796723#:~:text=Azure%2DLily:%20An%20FPGA%20Architecture%20with%20Analog%20IMC&text=AIRL%2C%20Hewlett%20Packard%20Labs%2C%20Hewlett%20Packard%20Enterprise%20Co%2C%20Palo%20Alto%2C%20United%20States) ACM Transactions on Architecture and Code Optimization, Volume 23, Issue 1 Article No.: 29, Pages 1 - 26 https://doi.org/10.1145/3796723 <br>
 X. Wang et. al.,[Compute Capable Block RAMs for Efficient Deep Learning Acceleration on FPGAs](https://ieeexplore.ieee.org/document/9444060) Proceedings of the 29th IEEE International Symposium on Field-Programmable Custom Computing Machines, 2021 <br>
-A. Arora et. al., [CoMeFa Compute in Memory Blocks for FPGAs ](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) Proceedings of the 30th IEEE International Symposium on Field-Programmable Custom Computing Machines, May 15-18, 2022 <br>
+<!-- A. Arora et. al., [CoMeFa Compute in Memory Blocks for FPGAs ](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) Proceedings of the 30th IEEE International Symposium on Field-Programmable Custom Computing Machines, May 15-18, 2022 <br>  -->
 [RecNMP: Accelerating Personalized Recommendation with Near-Memory Processing](https://ieeexplore.ieee.org/document/9138955) Proceedings of the 47th ACM/IEEE International Symposium on Computer Architecture (ISCA) Valencia, Spain, 2020, pp. 790-803, doi: 10.1109/ISCA45697.2020.00070. <br>
 [UPMEM](https://ieeexplore.ieee.org/document/8875680) <br> 
 [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022.<br>
