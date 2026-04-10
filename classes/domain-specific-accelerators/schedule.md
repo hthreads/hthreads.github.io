@@ -68,7 +68,7 @@ nav_order: 2
 | Fri   | Group #2 Chase, Jacob | A. Arora et. al., [CoMeFa Compute in Memory Blocks for FPGAs ](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) Proceedings of the 30th IEEE International Symposium on Field-Programmable Custom Computing Machines, May 15-18, 2022 |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #3 Randall, Joseph|  A. Rico etl.al, [AMD XDNA NPU in Ryzen AI Processors](https://ieeexplore.ieee.org/document/10592049) IEEE Micro Nov-Dec 2024 |
-| Weds  | Group #4 | MyKala, Nathan, Christian  |
+| Weds  | Group #4 MyKala, Nathan, Christian |   S. Lee et. al. [Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology](https://ieeexplore.ieee.org/document/9499894) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>|
 | Fri   | Group #5 | Christian, Max |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Group #6 | Hunter, Chance |
@@ -95,7 +95,7 @@ J.D. Kendall, S. Kumar [The building blocks of a brain-inspired computer](https:
 [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017  <br>
 Dennis Abts et. al. [A Software-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning](https://dl.acm.org/doi/10.1145/3470496.3527405) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
 Jin Hyun Kim [Aquabolt-XL: Samsung HBM2-PIM with in-memory processing for ML accelerators and beyond](https://ieeexplore.ieee.org/document/9567191)  IEEE Hot Chips 33, 2021 <br>
-S. Lee et. al. [Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology](https://ieeexplore.ieee.org/document/9499894) Proceedings of the ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA), 2021. <br>
+
 
 
 
