@@ -74,7 +74,7 @@ nav_order: 2
 | Mon   | Group #6 Hunter, Chance |  [Accelerating Neural Network Inference with Processing-in-DRAM:From the Edge to the Cloud](https://arxiv.org/abs/2209.08938)G. Oliveira et. al.,extended and updated version of a paper published in IEEE Micro, pp. 1-14, 29 Aug. 2022.|
 | Weds  | Group #7 Parker, Braylon | [In Memory Intelligence](https://ieeexplore.ieee.org/document/8013497) Tim Finkbeiner et. al., IEEE Micro Volume: 37, Issue: 4, 2017 |
 | Fri   |  Reading Day | All Done!  |
-| Final       |  monday May 4th 10:15am - 12:15pm     |          |
+| Final       |  Monday May 4th 10:15am - 12:15pm     |          |
 
 <!-- [Processor In Memory Architectures](../../_modules/domain-specific-accelerators/domain-spec-arch.pdf) <br> -->
 <!--[Cerebras Architecture Deep Dive: First Look Inside the Hardware/Software Co-Design for Deep Learning](https://ieeexplore.ieee.org/document/10123162) IEEE Micro Volume: 43, Issue: 3, May-June 2023 <br> -->
