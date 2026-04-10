@@ -64,15 +64,15 @@ nav_order: 2
 | Fri  | Final Project Discussion |  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | Individual Group Preparation |  |
-| Weds  | Group #1 Ryan, Joseph, Phillip |  J. Gomez et. al.,[Benchmarking Memory-Centric Computing Systems: Analysis of Real Processing-In-Memory Hardware](https://ieeexplore.ieee.org/document/9651614) Proceedings of the 12th International Green and Sustainable Computing Conference (IGSC), 2021 |
+| Weds  | Group #1 Ryan, Pretha, Phillip |  J. Gomez et. al.,[Benchmarking Memory-Centric Computing Systems: Analysis of Real Processing-In-Memory Hardware](https://ieeexplore.ieee.org/document/9651614) Proceedings of the 12th International Green and Sustainable Computing Conference (IGSC), 2021 |
 | Fri   | Group #2 Chase, Jacob | A. Arora et. al., [CoMeFa Compute in Memory Blocks for FPGAs ](https://labs.engineering.asu.edu/advent/wp-content/uploads/sites/123/2023/09/CoMeFa__FCCM_2022-May-16.pdf) Proceedings of the 30th IEEE International Symposium on Field-Programmable Custom Computing Machines, May 15-18, 2022 |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #3 |  |
-| Weds  | Group #4 |  |
-| Fri   | Group #5 |  |
+| Mon   | Group #3 | Randall, Joseph |
+| Weds  | Group #4 | MyKala, Nathan, Christian  |
+| Fri   | Group #5 | Christian, Max |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | Group #6 |  |
-| Weds  | Group #7 |  |
+| Mon   | Group #6 | Hunter, Chance |
+| Weds  | Group #7 | Parker, Braylon |
 | Fri   |  Reading Day | All Done!  |
 | Final       |  10:15pm - 12:15pm     |          |
 
