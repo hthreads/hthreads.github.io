@@ -62,8 +62,8 @@ nav_order: 2
 | Weds  |  Atomic Operations - Test-and-set, exchange, atomic increment|   |
 | Fri   | Cache coherency + atomic operations example | Ch 7.1-2  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   | [Intro to Domain Specific Architectures](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
-| Weds  | [Intro to Domain Specific Architectures](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
+| Mon   | [Intro to Domain Specific Architectures-Why](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
+| Weds  | [Intro to Domain Specific Architectures-What](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
 | Fri   | [Understanding Machine Learning Requirements-MLP](../../_modules/eecs-4213/ch7-DSA.pdf)|   |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Understanding Machine Learning Requirements-CNN](../../_modules/eecs-4213/ch7-DSA.pdf)  | Ch   |
