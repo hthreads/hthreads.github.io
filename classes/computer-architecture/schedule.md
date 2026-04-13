@@ -59,18 +59,18 @@ nav_order: 2
 | Fri   |  [Synchronization](../../_modules/eecs-4213/synch1.pdf) | Ch 5.5  |
 | **Week 13 4/6-4/10**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Synchronization](../../_modules/eecs-4213/synch1.pdf)|  Ch 5.5 |
-| Weds  |  |   |
-| Fri   | [Intro to Domain Specific Architectures](../../_modules/eecs-4213/ch7-DSA.pdf) | Ch 7.1-2  |
+| Weds  |  Atomic Operations - Test-and-set, exchange, atomic increment|   |
+| Fri   | Cache coherency + atomic operations example | Ch 7.1-2  |
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  |   |
-| Weds  |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf)|   |
-| Fri   |  |   |
+| Mon   | [Intro to Domain Specific Architectures](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
+| Weds  | [Intro to Domain Specific Architectures](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
+| Fri   | Understanding Machine Learning Requirements-MLP|   |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |    | Ch 5.5  |
-| Weds  |   | Ch 5.5  |
-| Fri   |   | Ch 7.1-2  |
+| Mon   |  Understanding Machine Learning Requirements-CNN  | Ch   |
+| Weds  |  Google Tensor Processing Unit |   |
+| Fri   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |   |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |   | Ch 7.1-2 |
+| Mon   |   |  |
 | Weds  |   Semester Review |  |
 | Fri   |  Reading Day  |  |
 | **Final Monday 5/4**       |  **3:00pm - 5pm **                    | Final is not comprehensive         |
