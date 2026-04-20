@@ -67,7 +67,7 @@ nav_order: 2
 | Fri   | [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |   |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Understanding Machine Learning Requirements-MLP](../../_modules/eecs-4213/ch7-DSA.pdf)  | Ch   |
-| Weds  |  [Roofline Model](../../_modules/eecs-4213/ch7-DSA.pdf)  |   |
+| Weds  |  [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf)  |   |
 | Fri   |  | [Google Tensor Processing Unit](../../_modules/eecs-4213/ch7-DSA.pdf)  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |   wrap up|  |
