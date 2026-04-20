@@ -64,11 +64,11 @@ nav_order: 2
 | **Week 14 4/13-4/17**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   | [Intro to Domain Specific Architectures-Why](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
 | Weds  | [Intro to Domain Specific Architectures-What](../../_modules/eecs-4213/intro-to-DSAs.pdf) | Ch 7.1-2  |
-| Fri   | [Understanding Machine Learning Requirements-MLP](../../_modules/eecs-4213/ch7-DSA.pdf)|   |
+| Fri   | [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |   |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
-| Mon   |  [Understanding Machine Learning Requirements-CNN](../../_modules/eecs-4213/ch7-DSA.pdf)  | Ch   |
-| Weds  |  [Google Tensor Processing Unit](../../_modules/eecs-4213/ch7-DSA.pdf)  |   |
-| Fri   |  [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |   |
+| Mon   |  [Understanding Machine Learning Requirements-MLP](../../_modules/eecs-4213/ch7-DSA.pdf)  | Ch   |
+| Weds  |  [Roofline Model](../../_modules/eecs-4213/ch7-DSA.pdf)  |   |
+| Fri   |  | [Google Tensor Processing Unit](../../_modules/eecs-4213/ch7-DSA.pdf)  |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |   wrap up|  |
 | Weds  |   Semester Review |  |
