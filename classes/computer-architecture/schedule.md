@@ -67,8 +67,8 @@ nav_order: 2
 | Fri   | [Systolic Arrays](../../_modules/eecs-4213/ch7-DSA.pdf) |   |
 | **Week 15 4/20-4/24**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |  [Understanding Machine Learning Requirements-MLP](../../_modules/eecs-4213/ch7-DSA.pdf)  | Ch 7.2 [Roofline Model](../../_modules/domain-specific-accelerators/Roofline-Tutorial-ISC2019.pdf)    |
-| Weds   | [TPU](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
-| Fri   | [TPU](../../_modules/domain-specific-accelerators/isca-slides.pptx)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
+| Weds   | [TPU](../../_modules/eecs-4213/isca-slides.pdf)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
+| Fri   | [TPU](../../_modules/eecs-4213/isca-slides.pdf)  | [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://dl.acm.org/doi/10.1145/3079856.3080246) N. Jouppi et. al. |
 | **Week 16 4/27-5/1**       |  **Lecture Topic**                        | **Assignment**          |
 | Mon   |   wrap up|  |
 | Weds  |   Semester Review |  |
