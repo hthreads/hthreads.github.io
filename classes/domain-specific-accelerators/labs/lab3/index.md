@@ -186,7 +186,7 @@ extern "C"
     const int *A, // Read-only pointer to Matrix A
     const int *B, // Read-only pointer to Matrix B
           int *C, // Write-only pointer to Matrix C
-    const int  N  // Dimension (Assuming NxN))
+    const int  N  // Dimension (Assuming NxN)
   ) {
 #pragma HLS INTERFACE s_axilite port=A      bundle=control
 #pragma HLS INTERFACE s_axilite port=B      bundle=control
@@ -258,6 +258,82 @@ void run_tiled_matmul_kernel(int *a_ptr, int *b_ptr, int *c_ptr, int n) {
 }
 ```
 
+## Tutorials
+
+### Creating an HLS Component in Vitis
+
+{: .note}
+> This guide assemus you're working with Vitis 2025.2 or later. Older versions of Vitis distinguished between "Vitis HLS" for HLS development and "Vitis" for software development. In Vitis 2025.2, these tools have been unified into a single Vitis IDE that supports both hardware and software development. The steps outlined below are based on the unified Vitis IDE, so if you're using an older version, you may need to adapt the instructions accordingly.
+
+1. Creating the HLS Project
+- Open Vitis IDE and open your workspace from previous labs.
+- In the application menu, select `File > New Component > HLS`.
+- In the "Create HLS Component" dialog, enter a name for your component (e.g., `matmul_kernel`), and select Next.
+- **Configuration File**:
+    > - Select the default option "Empty File",
+    > - Enter a configuration name (e.g., `hls_config`).
+- **Source Files**:
+    > - We don't have any source files yet, so just click Next.
+- **Hardware:**
+    > - Use part number `xczu3eg-sfvc784-2-e`, which corresponds to the Zynq Ultrascale+ MPSoC on the AUP-ZU3 board, and click Next.
+- **Settings:**
+    > - Set target clock to `5ns` (200 MHz) and click Next.
+    > - Leave clock uncertainty blank and click Next.
+- **Summary:**
+    > - Review the summary and click Finish to create the HLS component.
+2. Implementing the HLS Kernel
+- In the Project Explorer, navigate to the `Sources` folder of your newly created HLS component.
+- Right-click on the `Sources` folder and select `New Source File`.
+- Name the file `matmul_kernel.cpp` and click Finish.
+- Open `matmul_kernel.cpp` and implement the matrix multiplication kernel as shown in the code snippet above.
+3. Testing the HLS Kernel
+- To test your HLS kernel, you can create a testbench in C++ that calls the kernel function with sample input data and checks the output against expected results.
+- Navigate to the `Testbenches` folder in your HLS component, right-click, and select `New Test Bench File`.
+- Name the file `matmul_testbench.cpp` and click Finish.
+- Open `matmul_testbench.cpp` and implement a testbench that initializes input matrices, calls the `matmul_kernel` function, and verifies the output. Below is a simple example of how you might structure your testbench:
+
+
+    ```cpp
+    // Example starter testbench for matmul_kernel:
+    // - Missing reference implementation and verification code,
+    //   but this is where you would implement those.
+    #include <cstdlib>
+    #include <iostream>
+
+    extern "C" {
+      void matmul_kernel(const int *A, const int *B, int *C, int N);
+    }
+
+    int main() {
+      const int N = 4;
+      int A[N * N] = { /* Initialize with test data */ };
+      int B[N * N] = { /* Initialize with test data */ };
+      int C[N * N] = {0};
+
+      matmul_kernel(A, B, C, N);
+
+      // Verify results in C against expected output
+      // ...
+
+      return EXIT_SUCCESS;
+    }
+    ```
+
+4. Synthesizing and Packaging the HLS Kernel
+- In the Flow Panel, run C Simulation, C Synthesis, and C/RTL Co-Simulation to verify the functionality of your HLS kernel and to analyze its performance. 
+- After successful synthesis, you can review the performance reports to see metrics such as latency, initiation interval, and resource utilization. This information can help you identify bottlenecks and guide further optimizations.
+- Once you are satisfied with the performance of your HLS kernel, you can proceed to package it as an IP block and integrate it into a hardware design using Vivado IP Integrator. To do so, run "PACKAGE" from the Flow panel, which will package your HLS kernel into an IP block that can be imported into Vivado.
+
+{: .hint-title}
+> Synthesis Flow:
+>
+> - **C Simulation** will run your testbench in a software environment
+> - **C Synthesis** will generate the hardware description and provide performance estimates.
+> - **C/RTL Co-Simulation** allows you to simulate the synthesized RTL code alongside your testbench to ensure that the generated hardware behaves as expected.
+
+### Integrating HLS IP in Vivado IP Integrator
+
+![Vivado IPI Block Design](./assets/images/block_design.png)
 
 ## References
 
