@@ -20,7 +20,7 @@ nav_order: 2
 | **Week 3 8/31-9/4**      | **Lecture Topic**                      | **Assignment**       |
 | Mon   |  [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)      |      |
 | Weds  |   [Asynchronous Communications](../../_modules/eecs-4114/4114asynch.pdf)  |      |
-| Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) | Read Ch 3.1, [UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf)  |
+| Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) | Read Ch 3.1,[UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf)  |
 | **Week 4 9/7-9/11**     | **Lecture Topic**                      | **Assignment**       |
 | Mon   |  Labor Day|  |
 | Weds  |  Lab 1 makeup|  |
