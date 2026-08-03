@@ -54,23 +54,23 @@ nav_order: 2
 | Mon   |  [Tasks](../../_modules/eecs-4114/freeRtos.pdf)   |  [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | Weds  |  [Scheduling](../../_modules/eecs-4114/freeRtos.pdf) |  [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | **Week 12 11/2-11/6**   | **Lecture Topic**                      | **Assignment**       |
-| Mon   |   [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)        | [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
-| Weds  |    [Queues](../../_modules/eecs-4114/Queues2.pdf)    | [FreeRtos Tutorial Ch4](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
-| Fri   | [Queues](../../_modules/eecs-4114/Queues2.pdf)         | [FreeRtos Tutorial Ch4](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Mon   |   Exam 2 Review |  |
+| Weds  |   Exam 2        |  |
+| Fri   | [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)        | [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
 | **Week 13 11/9-11/13** | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Simple Control System](../../_modules/eecs-4114/PIDcontrol.pdf)| Ch 11.1-2     |
-| Weds  | [Proportional-Derivative Controller](../../_modules/eecs-4114/PIDcontrol.pdf) | Ch 11.2-4 |
-| Fri   | [Proportional-Integral-Derivative Controller](../../_modules/eecs-4114/PIDcontrol.pdf)| Ch 11.4-5 |
+| Mon   | [Queues](../../_modules/eecs-4114/Queues2.pdf)    | [FreeRtos Tutorial Ch4](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Weds  | [Queues](../../_modules/eecs-4114/Queues2.pdf)  | [FreeRtos Tutorial Ch4](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Fri   | [Simple Control System](../../_modules/eecs-4114/PIDcontrol.pdf)| Ch 11.1-2     |
 | **Week 14 11/16-11/20** | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Structured Top Down Design](../../_modules/eecs-4114/top-down-design.pdf)  |
-| Weds  | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf)|  |
-| Fri   | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf) <br> [Top Level Design](../../_modules/eecs-4114/toplevel.pdf) | |
+| Mon   | [Proportional-Derivative Controller](../../_modules/eecs-4114/PIDcontrol.pdf) | Ch 11.2-4 |
+| Weds  | [Proportional-Integral-Derivative Controller](../../_modules/eecs-4114/PIDcontrol.pdf)| Ch 11.4-5 |
+| Fri   | [Structured Top Down Design](../../_modules/eecs-4114/top-down-design.pdf)  |
 | **Week 15 11/23-11/27** | **Lecture Topic**                      | **Assignment**       |
-| Mon   | Catchup |   |
+| Mon   | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf)|   |
 | Weds  | Thanksgiving Break! |   |
 | Fri   | Thanksgiving Break! |   |
 | **Week 16 11/30-12/4**   | **Lecture Topic**                      | **Assignment**       |
-| Mon   | Semester Review  |   |
+| Mon   | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf) <br> [Top Level Design](../../_modules/eecs-4114/toplevel.pdf) | |
 | Weds  | Semester Review | All Materials Due Before Friday |
 | Fri   | Reading Day     |   |
 | **Final 12/-**         | **3:00pm - 5pm **                      | Final is not comprehensive |
