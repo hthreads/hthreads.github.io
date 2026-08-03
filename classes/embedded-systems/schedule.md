@@ -30,23 +30,23 @@ nav_order: 2
 | Weds  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
 | Fri   |   [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | Computers as Components: Ch 3.1 |
 | **Week 6 9/21-9/25**    | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Components: Ch 3.1  |
-| Weds   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4, 12.6 |
-| Fri | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |Ch 12.4,12.6 |
+| Mon   | Review Exam #1 |   |
+| Weds  | Exam #1       |   |
+| Fri | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Components: Ch 3.1  |
 | **Week 7 9/28-10/2**    | **Lecture Topic**                      | **Assignment**       |
-| Mon   | [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
-| Weds  | [Successive Approximation (SA) A/Ds](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
-| Fri   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
+| Mon   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4, 12.6 |
+| Weds  |   [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |Ch 12.4,12.6 |
+| Fri   |  [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
 | **Week 8 10/5-10/9**   | **Lecture Topic**                      | **Assignment**       |
-| Mon   |   [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.2, 6.3.1-2  |
-| Weds  | **Midterm Review** |   |
-| Fri   | **Midterm Exam**   |   |
+| Mon   |   [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.1-2  |
+| Weds  |  [Successive Approximation (SA) A/Ds](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
+| Fri   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.2, 6.3.1-2  |
 | **Week 9 10/12-10/16**  | **Lecture Topic**                      | **Assignment**       |
-| Mon   | Fall Break      |   |
-| Weds  | Exam Handback   |   |
-| Fri   |  [Scheduling Parameters,Simplifying Assumptions, Schedulability](../../_modules/eecs-4114/4114OS-1.pdf)    |   Computers as Components: Ch 6.2,6.3    |
+| Mon   |  [Scheduling Parameters,Simplifying Assumptions, Schedulability](../../_modules/eecs-4114/4114OS-1.pdf)    |   Computers as Components: Ch 6.2,6.3    |
+| Weds  |  FSM Bare Metal Scheduling      |   |
+| Fri   | Exam Handback   |   |
 | **Week 10 10/19-10/23** |  **Lecture Topic**                     | **Assignment**       |
-| Mon   |  FSM Bare Metal Scheduling  |   Ch 8.2      |
+| Mon   |  Fall Break  |   Ch 8.2      |
 | Weds  |  FSM Bare Metal Scheduling   |  Ch 8.2       |
 | Fri   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)  |         |
 | **Week 11 10/26-10/30**  | **Lecture Topic**                      | **Assignment**       |
