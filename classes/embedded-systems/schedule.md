@@ -73,7 +73,7 @@ nav_order: 2
 | Mon   | [Requirements Analysis](../../_modules/eecs-4114/requirements.pdf) <br> [Top Level Design](../../_modules/eecs-4114/toplevel.pdf) | |
 | Weds  | Semester Review | All Materials Due Before Friday |
 | Fri   | Reading Day     |   |
-| **Final 12/-**         | **3:00pm - 5pm **                      | Final is not comprehensive |
+| **Final 12/9** | Exam #3  3:00pm - 5pm      |  |
 
 
 {% comment %}
