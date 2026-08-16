@@ -17,8 +17,8 @@ has_toc: false
 
 | Date          | Lab                                                 |
 | ------------- | --------------------------------------------------- |
-| 08/17 - 08/21 | Prelab: Download [Vivado 2025.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2025-1.html) on your computer |
-|               | [Vivado 2025.1 Installation Guide](./assets/guides/VivadoGuide2024_1.pdf) |
+| 08/17 - 08/21 | Prelab: Download [Vivado 2025.2](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2025-2.html) on your computer |
+|               | [Vivado 2025.2 Installation Guide](./assets/guides/VivadoGuide2024_1.pdf) |
 | 08/24 - 09/04 | [Lab 1: How to build a basic SoC](./lab1)           |
 | 09/07 - 09/11 |     No Lab Labor Day Week                           |
 | 09/14 - 09/18 | [Lab 2: GPIOs + Basic MicroBlaze System](./lab2)    |
