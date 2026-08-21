@@ -32,6 +32,9 @@ This may not seem like much, but at the end of this laboratory, you will have cr
 > - If you have any questions, please ask for help.
 > - If you're using a different version of Vivado, the steps may vary slightly. Just let me know.
 
+{: .note}
+> - Set up instructions below are out of date. The video linked [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQB3abuFjD7vTbYJwSH7MASsAdJYy8lLPT-gW_wC5n97Y2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2cCB7F) should show you everything you need to get started. 
+
 1. **Open Vivado and create a new project.**
     1. ![Vivado Welcome Screen](./assets/images/vivado-welcome.png)
     2. Give your project a name and select a location to save it. Click "Next" to continue to the "Project Type" screen.
