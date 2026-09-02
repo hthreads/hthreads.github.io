@@ -18,32 +18,24 @@ Use the provided base project to create a basic system-on-chip and add a UART se
 
 This may not seem like much, but at the end of this laboratory, you will have created a system-on-chip and executed a program on top of it in a bare metal environment. This represents a rudimentary but fully functional embedded system.
 
-## Directions
+## Directions for Vivado 2025
 
 {: .important}
 > **Preamble - Adding Arty board to Vivado:**
 >
-> Before opening Vivado, visit [Digilent's website](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis) and follow the instructions listed under **"Install Digilent's Board Files"**. The instructions will provide you with a [download link](https://github.com/Digilent/vivado-boards/archive/master.zip) for the board files. When you extract the archive, you only need to install the "arty-a7-100" directory, other boards are not necessary for our purposes.  
+> Before opening Vivado, visit [Digilent's website](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis) and follow the instructions listed under **"Install Digilent's Board Files"**. The instructions will provide you with a [download link](https://github.com/Digilent/vivado-boards/archive/master.zip) for the board files. When you extract the archive, you only need to install the "arty-a7-100" directory, other boards are not necessary for our purposes.
 
+{: .important}
+> - **Setup instructions below are for Vivado 2024.** The video linked [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQB3abuFjD7vTbYJwSH7MASsAdJYy8lLPT-gW_wC5n97Y2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2cCB7F) should show you everything you need to get started for Vivado 2025.
+> - If when you get to Vitis and are unable to access the serial monitor, follow the video [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQAdTPM9i7_HSqBYANRx4bipAfYk6s5Y7_J223YAxv7gWjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j7PilK)
+
+## Directions for Vivado 2024
 ### Vivado - Generating a bitstream
 
 {: .note}
 
 > - If you have any questions, please ask for help.
 > - If you're using a different version of Vivado, the steps may vary slightly. Just let me know.
-
-{: .note}
-
-> - Set up instructions below are out of date. The video linked [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQB3abuFjD7vTbYJwSH7MASsAdJYy8lLPT-gW_wC5n97Y2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2cCB7F) should show you everything you need to get started.
-> - If when you get to Vitis and are unable to access the serial monitor, follow the video [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQAdTPM9i7_HSqBYANRx4bipAfYk6s5Y7_J223YAxv7gWjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j7PilK)
-
-
-
-
-
-
-
-
 
 1. **Open Vivado and create a new project.**
     1. ![Vivado Welcome Screen](./assets/images/vivado-welcome.png)
