@@ -33,7 +33,17 @@ This may not seem like much, but at the end of this laboratory, you will have cr
 > - If you're using a different version of Vivado, the steps may vary slightly. Just let me know.
 
 {: .note}
-> - Set up instructions below are out of date. The video linked [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQB3abuFjD7vTbYJwSH7MASsAdJYy8lLPT-gW_wC5n97Y2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2cCB7F) should show you everything you need to get started. 
+
+> - Set up instructions below are out of date. The video linked [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQB3abuFjD7vTbYJwSH7MASsAdJYy8lLPT-gW_wC5n97Y2E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2cCB7F) should show you everything you need to get started.
+> - If when you get to Vitis and are unable to access the serial monitor, follow the video [here](https://uark-my.sharepoint.com/:v:/g/personal/atm015_uark_edu/IQAdTPM9i7_HSqBYANRx4bipAfYk6s5Y7_J223YAxv7gWjU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j7PilK)
+
+
+
+
+
+
+
+
 
 1. **Open Vivado and create a new project.**
     1. ![Vivado Welcome Screen](./assets/images/vivado-welcome.png)
