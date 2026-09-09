@@ -23,8 +23,8 @@ nav_order: 2
 | Fri   | [UART-Lite](../../_modules/eecs-4114/4114uart-lite-1.pdf) | Read Ch 3.1,[UART_Lite data sheet](../../_modules/eecs-4114/data-sheets/pg142-axi-uartlite.pdf)  |
 | **Week 4 9/7-9/11**     | **Lecture Topic**                      | **Assignment**       |
 | Mon   |  Labor Day|  |
-| Weds  |  Lab 1 makeup|  |
-| Fri   | Tips on Vivado|   |
+| Weds  |  [Timer Basics and Modes](../../_modules/eecs-4114/4114timers.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
+| Fri   | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
 | **Week 5 9/14-9/18**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Timer Basics and Modes](../../_modules/eecs-4114/4114timers.pdf) | Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
 | Weds  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
