@@ -15,7 +15,7 @@ This course introduces students to the design and analysis of computer systems t
 - Frank Vahid, Tony Givargis, Bailey Miller, Programming Embedded Systems, Zybook.
 - To order your book:
 1. Sign in or create an account at learn.zybooks.com
-2. Enter zyBook code UARKCSCE4114AndrewsFall2024
+2. Enter zyBook code given the first day of class
 3. Subscribe
 
 
