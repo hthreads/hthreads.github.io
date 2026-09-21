@@ -24,10 +24,10 @@ nav_order: 2
 | **Week 4 9/7-9/11**     | **Lecture Topic**                      | **Assignment**       |
 | Mon   |  Labor Day|  |
 | Weds  |  [Timer Basics and Modes](../../_modules/eecs-4114/4114timers.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
-| Fri   | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
+| Fri   | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) | Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
 | **Week 5 9/14-9/18**    | **Lecture Topic**                      | **Assignment**       |
 | Mon  | [Timer Registers](../../_modules/eecs-4114/4114timers.pdf) [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Read Ch 5.5, [Timer IP](../../_modules/eecs-4114/data-sheets/pg079-axi-timer.pdf) |
-| Weds   |  [Timer code example](../../_modules/eecs-4114/4114timer-demo.pdf)| Computers as Components: Ch 3.1 |
+| Weds   |  [Timer Demo Code](../../_modules/eecs-4114/timer-demo.pdf)| Computers as Components: Ch 3.1 |
 | Fri  |  [Interrupt Concepts](../../_modules/eecs-4114/4114-Interrupts-axi.pdf)| Computers as Components: Ch 3.1 |
 | **Week 6 9/21-9/25**    | **Lecture Topic**                      | **Assignment**       |
 | Mon   | Review Exam #1 |   |
