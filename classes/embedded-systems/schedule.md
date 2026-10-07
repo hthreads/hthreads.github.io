@@ -39,10 +39,10 @@ nav_order: 2
 | Fri | [Interrupt processing on the CPU](../../_modules/eecs-4114/4114-Interrupts-axi.pdf) | [MicroBlaze Processor Reference Guide pp. 80,87-88,202](https://www.amd.com/content/dam/xilinx/support/documents/sw_manuals/xilinx2021_2/ug984-vivado-microblaze-ref.pdf) <br> Computers as Components: Ch 3.1  |
 | **Week 8 10/5 -10/9** | **Lecture Topic**                      |**Assignment** |
 | Mon   | [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4, 12.6 |
-| Weds  |   [Intro to Sampling Theory](../../_modules/eecs-4114/AtoD.pdf) |Ch 12.4,12.6 |
-| Fri   |  [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
+| Weds  |   [Flash A/Ds](../../_modules/eecs-4114/AtoD.pdf) |Ch 12.4,12.6 |
+| Fri   |  [Successive Approximation (SA) A/Ds](../../_modules/eecs-4114/AtoD.pdf) |  Ch 12.4,12.6  |
 | **Week 9 10/12-10/16**   | **Lecture Topic**                      | **Assignment**       |
-| Mon  |  [Successive Approximation (SA) A/Ds](../../_modules/eecs-4114/AtoD.pdf) | Ch 12.4,12.6  |
+| Mon  |  TBD |   |
 | Weds   |   [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf) |  Computers as Components Ch 6.1-2  |
 | Fri   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.2, 6.3.1-2  |
 | **Week 10 10/19-10/23**  | **Lecture Topic**                      | **Assignment**       |
