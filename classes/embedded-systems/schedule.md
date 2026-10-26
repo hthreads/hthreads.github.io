@@ -47,12 +47,12 @@ nav_order: 2
 | Fri   |  [Intro to Real Time OS's](../../_modules/eecs-4114/4114OS-1.pdf)|  Computers as Components Ch 6.2, 6.3.1-2  |
 | **Week 10 10/19-10/23**  | **Lecture Topic**                      | **Assignment**       |
 | Mon   |  Fall Break  | Ch 8.2. |
-| Weds   |  [Scheduling Parameters,Simplifying Assumptions, Schedulability](../../_modules/eecs-4114/4114OS-1.pdf)    |   Computers as Components: Ch 6.2,6.3    |
+| Weds   |  FSM Bare Metal Scheduling  |   Ch 8.2      |
 | Fri  |     FSM Bare Metal Scheduling  | Ch 8.2  |
 | **Week 11 10/26-10/30** |  **Lecture Topic**                     | **Assignment**       |
-| Mon   |  FSM Bare Metal Scheduling  |   Ch 8.2      |
-| Weds  |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)  |        |
-| Fri   |  [RT Scheduling](../../_modules/eecs-4114/4114OS-1.pdf)  |         |
+| Weds   | Scheduling Parameters,Simplifying Assumptions, Schedulability    |  Slides on Blackboard <br> Computers as Components: Ch 6.2,6.3    |
+| Weds  |  EDF  |  Slides on Blackboard       |
+| Fri   |  Rate Monotonic  |  Slides on Blackboard       |
 | **Week 12 11/2-11/6**  | **Lecture Topic**                      | **Assignment**       |
 | Mon   |   Exam 2 Review |  |
 | Weds  |   Exam 2        |  |
