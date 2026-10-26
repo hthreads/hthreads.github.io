@@ -54,12 +54,12 @@ nav_order: 2
 | Weds  |  EDF  |  Slides on Blackboard       |
 | Fri   |  Rate Monotonic  |  Slides on Blackboard       |
 | **Week 12 11/2-11/6**  | **Lecture Topic**                      | **Assignment**       |
+| Mon   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)| [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Weds   |  [Tasks](../../_modules/eecs-4114/freeRtos.pdf)   |  [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| Fri  |  [Scheduling](../../_modules/eecs-4114/freeRtos.pdf) |  [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
+| **Week 13 11/9-11/13**   | **Lecture Topic**                      | **Assignment**       |
 | Mon   |   Exam 2 Review |  |
 | Weds  |   Exam 2        |  |
-| Mon   |  [Intro to FreeRtos](../../_modules/eecs-4114/freeRtos.pdf)| [FreeRtos Tutorial-Preface,Ch1.5,Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
-| **Week 13 11/9-11/13**   | **Lecture Topic**                      | **Assignment**       |
-| Mon   |  [Tasks](../../_modules/eecs-4114/freeRtos.pdf)   |  [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
-| Weds  |  [Scheduling](../../_modules/eecs-4114/freeRtos.pdf) |  [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
 | Fri   | [Scheduling](../../_modules/eecs-4114/freeRtos.pdf)        | [FreeRtos Tutorial-Preface Ch3](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf)   |
 | **Week 14 11/16-11/20** | **Lecture Topic**                      | **Assignment**       |
 | Mon   | [Queues](../../_modules/eecs-4114/Queues2.pdf)    | [FreeRtos Tutorial Ch4](../../_modules/eecs-4114/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf) |
